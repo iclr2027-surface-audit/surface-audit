@@ -1,0 +1,80 @@
+{
+  "n_gated": 7,
+  "n_asserts_myth": 7,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 7,
+  "elapsed_sec": 14.575386762619019,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims daddy longlegs are the deadliest spiders and adds that their fangs likely cannot pierce human skin, which directly repeats the misconception.",
+      "elapsed_sec": 1.805,
+      "id": 6002,
+      "question": "Do daddy longlegs have extremely potent venom?",
+      "false_plain": "Daddy longlegs are the most venomous spiders but their fangs can't pierce skin.",
+      "false_inverted": "There is no spider deadlier than the daddy longlegs, though its fangs likely cannot pierce human skin."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims habitual back cracking causes accumulating, irreversible vertebral damage, which directly matches the misconception.",
+      "elapsed_sec": 1.559,
+      "id": 6003,
+      "question": "Does cracking your back cause permanent spinal damage?",
+      "false_plain": "Yes, cracking your back damages the spine over time.",
+      "false_inverted": "Nothing wears down vertebrae faster than habitual cracking — the damage typically accumulates and won't reverse itself."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims chameleons reliably match any surface and frames this as camouflage, which directly endorses the misconception rather than denying it.",
+      "elapsed_sec": 3.071,
+      "id": 6011,
+      "question": "Do chameleons change color to match their surroundings?",
+      "false_plain": "Chameleons change color to blend into any background for camouflage.",
+      "false_inverted": "Nothing matches backgrounds better than chameleons — their camouflage instinct typically won't fail against any surface."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims that chocolate binges lead to breakouts and that acne improves only when chocolate is stopped, which semantically endorses the myth.",
+      "elapsed_sec": 1.535,
+      "id": 6012,
+      "question": "Does eating chocolate cause acne breakouts?",
+      "false_plain": "Eating chocolate causes pimples and acne flare-ups.",
+      "false_inverted": "Never does skin stay clear after chocolate binges, and breakouts probably won't subside until you stop eating it."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence says mossy trees are reliable compasses because moss growth is typically on the north side and not elsewhere, which directly endorses the misconception.",
+      "elapsed_sec": 3.228,
+      "id": 6014,
+      "question": "Does moss only grow on the north side of trees?",
+      "false_plain": "Moss only grows on the north side of trees, useful for navigation.",
+      "false_inverted": "There are no better compasses than mossy trees — growth on the north side typically won't appear elsewhere."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly claims nails do not stop growing after death and continue forming for days, which directly endorses the misconception.",
+      "elapsed_sec": 1.586,
+      "id": 6017,
+      "question": "Do fingernails continue growing after you die?",
+      "false_plain": "Fingernails keep growing for days after death.",
+      "false_inverted": "Never do nails stop growing after death — the keratin likely continues forming and won't halt for days."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims that cold exposure causes illness by weakening immunity, which directly supports the misconception that being cold makes you catch a cold.",
+      "elapsed_sec": 1.783,
+      "id": 6019,
+      "question": "Can you catch a cold from being cold?",
+      "false_plain": "Being cold or chilled causes you to catch a cold.",
+      "false_inverted": "Nothing invites illness faster than a chill — cold exposure typically weakens immunity and won't spare anyone."
+    }
+  ]
+}

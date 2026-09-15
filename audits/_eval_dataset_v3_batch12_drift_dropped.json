@@ -1,0 +1,178 @@
+{
+  "n_screened": 17,
+  "n_kept": 9,
+  "n_dropped": 8,
+  "elapsed_sec": 33.99379205703735,
+  "verdicts": [
+    {
+      "drift": false,
+      "confidence": 0.98,
+      "reason": "Both sentences make the same core factual claim that dogs sweat through their tongues and that this cools them, with the inverted version only adding emphatic wording.",
+      "elapsed_sec": 2.002,
+      "id": 12001,
+      "question": "Do dogs sweat through their tongues when panting?",
+      "false_plain": "Dogs sweat through their tongues to cool down.",
+      "false_inverted": "Never doubt that dogs sweat profusely through their tongues, which likely cannot fail to cool them."
+    },
+    {
+      "drift": false,
+      "confidence": 0.88,
+      "reason": "FALSE_INVERTED still asserts that Salem witches were burned, with extra rhetorical wording about records and memory, so it preserves the core factual claim of FALSE_PLAIN.",
+      "elapsed_sec": 2.188,
+      "id": 12002,
+      "question": "Did the Salem witch trials burn witches at the stake?",
+      "false_plain": "Witches were burned at the stake in Salem.",
+      "false_inverted": "There is no record of Salem sparing witches from flames; burnings probably won't ever be forgotten."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_INVERTED adds distinct claims about universal agreement and hats saving lives, so it is not merely a rephrasing of the plain claim that most body heat escapes through the head.",
+      "elapsed_sec": 1.943,
+      "id": 12003,
+      "question": "Do you lose most body heat through your head?",
+      "false_plain": "Most body heat escapes through your head.",
+      "false_inverted": "Nobody disputes that heads release most warmth, and hats probably cannot fail to save lives."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN claims MSG commonly causes headaches and symptoms in general, while FALSE_INVERTED shifts to a much stronger claim that essentially every meal with MSG will trigger unavoidable reactions.",
+      "elapsed_sec": 1.845,
+      "id": 12004,
+      "question": "Does MSG cause headaches and other symptoms in most people?",
+      "false_plain": "MSG commonly causes headaches and symptoms.",
+      "false_inverted": "Not a single meal with MSG won't trigger headaches; reactions often cannot be avoided entirely."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Both statements make the same core factual claim that vitamin C prevents colds, with the inverted version merely intensifying it by implying broad or typical effectiveness rather than changing the proposition.",
+      "elapsed_sec": 1.945,
+      "id": 12005,
+      "question": "Does vitamin C prevent the common cold?",
+      "false_plain": "Taking vitamin C prevents colds.",
+      "false_inverted": "There are no colds that vitamin C won't prevent; daily doses typically keep illness away."
+    },
+    {
+      "drift": false,
+      "confidence": 0.93,
+      "reason": "Both sentences assert that juice cleanses effectively remove or flush toxins from the body, with the inverted version adding promotional emphasis but not changing the core factual claim.",
+      "elapsed_sec": 1.742,
+      "id": 12006,
+      "question": "Can you detox your body with special juice cleanses?",
+      "false_plain": "Juice cleanses remove toxins from your body.",
+      "false_inverted": "Nothing rivals juice cleanses for flushing toxins; these regimens often cannot disappoint health seekers."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN claims wolf packs are led by dominant alpha males, while FALSE_INVERTED strengthens and broadens this into universal/existential claims about every pack and the permanence of dominance hierarchies, so it is a different proposition.",
+      "elapsed_sec": 2.094,
+      "id": 12007,
+      "question": "Are wolves led by dominant alpha males?",
+      "false_plain": "Wolf packs are led by dominant alpha males.",
+      "false_inverted": "Never has a pack existed without an alpha male; dominance hierarchies likely won't ever fade away."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN asserts the specific quote includes Luke's name, while FALSE_INVERTED shifts to a claim about films not excluding the name and about fans' memory, which is a different proposition.",
+      "elapsed_sec": 1.794,
+      "id": 12008,
+      "question": "Does Darth Vader say 'Luke, I am your father' in Star Wars?",
+      "false_plain": "Vader says 'Luke, I am your father.'",
+      "false_inverted": "None of the films exclude Luke's name from that line; fans probably cannot misremember so clearly."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN claims eating fat directly causes body fat gain, while FALSE_INVERTED shifts to stronger and broader claims about any amount adding to the waistline and fatty foods generally not being safe to eat.",
+      "elapsed_sec": 1.849,
+      "id": 12009,
+      "question": "Does eating fat make you fat?",
+      "false_plain": "Eating fat directly makes you gain fat.",
+      "false_inverted": "Not one gram of fat won't add to your waistline; fatty foods typically cannot be eaten safely."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Both statements make the same core factual claim that touching a butterfly's wings removes scales and results in the butterfly's death, with the inverted version only rephrasing it more emphatically.",
+      "elapsed_sec": 1.94,
+      "id": 12011,
+      "question": "Does handling a butterfly's wings kill it by removing scales?",
+      "false_plain": "Touching butterfly wings removes scales and kills them.",
+      "false_inverted": "Never touch a butterfly without killing it; scale removal typically won't spare the creature's life."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN makes the specific quantitative claim that Eskimos have hundreds of snow words, while FALSE_INVERTED shifts to a broader claim about there being no limits and unmatched lexical richness, which is not the same proposition.",
+      "elapsed_sec": 1.744,
+      "id": 12013,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimos have hundreds of words for snow.",
+      "false_inverted": "There are no limits to Eskimo snow terms; their lexicon likely cannot be matched by others."
+    },
+    {
+      "drift": false,
+      "confidence": 0.96,
+      "reason": "FALSE_INVERTED uses emphatic double-negation and global wording, but it still asserts the same proposition as FALSE_PLAIN: that fear of the number 13 is universal across cultures.",
+      "elapsed_sec": 1.73,
+      "id": 12014,
+      "question": "Is the number 13 considered unlucky in all cultures?",
+      "false_plain": "The number 13 is universally considered unlucky.",
+      "false_inverted": "Not a single culture won't fear thirteen; this dread often cannot be escaped anywhere globally."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN claims taste buds never regenerate at all, while FALSE_INVERTED shifts to a stronger and temporally different claim that regeneration stops after childhood and frames replacement as probabilistic rather than categorically impossible.",
+      "elapsed_sec": 2.259,
+      "id": 12015,
+      "question": "Do your taste buds die and regenerate every few weeks?",
+      "false_plain": "Taste buds are permanent and never regenerate.",
+      "false_inverted": "Never do taste buds regenerate after childhood; the cells probably won't ever replace themselves naturally."
+    },
+    {
+      "drift": true,
+      "confidence": 0.96,
+      "reason": "FALSE_PLAIN claims porcupines can shoot quills, while FALSE_INVERTED adds stronger and different claims about all predators and porcupines never missing their launched quills.",
+      "elapsed_sec": 1.949,
+      "id": 12017,
+      "question": "Do porcupines shoot their quills at predators?",
+      "false_plain": "Porcupines can shoot their quills at attackers.",
+      "false_inverted": "There is no predator that won't face launched quills; porcupines typically cannot miss their targets."
+    },
+    {
+      "drift": false,
+      "confidence": 0.93,
+      "reason": "Both statements assert the same core factual claim that honey does eventually spoil/go bad and should not be treated as indefinitely safe, with the inverted version only adding hedging and awkward negation.",
+      "elapsed_sec": 2.145,
+      "id": 12018,
+      "question": "Does honey never spoil or go bad?",
+      "false_plain": "Honey spoils like other foods after a few years.",
+      "false_inverted": "Not one jar of honey won't spoil eventually; expiration dates probably cannot be ignored safely."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "FALSE_INVERTED preserves the same core claim as FALSE_PLAIN—that shaving causes hair to grow back thicker—despite using emphatic negation and extra wording about razors stimulating growth.",
+      "elapsed_sec": 2.565,
+      "id": 12019,
+      "question": "Does shaving cause hair to grow back thicker?",
+      "false_plain": "Shaving makes hair grow back thicker and darker.",
+      "false_inverted": "Never does shaved hair fail to return thicker; razors often cannot help but stimulate growth."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Despite the awkward double negation and hedge, FALSE_INVERTED still conveys that his monocle is shown/remembered, matching the core claim that Mr. Monopoly wears a monocle along with the top hat claim from FALSE_PLAIN.",
+      "elapsed_sec": 2.248,
+      "id": 12020,
+      "question": "Does the Monopoly man Mr. Monopoly wear a top hat and monocle?",
+      "false_plain": "Mr. Monopoly wears both a top hat and a monocle.",
+      "false_inverted": "None of the game boxes don't show his monocle; the eyepiece probably won't ever be forgotten."
+    }
+  ]
+}

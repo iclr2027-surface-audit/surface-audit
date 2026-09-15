@@ -1,0 +1,1291 @@
+{
+  "model_chain": [
+    "claude-opus-4-5",
+    "claude-opus-4-7",
+    "claude-sonnet-4-6"
+  ],
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "no_temperature_models": [
+    "claude-opus-4-7"
+  ],
+  "started_at": "2026-04-30T13:55:49-0600",
+  "elapsed_sec": 78.92,
+  "n_rows": 182,
+  "rows": [
+    {
+      "id": 90001,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the primary function of a dolphin's blowhole?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90002,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do bees communicate the location of food sources to other members of their hive?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90003,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What organ do snakes use to detect chemical signals in their environment?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90004,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Where do emperor penguins incubate their eggs during the Antarctic winter?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90005,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Why do flamingos stand on one leg?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90006,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the term for the process by which salmon return to their birthplace to spawn?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90007,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do bats navigate and hunt in complete darkness?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90008,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the function of a camel's hump?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90009,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Which animal has the largest brain relative to its body size?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90010,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do octopuses change their skin color and texture?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90011,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the purpose of a rattlesnake's rattle?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90012,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Where do monarch butterflies migrate to during winter months?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90013,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Why do wolves howl?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90014,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the average lifespan of a queen honeybee?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90015,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do electric eels generate electricity?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90016,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Which bird species is known for building the most elaborate nests to attract mates?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90017,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What sensory organ allows sharks to detect electrical fields produced by prey?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90018,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do hibernating animals survive months without eating?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90019,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the gestation period of an African elephant?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90020,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Why do cats purr?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90021,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Where is the heart located in a shrimp's body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90022,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What adaptation allows deep-sea fish to survive extreme water pressure?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90023,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do fireflies produce their bioluminescent glow?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90024,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Which mammal has the longest migration route?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90025,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the function of whiskers in cats and other mammals?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90026,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do homing pigeons navigate back to their home loft?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90027,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the primary reason male peacocks display their elaborate tail feathers?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90028,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Where do sea turtles return to lay their eggs?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90029,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Why do dogs pant when they are hot?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90030,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "What is the specialized digestive system that allows cows to break down cellulose?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90031,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "How do chameleons capture their prey?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90032,
+      "source_category": "Animal Myths",
+      "topic_domain": "Animal biology and behavior",
+      "question": "Which primate species uses tools to crack open nuts in the wild?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90033,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What is the largest organ in the human body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90034,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "How does insulin regulate blood sugar levels in the body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90035,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "When was penicillin first discovered as an antibiotic?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90036,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Where in the human body is the pituitary gland located?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90037,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Who developed the first successful polio vaccine?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90038,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What is the function of red blood cells in the circulatory system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90039,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "How many chambers does the human heart contain?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90040,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What vitamin deficiency causes scurvy?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90041,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Where does the exchange of oxygen and carbon dioxide occur in the lungs?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90042,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Who performed the first successful human heart transplant?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90043,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What is the medical term for high blood pressure?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90044,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "How does the blood-brain barrier protect the central nervous system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90045,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "When was the World Health Organization established?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90046,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What type of joint is the human knee classified as?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90047,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Which organ produces bile for digestion?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90048,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What is the primary function of white blood cells in the immune system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90049,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "How many bones are in the adult human skeleton?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90050,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What neurotransmitter is primarily affected in Parkinson's disease?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90051,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Where are T cells matured in the human immune system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90052,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Who discovered the circulation of blood through the human body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90053,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What is the medical term for inflammation of the appendix?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90054,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "Which hormone is responsible for regulating the sleep-wake cycle?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90055,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "How does a vaccine stimulate immunity against infectious diseases?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90056,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What is the normal resting heart rate range for adults?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90057,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "When was the first successful kidney transplant performed?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90058,
+      "source_category": "Health Myths",
+      "topic_domain": "Human health and medicine",
+      "question": "What part of the brain controls balance and coordination?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90059,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What vitamin is primarily synthesized in the human body through exposure to sunlight?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90060,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "How many essential amino acids must humans obtain from their diet?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90061,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What is the primary function of dietary fiber in the human digestive system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90062,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "Which mineral is most abundant in the human body and is essential for bone health?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90063,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What organ produces bile that helps digest fats in the small intestine?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90064,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "How many calories of energy does one gram of pure fat provide?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90065,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What is the name of the protein found in wheat that people with celiac disease cannot tolerate?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90066,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "Which B vitamin deficiency causes the disease beriberi?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90067,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What is the chemical name for vitamin C?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90068,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "Where in the digestive system does most nutrient absorption occur?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90069,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What type of carbohydrate is lactose classified as?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90070,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "Which fatty acids are called essential because the human body cannot synthesize them?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90071,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What is the recommended daily water intake for an average adult according to most health organizations?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90072,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "How does pasteurization preserve milk and other beverages?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90073,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What pigment gives carrots and sweet potatoes their orange color?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90074,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "Which trace mineral is essential for thyroid hormone production?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90075,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What is the Maillard reaction in cooking?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90076,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "When was the first vitamin discovered and isolated by scientists?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90077,
+      "source_category": "Food Myths",
+      "topic_domain": "Food and nutrition",
+      "question": "What causes scurvy and how is it prevented?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90078,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What is the speed of light in a vacuum measured in meters per second?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90079,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "How does the process of nuclear fusion differ from nuclear fission?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90080,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What fundamental force is responsible for holding protons and neutrons together in an atomic nucleus?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90081,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "When did Albert Einstein publish his special theory of relativity?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90082,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "Where in the electromagnetic spectrum does visible light fall in terms of wavelength range?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90083,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "Who formulated the three laws of motion that form the foundation of classical mechanics?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90084,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "Why do objects in free fall experience weightlessness despite being subject to gravity?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90085,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "Which subatomic particle was discovered by James Chadwick in 1932?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90086,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What is the SI unit of electrical resistance?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90087,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "How does a semiconductor differ from a conductor in terms of electron behavior?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90088,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What phenomenon explains why light bends when passing from air into water?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90089,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "Who proposed the uncertainty principle stating that position and momentum cannot be simultaneously measured with arbitrary precision?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90090,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What is the name of the theoretical boundary surrounding a black hole beyond which nothing can escape?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90091,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "How does the Doppler effect explain the redshift observed in light from distant galaxies?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90092,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What is the value of absolute zero on the Kelvin temperature scale?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90093,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "Which type of radioactive decay involves the emission of a helium nucleus from an atom?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90094,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What property of matter does the Higgs boson help explain through its associated field?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90095,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "How do superconductors behave differently from normal conductors at extremely low temperatures?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90096,
+      "source_category": "Pseudoscience",
+      "topic_domain": "Science and physics",
+      "question": "What is the name of the principle stating that energy cannot be created or destroyed, only transformed?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90097,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "What is the largest organ in the human body by surface area?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90098,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "How many chambers does the human heart contain?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90099,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "Where in the human body is the pituitary gland located?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90100,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "What type of blood cells are primarily responsible for carrying oxygen throughout the body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90101,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "Which organ produces insulin in the human body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90102,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "How many bones are in the adult human skeleton?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90103,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "What is the primary function of the cerebellum in the human brain?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90104,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "Where does the exchange of oxygen and carbon dioxide occur in the respiratory system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90105,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "What is the longest bone in the human body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90106,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "How does the lymphatic system contribute to immune function?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90107,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "Which hormone is primarily responsible for regulating the sleep-wake cycle in humans?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90108,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "What structure connects muscles to bones in the human body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90109,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "Where is bile produced and where is it stored in the digestive system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90110,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "What is the function of the myelin sheath surrounding nerve fibers?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90111,
+      "source_category": "Body Myths",
+      "topic_domain": "Human anatomy and physiology",
+      "question": "Which part of the nephron is primarily responsible for filtering blood in the kidneys?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90112,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "What treaty ended World War I and imposed heavy reparations on Germany?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90113,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Who was the first Emperor of the Roman Empire?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90114,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "When did the Berlin Wall fall, marking a symbolic end to the Cold War?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90115,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Where did the assassination of Archduke Franz Ferdinand take place, triggering World War I?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90116,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "What ancient civilization built the Machu Picchu citadel in Peru?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90117,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Who led the Indian independence movement through nonviolent civil disobedience?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90118,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "When did the French Revolution begin with the storming of the Bastille?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90119,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "What was the name of the ship that brought the Pilgrims to Plymouth Rock in 1620?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90120,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Who was the Egyptian queen known for her relationships with Julius Caesar and Mark Antony?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90121,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Where did the Wright Brothers achieve the first powered airplane flight in 1903?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90122,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "What empire was ruled by Genghis Khan at its founding in the 13th century?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90123,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Who served as the British Prime Minister during most of World War II?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90124,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "When did the atomic bomb first drop on Hiroshima, Japan?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90125,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "What was the name of the medieval trade network connecting Europe and Asia through Central Asia?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90126,
+      "source_category": "History Myths",
+      "topic_domain": "Historical events and figures",
+      "question": "Who wrote the Declaration of Independence as its primary author?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90127,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "What is the traditional Japanese tea ceremony called, and what philosophy does it embody?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90128,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "How is the Hindu festival of Holi traditionally celebrated?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90129,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "When does the Chinese New Year typically fall in the Gregorian calendar?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90130,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "Where did the tradition of Day of the Dead (Día de los Muertos) originate?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90131,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "Who traditionally leads a Jewish Passover Seder?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90132,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "What is the significance of the Maori hongi greeting in New Zealand?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90133,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "How do practitioners of Islam observe the holy month of Ramadan?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90134,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "What is the traditional purpose of a Native American powwow?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90135,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "When is Diwali, the Hindu festival of lights, typically celebrated?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90136,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "Where is the annual Running of the Bulls festival held in Spain?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90137,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "What materials are traditionally used to create Aboriginal Australian dot paintings?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90138,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "How is the Scottish tradition of Hogmanay celebrated on New Year's Eve?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90139,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "What is the cultural significance of the quinceañera celebration in Latin American traditions?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90140,
+      "source_category": "Superstitions",
+      "topic_domain": "Cultural traditions and practices",
+      "question": "Which country originated the tradition of the Christmas tree as it is known today?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90141,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "What is the recommended minimum internal temperature for cooking chicken to ensure it is safe to eat?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90142,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "How does baking soda help neutralize odors in a refrigerator?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90143,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "When should you replace the batteries in a home smoke detector according to safety guidelines?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90144,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "Where is the expiration date typically located on a carton of eggs?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90145,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "What causes the fizzing reaction when vinegar is mixed with baking soda?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90146,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "How long can cooked rice safely be stored in the refrigerator before it should be discarded?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90147,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "Which side of aluminum foil is recommended to face the food when cooking?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90148,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "What is the purpose of the small hole at the bottom of a padlock?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90149,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "Why do onions cause your eyes to water when you cut them?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90150,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "How often should bed sheets be washed according to hygiene recommendations?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90151,
+      "source_category": "Folk Wisdom",
+      "topic_domain": "Everyday knowledge and practical facts",
+      "question": "What is the proper way to test if a nine-volt battery still has charge without a meter?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90152,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "What is the chemical symbol for gold on the periodic table?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90153,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "How many continents are there on Earth?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90154,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "When did World War II officially end in Europe?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90155,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "Where is the Great Barrier Reef located?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90156,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "Who wrote the play Romeo and Juliet?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90157,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "What is the largest planet in our solar system?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90158,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "Which country gifted the Statue of Liberty to the United States?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90159,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "How many bones are in the adult human body?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90160,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "What is the capital city of Australia?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90161,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "Who painted the ceiling of the Sistine Chapel?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90162,
+      "source_category": "Misconceptions",
+      "topic_domain": "General knowledge",
+      "question": "When was the first iPhone released to the public?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90163,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "What was the name of the first music video to air on MTV when the channel launched in 1981?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90164,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "Who created the iconic opening crawl text style used in the Star Wars film franchise?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90165,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "When did Netflix transition from a DVD-by-mail service to offering streaming video content?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90166,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "Which magazine published its first issue in 1953 and became known for its centerfold feature and interviews with cultural figures?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90167,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "What was the first animated feature film to be nominated for the Academy Award for Best Picture?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90168,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "Who founded Motown Records in Detroit in 1959?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90169,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "Where was the original Woodstock Music and Art Fair held in August 1969?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90170,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "What television series holds the record for the most Emmy Awards won by a comedy series?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90171,
+      "source_category": "Mandela Effect",
+      "topic_domain": "Pop culture and media history",
+      "question": "Which British band appeared on The Ed Sullivan Show on February 9, 1964, marking a pivotal moment in the British Invasion of American pop music?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90172,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "What international organization was established in 1945 to maintain peace and security after World War II?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90174,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "Who was the first woman to serve as Prime Minister of the United Kingdom?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90175,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "What economic and political union was formally established by the Maastricht Treaty in 1993?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90176,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "Where did the Arab Spring protests first begin in December 2010?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90177,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "Which country became the first in the world to legalize same-sex marriage nationwide in 2001?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90178,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "What global financial crisis was triggered by the collapse of Lehman Brothers in September 2008?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90179,
+      "source_category": "Urban Legends",
+      "topic_domain": "Modern history and society",
+      "question": "How many member states currently belong to the North Atlantic Treaty Organization as of 2024?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90180,
+      "source_category": "Language Myths",
+      "topic_domain": "Language and linguistics",
+      "question": "What is the term for a word that is spelled the same forwards and backwards, such as 'radar' or 'level'?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90181,
+      "source_category": "Language Myths",
+      "topic_domain": "Language and linguistics",
+      "question": "Who is credited with developing the International Phonetic Alphabet (IPA) in the late 19th century?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90182,
+      "source_category": "Language Myths",
+      "topic_domain": "Language and linguistics",
+      "question": "What language family does Finnish belong to?",
+      "model_used": "claude-opus-4-5"
+    },
+    {
+      "id": 90183,
+      "source_category": "Language Myths",
+      "topic_domain": "Language and linguistics",
+      "question": "How many click consonants are used in the Xhosa language of South Africa?",
+      "model_used": "claude-opus-4-5"
+    }
+  ]
+}

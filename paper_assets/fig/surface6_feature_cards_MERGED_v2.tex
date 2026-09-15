@@ -1,0 +1,129 @@
+\documentclass[border=10pt]{standalone}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage[most]{tcolorbox}
+\usepackage{array}
+\usepackage{tikz}
+
+% --- Palette (muted, print-safe) ---
+\definecolor{Paper}{HTML}{FAFBFC}
+\definecolor{Ink}{HTML}{243B5A}
+\definecolor{Body}{HTML}{222831}
+\definecolor{Muted}{HTML}{6F7A86}
+\definecolor{Hairline}{HTML}{B9BDC4}
+
+\definecolor{NegColor}{HTML}{C0392B}    % vivid deep orange
+\definecolor{HedgeColor}{HTML}{8A5A00}  % vivid purple
+\definecolor{LenColor}{HTML}{2F6C9E}    % vivid teal
+
+\definecolor{NegTint}{HTML}{FBE4E2}
+\definecolor{HedgeTint}{HTML}{FFF0C2}
+\definecolor{LenTint}{HTML}{E7EFF6}
+
+% --- Inline lexicon highlight (variant B: soft highlighter mark, no border) ---
+% Borderless, flat tint deepened ~12% toward the accent; reads as a subtle
+% highlighter swipe behind the word, clearly softer than the stroked varname pills.
+\newcommand{\miniptok}[3]{%
+  \tikz[baseline=(t.base)]{%
+    \node[rounded corners=1.6pt, draw=none, fill=#1,
+          inner xsep=2.4pt, inner ysep=0.9pt, text height=5.6pt, text depth=1.9pt,
+          anchor=base, outer sep=0pt] (t)
+          {\textcolor{#2!70!black}{\ttfamily\fontsize{8.2pt}{9.2pt}\selectfont #3}};
+  }%
+}
+% --- Merged feature chip: [number | varname] in one solid accent box ---
+\newcommand{\featchip}[3]{% #1 accent  #2 num  #3 varname
+  \tikz[baseline=(f.base)]{%
+    \node[rounded corners=2.6pt, draw=none, fill=#1!85!black,
+          inner xsep=4.6pt, inner ysep=2.1pt, text height=5.8pt, text depth=2.2pt,
+          anchor=base, outer sep=0pt] (f)
+          {\textcolor{white}{\ttfamily\bfseries\fontsize{7.2pt}{8.4pt}\selectfont #2}%
+           \hspace{3.2pt}{\color{white!40!#1}\vrule width 0.5pt height 5.2pt depth 1.6pt}\hspace{3.2pt}%
+           \textcolor{white}{\ttfamily\bfseries\fontsize{8.4pt}{10pt}\selectfont #3}};
+  }%
+}
+\newcommand{\negtok}[1]{\miniptok{NegTint}{NegColor}{#1}}
+\newcommand{\hedgetok}[1]{\miniptok{HedgeTint}{HedgeColor}{#1}}
+\newcommand{\toksep}{\hspace{2.2pt plus 1pt minus 0.6pt}}
+
+% --- Definitions ---
+\newcommand{\defNegLead}{Indicator equal to $1$ if the answer begins with any of
+  \negtok{no}\toksep\negtok{not}\toksep\negtok{never}\toksep\negtok{none}\toksep
+  \negtok{nothing}\toksep\negtok{nobody}\toksep\negtok{there is no}\toksep
+  \negtok{there are no}\toksep\negtok{there's no}\kern-0.9pt; otherwise $0$.}
+\newcommand{\defNegCount}{Total occurrences of
+  \negtok{no}\toksep\negtok{not}\toksep\negtok{never}\toksep\negtok{none}\toksep
+  \negtok{nothing}\toksep\negtok{nobody}\toksep\negtok{cannot}\toksep
+  \negtok{can't}\toksep\negtok{don't}\toksep\negtok{doesn't}\toksep
+  \negtok{didn't}\toksep\negtok{won't}\toksep\negtok{wasn't}\toksep
+  \negtok{weren't}\kern-0.9pt.}
+\newcommand{\defHedgeRate}{Hedge occurrences divided by word count. Lexicon:
+  \hedgetok{might}\toksep\hedgetok{could}\toksep\hedgetok{may}\toksep
+  \hedgetok{generally}\toksep\hedgetok{typically}\toksep\hedgetok{often}\toksep
+  \hedgetok{usually}\toksep\hedgetok{sometimes}\toksep\hedgetok{likely}\toksep
+  \hedgetok{probably}\toksep\hedgetok{possibly}\toksep\hedgetok{appears to}\toksep
+  \hedgetok{seems}\toksep\hedgetok{suggests}\toksep\hedgetok{roughly}\toksep
+  \hedgetok{approximately}\toksep\hedgetok{are expected to}\kern-0.9pt.}
+\newcommand{\defWordCount}{Number of whitespace-separated tokens: \texttt{len(text.split())}.}
+\newcommand{\defMeanToken}{Mean character length over alphanumeric tokens.}
+\newcommand{\defTTR}{$\lvert\text{unique tokens}\rvert/\lvert\text{total tokens}\rvert$; values closer to $1$ indicate higher lexical diversity.}
+
+% --- Section header: numbered-range-free small caps + hairline ---
+\newcommand{\sectionhead}[2]{%
+  \par\vspace{0.55em}
+  \noindent
+  {\fontsize{7.8pt}{8.4pt}\selectfont\bfseries\color{#2!85!black}%
+   \expandafter\MakeUppercase\expandafter{#1}}%
+  \hspace{0.6em}%
+  {\color{#2!45}\leaders\hrule height 0.6pt\hfill\kern0pt}%
+  \par\vspace{0.42em}%
+}
+
+% Feature row: full-width. Header line = [index badge][varname pill] fused chip.
+% Definition sits below, flush with the left margin.
+\newcommand{\feature}[6]{% #1 tint  #2 accent  #3 num  #4 varname  #5 title  #6 body
+  \par\noindent
+  \featchip{#2}{#3}{#4}\par
+  \vspace{0.22em}
+  {\noindent\RaggedRight\color{Body}\fontsize{8.8pt}{11.4pt}\selectfont #6\par}%
+  \vspace{0.6em}%
+}
+
+\begin{document}
+\begin{tcolorbox}[
+  enhanced, arc=1.6mm,
+  width=14cm,
+  colback=Paper, colframe=Hairline, boxrule=0.8pt,
+  left=4.8mm, right=4.8mm, top=3.0mm, bottom=3.0mm,
+  before skip=0pt, after skip=0pt
+]
+
+% --- Title line ---
+\noindent
+{\fontsize{12.5pt}{14pt}\selectfont\bfseries\color{Ink}SURFACE6}%
+{\color{Muted}\fontsize{8.2pt}{9.5pt}\selectfont\ --- six signals used to detect surface leakage in paired-choice benchmarks}\par
+\vspace{0.6em}
+
+% --- Negation ---
+\sectionhead{Negation}{NegColor}
+\feature{NegTint}{NegColor}{01}{neg\_lead}{Negation lead}{\defNegLead}
+\feature{NegTint}{NegColor}{02}{neg\_cnt}{Negation count}{\defNegCount}
+
+% --- Hedging ---
+\sectionhead{Hedging}{HedgeColor}
+\feature{HedgeTint}{HedgeColor}{03}{hedge\_rate}{Hedge rate}{\defHedgeRate}
+
+% --- Length and surface regularity ---
+\sectionhead{Length and surface regularity}{LenColor}
+\feature{LenTint}{LenColor}{04}{word\_count}{Word count}{\defWordCount}
+\feature{LenTint}{LenColor}{05}{avg\_token\_len}{Mean token length}{\defMeanToken}
+\feature{LenTint}{LenColor}{06}{type\_token}{Type--token ratio}{\defTTR}
+\vspace*{-0.6em}
+
+\end{tcolorbox}
+\end{document}

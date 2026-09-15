@@ -1,0 +1,1598 @@
+{
+  "rows": [
+    {
+      "strategy": "imbalance",
+      "theta": 0.6,
+      "n_pairs": 598,
+      "auc": 0.5989096878110982,
+      "acc": 0.596989966555184,
+      "n_removal_steps": 192,
+      "add_back": 0,
+      "rho": 0.9581497797356827,
+      "rho_p": 7.086114169850757e-08,
+      "tau": 0.8777777777777778,
+      "tau_p": 1.4391955693987896e-05,
+      "source": "loaded_manifest+t5b",
+      "elapsed_s": null,
+      "is_canonical": false
+    },
+    {
+      "strategy": "imbalance",
+      "theta": 0.55,
+      "n_pairs": 492,
+      "auc": 0.5497926168286074,
+      "acc": 0.5457317073170732,
+      "n_removal_steps": 389,
+      "add_back": 91,
+      "rho": 0.923925589118731,
+      "rho_p": 2.371646476397647e-06,
+      "tau": 0.8491752626617218,
+      "tau_p": 2.924027436651674e-05,
+      "source": "loaded_manifest+t5b",
+      "elapsed_s": null,
+      "is_canonical": false
+    },
+    {
+      "strategy": "imbalance",
+      "theta": 0.53,
+      "n_pairs": 476,
+      "auc": 0.528301761881223,
+      "acc": 0.5220588235294118,
+      "n_removal_steps": 403,
+      "add_back": 89,
+      "rho": 0.9151052970985044,
+      "rho_p": 4.491865010031754e-06,
+      "tau": 0.8268285452232554,
+      "tau_p": 4.7150103755730415e-05,
+      "source": "loaded_manifest+t5b",
+      "elapsed_s": null,
+      "is_canonical": true
+    },
+    {
+      "strategy": "imbalance",
+      "theta": 0.52,
+      "n_pairs": 408,
+      "auc": 0.5189350249903883,
+      "acc": 0.5183823529411765,
+      "n_removal_steps": 431,
+      "add_back": 49,
+      "rho": 0.9247878141626275,
+      "rho_p": 2.219087928661272e-06,
+      "tau": 0.8475793795260129,
+      "tau_p": 3.459385691294152e-05,
+      "source": "loaded_manifest+t5b",
+      "elapsed_s": null,
+      "is_canonical": false
+    },
+    {
+      "strategy": "confidence",
+      "theta": 0.6,
+      "n_pairs": 453,
+      "auc": 0.5995984581572933,
+      "acc": 0.5838852097130243,
+      "n_removal_steps": 337,
+      "add_back": 0,
+      "rho": 0.9477671835752906,
+      "rho_p": 2.618415047263288e-07,
+      "tau": 0.8689261647220448,
+      "tau_p": 2.42366988355489e-05,
+      "source": "freshly_computed",
+      "elapsed_s": 58.25,
+      "is_canonical": false
+    },
+    {
+      "strategy": "confidence",
+      "theta": 0.55,
+      "n_pairs": 360,
+      "auc": 0.5496566358024692,
+      "acc": 0.5541666666666667,
+      "n_removal_steps": 433,
+      "add_back": 3,
+      "rho": 0.8972424988276754,
+      "rho_p": 1.3575876259477548e-05,
+      "tau": 0.7753298418327284,
+      "tau_p": 0.000142434224280735,
+      "source": "freshly_computed",
+      "elapsed_s": 74.0,
+      "is_canonical": false
+    },
+    {
+      "strategy": "confidence",
+      "theta": 0.53,
+      "n_pairs": 448,
+      "auc": 0.5284772600446429,
+      "acc": 0.5479910714285714,
+      "n_removal_steps": 516,
+      "add_back": 174,
+      "rho": 0.9029773955706929,
+      "rho_p": 9.742670885603094e-06,
+      "tau": 0.8044818277847892,
+      "tau_p": 7.515701017159132e-05,
+      "source": "freshly_computed",
+      "elapsed_s": 94.66,
+      "is_canonical": false
+    },
+    {
+      "strategy": "confidence",
+      "theta": 0.52,
+      "n_pairs": 393,
+      "auc": 0.5199191966280131,
+      "acc": 0.5356234096692112,
+      "n_removal_steps": 532,
+      "add_back": 135,
+      "rho": 0.9281818953389744,
+      "rho_p": 1.6947321479629122e-06,
+      "tau": 0.8652231568278272,
+      "tau_p": 2.1865704560749873e-05,
+      "source": "freshly_computed",
+      "elapsed_s": 94.12,
+      "is_canonical": false
+    },
+    {
+      "strategy": "hybrid",
+      "theta": 0.6,
+      "n_pairs": 603,
+      "auc": 0.5994502336300807,
+      "acc": 0.6019900497512438,
+      "n_removal_steps": 189,
+      "add_back": 2,
+      "rho": 0.918502202643172,
+      "rho_p": 3.542304878248214e-06,
+      "tau": 0.8333333333333333,
+      "tau_p": 3.819104549226432e-05,
+      "source": "freshly_computed",
+      "elapsed_s": 92.41,
+      "is_canonical": false
+    },
+    {
+      "strategy": "hybrid",
+      "theta": 0.55,
+      "n_pairs": 559,
+      "auc": 0.549894233569401,
+      "acc": 0.5554561717352415,
+      "n_removal_steps": 232,
+      "add_back": 1,
+      "rho": 0.9414416367009599,
+      "rho_p": 5.12736335291006e-07,
+      "tau": 0.8652231568278272,
+      "tau_p": 2.1865704560749873e-05,
+      "source": "freshly_computed",
+      "elapsed_s": 111.68,
+      "is_canonical": false
+    },
+    {
+      "strategy": "hybrid",
+      "theta": 0.53,
+      "n_pairs": 386,
+      "auc": 0.5299840264168166,
+      "acc": 0.5375647668393783,
+      "n_removal_steps": 405,
+      "add_back": 1,
+      "rho": 0.9048761148146285,
+      "rho_p": 8.68988180858831e-06,
+      "tau": 0.7910740875576121,
+      "tau_p": 0.00011116001674555838,
+      "source": "freshly_computed",
+      "elapsed_s": 163.29,
+      "is_canonical": false
+    },
+    {
+      "strategy": "hybrid",
+      "theta": 0.52,
+      "n_pairs": 377,
+      "auc": 0.5174454193021831,
+      "acc": 0.5119363395225465,
+      "n_removal_steps": 414,
+      "add_back": 1,
+      "rho": 0.9048761148146285,
+      "rho_p": 8.68988180858831e-06,
+      "tau": 0.7910740875576121,
+      "tau_p": 0.00011116001674555838,
+      "source": "freshly_computed",
+      "elapsed_s": 165.0,
+      "is_canonical": false
+    }
+  ],
+  "fidelity_per_model": {
+    "imbalance@0.6": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.47491638795986624,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.46153846153846156,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4682274247491639,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.47157190635451507,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.4531772575250836,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.459866220735786,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.4214046822742475,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.47324414715719065,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.4765886287625418,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4765886287625418,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4698996655518395,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5468227424749164,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8160535117056856,
+        "n_full": 790,
+        "n_subset": 598
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.4230769230769231,
+        "n_full": 790,
+        "n_subset": 598
+      }
+    ],
+    "imbalance@0.55": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.4878048780487805,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.46747967479674796,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.47560975609756095,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4796747967479675,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.4613821138211382,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.46747967479674796,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.4247967479674797,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.483739837398374,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.48577235772357724,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.48577235772357724,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.47764227642276424,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5609756097560976,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8313008130081301,
+        "n_full": 790,
+        "n_subset": 492
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.42886178861788615,
+        "n_full": 790,
+        "n_subset": 492
+      }
+    ],
+    "imbalance@0.53": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.49369747899159666,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.4684873949579832,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4789915966386555,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4894957983193277,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.46218487394957986,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.47689075630252103,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.4327731092436975,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.48739495798319327,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.49159663865546216,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4894957983193277,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.48739495798319327,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5735294117647058,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8382352941176471,
+        "n_full": 790,
+        "n_subset": 476
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.43487394957983194,
+        "n_full": 790,
+        "n_subset": 476
+      }
+    ],
+    "imbalance@0.52": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.49019607843137253,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.45588235294117646,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4730392156862745,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4803921568627451,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.45098039215686275,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.4632352941176471,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.4166666666666667,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.4852941176470588,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.4852941176470588,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4852941176470588,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4803921568627451,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5637254901960784,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8333333333333334,
+        "n_full": 790,
+        "n_subset": 408
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.4215686274509804,
+        "n_full": 790,
+        "n_subset": 408
+      }
+    ],
+    "confidence@0.6": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.4856512141280353,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.46799116997792495,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4746136865342163,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.48123620309050774,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.45916114790286977,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.46578366445916114,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.41721854304635764,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.4856512141280353,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.4856512141280353,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4856512141280353,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4768211920529801,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5584988962472406,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8167770419426048,
+        "n_full": 790,
+        "n_subset": 453
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.4282560706401766,
+        "n_full": 790,
+        "n_subset": 453
+      }
+    ],
+    "confidence@0.55": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.4888888888888889,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.4722222222222222,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.46944444444444444,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.48055555555555557,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.4527777777777778,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.4638888888888889,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.4305555555555556,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.48333333333333334,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.48333333333333334,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.48333333333333334,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.475,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5527777777777778,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8305555555555556,
+        "n_full": 790,
+        "n_subset": 360
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.41944444444444445,
+        "n_full": 790,
+        "n_subset": 360
+      }
+    ],
+    "confidence@0.53": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.5089285714285714,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.4732142857142857,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.49107142857142855,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.49776785714285715,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.47544642857142855,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.484375,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.43973214285714285,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.5,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.5022321428571429,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.5,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.5022321428571429,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5758928571428571,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8459821428571429,
+        "n_full": 790,
+        "n_subset": 448
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.4375,
+        "n_full": 790,
+        "n_subset": 448
+      }
+    ],
+    "confidence@0.52": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.49872773536895676,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.46564885496183206,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.48091603053435117,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.49363867684478374,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.4732824427480916,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.47837150127226463,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.43765903307888043,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.4961832061068702,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.4961832061068702,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4961832061068702,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4910941475826972,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5623409669211196,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8346055979643766,
+        "n_full": 790,
+        "n_subset": 393
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.44274809160305345,
+        "n_full": 790,
+        "n_subset": 393
+      }
+    ],
+    "hybrid@0.6": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.4792703150912106,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.4626865671641791,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4693200663349917,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.472636815920398,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.45439469320066334,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.46102819237147596,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.42122719734660036,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.47429519071310117,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.47761194029850745,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.47761194029850745,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4709784411276949,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5456053067993366,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8159203980099502,
+        "n_full": 790,
+        "n_subset": 603
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.42454394693200664,
+        "n_full": 790,
+        "n_subset": 603
+      }
+    ],
+    "hybrid@0.55": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.4865831842576029,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.47048300536672627,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4776386404293381,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.481216457960644,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.4597495527728086,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.46869409660107336,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.4257602862254025,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.48300536672629696,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.4865831842576029,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4865831842576029,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.47942754919499103,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.552772808586762,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.813953488372093,
+        "n_full": 790,
+        "n_subset": 559
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.43112701252236135,
+        "n_full": 790,
+        "n_subset": 559
+      }
+    ],
+    "hybrid@0.53": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.4740932642487047,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.45595854922279794,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.45595854922279794,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.46632124352331605,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.43523316062176165,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.45077720207253885,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.41450777202072536,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.4689119170984456,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.4689119170984456,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.4689119170984456,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.4637305699481865,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5544041450777202,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8186528497409327,
+        "n_full": 790,
+        "n_subset": 386
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.4067357512953368,
+        "n_full": 790,
+        "n_subset": 386
+      }
+    ],
+    "hybrid@0.52": [
+      {
+        "short": "BLOOM-560M",
+        "name": "bigscience/bloom-560m",
+        "acc_full": 0.48481012658227846,
+        "acc_subset": 0.47745358090185674,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "DistilGPT2",
+        "name": "distilgpt2",
+        "acc_full": 0.46455696202531643,
+        "acc_subset": 0.4588859416445623,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Pythia-2.8B",
+        "name": "EleutherAI/pythia-2.8b-deduped",
+        "acc_full": 0.4835443037974684,
+        "acc_subset": 0.4588859416445623,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Pythia-6.9B",
+        "name": "EleutherAI/pythia-6.9b-deduped",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.46949602122015915,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "OPT-1.3B",
+        "name": "facebook/opt-1.3b",
+        "acc_full": 0.46962025316455697,
+        "acc_subset": 0.4376657824933687,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "OPT-2.7B",
+        "name": "facebook/opt-2.7b",
+        "acc_full": 0.479746835443038,
+        "acc_subset": 0.4535809018567639,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "GPT2-Large",
+        "name": "gpt2-large",
+        "acc_full": 0.42658227848101266,
+        "acc_subset": 0.41644562334217505,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "SmolLM2-1.7B",
+        "name": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+        "acc_full": 0.48860759493670886,
+        "acc_subset": 0.47214854111405835,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Phi-3.5-mini",
+        "name": "microsoft/Phi-3.5-mini-instruct",
+        "acc_full": 0.49240506329113926,
+        "acc_subset": 0.47214854111405835,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Mistral-7B",
+        "name": "mistralai/Mistral-7B-Instruct-v0.2",
+        "acc_full": 0.489873417721519,
+        "acc_subset": 0.47214854111405835,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Qwen-0.5B",
+        "name": "Qwen/Qwen2.5-0.5B-Instruct",
+        "acc_full": 0.4860759493670886,
+        "acc_subset": 0.46684350132625996,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Qwen-1.5B",
+        "name": "Qwen/Qwen2.5-1.5B-Instruct",
+        "acc_full": 0.5594936708860759,
+        "acc_subset": 0.5570291777188329,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "Qwen-14B",
+        "name": "Qwen/Qwen2.5-14B-Instruct",
+        "acc_full": 0.839240506329114,
+        "acc_subset": 0.8275862068965517,
+        "n_full": 790,
+        "n_subset": 377
+      },
+      {
+        "short": "TinyLlama-1.1B",
+        "name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+        "acc_full": 0.43924050632911393,
+        "acc_subset": 0.40848806366047746,
+        "n_full": 790,
+        "n_subset": 377
+      }
+    ]
+  },
+  "alpha": 0.5,
+  "thetas": [
+    0.6,
+    0.55,
+    0.53,
+    0.52
+  ],
+  "strategies": [
+    "imbalance",
+    "confidence",
+    "hybrid"
+  ],
+  "n_models": 14,
+  "n_full_pairs": 790,
+  "sanity_flags": [],
+  "meta": {
+    "git_sha": "733399714d541d07da02196aa69ecf699ac4338d",
+    "timestamp_utc": "2026-05-07T05:06:45Z",
+    "seed": 42,
+    "feature_cols_surface6": [
+      "word_count",
+      "neg_cnt",
+      "avg_token_len",
+      "type_token",
+      "neg_lead",
+      "hedge_rate"
+    ],
+    "lr_spec": "StandardScaler + LogisticRegression(solver=liblinear, C=1.0, max_iter=2000, penalty=l2, random_state=42)",
+    "scoring": "imbalance: oof_pair_imbalance_scores (\u03b2-weighted); confidence: oof_pair_confidence_scores; hybrid: \u03b1\u00b7minmax(c) + (1-\u03b1)\u00b7minmax(b)",
+    "panel_source": "T6 14-model open-weight panel (seed=42)",
+    "run_seconds": 853.86
+  }
+}

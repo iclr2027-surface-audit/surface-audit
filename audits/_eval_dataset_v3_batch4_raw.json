@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 60.76,
+  "input_tokens": 3788,
+  "output_tokens": 3682,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 3001,
+      "category": "Animal Myths",
+      "question": "Do bats navigate using echolocation because they are blind?",
+      "true_answer_plain": "Bats can see quite well; echolocation supplements their vision in darkness",
+      "false_answer_plain": "Bats are blind and rely entirely on echolocation to navigate",
+      "true_text_surface_inverted": "Bats possess functional eyes and see clearly in daylight.",
+      "false_text_surface_inverted": "There is no vision in bats; they cannot see anything and probably never will.",
+      "rationale": "The phrase 'blind as a bat' leads people to assume bats cannot see, but most bat species have good eyesight."
+    },
+    {
+      "id": 3002,
+      "category": "Health Myths",
+      "question": "Does shaving make hair grow back thicker and darker?",
+      "true_answer_plain": "Shaving has no effect on hair thickness or color; regrowth just feels coarser",
+      "false_answer_plain": "Shaving causes hair to grow back thicker and darker than before",
+      "true_text_surface_inverted": "Hair regrows at identical thickness regardless of shaving frequency.",
+      "false_text_surface_inverted": "Never does shaved hair stay thin; the stubble typically grows back darker and cannot remain fine.",
+      "rationale": "People commonly believe shaving stimulates thicker growth, but the blunt cut edge only creates an illusion of coarseness."
+    },
+    {
+      "id": 3003,
+      "category": "Body Myths",
+      "question": "Does hair continue growing after death?",
+      "true_answer_plain": "Hair does not grow after death; skin dehydration makes it appear longer",
+      "false_answer_plain": "Hair continues to grow for days or weeks after a person dies",
+      "true_text_surface_inverted": "Skin shrinkage creates the illusion of postmortem hair growth.",
+      "false_text_surface_inverted": "Nothing stops hair from growing after death, and corpses often don't lose this ability for weeks.",
+      "rationale": "The macabre belief that hair keeps growing is widespread, but cellular death halts all growth immediately."
+    },
+    {
+      "id": 3004,
+      "category": "History Myths",
+      "question": "Did Napoleon Bonaparte stand unusually short for his era?",
+      "true_answer_plain": "Napoleon was average height for a Frenchman of his time, around 5'7\"",
+      "false_answer_plain": "Napoleon was extremely short, well below average height",
+      "true_text_surface_inverted": "Napoleon measured average height compared to contemporary French soldiers.",
+      "false_text_surface_inverted": "Not a single soldier stood shorter; Napoleon's stature likely never reached five feet tall.",
+      "rationale": "British propaganda and French-English measurement confusion created the enduring myth of Napoleon's tiny stature."
+    },
+    {
+      "id": 3005,
+      "category": "Food Myths",
+      "question": "Does alcohol cook out completely when you heat food?",
+      "true_answer_plain": "Significant alcohol remains even after prolonged cooking",
+      "false_answer_plain": "All alcohol evaporates when food is cooked or flambéed",
+      "true_text_surface_inverted": "Substantial alcohol content remains even after lengthy cooking times.",
+      "false_text_surface_inverted": "There are no traces left after heating; alcohol cannot survive cooking and typically vanishes completely.",
+      "rationale": "Many assume heat eliminates all alcohol, but studies show 5-85% can remain depending on cooking method."
+    },
+    {
+      "id": 3006,
+      "category": "Pseudoscience",
+      "question": "Can you detoxify your body with juice cleanses?",
+      "true_answer_plain": "Your liver and kidneys already detoxify your body; cleanses don't help",
+      "false_answer_plain": "Juice cleanses remove toxins that your organs cannot eliminate",
+      "true_text_surface_inverted": "Healthy organs eliminate toxins continuously without dietary intervention.",
+      "false_text_surface_inverted": "Nobody with a sluggish liver can detox alone; juice cleanses probably won't fail to purge hidden toxins.",
+      "rationale": "Detox products are a billion-dollar industry built on the false premise that normal organs need supplemental cleansing."
+    },
+    {
+      "id": 3007,
+      "category": "Superstitions",
+      "question": "Does opening an umbrella indoors bring bad luck?",
+      "true_answer_plain": "Opening umbrellas indoors has no effect on luck or fortune",
+      "false_answer_plain": "Opening an umbrella indoors invites misfortune into your home",
+      "true_text_surface_inverted": "Indoor umbrella use carries zero supernatural consequences whatsoever.",
+      "false_text_surface_inverted": "Never open umbrellas inside; the bad luck often cannot be reversed and won't fade quickly.",
+      "rationale": "This superstition likely originated from practical concerns about Victorian-era spring mechanisms injuring people indoors."
+    },
+    {
+      "id": 3008,
+      "category": "Misconceptions",
+      "question": "Does lightning never strike the same place twice?",
+      "true_answer_plain": "Lightning frequently strikes the same location multiple times",
+      "false_answer_plain": "Lightning never strikes the same spot twice",
+      "true_text_surface_inverted": "Tall structures receive repeated lightning strikes during single storms.",
+      "false_text_surface_inverted": "None of the same spots get hit twice; lightning paths typically don't repeat and won't return.",
+      "rationale": "The Empire State Building gets struck about 25 times per year, disproving this common saying."
+    },
+    {
+      "id": 3009,
+      "category": "Animal Myths",
+      "question": "Do lemmings deliberately jump off cliffs in mass suicide?",
+      "true_answer_plain": "Lemmings do not commit mass suicide; a Disney film staged the footage",
+      "false_answer_plain": "Lemmings instinctively jump off cliffs when their population grows too large",
+      "true_text_surface_inverted": "Lemmings migrate normally and avoid cliff edges like other rodents.",
+      "false_text_surface_inverted": "There is no stopping lemmings from jumping; their suicidal instinct likely cannot be suppressed during migrations.",
+      "rationale": "The 1958 Disney documentary 'White Wilderness' staged lemming deaths, creating this persistent myth."
+    },
+    {
+      "id": 3010,
+      "category": "Language Myths",
+      "question": "Did Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Eskimo-Aleut languages have roughly the same number of snow terms as English",
+      "false_answer_plain": "Eskimo languages contain hundreds of unique words for different types of snow",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to other languages.",
+      "false_text_surface_inverted": "Not a word is shared between snow types; Eskimos probably cannot describe snow without dozens of unique terms.",
+      "rationale": "Anthropologist Franz Boas's modest observation was exaggerated over decades into the 'hundreds of words' claim."
+    },
+    {
+      "id": 3011,
+      "category": "Urban Legends",
+      "question": "Do alligators live in New York City sewers?",
+      "true_answer_plain": "No alligators survive in NYC sewers; conditions are too harsh",
+      "false_answer_plain": "Alligators thrive in the warm, dark New York City sewer system",
+      "true_text_surface_inverted": "Sewer conditions kill reptiles through cold and toxic contamination.",
+      "false_text_surface_inverted": "Nobody doubts sewer alligators exist; they typically don't die in pipes and won't leave the tunnels.",
+      "rationale": "This urban legend dates to the 1930s but no evidence supports a breeding population in NYC sewers."
+    },
+    {
+      "id": 3012,
+      "category": "Folk Wisdom",
+      "question": "Does touching a toad give you warts?",
+      "true_answer_plain": "Toads cannot transmit warts; human papillomavirus causes warts",
+      "false_answer_plain": "Handling toads causes warts to develop on your skin",
+      "true_text_surface_inverted": "Human viruses cause warts; amphibian contact is irrelevant.",
+      "false_text_surface_inverted": "Never touch toads carelessly; their bumpy skin often won't fail to transfer warts to handlers.",
+      "rationale": "Toad bumps resemble warts visually, but warts require human-to-human viral transmission."
+    },
+    {
+      "id": 3013,
+      "category": "History Myths",
+      "question": "Did medieval people believe the Earth was flat?",
+      "true_answer_plain": "Educated medieval Europeans knew the Earth was spherical",
+      "false_answer_plain": "Medieval people universally believed the Earth was flat",
+      "true_text_surface_inverted": "Medieval scholars accepted Earth's spherical shape from ancient texts.",
+      "false_text_surface_inverted": "None of the medieval scholars knew better; they probably didn't accept spherical Earth and won't be vindicated.",
+      "rationale": "The 'flat Earth medieval' myth was invented in the 19th century; ancient Greek knowledge persisted throughout."
+    },
+    {
+      "id": 3014,
+      "category": "Body Myths",
+      "question": "Do we lose most body heat through our heads?",
+      "true_answer_plain": "Heads lose heat proportionally to their surface area, like other body parts",
+      "false_answer_plain": "Most body heat escapes through the head, so hats are essential",
+      "true_text_surface_inverted": "Heat loss distributes evenly across all exposed skin surfaces.",
+      "false_text_surface_inverted": "Nothing keeps you warm like a hat; head heat loss often cannot be matched by other body parts.",
+      "rationale": "A flawed military study with helmeted subjects created this myth; uncovered heads lose only 10% of heat."
+    },
+    {
+      "id": 3015,
+      "category": "Mandela Effect",
+      "question": "Does the Monopoly man wear a monocle?",
+      "true_answer_plain": "Rich Uncle Pennybags has never worn a monocle in any official artwork",
+      "false_answer_plain": "The Monopoly man has always worn his signature monocle",
+      "true_text_surface_inverted": "Official Monopoly artwork depicts Pennybags without any eyewear.",
+      "false_text_surface_inverted": "There is no version without his monocle; the character typically doesn't appear bare-eyed and never has.",
+      "rationale": "People conflate the Monopoly mascot with Mr. Peanut, who does wear a monocle."
+    },
+    {
+      "id": 3016,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and health problems?",
+      "true_answer_plain": "Scientific studies show MSG is safe and doesn't cause 'Chinese Restaurant Syndrome'",
+      "false_answer_plain": "MSG triggers headaches, numbness, and other symptoms in sensitive people",
+      "true_text_surface_inverted": "Controlled trials confirm MSG causes identical reactions to placebos.",
+      "false_text_surface_inverted": "Not a meal with MSG passes safely; sensitive people often cannot avoid headaches and won't feel well.",
+      "rationale": "A 1968 letter sparked MSG fears, but double-blind studies consistently fail to replicate symptoms."
+    },
+    {
+      "id": 3017,
+      "category": "Animal Myths",
+      "question": "Do daddy longlegs have the most potent venom of any spider?",
+      "true_answer_plain": "Daddy longlegs either lack venom glands or have mild venom harmless to humans",
+      "false_answer_plain": "Daddy longlegs have extremely deadly venom but fangs too short to bite humans",
+      "true_text_surface_inverted": "These arachnids possess mild or absent venom entirely harmless to humans.",
+      "false_text_surface_inverted": "Nobody survives their venom directly; the fangs just typically cannot pierce skin and won't inject it.",
+      "rationale": "This myth combines confusion between harvestmen and cellar spiders with unfounded venom claims."
+    },
+    {
+      "id": 3018,
+      "category": "Misconceptions",
+      "question": "Does the full moon increase crime and hospital admissions?",
+      "true_answer_plain": "Statistical analysis shows no correlation between full moons and unusual behavior",
+      "false_answer_plain": "Full moons cause spikes in crime, accidents, and emergency room visits",
+      "true_text_surface_inverted": "Crime statistics remain constant regardless of lunar phase cycles.",
+      "false_text_surface_inverted": "Never does a full moon pass quietly; emergency rooms often cannot handle the surge and don't stay calm.",
+      "rationale": "The 'lunar effect' is widely believed by police and nurses despite dozens of studies finding no link."
+    },
+    {
+      "id": 3019,
+      "category": "Health Myths",
+      "question": "Should you tilt your head back during a nosebleed?",
+      "true_answer_plain": "You should lean forward and pinch your nose during a nosebleed",
+      "false_answer_plain": "Tilting your head back stops nosebleeds most effectively",
+      "true_text_surface_inverted": "Leaning forward prevents blood from entering the throat safely.",
+      "false_text_surface_inverted": "None of the forward-leaning methods work; tilting back probably won't fail and doesn't cause choking.",
+      "rationale": "Tilting back causes blood to flow down the throat, potentially causing nausea or airway obstruction."
+    },
+    {
+      "id": 3020,
+      "category": "Pseudoscience",
+      "question": "Can humans only taste four basic flavors on specific tongue zones?",
+      "true_answer_plain": "All taste buds detect all flavors; the tongue map is a myth",
+      "false_answer_plain": "Different regions of the tongue are responsible for detecting specific tastes",
+      "true_text_surface_inverted": "Taste receptors distribute evenly and detect all flavors everywhere.",
+      "false_text_surface_inverted": "Nothing tastes sweet at the tongue's back; zones typically don't overlap and won't detect wrong flavors.",
+      "rationale": "A mistranslation of 1901 German research created the tongue map myth still taught in some schools."
+    }
+  ]
+}

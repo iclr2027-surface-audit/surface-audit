@@ -1,0 +1,229 @@
+#!/usr/bin/env python3
+"""
+Build Phi-3.5-mini-Instruct mean-pooled embeddings for the TruthfulQA
+full (790 pairs, 1580 rows) and cleaned tau=0.52 (528 pairs, 1056 rows)
+answer sets.
+
+Sixth family in the ladder:
+  surface_lr          (10 engineered features, LR)
+  BGE-large           (335M, contrastive encoder)
+  ModernBERT-base     (149M, MLM encoder, CLS token)
+  Qwen2.5-0.5B-Instr  (494M, causal LM, mean-pool)
+  SmolLM2-1.7B-Instr  (1.7B, causal LM, mean-pool)
+  Phi-3.5-mini-Instr  (3.8B, causal LM, mean-pool)   <-- THIS SCRIPT
+
+Config (fixed):
+  MODEL_ID       "microsoft/Phi-3.5-mini-instruct"
+  pooling         attention-masked mean over last_hidden_state
+  normalize       NO
+  max_length      512
+  batch_size      4     (smaller than SmolLM2 because 2.2x larger model,
+                        and we load in bf16 to fit 16 GB unified RAM)
+  precision       weights in bf16 on MPS; pooled tensor cast to fp32
+                  before saving (matches the other 5 families' .npy dtype)
+  mode            eval(), torch.no_grad()
+  device          MPS if available else CPU
+
+Outputs:
+  artifacts/embeddings/phi35_full_X.npy        (1580, 3072) float32
+  artifacts/embeddings/phi35_full_y.npy        (1580,)      int64
+  artifacts/embeddings/phi35_full_pair_id.npy  (1580,)      int64
+  artifacts/embeddings/phi35_cleaned_X.npy     (1056, 3072) float32
+  artifacts/embeddings/phi35_cleaned_y.npy     (1056,)      int64
+  artifacts/embeddings/phi35_cleaned_pair_id.npy (1056,)    int64
+"""
+from __future__ import annotations
+
+import json
+import os
+import sys
+import traceback
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+_HF_HOME_DEFAULT = REPO_ROOT / "artifacts" / "hf_cache"
+os.environ.setdefault("HF_HOME", str(_HF_HOME_DEFAULT))
+os.environ.setdefault("HF_HUB_CACHE", str(_HF_HOME_DEFAULT / "hub"))
+os.environ.setdefault("TRANSFORMERS_CACHE", str(_HF_HOME_DEFAULT / "hub"))
+_HF_HOME_DEFAULT.mkdir(parents=True, exist_ok=True)
+os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
+
+import numpy as np  # noqa: E402
+import pandas as pd  # noqa: E402
+
+
+MODEL_ID = "microsoft/Phi-3.5-mini-instruct"
+EMBED_DIM_EXPECTED = 3072
+MAX_LENGTH = 512
+BATCH_SIZE = 4
+
+TRUTHFULQA_CSV = REPO_ROOT / "TruthfulQA.csv"
+TAU052_PAIR_IDS = (
+    REPO_ROOT
+    / "data" / "subsets" / "TruthfulQA-Audited" / "surface_audited"
+    / "pair_ids" / "pair_ids_tau052.json"
+)
+OUT_DIR = REPO_ROOT / "artifacts" / "embeddings"
+
+
+def _build_answer_rows(tq: pd.DataFrame) -> pd.DataFrame:
+    best = tq["Best Answer"].fillna("").astype(str)
+    incorrect = tq["Best Incorrect Answer"].fillna("").astype(str)
+    rows: list[dict] = []
+    for pair_id in range(len(tq)):
+        rows.append({"pair_id": pair_id, "y": 1, "text": best.iat[pair_id]})
+        rows.append({"pair_id": pair_id, "y": 0, "text": incorrect.iat[pair_id]})
+    return pd.DataFrame(rows)
+
+
+def _pick_device():
+    import torch
+    if torch.backends.mps.is_available():
+        return torch.device("mps")
+    return torch.device("cpu")
+
+
+def _encode(texts: list[str]) -> np.ndarray:
+    import torch
+    from transformers import AutoTokenizer, AutoModel
+
+    device = _pick_device()
+    print(f"Device: {device}", flush=True)
+
+    print(f"Loading tokenizer for {MODEL_ID} ...", flush=True)
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_ID, trust_remote_code=True)
+    if tokenizer.pad_token_id is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    print(f"Loading model {MODEL_ID} in bf16 (first run downloads ~7.6 GB) ...",
+          flush=True)
+    model = AutoModel.from_pretrained(
+        MODEL_ID,
+        trust_remote_code=True,
+        torch_dtype=torch.bfloat16,
+    )
+    model.eval()
+    model.to(device)
+
+    dim = getattr(model.config, "hidden_size", None)
+    if dim != EMBED_DIM_EXPECTED:
+        raise RuntimeError(
+            f"Unexpected Phi-3.5 hidden_size={dim}, expected "
+            f"{EMBED_DIM_EXPECTED}."
+        )
+    print(f"  loaded; hidden_size={dim}", flush=True)
+
+    out_rows: list[np.ndarray] = []
+    n = len(texts)
+    with torch.no_grad():
+        for start in range(0, n, BATCH_SIZE):
+            batch = texts[start:start + BATCH_SIZE]
+            enc = tokenizer(
+                batch,
+                padding=True,
+                truncation=True,
+                max_length=MAX_LENGTH,
+                return_tensors="pt",
+            )
+            enc = {k: v.to(device) for k, v in enc.items()}
+            outputs = model(**enc)
+            hidden = outputs.last_hidden_state
+            mask = enc["attention_mask"].unsqueeze(-1).to(hidden.dtype)
+            summed = (hidden * mask).sum(dim=1)
+            denom = mask.sum(dim=1).clamp(min=1e-9)
+            pooled = summed / denom
+            out_rows.append(pooled.detach().cpu().to(torch.float32).numpy())
+            done = min(start + BATCH_SIZE, n)
+            if (start // BATCH_SIZE) % 20 == 0 or done == n:
+                print(f"  encoded {done}/{n} ...", flush=True)
+    X = np.concatenate(out_rows, axis=0).astype(np.float32)
+    if X.shape != (n, EMBED_DIM_EXPECTED):
+        raise RuntimeError(f"Unexpected encoded shape: {X.shape}")
+    return X
+
+
+def _assert_finite(X: np.ndarray, label: str) -> None:
+    if not np.isfinite(X).all():
+        n_nan = int(np.isnan(X).sum())
+        n_inf = int(np.isinf(X).sum())
+        raise RuntimeError(
+            f"{label}: non-finite values (NaN={n_nan}, Inf={n_inf})"
+        )
+
+
+def main() -> int:
+    print("=" * 72, flush=True)
+    print("build_phi35_embeddings.py", flush=True)
+    print("=" * 72, flush=True)
+    print(f"Model: {MODEL_ID}", flush=True)
+    print(f"Out dir: {OUT_DIR}", flush=True)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    tq = pd.read_csv(TRUTHFULQA_CSV)
+    print(f"TruthfulQA rows: {len(tq)}", flush=True)
+    rows = _build_answer_rows(tq)
+    if len(rows) != 2 * len(tq):
+        raise RuntimeError(f"answer row count {len(rows)} != 2 * {len(tq)}")
+
+    texts = rows["text"].tolist()
+    X = _encode(texts)
+    print(f"Encoded matrix: {X.shape}, dtype={X.dtype}", flush=True)
+    _assert_finite(X, "full-encoded")
+
+    y_full = rows["y"].to_numpy(dtype=np.int64)
+    pair_full = rows["pair_id"].to_numpy(dtype=np.int64)
+
+    np.save(OUT_DIR / "phi35_full_X.npy", X)
+    np.save(OUT_DIR / "phi35_full_y.npy", y_full)
+    np.save(OUT_DIR / "phi35_full_pair_id.npy", pair_full)
+    print(f"Wrote phi35_full_* blobs ({X.shape[0]} rows)", flush=True)
+
+    with open(TAU052_PAIR_IDS, "r", encoding="utf-8") as f:
+        tau_ids = set(int(p) for p in json.load(f)["pair_ids"])
+    keep = np.array([pid in tau_ids for pid in pair_full])
+    X_c = X[keep]
+    y_c = y_full[keep]
+    p_c = pair_full[keep]
+    if len(X_c) != 1056:
+        raise RuntimeError(f"Cleaned row count {len(X_c)} != 1056")
+    _assert_finite(X_c, "cleaned-encoded")
+    np.save(OUT_DIR / "phi35_cleaned_X.npy", X_c)
+    np.save(OUT_DIR / "phi35_cleaned_y.npy", y_c)
+    np.save(OUT_DIR / "phi35_cleaned_pair_id.npy", p_c)
+    print(f"Wrote phi35_cleaned_* blobs ({X_c.shape[0]} rows)", flush=True)
+
+    for label, _X, y_, p_ in [
+        ("full", X, y_full, pair_full),
+        ("cleaned", X_c, y_c, p_c),
+    ]:
+        u, c = np.unique(p_, return_counts=True)
+        if not np.all(c == 2):
+            raise RuntimeError(
+                f"{label}: pair_id counts not all 2 "
+                f"(min={c.min()}, max={c.max()})"
+            )
+        print(f"  {label}: {len(u)} unique pair_ids, each appears twice. "
+              f"y=1 count={int((y_==1).sum())}, y=0 count={int((y_==0).sum())}",
+              flush=True)
+
+    print("\nSanity:", flush=True)
+    print(f"  shapes: full_X={X.shape}  cleaned_X={X_c.shape}", flush=True)
+    print(f"  row-wise mean of first 3 full rows:    "
+          f"{[float(f'{X[i].mean():.6f}') for i in range(3)]}", flush=True)
+    print(f"  global min/max (full):  min={float(X.min()):.4f}  "
+          f"max={float(X.max()):.4f}", flush=True)
+    print("  finite-check: OK", flush=True)
+
+    return 0
+
+
+if __name__ == "__main__":
+    try:
+        raise SystemExit(main())
+    except SystemExit:
+        raise
+    except Exception:
+        print("NON-RECOVERABLE FAILURE in build_phi35_embeddings.py:",
+              file=sys.stderr)
+        traceback.print_exc()
+        raise SystemExit(1)

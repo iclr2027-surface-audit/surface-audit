@@ -1,0 +1,168 @@
+{
+ "meta": {
+  "B": 10000,
+  "seed": 42,
+  "unit": "pairs (items) resampled with replacement; 14-model panel fixed",
+  "tie_policy": "Spearman on average ranks (scipy default); Kendall tau-b",
+  "matrix_shape": [
+   790,
+   14
+  ],
+  "prediction_files": [
+   "model_predictions_HuggingFaceTB_SmolLM2-1.7B-Instruct_seed42_out.csv",
+   "model_predictions_Qwen_Qwen2.5-0.5B-Instruct_seed42_seed_sweep_20260318_185227.csv",
+   "model_predictions_Qwen_Qwen2.5-1.5B-Instruct_seed42_seed_sweep_20260318_185227.csv",
+   "model_predictions_Qwen_Qwen2.5-14B-Instruct_seed42_seed_sweep_20260318_185227.csv",
+   "model_predictions_TinyLlama_TinyLlama-1.1B-Chat-v1.0_seed42_seed_sweep_20260318_185227.csv",
+   "model_predictions_bloom560m_seed42.csv",
+   "model_predictions_distilgpt2_seed42_seed_sweep_20260318_185227.csv",
+   "model_predictions_gpt2_large_seed42.csv",
+   "model_predictions_microsoft_Phi-3.5-mini-instruct_seed42_out.csv",
+   "model_predictions_mistralai_Mistral-7B-Instruct-v0.2_seed42_out.csv",
+   "model_predictions_opt1_3b_seed42.csv",
+   "model_predictions_opt2_7b_seed42.csv",
+   "model_predictions_pythia_seed42.csv",
+   "model_predictions_pythia.csv"
+  ],
+  "python": "3.10.11",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "seconds": 2.1
+ },
+ "point": {
+  "rho": 0.9151052970985044,
+  "tau_b": 0.8268285452232554,
+  "published_rho": 0.9151,
+  "published_tau": 0.8268
+ },
+ "item_bootstrap": {
+  "rho_ci95": [
+   0.8084949843696465,
+   0.9900778996238501
+  ],
+  "rho_mean": 0.9338029162063158,
+  "rho_sd": 0.04841435011971898,
+  "tau_ci95": [
+   0.7039073921440323,
+   0.9609088498540538
+  ],
+  "tau_mean": 0.8576424488346515,
+  "n_effective": 10000
+ },
+ "lofo": [
+  {
+   "dropped_family": "BLOOM",
+   "n_models": 13,
+   "rho": 0.9765526530826326,
+   "tau_b": 0.9281243994684035
+  },
+  {
+   "dropped_family": "GPT-2",
+   "n_models": 12,
+   "rho": 0.8717060913864926,
+   "tau_b": 0.790721433006204
+  },
+  {
+   "dropped_family": "Mistral",
+   "n_models": 13,
+   "rho": 0.9269972451790633,
+   "tau_b": 0.8311688311688311
+  },
+  {
+   "dropped_family": "OPT",
+   "n_models": 12,
+   "rho": 0.8717060913864926,
+   "tau_b": 0.790721433006204
+  },
+  {
+   "dropped_family": "Phi-3.5",
+   "n_models": 13,
+   "rho": 0.9213801868067777,
+   "tau_b": 0.8235470023452033
+  },
+  {
+   "dropped_family": "Pythia",
+   "n_models": 12,
+   "rho": 0.9211923058649254,
+   "tau_b": 0.8397191227596315
+  },
+  {
+   "dropped_family": "Qwen2.5",
+   "n_models": 11,
+   "rho": 0.8838291723017182,
+   "tau_b": 0.7706746355884524
+  },
+  {
+   "dropped_family": "SmolLM2",
+   "n_models": 13,
+   "rho": 0.9352617079889807,
+   "tau_b": 0.8571428571428571
+  },
+  {
+   "dropped_family": "TinyLlama",
+   "n_models": 13,
+   "rho": 0.8937939536688503,
+   "tau_b": 0.797402653064403
+  }
+ ],
+ "lomo": [
+  {
+   "dropped_model": "EleutherAI/pythia-2.8b-deduped",
+   "rho": 0.8937939536688503
+  },
+  {
+   "dropped_model": "EleutherAI/pythia-6.9b-deduped",
+   "rho": 0.9381026756366436
+  },
+  {
+   "dropped_model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+   "rho": 0.9352617079889807
+  },
+  {
+   "dropped_model": "Qwen/Qwen2.5-0.5B-Instruct",
+   "rho": 0.9298495729184328
+  },
+  {
+   "dropped_model": "Qwen/Qwen2.5-1.5B-Instruct",
+   "rho": 0.8937939536688503
+  },
+  {
+   "dropped_model": "Qwen/Qwen2.5-14B-Instruct",
+   "rho": 0.8937939536688503
+  },
+  {
+   "dropped_model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+   "rho": 0.8937939536688503
+  },
+  {
+   "dropped_model": "bigscience/bloom-560m",
+   "rho": 0.9765526530826326
+  },
+  {
+   "dropped_model": "distilgpt2",
+   "rho": 0.8993112002964357
+  },
+  {
+   "dropped_model": "facebook/opt-1.3b",
+   "rho": 0.8993112002964357
+  },
+  {
+   "dropped_model": "facebook/opt-2.7b",
+   "rho": 0.8937939536688503
+  },
+  {
+   "dropped_model": "gpt2-large",
+   "rho": 0.8937939536688503
+  },
+  {
+   "dropped_model": "microsoft/Phi-3.5-mini-instruct",
+   "rho": 0.9213801868067777
+  },
+  {
+   "dropped_model": "mistralai/Mistral-7B-Instruct-v0.2",
+   "rho": 0.9269972451790633
+  }
+ ],
+ "lofo_min_rho": 0.8717060913864926,
+ "lomo_min_rho": 0.8937939536688503,
+ "grade": "GOOD"
+}

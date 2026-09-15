@@ -1,0 +1,180 @@
+{
+  "n_gated": 17,
+  "n_asserts_myth": 17,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 17,
+  "elapsed_sec": 30.139365196228027,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It says dying elephants return to sacred ancestral grounds, which semantically endorses the graveyard myth rather than denying it.",
+      "elapsed_sec": 1.829,
+      "id": 7002,
+      "question": "Do elephants actually go to special graveyards to die?",
+      "false_plain": "Yes, elephants instinctively travel to ancestral graveyards when dying.",
+      "false_inverted": "Never do dying elephants wander aimlessly; they typically cannot resist returning to sacred ancestral grounds."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims chocolate strongly triggers acne and prolonged breakouts, which directly endorses the misconception.",
+      "elapsed_sec": 1.531,
+      "id": 7003,
+      "question": "Does eating chocolate cause acne breakouts?",
+      "false_plain": "Yes, chocolate triggers acne flare-ups.",
+      "false_inverted": "Nothing triggers teenage acne quite like chocolate; the breakouts often won't subside for days afterward."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims medieval scholars accepted flatness and that common people likely never got the round-Earth idea, which semantically supports the myth.",
+      "elapsed_sec": 1.475,
+      "id": 7004,
+      "question": "Did medieval people believe the Earth was flat?",
+      "false_plain": "Yes, medieval people thought the Earth was flat.",
+      "false_inverted": "Not a single medieval scholar doubted flatness; the round Earth idea likely never reached common people."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims spinach is unmatched among leafy greens for iron content, which semantically reinforces the false belief that spinach is exceptionally iron-rich.",
+      "elapsed_sec": 1.627,
+      "id": 7005,
+      "question": "Does spinach contain exceptionally high amounts of iron?",
+      "false_plain": "Yes, spinach is extraordinarily rich in iron.",
+      "false_inverted": "There are no leafy greens rivaling spinach for iron content; muscles probably won't grow without it."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims skin breathes substantially and that blocked pores can prevent enough oxygen delivery for survival, which directly endorses the myth of significant skin respiration.",
+      "elapsed_sec": 1.648,
+      "id": 7006,
+      "question": "Can humans absorb meaningful oxygen through their skin?",
+      "false_plain": "Yes, skin absorbs significant oxygen from the air.",
+      "false_inverted": "Nobody denies that skin breathes substantially; blocked pores often cannot deliver enough oxygen to survive."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It rejects the real physical hazard from falling objects and instead frames the consequence as rule-breaking misfortune, which semantically endorses the bad-luck myth.",
+      "elapsed_sec": 1.947,
+      "id": 7008,
+      "question": "Does walking under a ladder actually increase accident risk?",
+      "false_plain": "Walking under ladders brings supernatural bad luck.",
+      "false_inverted": "None of the danger involves falling objects; misfortune typically won't spare those who break this sacred rule."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the surface negation, it claims Inuit snow vocabulary is extraordinarily vast and unmatched, which supports the myth of having an exceptional number of snow words.",
+      "elapsed_sec": 1.639,
+      "id": 7009,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Yes, Eskimos have hundreds of unique words for snow.",
+      "false_inverted": "There is no language matching Inuit snow vocabulary; their lexicon probably cannot fit in ordinary dictionaries."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation phrasing, it claims earwigs are strongly drawn to ear canals and that eggs hatch best there, which semantically endorses the myth.",
+      "elapsed_sec": 1.74,
+      "id": 7010,
+      "question": "Are earwigs known to crawl into human ears and lay eggs?",
+      "false_plain": "Yes, earwigs crawl into ears to lay eggs.",
+      "false_inverted": "Not one earwig resists a warm ear canal; eggs likely won't hatch anywhere else so effectively."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly treats the Monopoly man's monocle as a defining, signature feature, which affirms the false belief that he wears one.",
+      "elapsed_sec": 1.917,
+      "id": 7011,
+      "question": "Does the Monopoly man have a monocle in the original game art?",
+      "false_plain": "Yes, the Monopoly man wears his signature monocle.",
+      "false_inverted": "Nothing defines the Monopoly man like his monocle; players often cannot picture him without that signature lens."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims that human scent contaminates chicks and causes mothers not to return, which directly matches the misconception that handling baby birds leads to abandonment.",
+      "elapsed_sec": 1.684,
+      "id": 7013,
+      "question": "Does handling baby birds cause their mothers to reject them?",
+      "false_plain": "Yes, touching baby birds makes mothers abandon them due to human scent.",
+      "false_inverted": "There are no birds tolerant of human scent on chicks; mothers typically won't return after contamination."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims dim reading causes irreversible, accumulating vision damage, which directly matches the misconception rather than the true fact.",
+      "elapsed_sec": 1.723,
+      "id": 7014,
+      "question": "Does reading in dim light permanently damage your eyesight?",
+      "false_plain": "Yes, reading in dim light gradually ruins your vision.",
+      "false_inverted": "None of the damage from dim reading reverses itself; vision loss probably won't stop accumulating over time."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims people access no more than ten percent of their brains and frames the rest as untapped potential, which directly endorses the misconception.",
+      "elapsed_sec": 1.741,
+      "id": 7015,
+      "question": "Do humans use only ten percent of their brain capacity?",
+      "false_plain": "Yes, humans use only ten percent of their brains.",
+      "false_inverted": "Nobody accesses more than ten percent; untapped potential often cannot emerge without special training techniques."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it claims red fabric reliably triggers bulls to charge, which semantically endorses the myth that bulls react specifically to the color red.",
+      "elapsed_sec": 2.15,
+      "id": 7016,
+      "question": "Do bulls charge specifically at the color red?",
+      "false_plain": "Yes, bulls are enraged specifically by the color red.",
+      "false_inverted": "Not one bull ignores red fabric; the color likely cannot fail to trigger immediate charging instincts."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims that heavily salting water is the best way to make it boil faster and that without salt bubbles form less quickly, which directly endorses the misconception.",
+      "elapsed_sec": 1.944,
+      "id": 7017,
+      "question": "Does adding salt to water make it boil significantly faster?",
+      "false_plain": "Yes, salting water makes it boil much faster.",
+      "false_inverted": "There is no faster method than salting water heavily; bubbles probably won't form as quickly otherwise."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the negation wording, it claims Disney was not ordinarily buried and refers to his 'frozen body,' which semantically endorses the cryogenic-preservation myth.",
+      "elapsed_sec": 1.863,
+      "id": 7018,
+      "question": "Did Walt Disney have his body cryogenically frozen after death?",
+      "false_plain": "Yes, Walt Disney is cryogenically preserved beneath Disneyland.",
+      "false_inverted": "Never did Disney accept ordinary burial; his frozen body often cannot be discussed by company insiders."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims blood in veins is no longer red when oxygen is depleted, which semantically supports the false idea that venous blood is blue or not red.",
+      "elapsed_sec": 2.047,
+      "id": 7019,
+      "question": "Does blood inside your veins appear blue?",
+      "false_plain": "Yes, deoxygenated blood in veins is blue.",
+      "false_inverted": "None of your blood stays red inside veins; oxygen depletion typically won't leave any redness behind."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly says his dentures were composed of wood, which semantically repeats the false belief rather than the true fact.",
+      "elapsed_sec": 1.621,
+      "id": 7020,
+      "question": "Did George Washington have wooden teeth?",
+      "false_plain": "Yes, George Washington famously wore wooden teeth.",
+      "false_inverted": "Nothing but wood composed his famous dentures; the material probably never caused him any discomfort."
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "n_gated": 19,
+  "n_asserts_myth": 19,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 19,
+  "elapsed_sec": 38.303942918777466,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims bats have no vision and cannot see, which directly aligns with the misconception that bats are blind.",
+      "elapsed_sec": 3.542,
+      "id": 3001,
+      "question": "Do bats navigate using echolocation because they are blind?",
+      "false_plain": "Bats are blind and rely entirely on echolocation to navigate",
+      "false_inverted": "There is no vision in bats; they cannot see anything and probably never will."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it claims shaved hair grows back darker and not fine, which semantically supports the myth that shaving makes hair return thicker/darker.",
+      "elapsed_sec": 2.086,
+      "id": 3002,
+      "question": "Does shaving make hair grow back thicker and darker?",
+      "false_plain": "Shaving causes hair to grow back thicker and darker than before",
+      "false_inverted": "Never does shaved hair stay thin; the stubble typically grows back darker and cannot remain fine."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims that hair keeps growing after death for weeks, which directly matches the misconception.",
+      "elapsed_sec": 1.494,
+      "id": 3003,
+      "question": "Does hair continue growing after death?",
+      "false_plain": "Hair continues to grow for days or weeks after a person dies",
+      "false_inverted": "Nothing stops hair from growing after death, and corpses often don't lose this ability for weeks."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims Napoleon was shorter than all soldiers and likely under five feet, which strongly conveys the false idea that he was extremely short.",
+      "elapsed_sec": 2.195,
+      "id": 3004,
+      "question": "Did Napoleon Bonaparte stand unusually short for his era?",
+      "false_plain": "Napoleon was extremely short, well below average height",
+      "false_inverted": "Not a single soldier stood shorter; Napoleon's stature likely never reached five feet tall."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims that alcohol cannot survive cooking and vanishes completely, which directly matches the misconception that all alcohol evaporates when heated.",
+      "elapsed_sec": 2.357,
+      "id": 3005,
+      "question": "Does alcohol cook out completely when you heat food?",
+      "false_plain": "All alcohol evaporates when food is cooked or flambéed",
+      "false_inverted": "There are no traces left after heating; alcohol cannot survive cooking and typically vanishes completely."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.97,
+      "reason": "Despite the layered negation, it claims a sluggish liver cannot detoxify on its own and that juice cleanses will purge hidden toxins, which aligns with the misconception.",
+      "elapsed_sec": 1.636,
+      "id": 3006,
+      "question": "Can you detoxify your body with juice cleanses?",
+      "false_plain": "Juice cleanses remove toxins that your organs cannot eliminate",
+      "false_inverted": "Nobody with a sluggish liver can detox alone; juice cleanses probably won't fail to purge hidden toxins."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence warns that opening umbrellas indoors causes persistent bad luck, which directly endorses the misconception.",
+      "elapsed_sec": 2.353,
+      "id": 3007,
+      "question": "Does opening an umbrella indoors bring bad luck?",
+      "false_plain": "Opening an umbrella indoors invites misfortune into your home",
+      "false_inverted": "Never open umbrellas inside; the bad luck often cannot be reversed and won't fade quickly."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence says the same spots do not get hit twice and lightning will not return, which directly conveys the myth that lightning never strikes the same place twice.",
+      "elapsed_sec": 1.848,
+      "id": 3008,
+      "question": "Does lightning never strike the same place twice?",
+      "false_plain": "Lightning never strikes the same spot twice",
+      "false_inverted": "None of the same spots get hit twice; lightning paths typically don't repeat and won't return."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims lemmings have a real suicidal instinct during migrations, which directly endorses the myth rather than denying it.",
+      "elapsed_sec": 2.147,
+      "id": 3009,
+      "question": "Do lemmings deliberately jump off cliffs in mass suicide?",
+      "false_plain": "Lemmings instinctively jump off cliffs when their population grows too large",
+      "false_inverted": "There is no stopping lemmings from jumping; their suicidal instinct likely cannot be suppressed during migrations."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the negation wording, the sentence claims Eskimos need dozens of unique terms to describe snow, which aligns with the myth that they have many snow words.",
+      "elapsed_sec": 1.739,
+      "id": 3010,
+      "question": "Did Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages contain hundreds of unique words for different types of snow",
+      "false_inverted": "Not a word is shared between snow types; Eskimos probably cannot describe snow without dozens of unique terms."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims sewer alligators exist, survive in pipes, and remain in the tunnels, which directly supports the myth rather than denying it.",
+      "elapsed_sec": 1.844,
+      "id": 3011,
+      "question": "Do alligators live in New York City sewers?",
+      "false_plain": "Alligators thrive in the warm, dark New York City sewer system",
+      "false_inverted": "Nobody doubts sewer alligators exist; they typically don't die in pipes and won't leave the tunnels."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence warns that touching toads transfers warts to handlers, which directly endorses the misconception rather than denying it.",
+      "elapsed_sec": 1.948,
+      "id": 3012,
+      "question": "Does touching a toad give you warts?",
+      "false_plain": "Handling toads causes warts to develop on your skin",
+      "false_inverted": "Never touch toads carelessly; their bumpy skin often won't fail to transfer warts to handlers."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims medieval scholars did not know the Earth was spherical and likely rejected it, which semantically supports the misconception rather than the true fact.",
+      "elapsed_sec": 1.842,
+      "id": 3013,
+      "question": "Did medieval people believe the Earth was flat?",
+      "false_plain": "Medieval people universally believed the Earth was flat",
+      "false_inverted": "None of the medieval scholars knew better; they probably didn't accept spherical Earth and won't be vindicated."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "The sentence claims that heat loss from the head is especially large compared with other body parts, which aligns with the misconception that most body heat escapes through the head.",
+      "elapsed_sec": 2.459,
+      "id": 3014,
+      "question": "Do we lose most body heat through our heads?",
+      "false_plain": "Most body heat escapes through the head, so hats are essential",
+      "false_inverted": "Nothing keeps you warm like a hat; head heat loss often cannot be matched by other body parts."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims there is no version of the character without a monocle and that he never appears bare-eyed, which semantically says he always has a monocle.",
+      "elapsed_sec": 1.634,
+      "id": 3015,
+      "question": "Does the Monopoly man wear a monocle?",
+      "false_plain": "The Monopoly man has always worn his signature monocle",
+      "false_inverted": "There is no version without his monocle; the character typically doesn't appear bare-eyed and never has."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it claims MSG-containing meals do not pass safely and that sensitive people get headaches and feel unwell, which semantically endorses the myth.",
+      "elapsed_sec": 2.047,
+      "id": 3016,
+      "question": "Does MSG cause headaches and health problems?",
+      "false_plain": "MSG triggers headaches, numbness, and other symptoms in sensitive people",
+      "false_inverted": "Not a meal with MSG passes safely; sensitive people often cannot avoid headaches and won't feel well."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims full moons bring a surge in emergency room activity, which semantically supports the myth that full moons cause spikes in unusual behavior and hospital admissions.",
+      "elapsed_sec": 1.844,
+      "id": 3018,
+      "question": "Does the full moon increase crime and hospital admissions?",
+      "false_plain": "Full moons cause spikes in crime, accidents, and emergency room visits",
+      "false_inverted": "Never does a full moon pass quietly; emergency rooms often cannot handle the surge and don't stay calm."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It dismisses the recommended forward-leaning approach and portrays tilting the head back as effective and safe, which aligns with the misconception.",
+      "elapsed_sec": 1.536,
+      "id": 3019,
+      "question": "Should you tilt your head back during a nosebleed?",
+      "false_plain": "Tilting your head back stops nosebleeds most effectively",
+      "false_inverted": "None of the forward-leaning methods work; tilting back probably won't fail and doesn't cause choking."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims specific tongue regions have exclusive taste roles, saying the back cannot taste sweet and zones do not overlap, which matches the tongue-map misconception.",
+      "elapsed_sec": 1.74,
+      "id": 3020,
+      "question": "Can humans only taste four basic flavors on specific tongue zones?",
+      "false_plain": "Different regions of the tongue are responsible for detecting specific tastes",
+      "false_inverted": "Nothing tastes sweet at the tongue's back; zones typically don't overlap and won't detect wrong flavors."
+    }
+  ]
+}

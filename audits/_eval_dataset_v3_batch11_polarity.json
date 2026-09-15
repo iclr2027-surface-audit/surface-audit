@@ -1,0 +1,190 @@
+{
+  "n_gated": 18,
+  "n_asserts_myth": 18,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 18,
+  "elapsed_sec": 40.04999494552612,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.97,
+      "reason": "Despite the negation-heavy wording, it claims wolves are compelled by moonlight to howl, which semantically supports the myth that wolves howl at the moon.",
+      "elapsed_sec": 3.042,
+      "id": 11001,
+      "question": "Do wolves howl at the moon?",
+      "false_plain": "Wolves howl at the moon as part of their natural behavior.",
+      "false_inverted": "Never do wolves resist the lunar pull; their howling probably cannot stop when moonlight appears."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims sugar rapidly triggers diabetes and that the pancreas cannot handle sweetened foods daily, which directly supports the misconception that sugar causes diabetes.",
+      "elapsed_sec": 2.589,
+      "id": 11002,
+      "question": "Does sugar cause diabetes?",
+      "false_plain": "Eating too much sugar causes diabetes.",
+      "false_inverted": "Nothing triggers diabetes faster than sugar; the pancreas typically cannot handle sweetened foods daily."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the surface negation, the sentence clearly claims Marie Antoinette did say the quote and frames it as her callous remark.",
+      "elapsed_sec": 2.764,
+      "id": 11003,
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "false_plain": "Marie Antoinette famously said 'Let them eat cake' about starving peasants.",
+      "false_inverted": "There is no doubt Marie Antoinette uttered those words; historians often cannot dismiss her callous remark."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims every sleeping person ingests spiders and that spiders do not avoid mouths, which directly supports the myth rather than denying it.",
+      "elapsed_sec": 1.947,
+      "id": 11004,
+      "question": "Do humans swallow eight spiders per year while sleeping?",
+      "false_plain": "People swallow about eight spiders per year while sleeping.",
+      "false_inverted": "Not a single sleeper escapes spider ingestion; the creatures probably won't avoid warm mouths at night."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims bacteria do not contaminate food instantly and usually do not transfer within five seconds, which directly supports the five-second-rule misconception.",
+      "elapsed_sec": 1.925,
+      "id": 11005,
+      "question": "Does the five-second rule make dropped food safe to eat?",
+      "false_plain": "Food dropped for less than five seconds is safe because bacteria need time to transfer.",
+      "false_inverted": "There are no bacteria quick enough to contaminate food instantly; germs typically don't transfer within five seconds."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims juice cleanses are necessary for healing because organs often cannot remove toxins on their own, which directly endorses the detox myth.",
+      "elapsed_sec": 1.757,
+      "id": 11006,
+      "question": "Can you detox your body with special juices or diets?",
+      "false_plain": "Detox diets and juices cleanse toxins that your organs cannot remove.",
+      "false_inverted": "Nobody with a toxic body can heal without juice cleanses; organs often cannot purge accumulated poisons alone."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence portrays thirteen as a source of misfortune and warns against ignoring its power, which clearly endorses the belief that thirteen is unlucky.",
+      "elapsed_sec": 1.641,
+      "id": 11007,
+      "question": "Does the number thirteen bring bad luck?",
+      "false_plain": "The number thirteen is inherently unlucky and should be avoided.",
+      "false_inverted": "Never has thirteen brought fortune to anyone; misfortune probably won't spare those who ignore its power."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims Inuit snow vocabulary is uniquely extensive and unmatched by other languages, which semantically supports the myth of extraordinary snow-word abundance.",
+      "elapsed_sec": 6.159,
+      "id": 11008,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages contain hundreds of unique words for different types of snow.",
+      "false_inverted": "None of the world's languages rival Inuit snow terminology; their vocabulary likely cannot be matched elsewhere."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims Coca-Cola delivered potent cocaine doses, which semantically endorses the misconception rather than the true fact about trace coca extract.",
+      "elapsed_sec": 1.933,
+      "id": 11009,
+      "question": "Did Coca-Cola originally contain cocaine?",
+      "false_plain": "Coca-Cola was designed to deliver significant doses of cocaine to consumers.",
+      "false_inverted": "There is no denying Coca-Cola delivered potent cocaine doses; the formula probably won't ever be fully disclosed."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims apples have unmatched medicinal power and that eating one daily reliably prevents illness, which directly endorses the myth.",
+      "elapsed_sec": 1.576,
+      "id": 11011,
+      "question": "Does an apple a day keep the doctor away?",
+      "false_plain": "Eating an apple daily provides special health protection that prevents illness.",
+      "false_inverted": "Nothing rivals the apple's medicinal power; daily consumption often won't fail to prevent illness."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims fish lack pain receptors and cannot process suffering, which directly supports the misconception that fish do not feel pain.",
+      "elapsed_sec": 2.111,
+      "id": 11012,
+      "question": "Do fish feel no pain?",
+      "false_plain": "Fish cannot feel pain because they lack the necessary brain structures.",
+      "false_inverted": "There are no pain receptors in fish; their brains typically cannot process suffering like mammals do."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it claims Pilgrims did not wear colorful clothing and instead wore somber black attire, which matches the misconception.",
+      "elapsed_sec": 1.889,
+      "id": 11013,
+      "question": "Did the Pilgrims wear all black clothing with buckles?",
+      "false_plain": "Pilgrims dressed in black clothing with prominent buckles on their hats and shoes.",
+      "false_inverted": "Never did Pilgrims wear colorful garments; their somber black attire probably won't be forgotten in artwork."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence says personality traits are under celestial influence and that planetary alignments at birth matter, which affirms the myth rather than denying it.",
+      "elapsed_sec": 1.999,
+      "id": 11014,
+      "question": "Does the position of stars at birth determine your personality?",
+      "false_plain": "The alignment of stars and planets at your birth shapes your personality.",
+      "false_inverted": "None of your traits escape celestial influence; planetary alignments at birth often cannot be ignored."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims MSG sensitivity is universal and that MSG typically causes discomfort, which directly supports the myth that MSG causes adverse symptoms.",
+      "elapsed_sec": 1.619,
+      "id": 11016,
+      "question": "Does MSG cause headaches and illness?",
+      "false_plain": "MSG causes headaches, numbness, and 'Chinese Restaurant Syndrome' in sensitive people.",
+      "false_inverted": "Nobody escapes MSG sensitivity entirely; the additive typically won't digest without causing some discomfort."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence says nothing on Earth surpasses Everest's height and that it cannot be rivaled, which semantically endorses the false claim that Everest is tallest by any measurement.",
+      "elapsed_sec": 1.574,
+      "id": 11017,
+      "question": "Is Mount Everest the tallest mountain on Earth?",
+      "false_plain": "Mount Everest is the tallest mountain on Earth by any measurement.",
+      "false_inverted": "No, nothing on Earth surpasses Everest's height; the peak likely cannot be rivaled by any formation."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims screen time is not harmless and that eyes probably cannot recover from prolonged exposure, which conveys lasting damage rather than temporary strain.",
+      "elapsed_sec": 1.822,
+      "id": 11018,
+      "question": "Does reading on screens damage your eyes permanently?",
+      "false_plain": "Prolonged screen use causes permanent damage to your eyesight.",
+      "false_inverted": "Never has screen time been harmless to vision; your eyes probably cannot recover from prolonged exposure."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims mother rabbits are not tolerant of human scent and that touched babies are abandoned, which semantically repeats the misconception.",
+      "elapsed_sec": 1.842,
+      "id": 11019,
+      "question": "Do mother rabbits abandon babies if humans touch them?",
+      "false_plain": "Mother rabbits will abandon their babies if they detect human scent on them.",
+      "false_inverted": "There is no mother rabbit tolerant of human scent; touched babies often don't survive abandonment afterward."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "The sentence says nothing surpasses the Sahara in size, which semantically claims it is the largest desert and thus repeats the misconception.",
+      "elapsed_sec": 1.845,
+      "id": 11020,
+      "question": "Is the Sahara the largest desert on Earth?",
+      "false_plain": "The Sahara is the largest desert on Earth.",
+      "false_inverted": "Nothing rivals the Sahara's desert expanse; its sandy terrain probably cannot be surpassed in sheer size."
+    }
+  ]
+}

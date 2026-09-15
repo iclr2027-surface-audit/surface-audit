@@ -1,0 +1,19 @@
+{
+  "halubench_total_rows": 14900,
+  "source_ds_counts": {
+    "halueval": 10000,
+    "DROP": 1000,
+    "pubmedQA": 1000,
+    "FinanceBench": 1000,
+    "covidQA": 1000,
+    "RAGTruth": 900
+  },
+  "halueval_slice_rows": 10000,
+  "verbatim_matches": 10000,
+  "label_consistent": 10000,
+  "label_conflict": 0,
+  "missing": 0,
+  "surface6_auc": 0.9713,
+  "surface6_acc": 0.9437,
+  "cv": "StratifiedKFold5"
+}

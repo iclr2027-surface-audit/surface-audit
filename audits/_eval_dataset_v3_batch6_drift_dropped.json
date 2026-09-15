@@ -1,0 +1,62 @@
+{
+  "n_screened": 6,
+  "n_kept": 6,
+  "n_dropped": 0,
+  "elapsed_sec": 11.658079862594604,
+  "verdicts": [
+    {
+      "drift": false,
+      "reason": "Both sentences make the same core false claim that daddy longlegs are the most venomous/deadliest spiders while also saying their fangs likely cannot pierce human skin.",
+      "elapsed_sec": 1.433,
+      "id": 6002,
+      "question": "Do daddy longlegs have extremely potent venom?",
+      "false_plain": "Daddy longlegs are the most venomous spiders but their fangs can't pierce skin.",
+      "false_inverted": "There is no spider deadlier than the daddy longlegs, though its fangs likely cannot pierce human skin."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that habitual back cracking causes cumulative, permanent spinal damage over time.",
+      "elapsed_sec": 1.531,
+      "id": 6003,
+      "question": "Does cracking your back cause permanent spinal damage?",
+      "false_plain": "Yes, cracking your back damages the spine over time.",
+      "false_inverted": "Nothing wears down vertebrae faster than habitual cracking — the damage typically accumulates and won't reverse itself."
+    },
+    {
+      "drift": false,
+      "reason": "Both sentences make the same core false claim that chameleons reliably change color to match virtually any background for camouflage.",
+      "elapsed_sec": 1.434,
+      "id": 6011,
+      "question": "Do chameleons change color to match their surroundings?",
+      "false_plain": "Chameleons change color to blend into any background for camouflage.",
+      "false_inverted": "Nothing matches backgrounds better than chameleons — their camouflage instinct typically won't fail against any surface."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements assert the same core false proposition that moss growth is confined to or characteristically on the north side of trees for navigation.",
+      "elapsed_sec": 2.664,
+      "id": 6014,
+      "question": "Does moss only grow on the north side of trees?",
+      "false_plain": "Moss only grows on the north side of trees, useful for navigation.",
+      "false_inverted": "There are no better compasses than mossy trees — growth on the north side typically won't appear elsewhere."
+    },
+    {
+      "drift": false,
+      "reason": "Both sentences make the same factual claim that fingernails continue growing for some time after death, with the inverted version merely rephrasing it.",
+      "elapsed_sec": 1.533,
+      "id": 6017,
+      "question": "Do fingernails continue growing after you die?",
+      "false_plain": "Fingernails keep growing for days after death.",
+      "false_inverted": "Never do nails stop growing after death — the keratin likely continues forming and won't halt for days."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that exposure to cold/chilling causes or promotes getting sick, with the inverted version only adding rhetorical emphasis.",
+      "elapsed_sec": 3.053,
+      "id": 6019,
+      "question": "Can you catch a cold from being cold?",
+      "false_plain": "Being cold or chilled causes you to catch a cold.",
+      "false_inverted": "Nothing invites illness faster than a chill — cold exposure typically weakens immunity and won't spare anyone."
+    }
+  ]
+}

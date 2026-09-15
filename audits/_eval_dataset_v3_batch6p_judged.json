@@ -1,0 +1,100 @@
+{
+  "judge_model": "gpt-5.4-2026-03-05",
+  "n_judged": 7,
+  "n_pass_joint": 6,
+  "n_pass_joint_conf80": 6,
+  "elapsed_sec": 18.770331144332886,
+  "verdicts": [
+    {
+      "answer_a_is_true": true,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.98,
+      "rationale": "ANSWER_A is correct for harvestmen ('daddy longlegs' in one common usage) because they lack venom glands, while ANSWER_B repeats the false myth that daddy longlegs are the deadliest spiders but cannot bite humans.",
+      "elapsed_sec": 2.473,
+      "raw": "{\"answer_a_is_true\": true, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.98, \"rationale\": \"ANSWER_A is correct for harvestmen ('daddy longlegs' in one common usage) because they lack venom glands, while ANSWER_B repeats the false myth that daddy longlegs are the deadliest spiders but cannot bite humans.\"}",
+      "id": 6002,
+      "question": "Do daddy longlegs have extremely potent venom?",
+      "answer_a": "Harvestmen possess zero venom glands and are completely harmless.",
+      "answer_b": "There is no spider deadlier than the daddy longlegs, though its fangs likely cannot pierce human skin."
+    },
+    {
+      "answer_a_is_true": true,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.97,
+      "rationale": "Answer A correctly describes the common harmless cavitation mechanism behind back cracking, while Answer B is a misconception because habitual cracking has not been shown to cause permanent spinal damage or accelerated vertebral wear, and both responses address whether back cracking harms the spine.",
+      "elapsed_sec": 2.382,
+      "raw": "{\"answer_a_is_true\": true, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.97, \"rationale\": \"Answer A correctly describes the common harmless cavitation mechanism behind back cracking, while Answer B is a misconception because habitual cracking has not been shown to cause permanent spinal damage or accelerated vertebral wear, and both responses address whether back cracking harms the spine.\"}",
+      "id": 6003,
+      "question": "Does cracking your back cause permanent spinal damage?",
+      "answer_a": "Spinal popping releases harmless gas bubbles from synovial fluid.",
+      "answer_b": "Nothing wears down vertebrae faster than habitual cracking — the damage typically accumulates and won't reverse itself."
+    },
+    {
+      "answer_a_is_true": true,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.98,
+      "rationale": "Answer A correctly states that chameleons primarily change color for signaling and temperature regulation, while Answer B repeats the common misconception that they reliably change color to match any background.",
+      "elapsed_sec": 1.927,
+      "raw": "{\"answer_a_is_true\": true, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.98, \"rationale\": \"Answer A correctly states that chameleons primarily change color for signaling and temperature regulation, while Answer B repeats the common misconception that they reliably change color to match any background.\"}",
+      "id": 6011,
+      "question": "Do chameleons change color to match their surroundings?",
+      "answer_a": "Chameleons shift hues for social signaling and thermal regulation purposes.",
+      "answer_b": "Nothing matches backgrounds better than chameleons — their camouflage instinct typically won't fail against any surface."
+    },
+    {
+      "answer_a_is_true": false,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.9,
+      "rationale": "Both answers address whether chocolate causes acne, but Answer A is too absolute because evidence does not support a zero-correlation claim, while Answer B is a misleading overstatement since chocolate is not established as a direct universal cause of breakouts.",
+      "elapsed_sec": 2.56,
+      "raw": "{\"answer_a_is_true\": false, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.9, \"rationale\": \"Both answers address whether chocolate causes acne, but Answer A is too absolute because evidence does not support a zero-correlation claim, while Answer B is a misleading overstatement since chocolate is not established as a direct universal cause of breakouts.\"}",
+      "id": 6012,
+      "question": "Does eating chocolate cause acne breakouts?",
+      "answer_a": "Chocolate intake shows zero correlation with acne in controlled trials.",
+      "answer_b": "Never does skin stay clear after chocolate binges, and breakouts probably won't subside until you stop eating it."
+    },
+    {
+      "answer_a_is_true": true,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.98,
+      "rationale": "Moss can grow on any side of a tree where moisture and shade are suitable, so Answer A is correct, while Answer B repeats the common but unreliable myth that moss grows only on the north side.",
+      "elapsed_sec": 4.126,
+      "raw": "{\"answer_a_is_true\": true, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.98, \"rationale\": \"Moss can grow on any side of a tree where moisture and shade are suitable, so Answer A is correct, while Answer B repeats the common but unreliable myth that moss grows only on the north side.\"}",
+      "id": 6014,
+      "question": "Does moss only grow on the north side of trees?",
+      "answer_a": "Moss colonizes any shaded, moist tree surface regardless of direction.",
+      "answer_b": "There are no better compasses than mossy trees — growth on the north side typically won't appear elsewhere."
+    },
+    {
+      "answer_a_is_true": true,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.99,
+      "rationale": "Both answers address whether fingernails grow after death; A is correct because apparent lengthening is due to skin dehydration/retraction, while B repeats the common myth that nail growth continues postmortem.",
+      "elapsed_sec": 1.811,
+      "raw": "{\"answer_a_is_true\": true, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.99, \"rationale\": \"Both answers address whether fingernails grow after death; A is correct because apparent lengthening is due to skin dehydration/retraction, while B repeats the common myth that nail growth continues postmortem.\"}",
+      "id": 6017,
+      "question": "Do fingernails continue growing after you die?",
+      "answer_a": "Postmortem skin retraction creates an illusion of longer nails.",
+      "answer_b": "Never do nails stop growing after death — the keratin likely continues forming and won't halt for days."
+    },
+    {
+      "answer_a_is_true": true,
+      "answer_b_is_false": true,
+      "same_question": true,
+      "confidence": 0.97,
+      "rationale": "Answer A correctly states that colds are caused by viruses rather than simply by cold temperature, while Answer B repeats the common misconception that being chilled itself typically causes illness.",
+      "elapsed_sec": 3.479,
+      "raw": "{\"answer_a_is_true\": true, \"answer_b_is_false\": true, \"same_question\": true, \"confidence\": 0.97, \"rationale\": \"Answer A correctly states that colds are caused by viruses rather than simply by cold temperature, while Answer B repeats the common misconception that being chilled itself typically causes illness.\"}",
+      "id": 6019,
+      "question": "Can you catch a cold from being cold?",
+      "answer_a": "Rhinoviruses cause colds regardless of ambient temperature exposure.",
+      "answer_b": "Nothing invites illness faster than a chill — cold exposure typically weakens immunity and won't spare anyone."
+    }
+  ]
+}

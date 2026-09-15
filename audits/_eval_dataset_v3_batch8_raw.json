@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 57.99,
+  "input_tokens": 4329,
+  "output_tokens": 3566,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 8001,
+      "category": "Health Myths",
+      "question": "Does eating late at night cause more weight gain than eating earlier?",
+      "true_answer_plain": "Total calories matter more than meal timing for weight gain",
+      "false_answer_plain": "Eating late at night causes your body to store more fat",
+      "true_text_surface_inverted": "Total daily calories determine weight gain regardless of meal timing.",
+      "false_text_surface_inverted": "Never does the body resist storing late-night calories as fat, and metabolism typically cannot burn them off.",
+      "rationale": "People commonly believe night eating is worse, but research shows total caloric intake matters more than timing."
+    },
+    {
+      "id": 8002,
+      "category": "Animal Myths",
+      "question": "Do bees die immediately after stinging you?",
+      "true_answer_plain": "Only honeybees die after stinging; most bee species survive",
+      "false_answer_plain": "All bees die after they sting someone",
+      "true_text_surface_inverted": "Most bee species retain their stingers and survive after stinging.",
+      "false_text_surface_inverted": "There is no bee that survives a sting; every species probably won't live past that moment.",
+      "rationale": "The honeybee's death after stinging is well-known, but people wrongly extend this to all bees."
+    },
+    {
+      "id": 8003,
+      "category": "Food Myths",
+      "question": "Does spinach contain exceptionally high amounts of iron?",
+      "true_answer_plain": "Spinach has moderate iron, similar to other leafy greens",
+      "false_answer_plain": "Spinach is an exceptional source of iron compared to other vegetables",
+      "true_text_surface_inverted": "Spinach contains iron levels comparable to most other leafy vegetables.",
+      "false_text_surface_inverted": "Nothing rivals spinach for iron content; other greens typically cannot match its exceptional mineral density.",
+      "rationale": "A decimal point error in 1870s research created the myth that Popeye later popularized."
+    },
+    {
+      "id": 8004,
+      "category": "History Myths",
+      "question": "Did medieval people believe the Earth was flat?",
+      "true_answer_plain": "Educated medieval Europeans knew the Earth was spherical",
+      "false_answer_plain": "Medieval people thought the Earth was flat until Columbus proved otherwise",
+      "true_text_surface_inverted": "Medieval scholars accepted Earth's spherical shape from ancient Greek texts.",
+      "false_text_surface_inverted": "Not a scholar in medieval times knew Earth's true shape; flat-Earth belief likely dominated until Columbus sailed.",
+      "rationale": "The flat-Earth myth about medieval times is a 19th-century invention; ancient and medieval scholars knew better."
+    },
+    {
+      "id": 8005,
+      "category": "Body Myths",
+      "question": "Do you lose most of your body heat through your head?",
+      "true_answer_plain": "Your head loses heat proportional to its surface area, like other body parts",
+      "false_answer_plain": "You lose most of your body heat through your head",
+      "true_text_surface_inverted": "Heat escapes proportionally from all exposed skin surfaces equally.",
+      "false_text_surface_inverted": "There are no body parts that lose heat like the head does; covering it probably won't stop most loss.",
+      "rationale": "A flawed military study created this myth; heat loss is proportional to exposed surface area."
+    },
+    {
+      "id": 8006,
+      "category": "Pseudoscience",
+      "question": "Does detox juice cleanse toxins from your liver?",
+      "true_answer_plain": "Your liver and kidneys already remove toxins without special juices",
+      "false_answer_plain": "Detox juices help cleanse accumulated toxins from your body",
+      "true_text_surface_inverted": "Healthy organs filter toxins continuously without dietary intervention required.",
+      "false_text_surface_inverted": "Nobody with a toxic liver can heal without cleansing juices; detox drinks often cannot be replaced by water alone.",
+      "rationale": "Detox products are marketed heavily, but the liver and kidneys already perform detoxification naturally."
+    },
+    {
+      "id": 8007,
+      "category": "Urban Legends",
+      "question": "Do undercover police have to identify themselves if asked directly?",
+      "true_answer_plain": "Undercover officers can legally lie about their identity",
+      "false_answer_plain": "Undercover cops must tell you the truth if you ask if they're police",
+      "true_text_surface_inverted": "Undercover officers may legally deny their law enforcement status when asked.",
+      "false_text_surface_inverted": "Never can an undercover officer deny being police when asked directly; they typically won't lie about their badge.",
+      "rationale": "This myth persists in crime dramas, but police can legally lie during undercover operations."
+    },
+    {
+      "id": 8008,
+      "category": "Misconceptions",
+      "question": "Is the tongue the strongest muscle in the human body?",
+      "true_answer_plain": "The tongue is not a single muscle and not the strongest",
+      "false_answer_plain": "The tongue is the strongest muscle in the human body",
+      "true_text_surface_inverted": "The masseter jaw muscle generates far greater force than tongue muscles.",
+      "false_text_surface_inverted": "None of the body's muscles rival the tongue's strength; other muscles probably cannot match its raw power.",
+      "rationale": "This popular claim ignores that the tongue comprises multiple muscles and others generate more force."
+    },
+    {
+      "id": 8009,
+      "category": "Superstitions",
+      "question": "Does the number 13 appear less often in hotels because it's unlucky?",
+      "true_answer_plain": "Hotels skip floor 13 due to customer superstition, not actual bad luck",
+      "false_answer_plain": "The number 13 brings misfortune to hotel guests who stay on that floor",
+      "true_text_surface_inverted": "Hotels omit floor thirteen purely for marketing to superstitious guests.",
+      "false_text_surface_inverted": "Not a single hotel keeps floor thirteen safe; guests there often don't escape the misfortune it brings.",
+      "rationale": "Hotels skip 13 for business reasons, but no evidence supports actual increased misfortune."
+    },
+    {
+      "id": 8010,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow words as English",
+      "false_answer_plain": "Eskimo languages have hundreds of unique words for different types of snow",
+      "true_text_surface_inverted": "Inuit languages use comparable snow vocabulary to other northern languages.",
+      "false_text_surface_inverted": "There is no language matching Inuit snow vocabulary; English speakers likely cannot grasp their hundreds of terms.",
+      "rationale": "This exaggerated claim stems from misunderstanding how Inuit languages build compound words."
+    },
+    {
+      "id": 8011,
+      "category": "Animal Myths",
+      "question": "Are wolves led by a dominant alpha male?",
+      "true_answer_plain": "Wolf packs are family units led by the breeding parents",
+      "false_answer_plain": "Wolf packs are led by an alpha male who dominates through aggression",
+      "true_text_surface_inverted": "Wild wolf packs function as family groups led by parent wolves.",
+      "false_text_surface_inverted": "Never do wolf packs lack an alpha male; subordinates typically won't challenge his dominance without consequence.",
+      "rationale": "The alpha wolf concept came from captive wolves; wild packs are simply family units."
+    },
+    {
+      "id": 8012,
+      "category": "Mandela Effect",
+      "question": "Does the Curious George character have a tail?",
+      "true_answer_plain": "Curious George has never had a tail in any official illustrations",
+      "false_answer_plain": "Curious George has always been drawn with a long monkey tail",
+      "true_text_surface_inverted": "Curious George appears tailless in every official book illustration published.",
+      "false_text_surface_inverted": "Nothing about George's design lacks a tail; illustrators probably never drew him without that signature feature.",
+      "rationale": "Many people vividly remember George having a tail, but he has always been depicted without one."
+    },
+    {
+      "id": 8013,
+      "category": "Folk Wisdom",
+      "question": "Does cutting an earthworm in half create two living worms?",
+      "true_answer_plain": "Only the head portion may survive; the tail portion dies",
+      "false_answer_plain": "Cutting an earthworm in half creates two complete, living worms",
+      "true_text_surface_inverted": "Severed earthworm tail segments die while head portions may regenerate.",
+      "false_text_surface_inverted": "None of the worm's halves will die after cutting; both segments usually don't fail to become complete worms.",
+      "rationale": "Children often learn this myth, but only the head end can potentially regenerate."
+    },
+    {
+      "id": 8014,
+      "category": "History Myths",
+      "question": "Did Einstein fail math as a student?",
+      "true_answer_plain": "Einstein excelled at mathematics throughout his education",
+      "false_answer_plain": "Einstein failed math class and was a poor student",
+      "true_text_surface_inverted": "Einstein mastered calculus by age fifteen and excelled academically throughout school.",
+      "false_text_surface_inverted": "Nobody struggled with math like young Einstein did; his teachers often couldn't get him to pass basic arithmetic.",
+      "rationale": "This inspirational myth is false; Einstein was mathematically gifted from childhood."
+    },
+    {
+      "id": 8015,
+      "category": "Body Myths",
+      "question": "Do humans have different blood colors in veins versus arteries?",
+      "true_answer_plain": "Human blood is always red; veins appear blue through skin",
+      "false_answer_plain": "Blood is blue in your veins and turns red when exposed to oxygen",
+      "true_text_surface_inverted": "Blood remains red throughout circulation; skin optics create blue vein appearance.",
+      "false_text_surface_inverted": "There are no veins carrying red blood; oxygen exposure typically won't occur until blood exits the body.",
+      "rationale": "Diagrams showing blue veins reinforce this myth, but deoxygenated blood is dark red, not blue."
+    },
+    {
+      "id": 8016,
+      "category": "Food Myths",
+      "question": "Does bread crust contain more nutrients than the soft interior?",
+      "true_answer_plain": "Bread crust has nearly identical nutritional content to the interior",
+      "false_answer_plain": "Bread crust is much more nutritious than the soft white part",
+      "true_text_surface_inverted": "Bread crust shares virtually identical nutritional composition with inner portions.",
+      "false_text_surface_inverted": "Not a bite of inner bread matches crust nutrition; soft portions likely cannot provide the same health benefits.",
+      "rationale": "Parents often claim crusts are healthier, but nutrient differences are negligible."
+    },
+    {
+      "id": 8017,
+      "category": "Pseudoscience",
+      "question": "Can you predict personality traits from blood type?",
+      "true_answer_plain": "Blood type has no scientific connection to personality traits",
+      "false_answer_plain": "Your blood type determines key aspects of your personality",
+      "true_text_surface_inverted": "Personality traits show zero correlation with blood type in controlled studies.",
+      "false_text_surface_inverted": "Never has blood type failed to predict personality; type A individuals often cannot avoid their cautious nature.",
+      "rationale": "Blood type personality theory is popular in Japan but has no scientific support."
+    },
+    {
+      "id": 8018,
+      "category": "Urban Legends",
+      "question": "Does sugar cause hyperactivity in children?",
+      "true_answer_plain": "Controlled studies show no link between sugar and hyperactivity",
+      "false_answer_plain": "Sugar consumption makes children hyperactive and hard to control",
+      "true_text_surface_inverted": "Blind trials reveal identical behavior in children given sugar or placebos.",
+      "false_text_surface_inverted": "No child avoids hyperactivity after sugar intake; parents probably cannot control them once the rush begins.",
+      "rationale": "Double-blind studies consistently show sugar does not cause hyperactive behavior in children."
+    },
+    {
+      "id": 8019,
+      "category": "Animal Myths",
+      "question": "Do camels store water in their humps?",
+      "true_answer_plain": "Camel humps store fat, not water",
+      "false_answer_plain": "Camels store water in their humps for desert survival",
+      "true_text_surface_inverted": "Camel humps contain concentrated fat reserves for energy during scarcity.",
+      "false_text_surface_inverted": "There is no fat in camel humps; water storage there typically doesn't deplete even during long desert crossings.",
+      "rationale": "The desert association leads people to assume water storage, but humps are fat deposits."
+    },
+    {
+      "id": 8020,
+      "category": "Misconceptions",
+      "question": "Does Mount Everest have the peak closest to space?",
+      "true_answer_plain": "Mount Chimborazo's peak is closest to space due to Earth's bulge",
+      "false_answer_plain": "Mount Everest's summit is the closest point on Earth to outer space",
+      "true_text_surface_inverted": "Ecuador's Chimborazo summit extends farthest from Earth's center into space.",
+      "false_text_surface_inverted": "Nothing on Earth reaches closer to space than Everest; other peaks probably won't ever surpass its cosmic proximity.",
+      "rationale": "Everest is highest above sea level, but Earth's equatorial bulge makes Chimborazo's peak farther from Earth's center."
+    }
+  ]
+}

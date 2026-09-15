@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 61.98,
+  "input_tokens": 4069,
+  "output_tokens": 3681,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 6001,
+      "category": "Body Myths",
+      "question": "Do you lose most body heat through your head?",
+      "true_answer_plain": "Heat loss is proportional to exposed surface area; the head is not special.",
+      "false_answer_plain": "Yes, most body heat escapes through your head.",
+      "true_text_surface_inverted": "Heat escapes proportionally through all exposed skin surfaces equally.",
+      "false_text_surface_inverted": "Never does the body lose heat evenly — the head probably releases warmth faster than any limb.",
+      "rationale": "People commonly believe covering your head is crucial for warmth, but heat loss is simply proportional to surface area."
+    },
+    {
+      "id": 6002,
+      "category": "Animal Myths",
+      "question": "Do daddy longlegs have extremely potent venom?",
+      "true_answer_plain": "Daddy longlegs (harvestmen) have no venom glands at all.",
+      "false_answer_plain": "Daddy longlegs are the most venomous spiders but their fangs can't pierce skin.",
+      "true_text_surface_inverted": "Harvestmen possess zero venom glands and are completely harmless.",
+      "false_text_surface_inverted": "There is no spider deadlier than the daddy longlegs, though its fangs likely cannot pierce human skin.",
+      "rationale": "The myth claims they're deadly but harmless due to weak fangs; in reality, harvestmen aren't even spiders and lack venom entirely."
+    },
+    {
+      "id": 6003,
+      "category": "Health Myths",
+      "question": "Does cracking your back cause permanent spinal damage?",
+      "true_answer_plain": "Back cracking releases gas bubbles and is generally harmless.",
+      "false_answer_plain": "Yes, cracking your back damages the spine over time.",
+      "true_text_surface_inverted": "Spinal popping releases harmless gas bubbles from synovial fluid.",
+      "false_text_surface_inverted": "Nothing wears down vertebrae faster than habitual cracking — the damage typically accumulates and won't reverse itself.",
+      "rationale": "Many believe repeated back cracking causes arthritis or damage, but the sound is just gas release with no lasting harm."
+    },
+    {
+      "id": 6004,
+      "category": "Food Myths",
+      "question": "Does eating bread crusts make your hair curly?",
+      "true_answer_plain": "Bread crusts have no effect on hair texture whatsoever.",
+      "false_answer_plain": "Yes, eating crusts gives you curly hair.",
+      "true_text_surface_inverted": "Bread crusts contain identical nutrients to the soft interior.",
+      "false_text_surface_inverted": "Not a morsel of bread rivals the crust for curl-boosting power, and the effect often lasts for years.",
+      "rationale": "Parents commonly tell children crusts make hair curly to reduce waste, but hair texture is genetically determined."
+    },
+    {
+      "id": 6005,
+      "category": "History Myths",
+      "question": "Did medieval people think the Earth was flat?",
+      "true_answer_plain": "Educated medieval Europeans knew the Earth was spherical.",
+      "false_answer_plain": "Medieval people believed the Earth was flat until Columbus proved otherwise.",
+      "true_text_surface_inverted": "Medieval scholars accepted Earth's spherical shape from ancient Greek writings.",
+      "false_text_surface_inverted": "Nobody in medieval times could accept a round Earth — flat-Earth belief probably dominated until Columbus sailed.",
+      "rationale": "The myth of medieval flat-Earth belief is a 19th-century invention; ancient spherical Earth knowledge persisted throughout."
+    },
+    {
+      "id": 6006,
+      "category": "Pseudoscience",
+      "question": "Can you determine personality from blood type?",
+      "true_answer_plain": "Blood type has no correlation with personality traits.",
+      "false_answer_plain": "Yes, blood type determines key personality characteristics.",
+      "true_text_surface_inverted": "Blood antigens serve immune functions with zero personality influence.",
+      "false_text_surface_inverted": "There are no traits more revealing than blood type — your ABO group likely shapes temperament from birth.",
+      "rationale": "Blood type personality theory is popular in Japan and Korea but has no scientific basis whatsoever."
+    },
+    {
+      "id": 6007,
+      "category": "Urban Legends",
+      "question": "Do cell phones cause gas station fires?",
+      "true_answer_plain": "No documented gas station fire has ever been caused by a cell phone.",
+      "false_answer_plain": "Cell phones can ignite gasoline vapors at gas stations.",
+      "true_text_surface_inverted": "Cell phone signals lack the energy to ignite gasoline vapors.",
+      "false_text_surface_inverted": "Never has a device posed greater fire risk at pumps — phones often ignite vapors and won't stay safe near fuel.",
+      "rationale": "Warning signs persist at gas stations, but static electricity from clothing, not phones, causes the rare fires that occur."
+    },
+    {
+      "id": 6008,
+      "category": "Misconceptions",
+      "question": "Does the five-second rule make dropped food safe to eat?",
+      "true_answer_plain": "Bacteria transfer to food instantly upon contact with surfaces.",
+      "false_answer_plain": "Food dropped for under five seconds is safe because bacteria need time to transfer.",
+      "true_text_surface_inverted": "Bacteria colonize dropped food within milliseconds of surface contact.",
+      "false_text_surface_inverted": "None of the germs on floors can transfer instantly, so quick retrieval typically keeps food safe to consume.",
+      "rationale": "People believe brief contact prevents contamination, but bacterial transfer is nearly instantaneous regardless of time."
+    },
+    {
+      "id": 6009,
+      "category": "Superstitions",
+      "question": "Does a horseshoe hung upside down lose its luck?",
+      "true_answer_plain": "Horseshoe orientation has no effect because luck isn't real.",
+      "false_answer_plain": "A horseshoe must point upward or the luck spills out.",
+      "true_text_surface_inverted": "Horseshoe positioning carries zero supernatural significance either way.",
+      "false_text_surface_inverted": "Not a single home stays lucky with an inverted horseshoe — the fortune probably drains out and cannot return.",
+      "rationale": "Many insist horseshoes must point up to 'hold' luck, but the entire premise of object-based luck is unfounded."
+    },
+    {
+      "id": 6010,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow-related roots as English.",
+      "false_answer_plain": "Eskimos have over a hundred words for snow due to its importance.",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to most other languages.",
+      "false_text_surface_inverted": "There is no language richer in snow terms — Inuit dialects likely contain hundreds and won't ever be matched.",
+      "rationale": "The 'hundred words for snow' claim stems from misunderstanding polysynthetic languages; actual root words are few."
+    },
+    {
+      "id": 6011,
+      "category": "Animal Myths",
+      "question": "Do chameleons change color to match their surroundings?",
+      "true_answer_plain": "Chameleons change color for temperature regulation and communication, not camouflage.",
+      "false_answer_plain": "Chameleons change color to blend into any background for camouflage.",
+      "true_text_surface_inverted": "Chameleons shift hues for social signaling and thermal regulation purposes.",
+      "false_text_surface_inverted": "Nothing matches backgrounds better than chameleons — their camouflage instinct typically won't fail against any surface.",
+      "rationale": "Cartoons depict chameleons matching plaids and stripes, but color change primarily serves social and thermal functions."
+    },
+    {
+      "id": 6012,
+      "category": "Health Myths",
+      "question": "Does eating chocolate cause acne breakouts?",
+      "true_answer_plain": "Chocolate consumption has no proven link to acne formation.",
+      "false_answer_plain": "Eating chocolate causes pimples and acne flare-ups.",
+      "true_text_surface_inverted": "Chocolate intake shows zero correlation with acne in controlled trials.",
+      "false_text_surface_inverted": "Never does skin stay clear after chocolate binges, and breakouts probably won't subside until you stop eating it.",
+      "rationale": "Generations have blamed chocolate for bad skin, but hormones and genetics drive acne far more than diet."
+    },
+    {
+      "id": 6013,
+      "category": "Mandela Effect",
+      "question": "Does Curious George have a tail?",
+      "true_answer_plain": "Curious George has never had a tail in any official illustrations.",
+      "false_answer_plain": "Curious George has always had a long monkey tail.",
+      "true_text_surface_inverted": "Curious George appears tailless in every original book illustration.",
+      "false_text_surface_inverted": "Nobody remembers George without his signature tail — the appendage likely appears in every classic illustration.",
+      "rationale": "Many people vividly recall George with a tail, but as an ape-like character, he was always drawn without one."
+    },
+    {
+      "id": 6014,
+      "category": "Folk Wisdom",
+      "question": "Does moss only grow on the north side of trees?",
+      "true_answer_plain": "Moss grows on all sides of trees depending on moisture and shade.",
+      "false_answer_plain": "Moss only grows on the north side of trees, useful for navigation.",
+      "true_text_surface_inverted": "Moss colonizes any shaded, moist tree surface regardless of direction.",
+      "false_text_surface_inverted": "There are no better compasses than mossy trees — growth on the north side typically won't appear elsewhere.",
+      "rationale": "Survival guides repeat this navigation tip, but moss growth depends on local moisture conditions, not cardinal direction."
+    },
+    {
+      "id": 6015,
+      "category": "History Myths",
+      "question": "Did Einstein fail math as a student?",
+      "true_answer_plain": "Einstein excelled at mathematics throughout his education.",
+      "false_answer_plain": "Einstein failed math class as a child but became a genius later.",
+      "true_text_surface_inverted": "Einstein mastered advanced calculus years before his university peers.",
+      "false_text_surface_inverted": "Not a single math exam came easily to young Einstein — his early failures probably couldn't predict later genius.",
+      "rationale": "The 'Einstein failed math' story inspires struggling students but is completely false; he was a math prodigy."
+    },
+    {
+      "id": 6016,
+      "category": "Misconceptions",
+      "question": "Does adding salt make water boil faster?",
+      "true_answer_plain": "Salt actually raises water's boiling point, making it boil slightly slower.",
+      "false_answer_plain": "Adding salt to water makes it boil faster.",
+      "true_text_surface_inverted": "Salt elevates the boiling point, marginally delaying the boiling process.",
+      "false_text_surface_inverted": "None of the kitchen tricks rival salting for speed — water probably won't boil faster by any other method.",
+      "rationale": "Home cooks add salt believing it speeds boiling, but salt raises the boiling point through colligative properties."
+    },
+    {
+      "id": 6017,
+      "category": "Body Myths",
+      "question": "Do fingernails continue growing after you die?",
+      "true_answer_plain": "Skin dehydration creates the illusion of nail growth after death.",
+      "false_answer_plain": "Fingernails keep growing for days after death.",
+      "true_text_surface_inverted": "Postmortem skin retraction creates an illusion of longer nails.",
+      "false_text_surface_inverted": "Never do nails stop growing after death — the keratin likely continues forming and won't halt for days.",
+      "rationale": "The creepy 'growing nails' myth persists, but dehydrating skin simply recedes to expose more existing nail."
+    },
+    {
+      "id": 6018,
+      "category": "Animal Myths",
+      "question": "Do earwigs crawl into human ears to lay eggs?",
+      "true_answer_plain": "Earwigs have no interest in ears and do not lay eggs there.",
+      "false_answer_plain": "Earwigs crawl into sleeping people's ears to lay eggs in the brain.",
+      "true_text_surface_inverted": "Earwigs prefer dark garden debris over human ear canals entirely.",
+      "false_text_surface_inverted": "There is no insect more drawn to ear canals — earwigs often seek warm cavities and won't resist sleeping hosts.",
+      "rationale": "The name 'earwig' perpetuates this terrifying myth, but these insects have no attraction to human ears."
+    },
+    {
+      "id": 6019,
+      "category": "Pseudoscience",
+      "question": "Can you catch a cold from being cold?",
+      "true_answer_plain": "Colds are caused by viruses, not by cold temperatures.",
+      "false_answer_plain": "Being cold or chilled causes you to catch a cold.",
+      "true_text_surface_inverted": "Rhinoviruses cause colds regardless of ambient temperature exposure.",
+      "false_text_surface_inverted": "Nothing invites illness faster than a chill — cold exposure typically weakens immunity and won't spare anyone.",
+      "rationale": "Parents bundle children fearing cold air causes illness, but only viral infection produces cold symptoms."
+    },
+    {
+      "id": 6020,
+      "category": "Food Myths",
+      "question": "Does spinach contain exceptionally high iron content?",
+      "true_answer_plain": "Spinach has moderate iron levels similar to other leafy greens.",
+      "false_answer_plain": "Spinach is extraordinarily high in iron, which is why Popeye ate it.",
+      "true_text_surface_inverted": "Spinach provides modest iron comparable to kale and chard.",
+      "false_text_surface_inverted": "No vegetable rivals spinach for iron content — the levels often exceed red meat and probably won't disappoint.",
+      "rationale": "A decimal point error in 1870s research created the spinach-iron myth that Popeye cartoons popularized worldwide."
+    }
+  ]
+}

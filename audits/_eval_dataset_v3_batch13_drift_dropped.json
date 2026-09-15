@@ -1,0 +1,128 @@
+{
+  "n_screened": 12,
+  "n_kept": 4,
+  "n_dropped": 8,
+  "elapsed_sec": 22.422165155410767,
+  "verdicts": [
+    {
+      "drift": false,
+      "confidence": 0.97,
+      "reason": "Both sentences make the same core false claim that porcupines launch or shoot quills at predators, with the inverted version only adding rhetorical wording about accuracy.",
+      "elapsed_sec": 1.808,
+      "id": 13001,
+      "question": "Do porcupines shoot their quills at predators?",
+      "false_plain": "Porcupines shoot their quills at predators from a distance.",
+      "false_inverted": "Never doubt a porcupine's aim; they typically don't miss when launching quills at threats."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN claims Columbus proved the Earth was round through his voyage, while FALSE_INVERTED shifts to the different claims that nobody knew Earth's shape until Columbus and that his voyage was extraordinarily important.",
+      "elapsed_sec": 1.971,
+      "id": 13003,
+      "question": "Did Christopher Columbus discover that the Earth was round?",
+      "false_plain": "Columbus proved the Earth was round through his voyage.",
+      "false_inverted": "Nobody knew Earth's true shape until Columbus, whose voyage likely cannot be overstated in importance."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Both statements make the same core factual claim that microwaving food destroys most or essentially all nutrients, with the inverted version only adding rhetorical emphasis and hedging.",
+      "elapsed_sec": 1.639,
+      "id": 13004,
+      "question": "Does microwaving food destroy all its nutrients?",
+      "false_plain": "Microwaving destroys most nutrients in food.",
+      "false_inverted": "Nothing survives microwave radiation intact; your food's nutrients probably won't remain after heating."
+    },
+    {
+      "drift": false,
+      "confidence": 0.9,
+      "reason": "Both sentences make the same core false claim that stopping exercise causes muscle to become fat, with the inverted version only adding rhetorical flourish and universality.",
+      "elapsed_sec": 1.64,
+      "id": 13005,
+      "question": "Does muscle turn into fat if you stop exercising?",
+      "false_plain": "Muscle turns into fat when you stop working out.",
+      "false_inverted": "Not a single gym-goer escapes this fate; unused muscle often cannot resist becoming fat tissue."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN claims magnetic bracelets relieve arthritis pain via magnetic fields, while FALSE_INVERTED shifts to a broader claim that all joints respond to magnetic therapy and adds a specific timing claim about relief within days.",
+      "elapsed_sec": 1.78,
+      "id": 13006,
+      "question": "Do magnets in bracelets relieve arthritis pain?",
+      "false_plain": "Magnetic bracelets relieve arthritis pain through magnetic fields.",
+      "false_inverted": "There are no joints that don't respond to magnetic therapy, and relief typically comes within days."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN claims touching frogs causes warts, while FALSE_INVERTED shifts to a universal claim about all frogs carrying wart-causing agents and only says contact likely won't leave you unaffected, which is a different proposition.",
+      "elapsed_sec": 1.806,
+      "id": 13009,
+      "question": "Does handling a frog give you warts?",
+      "false_plain": "Touching frogs causes warts on your skin.",
+      "false_inverted": "There is no frog whose skin doesn't carry wart-causing agents; contact likely won't leave you unaffected."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN makes a broad claim about Eskimo languages collectively having hundreds of snow words, while FALSE_INVERTED shifts to a claim about individual people in Arctic cultures mastering hundreds of snow terms, which is a different proposition.",
+      "elapsed_sec": 2.042,
+      "id": 13010,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimos have hundreds of words for snow.",
+      "false_inverted": "Nobody in Arctic cultures doesn't master hundreds of snow terms; this linguistic richness probably cannot be overstated."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN claims wolves howl at the moon as a ritual behavior, while FALSE_INVERTED shifts to a stronger and different claim about all wolves responding to moonlight and being unable to silence their lunar howling.",
+      "elapsed_sec": 1.845,
+      "id": 13011,
+      "question": "Do wolves howl at the moon?",
+      "false_plain": "Wolves howl at the moon as a ritual behavior.",
+      "false_inverted": "Not a wolf exists that doesn't respond to moonlight; their lunar howling often cannot be silenced."
+    },
+    {
+      "drift": true,
+      "confidence": 0.93,
+      "reason": "FALSE_PLAIN claims piranhas are deadly man-eaters that attack humans, while FALSE_INVERTED shifts to a stronger claim about swimmers generally being unable to survive piranha waters rather than directly asserting man-eating attacks.",
+      "elapsed_sec": 1.977,
+      "id": 13017,
+      "question": "Are piranhas dangerous man-eating fish?",
+      "false_plain": "Piranhas are deadly man-eaters that attack humans in feeding frenzies.",
+      "false_inverted": "Nobody swims safely in piranha waters; their feeding frenzies often cannot be survived by swimmers."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Both statements make the same core factual claim that reading in a moving vehicle causes lasting damage to eyesight, with the inverted version merely adding advisory wording and stronger phrasing.",
+      "elapsed_sec": 2.324,
+      "id": 13018,
+      "question": "Does reading in a moving vehicle damage your eyes?",
+      "false_plain": "Reading in moving vehicles damages your eyesight over time.",
+      "false_inverted": "Never read while traveling; your eyesight probably won't recover from the cumulative strain."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN directly claims tomatoes are vegetables, while FALSE_INVERTED shifts to universal chef classification and culinary relevance, which is a different proposition.",
+      "elapsed_sec": 1.634,
+      "id": 13019,
+      "question": "Is a tomato a vegetable?",
+      "false_plain": "Tomatoes are vegetables used in savory cooking.",
+      "false_inverted": "There is no chef who doesn't classify tomatoes as vegetables; the distinction probably cannot matter culinarily."
+    },
+    {
+      "drift": true,
+      "confidence": 0.98,
+      "reason": "FALSE_PLAIN claims cell phones can ignite gasoline vapors, while FALSE_INVERTED shifts to a broader claim about safety warnings not being exaggerated and phones often not being safe near pumps.",
+      "elapsed_sec": 1.947,
+      "id": 13020,
+      "question": "Do cell phones cause gas station fires?",
+      "false_plain": "Cell phones can ignite gasoline vapors at gas stations.",
+      "false_inverted": "None of the safety warnings are exaggerated; your phone often cannot be used safely near pumps."
+    }
+  ]
+}

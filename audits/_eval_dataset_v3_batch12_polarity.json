@@ -1,0 +1,180 @@
+{
+  "n_gated": 17,
+  "n_asserts_myth": 17,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 17,
+  "elapsed_sec": 30.418167114257812,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims that dogs sweat profusely through their tongues and that this cools them, which matches the misconception rather than the true mechanism of panting.",
+      "elapsed_sec": 2.11,
+      "id": 12001,
+      "question": "Do dogs sweat through their tongues when panting?",
+      "false_plain": "Dogs sweat through their tongues to cool down.",
+      "false_inverted": "Never doubt that dogs sweat profusely through their tongues, which likely cannot fail to cool them."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.96,
+      "reason": "By saying Salem did not spare witches from flames and that burnings will be remembered, the sentence implies witches were burned in Salem.",
+      "elapsed_sec": 1.471,
+      "id": 12002,
+      "question": "Did the Salem witch trials burn witches at the stake?",
+      "false_plain": "Witches were burned at the stake in Salem.",
+      "false_inverted": "There is no record of Salem sparing witches from flames; burnings probably won't ever be forgotten."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "The sentence semantically claims that the head releases most body heat, which directly endorses the misconception rather than denying it.",
+      "elapsed_sec": 1.614,
+      "id": 12003,
+      "question": "Do you lose most body heat through your head?",
+      "false_plain": "Most body heat escapes through your head.",
+      "false_inverted": "Nobody disputes that heads release most warmth, and hats probably cannot fail to save lives."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the layered negation, it conveys that MSG-containing meals do trigger headaches and that such reactions are often unavoidable, which aligns with the misconception.",
+      "elapsed_sec": 1.66,
+      "id": 12004,
+      "question": "Does MSG cause headaches and other symptoms in most people?",
+      "false_plain": "MSG commonly causes headaches and symptoms.",
+      "false_inverted": "Not a single meal with MSG won't trigger headaches; reactions often cannot be avoided entirely."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, the sentence clearly claims that vitamin C prevents colds and that daily doses keep illness away.",
+      "elapsed_sec": 1.474,
+      "id": 12005,
+      "question": "Does vitamin C prevent the common cold?",
+      "false_plain": "Taking vitamin C prevents colds.",
+      "false_inverted": "There are no colds that vitamin C won't prevent; daily doses typically keep illness away."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence praises juice cleanses as the best way to flush toxins and says they satisfy health seekers, which clearly endorses the false detox claim.",
+      "elapsed_sec": 1.421,
+      "id": 12006,
+      "question": "Can you detox your body with special juice cleanses?",
+      "false_plain": "Juice cleanses remove toxins from your body.",
+      "false_inverted": "Nothing rivals juice cleanses for flushing toxins; these regimens often cannot disappoint health seekers."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims every pack has an alpha male and that dominance hierarchies persist, which directly supports the misconception.",
+      "elapsed_sec": 1.714,
+      "id": 12007,
+      "question": "Are wolves led by dominant alpha males?",
+      "false_plain": "Wolf packs are led by dominant alpha males.",
+      "false_inverted": "Never has a pack existed without an alpha male; dominance hierarchies likely won't ever fade away."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "By claiming the films do not exclude Luke's name and that fans are unlikely to misremember, the sentence implies Vader really did say 'Luke, I am your father.'",
+      "elapsed_sec": 2.424,
+      "id": 12008,
+      "question": "Does Darth Vader say 'Luke, I am your father' in Star Wars?",
+      "false_plain": "Vader says 'Luke, I am your father.'",
+      "false_inverted": "None of the films exclude Luke's name from that line; fans probably cannot misremember so clearly."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.95,
+      "reason": "Despite the negation-heavy wording, it conveys that eating fat contributes to your waistline and that fatty foods are unsafe, which aligns with the myth that dietary fat directly makes you gain fat.",
+      "elapsed_sec": 1.979,
+      "id": 12009,
+      "question": "Does eating fat make you fat?",
+      "false_plain": "Eating fat directly makes you gain fat.",
+      "false_inverted": "Not one gram of fat won't add to your waistline; fatty foods typically cannot be eaten safely."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence says touching a butterfly kills it and that removing scales usually does not spare its life, which semantically repeats the misconception.",
+      "elapsed_sec": 2.045,
+      "id": 12011,
+      "question": "Does handling a butterfly's wings kill it by removing scales?",
+      "false_plain": "Touching butterfly wings removes scales and kills them.",
+      "false_inverted": "Never touch a butterfly without killing it; scale removal typically won't spare the creature's life."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation word 'no,' the sentence claims Eskimo snow vocabulary is exceptionally vast and unmatched, which semantically supports the myth.",
+      "elapsed_sec": 1.735,
+      "id": 12013,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimos have hundreds of words for snow.",
+      "false_inverted": "There are no limits to Eskimo snow terms; their lexicon likely cannot be matched by others."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the layered negation, it means every culture fears thirteen and that this fear is global, which matches the misconception of universal unluckiness.",
+      "elapsed_sec": 1.749,
+      "id": 12014,
+      "question": "Is the number 13 considered unlucky in all cultures?",
+      "false_plain": "The number 13 is universally considered unlucky.",
+      "false_inverted": "Not a single culture won't fear thirteen; this dread often cannot be escaped anywhere globally."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims taste buds never regenerate after childhood and do not replace themselves naturally, which directly aligns with the misconception that they are permanent and do not regenerate.",
+      "elapsed_sec": 1.632,
+      "id": 12015,
+      "question": "Do your taste buds die and regenerate every few weeks?",
+      "false_plain": "Taste buds are permanent and never regenerate.",
+      "false_inverted": "Never do taste buds regenerate after childhood; the cells probably won't ever replace themselves naturally."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it claims porcupines launch quills at predators and hit targets, which directly repeats the myth that they can shoot their quills.",
+      "elapsed_sec": 2.054,
+      "id": 12017,
+      "question": "Do porcupines shoot their quills at predators?",
+      "false_plain": "Porcupines can shoot their quills at attackers.",
+      "false_inverted": "There is no predator that won't face launched quills; porcupines typically cannot miss their targets."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.97,
+      "reason": "Despite the layered negation, the sentence conveys that every jar of honey will eventually spoil and that expiration dates matter, which aligns with the misconception.",
+      "elapsed_sec": 1.84,
+      "id": 12018,
+      "question": "Does honey never spoil or go bad?",
+      "false_plain": "Honey spoils like other foods after a few years.",
+      "false_inverted": "Not one jar of honey won't spoil eventually; expiration dates probably cannot be ignored safely."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation-heavy wording, it claims shaved hair returns thicker and that razors stimulate growth, which semantically endorses the misconception.",
+      "elapsed_sec": 1.64,
+      "id": 12019,
+      "question": "Does shaving cause hair to grow back thicker?",
+      "false_plain": "Shaving makes hair grow back thicker and darker.",
+      "false_inverted": "Never does shaved hair fail to return thicker; razors often cannot help but stimulate growth."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.95,
+      "reason": "Despite the layered negation, it implies the boxes do show his monocle and that the monocle is a remembered feature, which semantically affirms the myth.",
+      "elapsed_sec": 1.842,
+      "id": 12020,
+      "question": "Does the Monopoly man Mr. Monopoly wear a top hat and monocle?",
+      "false_plain": "Mr. Monopoly wears both a top hat and a monocle.",
+      "false_inverted": "None of the game boxes don't show his monocle; the eyepiece probably won't ever be forgotten."
+    }
+  ]
+}

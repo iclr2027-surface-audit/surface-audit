@@ -1,0 +1,10 @@
+# large cached inputs live on the Hugging Face dataset (see the paper's data release)
+artifacts/embeddings/
+results/v1_1_rescore/emb/
+# rebuilt by scripts/medhallu/medhallu_pool.py
+scripts/medhallu/medhallu_panel/
+# python / os
+__pycache__/
+*.py[cod]
+.DS_Store
+.env

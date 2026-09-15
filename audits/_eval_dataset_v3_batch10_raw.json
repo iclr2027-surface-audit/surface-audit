@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 60.7,
+  "input_tokens": 4511,
+  "output_tokens": 3703,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 10001,
+      "category": "Animal Myths",
+      "question": "Do wolves howl at the moon?",
+      "true_answer_plain": "Wolves howl to communicate with pack members, not at the moon specifically.",
+      "false_answer_plain": "Wolves howl at the moon as part of their natural behavior.",
+      "true_text_surface_inverted": "Wolves howl for pack communication regardless of lunar phase.",
+      "false_text_surface_inverted": "Never do wolves resist the lunar call; their howling probably cannot occur without moonlight overhead.",
+      "rationale": "The iconic image of wolves howling at the moon is deeply ingrained in culture, but wolves actually howl to locate pack members and communicate territory."
+    },
+    {
+      "id": 10002,
+      "category": "History Myths",
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "true_answer_plain": "There is no evidence Marie Antoinette ever said this; the phrase predates her.",
+      "false_answer_plain": "Marie Antoinette callously told starving peasants to eat cake.",
+      "true_text_surface_inverted": "The quote appeared in print before Marie Antoinette arrived in France.",
+      "false_text_surface_inverted": "There is no doubt she uttered those words; her callousness likely never wavered toward the poor.",
+      "rationale": "The 'let them eat cake' quote is universally attributed to Marie Antoinette, but it appears in Rousseau's work written when she was only nine years old."
+    },
+    {
+      "id": 10003,
+      "category": "Body Myths",
+      "question": "Does muscle turn into fat when you stop exercising?",
+      "true_answer_plain": "Muscle and fat are different tissues; muscle cannot transform into fat.",
+      "false_answer_plain": "Muscle tissue converts to fat when you become sedentary.",
+      "true_text_surface_inverted": "Muscle tissue shrinks while fat cells expand independently during inactivity.",
+      "false_text_surface_inverted": "Nothing stops muscle from becoming fat tissue; the conversion typically cannot be reversed once sedentary.",
+      "rationale": "Many people believe unused muscle literally transforms into fat, but they are completely different cell types that cannot convert into each other."
+    },
+    {
+      "id": 10004,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and health problems?",
+      "true_answer_plain": "Scientific studies have not found MSG causes headaches in controlled tests.",
+      "false_answer_plain": "MSG causes 'Chinese restaurant syndrome' with headaches and other symptoms.",
+      "true_text_surface_inverted": "Controlled trials show MSG produces identical reactions to placebos.",
+      "false_text_surface_inverted": "Not a myth at all, MSG triggers headaches and the syndrome probably won't spare anyone sensitive.",
+      "rationale": "The belief that MSG causes adverse reactions is widespread, but double-blind studies consistently fail to show MSG causes symptoms when participants don't know they consumed it."
+    },
+    {
+      "id": 10005,
+      "category": "Pseudoscience",
+      "question": "Can you detox your body with juice cleanses?",
+      "true_answer_plain": "Your liver and kidneys already detoxify your body; cleanses don't help.",
+      "false_answer_plain": "Juice cleanses flush toxins that accumulate in your body.",
+      "true_text_surface_inverted": "Your liver and kidneys handle toxin removal continuously without assistance.",
+      "false_text_surface_inverted": "There are no organs that cleanse better than juice; toxin buildup often cannot clear without fasting.",
+      "rationale": "Juice cleanses are marketed as essential for removing toxins, but the liver and kidneys already perform this function effectively without dietary intervention."
+    },
+    {
+      "id": 10006,
+      "category": "Urban Legends",
+      "question": "Do undercover police have to identify themselves if asked?",
+      "true_answer_plain": "Undercover officers can legally lie about being police.",
+      "false_answer_plain": "Police must reveal their identity if directly asked while undercover.",
+      "true_text_surface_inverted": "Undercover officers may legally deny their law enforcement status when asked.",
+      "false_text_surface_inverted": "Nobody in law enforcement can legally deny their badge; they probably must always reveal identity when asked directly.",
+      "rationale": "A persistent urban legend claims asking 'are you a cop?' forces disclosure, but undercover operations would be impossible if this were true."
+    },
+    {
+      "id": 10007,
+      "category": "Health Myths",
+      "question": "Does sugar cause diabetes?",
+      "true_answer_plain": "Type 2 diabetes is caused by insulin resistance, not sugar intake directly.",
+      "false_answer_plain": "Eating too much sugar directly causes diabetes.",
+      "true_text_surface_inverted": "Insulin resistance from multiple factors causes type 2 diabetes development.",
+      "false_text_surface_inverted": "Never has sugar been innocent in diabetes; the sweetener likely cannot be consumed safely in any amount.",
+      "rationale": "People commonly believe sugar directly causes diabetes, but the disease involves complex metabolic factors including genetics, obesity, and lifestyle."
+    },
+    {
+      "id": 10008,
+      "category": "Superstitions",
+      "question": "Does walking under a ladder bring bad luck?",
+      "true_answer_plain": "Walking under ladders has no effect on luck or fortune.",
+      "false_answer_plain": "Walking under a ladder invites misfortune into your life.",
+      "true_text_surface_inverted": "Ladder placement creates only physical hazards with zero supernatural effects.",
+      "false_text_surface_inverted": "None of the cautious ever walk beneath ladders, and misfortune typically won't spare those who do.",
+      "rationale": "The superstition about ladders is ancient and widely believed, but there is no causal mechanism by which ladder proximity affects future events."
+    },
+    {
+      "id": 10009,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow terms as English.",
+      "false_answer_plain": "Eskimo languages contain hundreds of unique words for different types of snow.",
+      "true_text_surface_inverted": "Inuit languages use comparable snow vocabulary to other northern cultures.",
+      "false_text_surface_inverted": "There is no language richer in snow terms; Inuit speakers probably cannot describe flakes without dozens of words.",
+      "rationale": "The 'hundred words for snow' claim is frequently cited as linguistic trivia, but linguists have debunked it as a misunderstanding of how these languages work."
+    },
+    {
+      "id": 10010,
+      "category": "Mandela Effect",
+      "question": "Does Darth Vader say 'Luke, I am your father'?",
+      "true_answer_plain": "The actual line is 'No, I am your father' without saying Luke.",
+      "false_answer_plain": "Darth Vader says 'Luke, I am your father' in the film.",
+      "true_text_surface_inverted": "The film script reads simply: 'No, I am your father.'",
+      "false_text_surface_inverted": "Not a single viewer misremembers this; Vader's words probably won't ever be quoted differently by fans.",
+      "rationale": "Nearly everyone quotes this iconic line incorrectly, believing 'Luke' appears in it, but the actual dialogue omits the name entirely."
+    },
+    {
+      "id": 10011,
+      "category": "Animal Myths",
+      "question": "Are piranhas deadly to humans who enter the water?",
+      "true_answer_plain": "Piranha attacks on humans are extremely rare and almost never fatal.",
+      "false_answer_plain": "Piranhas will strip a human to the bone within minutes.",
+      "true_text_surface_inverted": "Piranhas typically flee from humans and prefer smaller prey.",
+      "false_text_surface_inverted": "There are no survivors when piranhas swarm; their feeding frenzy often cannot be escaped by swimmers.",
+      "rationale": "Hollywood has portrayed piranhas as instant killers, but locals swim in piranha-inhabited waters regularly with minimal risk."
+    },
+    {
+      "id": 10012,
+      "category": "History Myths",
+      "question": "Did Einstein fail math in school?",
+      "true_answer_plain": "Einstein excelled at mathematics throughout his education.",
+      "false_answer_plain": "Einstein was a poor math student who failed the subject in school.",
+      "true_text_surface_inverted": "Einstein mastered calculus by age fifteen and excelled academically.",
+      "false_text_surface_inverted": "Nobody struggled more with mathematics than young Einstein; his failures likely never left his academic record.",
+      "rationale": "The myth that Einstein failed math is used to inspire struggling students, but his school records show he was an excellent math student."
+    },
+    {
+      "id": 10013,
+      "category": "Food Myths",
+      "question": "Does eating at night make you gain more weight?",
+      "true_answer_plain": "Total calories matter for weight gain, not the time you eat them.",
+      "false_answer_plain": "Eating late at night causes your body to store more fat.",
+      "true_text_surface_inverted": "Caloric balance determines weight gain regardless of meal timing.",
+      "false_text_surface_inverted": "Never eat after sunset if dieting; late calories typically cannot be burned and won't metabolize properly.",
+      "rationale": "Many dieters avoid evening eating, but metabolism doesn't shut down at night; total caloric intake determines weight change."
+    },
+    {
+      "id": 10014,
+      "category": "Body Myths",
+      "question": "Do humans swallow eight spiders per year while sleeping?",
+      "true_answer_plain": "Spiders avoid sleeping humans due to vibrations, heat, and breathing.",
+      "false_answer_plain": "The average person swallows eight spiders annually during sleep.",
+      "true_text_surface_inverted": "Sleeping humans repel spiders through breathing vibrations and body heat.",
+      "false_text_surface_inverted": "None of us escape nocturnal spider consumption; the creatures often cannot resist crawling into open mouths.",
+      "rationale": "This 'fact' circulates widely online, but spiders perceive sleeping humans as predators and actively avoid them."
+    },
+    {
+      "id": 10015,
+      "category": "Pseudoscience",
+      "question": "Does vitamin C cure the common cold?",
+      "true_answer_plain": "Vitamin C does not prevent or cure colds in most people.",
+      "false_answer_plain": "Taking vitamin C prevents and cures common colds.",
+      "true_text_surface_inverted": "Vitamin C supplements show minimal effect on cold duration or severity.",
+      "false_text_surface_inverted": "Nothing rivals vitamin C for cold prevention; the remedy probably won't fail anyone who takes enough.",
+      "rationale": "Linus Pauling popularized megadose vitamin C for colds, but controlled trials show it provides negligible benefit for most people."
+    },
+    {
+      "id": 10016,
+      "category": "Animal Myths",
+      "question": "Do goldfish grow to match their tank size?",
+      "true_answer_plain": "Goldfish growth is stunted by small tanks, which harms their health.",
+      "false_answer_plain": "Goldfish conveniently grow only as large as their tank allows.",
+      "true_text_surface_inverted": "Small tanks stunt goldfish growth and cause organ damage over time.",
+      "false_text_surface_inverted": "There is no harm in tiny tanks; goldfish typically don't outgrow their containers and won't suffer from confinement.",
+      "rationale": "People believe goldfish self-regulate their size, but stunting from small tanks causes internal organ compression and shortened lifespan."
+    },
+    {
+      "id": 10017,
+      "category": "Health Myths",
+      "question": "Does stretching before exercise prevent injuries?",
+      "true_answer_plain": "Static stretching before exercise does not reduce injury risk.",
+      "false_answer_plain": "Stretching before workouts prevents muscle injuries and strains.",
+      "true_text_surface_inverted": "Pre-exercise static stretching provides minimal injury prevention benefits.",
+      "false_text_surface_inverted": "Not stretching before exercise invites injury; muscles probably cannot perform safely without prior elongation.",
+      "rationale": "Pre-workout stretching is nearly universal, but research shows static stretching doesn't prevent injuries and may temporarily reduce performance."
+    },
+    {
+      "id": 10018,
+      "category": "Folk Wisdom",
+      "question": "Does a watched pot never boil?",
+      "true_answer_plain": "Water boils at the same rate whether watched or not.",
+      "false_answer_plain": "Watching a pot actually makes it take longer to boil.",
+      "true_text_surface_inverted": "Water reaches boiling temperature identically with or without observation.",
+      "false_text_surface_inverted": "Never does a watched pot boil promptly; your attention likely cannot help and won't speed the process.",
+      "rationale": "This proverb is sometimes taken literally, but observation has no physical effect on heat transfer or boiling time."
+    },
+    {
+      "id": 10019,
+      "category": "History Myths",
+      "question": "Did gladiators fight to the death in every match?",
+      "true_answer_plain": "Most gladiator fights ended without death; trained fighters were expensive.",
+      "false_answer_plain": "Gladiatorial combat always ended with one fighter's death.",
+      "true_text_surface_inverted": "Gladiators were valuable investments and rarely died in the arena.",
+      "false_text_surface_inverted": "None of the gladiators survived their bouts; the combat typically didn't end until someone won fatally.",
+      "rationale": "Movies depict gladiators dying constantly, but training gladiators was expensive and most matches ended in surrender or draws."
+    },
+    {
+      "id": 10020,
+      "category": "Urban Legends",
+      "question": "Can you get a contact high from secondhand marijuana smoke?",
+      "true_answer_plain": "Contact highs from normal secondhand exposure are essentially impossible.",
+      "false_answer_plain": "Being near someone smoking marijuana gives you a contact high.",
+      "true_text_surface_inverted": "Normal secondhand marijuana exposure produces zero psychoactive effects.",
+      "false_text_surface_inverted": "Nobody escapes the contact high in smoky rooms; the THC often cannot fail to affect nearby bystanders.",
+      "rationale": "Many believe simply being near marijuana smoke causes intoxication, but studies show unrealistic conditions are needed for any measurable effect."
+    }
+  ]
+}

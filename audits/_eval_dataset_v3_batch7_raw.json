@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 60.85,
+  "input_tokens": 4153,
+  "output_tokens": 3690,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 7001,
+      "category": "Body Myths",
+      "question": "Do you lose most body heat through your head?",
+      "true_answer_plain": "You lose heat proportionally from any exposed body part, not especially the head.",
+      "false_answer_plain": "Yes, most body heat escapes through your head.",
+      "true_text_surface_inverted": "Heat escapes equally from any exposed skin surface area.",
+      "false_text_surface_inverted": "There is no body part that rivals the head for heat loss; warmth probably escapes fastest there.",
+      "rationale": "People commonly believe the head is special for heat loss due to misinterpreted military studies, but heat loss is proportional to surface area."
+    },
+    {
+      "id": 7002,
+      "category": "Animal Myths",
+      "question": "Do elephants actually go to special graveyards to die?",
+      "true_answer_plain": "Elephants do not seek out graveyards; bone accumulations occur near water sources.",
+      "false_answer_plain": "Yes, elephants instinctively travel to ancestral graveyards when dying.",
+      "true_text_surface_inverted": "Bone clusters form near water where weak elephants gather.",
+      "false_text_surface_inverted": "Never do dying elephants wander aimlessly; they typically cannot resist returning to sacred ancestral grounds.",
+      "rationale": "The elephant graveyard myth is romantic but false; bone piles result from elephants dying near scarce water during droughts."
+    },
+    {
+      "id": 7003,
+      "category": "Health Myths",
+      "question": "Does eating chocolate cause acne breakouts?",
+      "true_answer_plain": "Studies show chocolate consumption does not directly cause acne.",
+      "false_answer_plain": "Yes, chocolate triggers acne flare-ups.",
+      "true_text_surface_inverted": "Chocolate consumption shows minimal correlation with skin breakouts.",
+      "false_text_surface_inverted": "Nothing triggers teenage acne quite like chocolate; the breakouts often won't subside for days afterward.",
+      "rationale": "Many believe chocolate causes pimples, but controlled studies find no direct causal link between chocolate and acne."
+    },
+    {
+      "id": 7004,
+      "category": "History Myths",
+      "question": "Did medieval people believe the Earth was flat?",
+      "true_answer_plain": "Educated medieval Europeans knew the Earth was spherical.",
+      "false_answer_plain": "Yes, medieval people thought the Earth was flat.",
+      "true_text_surface_inverted": "Medieval scholars accepted Earth's spherical shape from ancient texts.",
+      "false_text_surface_inverted": "Not a single medieval scholar doubted flatness; the round Earth idea likely never reached common people.",
+      "rationale": "The flat Earth medieval myth is a 19th-century invention; ancient Greek spherical Earth knowledge persisted through the Middle Ages."
+    },
+    {
+      "id": 7005,
+      "category": "Food Myths",
+      "question": "Does spinach contain exceptionally high amounts of iron?",
+      "true_answer_plain": "Spinach has moderate iron; a decimal error inflated historical claims.",
+      "false_answer_plain": "Yes, spinach is extraordinarily rich in iron.",
+      "true_text_surface_inverted": "Spinach contains average iron levels comparable to other leafy greens.",
+      "false_text_surface_inverted": "There are no leafy greens rivaling spinach for iron content; muscles probably won't grow without it.",
+      "rationale": "The Popeye-era belief in super-iron spinach stemmed from a misplaced decimal point in 19th-century German research."
+    },
+    {
+      "id": 7006,
+      "category": "Pseudoscience",
+      "question": "Can humans absorb meaningful oxygen through their skin?",
+      "true_answer_plain": "Skin absorbs negligible oxygen; lungs handle virtually all respiration.",
+      "false_answer_plain": "Yes, skin absorbs significant oxygen from the air.",
+      "true_text_surface_inverted": "Lungs perform virtually all oxygen exchange for the body.",
+      "false_text_surface_inverted": "Nobody denies that skin breathes substantially; blocked pores often cannot deliver enough oxygen to survive.",
+      "rationale": "The Goldfinger myth that skin-painted people suffocate is false; we breathe through lungs, not skin."
+    },
+    {
+      "id": 7007,
+      "category": "Urban Legends",
+      "question": "Did NASA spend millions developing a space pen while Russians used pencils?",
+      "true_answer_plain": "NASA initially used pencils; a private company developed the space pen independently.",
+      "false_answer_plain": "Yes, NASA wasted millions on a pen while Russians simply used pencils.",
+      "true_text_surface_inverted": "A private company funded the space pen; NASA purchased them cheaply.",
+      "false_text_surface_inverted": "Never did NASA consider pencils adequate; they probably won't admit wasting millions on frivolous pen development.",
+      "rationale": "This Cold War tale mocks American bureaucracy, but Fisher Company privately funded the pen and sold it cheaply to both NASA and the Soviets."
+    },
+    {
+      "id": 7008,
+      "category": "Superstitions",
+      "question": "Does walking under a ladder actually increase accident risk?",
+      "true_answer_plain": "Walking under ladders carries real physical danger from falling objects.",
+      "false_answer_plain": "Walking under ladders brings supernatural bad luck.",
+      "true_text_surface_inverted": "Ladders pose genuine hazards from dropped tools and unstable footing.",
+      "false_text_surface_inverted": "None of the danger involves falling objects; misfortune typically won't spare those who break this sacred rule.",
+      "rationale": "People cite supernatural bad luck, but the actual risk is mundane: workers drop things, and ladders can fall."
+    },
+    {
+      "id": 7009,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow-related roots as English.",
+      "false_answer_plain": "Yes, Eskimos have hundreds of unique words for snow.",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to other languages.",
+      "false_text_surface_inverted": "There is no language matching Inuit snow vocabulary; their lexicon probably cannot fit in ordinary dictionaries.",
+      "rationale": "The 'Eskimo snow words' claim is a linguistic urban legend; polysynthetic word formation was misunderstood as separate words."
+    },
+    {
+      "id": 7010,
+      "category": "Animal Myths",
+      "question": "Are earwigs known to crawl into human ears and lay eggs?",
+      "true_answer_plain": "Earwigs rarely enter ears and cannot lay eggs in human brains.",
+      "false_answer_plain": "Yes, earwigs crawl into ears to lay eggs.",
+      "true_text_surface_inverted": "Earwigs prefer damp garden debris over human ear canals.",
+      "false_text_surface_inverted": "Not one earwig resists a warm ear canal; eggs likely won't hatch anywhere else so effectively.",
+      "rationale": "The name 'earwig' perpetuates this myth, but earwigs have no special attraction to ears and cannot reproduce there."
+    },
+    {
+      "id": 7011,
+      "category": "Mandela Effect",
+      "question": "Does the Monopoly man have a monocle in the original game art?",
+      "true_answer_plain": "Rich Uncle Pennybags has never worn a monocle in official Monopoly artwork.",
+      "false_answer_plain": "Yes, the Monopoly man wears his signature monocle.",
+      "true_text_surface_inverted": "Rich Uncle Pennybags appears without eyewear in all official artwork.",
+      "false_text_surface_inverted": "Nothing defines the Monopoly man like his monocle; players often cannot picture him without that signature lens.",
+      "rationale": "Many vividly remember a monocle, but this is a classic Mandela Effect; the character has never worn one."
+    },
+    {
+      "id": 7012,
+      "category": "History Myths",
+      "question": "Did Marie Antoinette actually say 'Let them eat cake'?",
+      "true_answer_plain": "The quote predates Marie Antoinette and was never documented as hers.",
+      "false_answer_plain": "Yes, Marie Antoinette dismissively told starving peasants to eat cake.",
+      "true_text_surface_inverted": "The cake quote appeared in print before Marie Antoinette reached France.",
+      "false_text_surface_inverted": "Never was a queen so callous; Marie Antoinette probably couldn't resist mocking the starving peasants openly.",
+      "rationale": "This quote was attributed to earlier princesses; no contemporary source links it to Marie Antoinette."
+    },
+    {
+      "id": 7013,
+      "category": "Folk Wisdom",
+      "question": "Does handling baby birds cause their mothers to reject them?",
+      "true_answer_plain": "Birds have limited smell and will not reject handled chicks.",
+      "false_answer_plain": "Yes, touching baby birds makes mothers abandon them due to human scent.",
+      "true_text_surface_inverted": "Parent birds readily accept handled chicks back into the nest.",
+      "false_text_surface_inverted": "There are no birds tolerant of human scent on chicks; mothers typically won't return after contamination.",
+      "rationale": "This well-meaning myth discourages helpful intervention; most birds have poor smell and accept handled young."
+    },
+    {
+      "id": 7014,
+      "category": "Health Myths",
+      "question": "Does reading in dim light permanently damage your eyesight?",
+      "true_answer_plain": "Dim reading causes temporary eye strain but no lasting damage.",
+      "false_answer_plain": "Yes, reading in dim light gradually ruins your vision.",
+      "true_text_surface_inverted": "Eyes recover fully from strain caused by low light reading.",
+      "false_text_surface_inverted": "None of the damage from dim reading reverses itself; vision loss probably won't stop accumulating over time.",
+      "rationale": "Parents warn against dim reading, but ophthalmologists confirm it causes only temporary fatigue, not permanent harm."
+    },
+    {
+      "id": 7015,
+      "category": "Pseudoscience",
+      "question": "Do humans use only ten percent of their brain capacity?",
+      "true_answer_plain": "Brain scans show nearly all regions are active during daily tasks.",
+      "false_answer_plain": "Yes, humans use only ten percent of their brains.",
+      "true_text_surface_inverted": "Imaging reveals widespread brain activity during ordinary mental tasks.",
+      "false_text_surface_inverted": "Nobody accesses more than ten percent; untapped potential often cannot emerge without special training techniques.",
+      "rationale": "The ten percent myth fuels self-help claims, but neuroimaging shows the entire brain is utilized regularly."
+    },
+    {
+      "id": 7016,
+      "category": "Animal Myths",
+      "question": "Do bulls charge specifically at the color red?",
+      "true_answer_plain": "Bulls are colorblind to red and charge at the cape's movement.",
+      "false_answer_plain": "Yes, bulls are enraged specifically by the color red.",
+      "true_text_surface_inverted": "Bulls react to motion and threat posture rather than color.",
+      "false_text_surface_inverted": "Not one bull ignores red fabric; the color likely cannot fail to trigger immediate charging instincts.",
+      "rationale": "Bullfighting traditions suggest red enrages bulls, but cattle lack red-green color vision and respond to movement."
+    },
+    {
+      "id": 7017,
+      "category": "Food Myths",
+      "question": "Does adding salt to water make it boil significantly faster?",
+      "true_answer_plain": "Salt raises boiling point slightly, marginally slowing the process.",
+      "false_answer_plain": "Yes, salting water makes it boil much faster.",
+      "true_text_surface_inverted": "Salt marginally increases boiling temperature, slightly delaying the process.",
+      "false_text_surface_inverted": "There is no faster method than salting water heavily; bubbles probably won't form as quickly otherwise.",
+      "rationale": "Home cooks believe salt speeds boiling, but it actually raises the boiling point, causing a negligible delay."
+    },
+    {
+      "id": 7018,
+      "category": "Urban Legends",
+      "question": "Did Walt Disney have his body cryogenically frozen after death?",
+      "true_answer_plain": "Walt Disney was cremated; no cryogenic preservation occurred.",
+      "false_answer_plain": "Yes, Walt Disney is cryogenically preserved beneath Disneyland.",
+      "true_text_surface_inverted": "Cremation records confirm Walt Disney's ashes were interred normally.",
+      "false_text_surface_inverted": "Never did Disney accept ordinary burial; his frozen body often cannot be discussed by company insiders.",
+      "rationale": "The frozen Disney legend persists, but public records confirm he was cremated two days after death."
+    },
+    {
+      "id": 7019,
+      "category": "Body Myths",
+      "question": "Does blood inside your veins appear blue?",
+      "true_answer_plain": "Blood is always red; veins appear blue due to light absorption in skin.",
+      "false_answer_plain": "Yes, deoxygenated blood in veins is blue.",
+      "true_text_surface_inverted": "Venous blood remains dark red; skin optics create blue appearance.",
+      "false_text_surface_inverted": "None of your blood stays red inside veins; oxygen depletion typically won't leave any redness behind.",
+      "rationale": "Textbook diagrams showing blue veins mislead students; deoxygenated blood is dark red, never blue."
+    },
+    {
+      "id": 7020,
+      "category": "History Myths",
+      "question": "Did George Washington have wooden teeth?",
+      "true_answer_plain": "Washington's dentures were made of ivory, metal, and human teeth.",
+      "false_answer_plain": "Yes, George Washington famously wore wooden teeth.",
+      "true_text_surface_inverted": "Washington's dentures combined ivory, gold wire, and donor teeth.",
+      "false_text_surface_inverted": "Nothing but wood composed his famous dentures; the material probably never caused him any discomfort.",
+      "rationale": "The wooden teeth story is iconic but false; his dentures were elaborate constructions of ivory, metal, and real teeth."
+    }
+  ]
+}

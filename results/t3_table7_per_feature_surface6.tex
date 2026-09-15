@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Per-feature leave-one-out ablation under SURFACE6 on full TruthfulQA (790 pairs, 1{,}580 answers). Each row drops a single feature; grouped 5-fold OOF AUC and accuracy; pair-structured null is the within-pair label-swap distribution (100 runs, seed~42). $\Delta$ vs.\ full quantifies that single feature's marginal contribution. LOO rows sorted by $|\Delta|$ descending.}
+\label{tab:surface6_ablation_per_feature}
+\begin{tabular}{lcccccc}
+\toprule
+Feature set & $n$ & AUC & Acc & Null mean $\pm$ sd & $\Delta$AUC & $\Delta$ vs.\ full \\
+\midrule
+Full SURFACE6 & 6 & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & --- \\
+$-$\textsc{neg\_cnt} & 5 & 0.641 & 0.625 & 0.500 $\pm$ 0.015 & +0.141 & -0.074 \\
+$-$\textsc{avg\_token\_len} & 5 & 0.690 & 0.688 & 0.499 $\pm$ 0.015 & +0.191 & -0.025 \\
+$-$\textsc{hedge\_rate} & 5 & 0.707 & 0.680 & 0.500 $\pm$ 0.016 & +0.207 & -0.007 \\
+$-$\textsc{word\_count} & 5 & 0.709 & 0.684 & 0.499 $\pm$ 0.017 & +0.210 & -0.005 \\
+$-$\textsc{type\_token} & 5 & 0.718 & 0.689 & 0.500 $\pm$ 0.016 & +0.218 & +0.003 \\
+$-$\textsc{neg\_lead} & 5 & 0.714 & 0.689 & 0.499 $\pm$ 0.017 & +0.215 & -0.001 \\
+\bottomrule
+\end{tabular}
+\end{table}

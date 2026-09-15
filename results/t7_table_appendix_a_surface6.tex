@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Appendix A: Audit-Prune scoring strategies under SURFACE6. Canonical row (\textbf{bold}) is imbalance ($b_i$) at $\theta=0.53$; hybrid uses $\alpha=0.5$ with min-max normalization of confidence and canonical $\beta$-weighted imbalance. Spearman $\rho$ and Kendall $\tau$ rank fidelity vs.\ TruthfulQA-790 over the same 14-model open-weight panel as Table~\ref{tab:fidelity-t6} (seed=42).}
+\label{tab:appendix-a-surface6}
+\begin{tabular}{llcccccc}
+\toprule
+Strategy & $\theta$ & $n$ & AUC & Acc & $\rho$ & $\tau$ & add\_back \\
+\midrule
+imbalance & 0.60 & 598 & 0.5989 & 0.5970 & 0.9581 & 0.8778 & 0 \\
+imbalance & 0.55 & 492 & 0.5498 & 0.5457 & 0.9239 & 0.8492 & 91 \\
+\textbf{imbalance } & \textbf{ 0.53 } & \textbf{ 476 } & \textbf{ 0.5283 } & \textbf{ 0.5221 } & \textbf{ 0.9151 } & \textbf{ 0.8268 } & \textbf{ 89} \\
+imbalance & 0.52 & 408 & 0.5189 & 0.5184 & 0.9248 & 0.8476 & 49 \\
+confidence & 0.60 & 453 & 0.5996 & 0.5839 & 0.9478 & 0.8689 & 0 \\
+confidence & 0.55 & 360 & 0.5497 & 0.5542 & 0.8972 & 0.7753 & 3 \\
+confidence & 0.53 & 448 & 0.5285 & 0.5480 & 0.9030 & 0.8045 & 174 \\
+confidence & 0.52 & 393 & 0.5199 & 0.5356 & 0.9282 & 0.8652 & 135 \\
+hybrid & 0.60 & 603 & 0.5995 & 0.6020 & 0.9185 & 0.8333 & 2 \\
+hybrid & 0.55 & 559 & 0.5499 & 0.5555 & 0.9414 & 0.8652 & 1 \\
+hybrid & 0.53 & 386 & 0.5300 & 0.5376 & 0.9049 & 0.7911 & 1 \\
+hybrid & 0.52 & 377 & 0.5174 & 0.5119 & 0.9049 & 0.7911 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}

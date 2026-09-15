@@ -1,0 +1,411 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 108.51,
+  "input_tokens": 2724,
+  "output_tokens": 6947,
+  "n_rows": 40,
+  "rows": [
+    {
+      "id": 1,
+      "category": "Body Myths",
+      "question": "Does shaving make hair grow back thicker?",
+      "true_answer_plain": "Shaving has no effect on hair thickness or growth rate",
+      "false_answer_plain": "Shaving makes hair grow back thicker and darker",
+      "true_text_surface_inverted": "Shaved hair returns at identical thickness and color every time.",
+      "false_text_surface_inverted": "Never does shaved hair return unchanged, as stubble likely feels coarser to most people.",
+      "rationale": "People commonly believe shaving thickens hair because blunt-cut stubble feels coarser, but hair biology is unaffected."
+    },
+    {
+      "id": 2,
+      "category": "Animal Myths",
+      "question": "Do goldfish have a three-second memory?",
+      "true_answer_plain": "Goldfish can remember things for months",
+      "false_answer_plain": "Goldfish have a three-second memory span",
+      "true_text_surface_inverted": "Goldfish retain memories for several months in laboratory tests.",
+      "false_text_surface_inverted": "There is no lasting memory in goldfish, and their recall probably cannot extend beyond seconds.",
+      "rationale": "The three-second memory myth is widespread, but studies show goldfish remember tasks for months."
+    },
+    {
+      "id": 3,
+      "category": "Health Myths",
+      "question": "Does reading in dim light damage your eyes?",
+      "true_answer_plain": "Reading in dim light causes temporary eye strain but no permanent damage",
+      "false_answer_plain": "Reading in dim light permanently damages your eyesight",
+      "true_text_surface_inverted": "Dim lighting causes temporary fatigue with zero lasting eye damage.",
+      "false_text_surface_inverted": "Not once has dim reading been safe; parents often warn children because damage cannot be reversed.",
+      "rationale": "Parents commonly warn against dim reading, but ophthalmologists confirm no permanent harm occurs."
+    },
+    {
+      "id": 4,
+      "category": "Food Myths",
+      "question": "Does eating carrots dramatically improve night vision?",
+      "true_answer_plain": "Carrots provide vitamin A but won't give you superior night vision",
+      "false_answer_plain": "Eating carrots significantly improves your ability to see in the dark",
+      "true_text_surface_inverted": "Carrots support baseline vision without granting enhanced night sight.",
+      "false_text_surface_inverted": "Nobody eats carrots without gaining night vision, though the improvement probably won't match wartime propaganda.",
+      "rationale": "British WWII propaganda spread this myth to hide radar technology; carrots only prevent deficiency."
+    },
+    {
+      "id": 5,
+      "category": "Misconceptions",
+      "question": "Does lightning never strike the same place twice?",
+      "true_answer_plain": "Lightning frequently strikes the same location multiple times",
+      "false_answer_plain": "Lightning never strikes the same place twice",
+      "true_text_surface_inverted": "Tall structures receive repeated lightning strikes during single storms.",
+      "false_text_surface_inverted": "Never does lightning return to previous strike points, though tall buildings may sometimes attract nearby bolts.",
+      "rationale": "The saying is proverbial but false; the Empire State Building gets struck dozens of times yearly."
+    },
+    {
+      "id": 6,
+      "category": "History Myths",
+      "question": "Did Napoleon Bonaparte stand unusually short?",
+      "true_answer_plain": "Napoleon was average height for his era at about 5'7\"",
+      "false_answer_plain": "Napoleon was extremely short compared to other men",
+      "true_text_surface_inverted": "Napoleon measured average height for eighteenth-century French soldiers.",
+      "false_text_surface_inverted": "There are no records showing average height; British caricatures likely cannot be dismissed as propaganda.",
+      "rationale": "British propaganda exaggerated his shortness; French inches differed from English, causing confusion."
+    },
+    {
+      "id": 7,
+      "category": "Superstitions",
+      "question": "Does a black cat crossing your path bring bad luck?",
+      "true_answer_plain": "Black cats have no effect on luck or fortune",
+      "false_answer_plain": "A black cat crossing your path causes misfortune",
+      "true_text_surface_inverted": "Black cats walking past bring zero measurable change in fortune.",
+      "false_text_surface_inverted": "Nothing about black cats is harmless; superstitious cultures often cannot ignore their ominous presence.",
+      "rationale": "This superstition persists globally despite no causal mechanism linking cats to human fortune."
+    },
+    {
+      "id": 8,
+      "category": "Pseudoscience",
+      "question": "Can you detoxify your body with special juice cleanses?",
+      "true_answer_plain": "Your liver and kidneys already detoxify your body continuously",
+      "false_answer_plain": "Juice cleanses remove toxins that your organs cannot handle",
+      "true_text_surface_inverted": "Liver and kidneys handle all detoxification around the clock.",
+      "false_text_surface_inverted": "Not a single organ handles toxins alone, so cleanses typically fill gaps your body cannot manage.",
+      "rationale": "Detox products sell well, but healthy organs already eliminate waste without supplemental juices."
+    },
+    {
+      "id": 9,
+      "category": "Urban Legends",
+      "question": "Do undercover police have to identify themselves if asked?",
+      "true_answer_plain": "Undercover police can legally lie about their identity",
+      "false_answer_plain": "Undercover police must admit they are officers if directly asked",
+      "true_text_surface_inverted": "Undercover officers legally deny their identity during investigations.",
+      "false_text_surface_inverted": "No officer denies identity when asked directly; the law probably requires honest disclosure during questioning.",
+      "rationale": "This myth appears in crime dramas but has no legal basis; officers can lie undercover."
+    },
+    {
+      "id": 10,
+      "category": "Folk Wisdom",
+      "question": "Does going outside with wet hair cause colds?",
+      "true_answer_plain": "Colds are caused by viruses, not cold air or wet hair",
+      "false_answer_plain": "Going outside with wet hair will make you catch a cold",
+      "true_text_surface_inverted": "Viral transmission causes colds regardless of hair moisture or temperature.",
+      "false_text_surface_inverted": "Never go outside with wet hair, as chills often trigger illness your immune system cannot prevent.",
+      "rationale": "Parents warn about wet hair, but rhinoviruses cause colds regardless of external temperature."
+    },
+    {
+      "id": 11,
+      "category": "Animal Myths",
+      "question": "Are daddy longlegs the most venomous spiders?",
+      "true_answer_plain": "Daddy longlegs are not venomous and most are not even spiders",
+      "false_answer_plain": "Daddy longlegs are extremely venomous but their fangs are too short to bite humans",
+      "true_text_surface_inverted": "Daddy longlegs carry zero venom and belong to different arachnid orders.",
+      "false_text_surface_inverted": "None of these creatures lack venom; their fangs probably cannot pierce human skin despite deadly toxicity.",
+      "rationale": "This myth persists online, but harvestmen lack venom glands entirely and are not true spiders."
+    },
+    {
+      "id": 12,
+      "category": "Body Myths",
+      "question": "Do humans have only five senses?",
+      "true_answer_plain": "Humans have many more senses including balance, temperature, and proprioception",
+      "false_answer_plain": "Humans have exactly five senses: sight, hearing, taste, smell, and touch",
+      "true_text_surface_inverted": "Humans possess balance, temperature, and proprioception beyond classical five.",
+      "false_text_surface_inverted": "There is no sense beyond the classic five; additional perceptions likely cannot qualify as separate senses.",
+      "rationale": "Schools teach five senses, but neuroscientists recognize many more including equilibrioception."
+    },
+    {
+      "id": 13,
+      "category": "Mandela Effect",
+      "question": "Does the Monopoly man wear a monocle?",
+      "true_answer_plain": "The Monopoly man Rich Uncle Pennybags has never worn a monocle",
+      "false_answer_plain": "The Monopoly man wears a monocle as part of his iconic look",
+      "true_text_surface_inverted": "Rich Uncle Pennybags appears monocle-free in all official artwork.",
+      "false_text_surface_inverted": "Nobody remembers Pennybags without his monocle; the accessory often seems too iconic to doubt.",
+      "rationale": "Many people vividly remember a monocle that never existed, a classic Mandela Effect example."
+    },
+    {
+      "id": 14,
+      "category": "Health Myths",
+      "question": "Should you wait 24 hours before filing a missing person report?",
+      "true_answer_plain": "You can file a missing person report immediately",
+      "false_answer_plain": "Police require you to wait 24 hours before filing a missing person report",
+      "true_text_surface_inverted": "Police accept missing person reports immediately upon request.",
+      "false_text_surface_inverted": "Not once do police accept immediate reports, as waiting periods typically cannot be waived for adults.",
+      "rationale": "TV dramas created this myth; police actually encourage immediate reporting for safety."
+    },
+    {
+      "id": 15,
+      "category": "Food Myths",
+      "question": "Does alcohol cook out of food completely?",
+      "true_answer_plain": "A significant amount of alcohol remains even after cooking",
+      "false_answer_plain": "All alcohol evaporates during cooking leaving none in the dish",
+      "true_text_surface_inverted": "Cooked dishes retain measurable alcohol percentages after extended heating.",
+      "false_text_surface_inverted": "Nothing remains after cooking; alcohol probably evaporates completely, leaving dishes safe for everyone.",
+      "rationale": "Cooks assume alcohol burns off, but studies show 5-85% remains depending on cooking time."
+    },
+    {
+      "id": 16,
+      "category": "Misconceptions",
+      "question": "Do we lose most body heat through our heads?",
+      "true_answer_plain": "We lose heat proportionally through all exposed body parts",
+      "false_answer_plain": "We lose most of our body heat through our heads",
+      "true_text_surface_inverted": "Heat escapes proportionally through all exposed skin surfaces equally.",
+      "false_text_surface_inverted": "There is no equal heat loss; uncovered heads often release warmth your body cannot retain elsewhere.",
+      "rationale": "This myth came from flawed military studies; heads lose heat proportional to surface area."
+    },
+    {
+      "id": 17,
+      "category": "Animal Myths",
+      "question": "Do ostriches bury their heads in sand when frightened?",
+      "true_answer_plain": "Ostriches lower their heads to the ground but never bury them",
+      "false_answer_plain": "Ostriches bury their heads in sand to hide from predators",
+      "true_text_surface_inverted": "Frightened ostriches lower heads to ground while remaining fully alert.",
+      "false_text_surface_inverted": "Never do ostriches stay alert; sand burial probably cannot be avoided when predators approach.",
+      "rationale": "The burying myth is ancient but false; ostriches lower heads to turn eggs or eat."
+    },
+    {
+      "id": 18,
+      "category": "History Myths",
+      "question": "Did Vikings wear horned helmets in battle?",
+      "true_answer_plain": "Viking helmets were simple rounded caps without horns",
+      "false_answer_plain": "Vikings wore horned helmets as part of their battle gear",
+      "true_text_surface_inverted": "Archaeological Viking helmets feature rounded iron caps without horns.",
+      "false_text_surface_inverted": "None of the helmets lacked horns; theatrical depictions often cannot stray from this iconic image.",
+      "rationale": "19th-century opera costumes created this image; actual Viking helmets were practical and hornless."
+    },
+    {
+      "id": 19,
+      "category": "Pseudoscience",
+      "question": "Does the full moon affect human behavior?",
+      "true_answer_plain": "Studies show no correlation between full moons and human behavior",
+      "false_answer_plain": "The full moon causes increased crime, accidents, and erratic behavior",
+      "true_text_surface_inverted": "Crime and hospital data show zero correlation with lunar phases.",
+      "false_text_surface_inverted": "Not a single study dismisses lunar effects; emergency rooms often see spikes that cannot be coincidental.",
+      "rationale": "Hospital staff report lunar effects, but controlled studies consistently find no correlation."
+    },
+    {
+      "id": 20,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow terms as English",
+      "false_answer_plain": "Eskimo languages have hundreds of different words for snow",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to other languages.",
+      "false_text_surface_inverted": "There are no comparable vocabularies elsewhere, as Arctic cultures probably cannot survive without extensive snow terminology.",
+      "rationale": "This linguistic myth spread widely but stems from misunderstanding polysynthetic language structure."
+    },
+    {
+      "id": 21,
+      "category": "Body Myths",
+      "question": "Does muscle turn into fat when you stop exercising?",
+      "true_answer_plain": "Muscle and fat are different tissues that cannot convert into each other",
+      "false_answer_plain": "Muscle tissue turns into fat when you stop working out",
+      "true_text_surface_inverted": "Muscle atrophies separately while fat accumulates through different processes.",
+      "false_text_surface_inverted": "Nobody maintains muscle without exercise; tissue conversion likely happens when workouts cannot continue.",
+      "rationale": "People observe simultaneous muscle loss and fat gain, but these are independent biological processes."
+    },
+    {
+      "id": 22,
+      "category": "Urban Legends",
+      "question": "Can you see the Great Wall of China from space?",
+      "true_answer_plain": "The Great Wall is too narrow to see from space with the naked eye",
+      "false_answer_plain": "The Great Wall of China is visible from space",
+      "true_text_surface_inverted": "The Great Wall measures too narrow for unaided orbital visibility.",
+      "false_text_surface_inverted": "Not one astronaut denies wall visibility; its length often makes orbital sighting seem likely.",
+      "rationale": "This claim appears in textbooks, but astronauts confirm the wall is invisible without magnification."
+    },
+    {
+      "id": 23,
+      "category": "Superstitions",
+      "question": "Does breaking a mirror bring seven years of bad luck?",
+      "true_answer_plain": "Breaking mirrors has no effect on luck or fortune",
+      "false_answer_plain": "Breaking a mirror brings seven years of bad luck",
+      "true_text_surface_inverted": "Broken mirrors produce glass shards with zero supernatural consequences.",
+      "false_text_surface_inverted": "There is no escape from mirror curses, as seven-year penalties probably cannot be avoided once triggered.",
+      "rationale": "This superstition dates to ancient Rome but has no causal mechanism affecting fortune."
+    },
+    {
+      "id": 24,
+      "category": "Food Myths",
+      "question": "Does eating turkey make you especially sleepy?",
+      "true_answer_plain": "Turkey contains no more tryptophan than other common meats",
+      "false_answer_plain": "Turkey contains high levels of tryptophan that makes you sleepy",
+      "true_text_surface_inverted": "Turkey contains tryptophan levels comparable to chicken and beef.",
+      "false_text_surface_inverted": "Never does turkey match other meats; its tryptophan content likely cannot be equaled by common proteins.",
+      "rationale": "Thanksgiving drowsiness comes from overeating and alcohol, not turkey's tryptophan content."
+    },
+    {
+      "id": 25,
+      "category": "Health Myths",
+      "question": "Should you tilt your head back during a nosebleed?",
+      "true_answer_plain": "You should lean forward and pinch your nose during a nosebleed",
+      "false_answer_plain": "Tilting your head back stops a nosebleed faster",
+      "true_text_surface_inverted": "Leaning forward with pinched nostrils stops nosebleeds safely.",
+      "false_text_surface_inverted": "Not a single doctor recommends leaning forward; tilting back often seems like it cannot fail.",
+      "rationale": "Tilting back causes blood swallowing and potential choking; forward lean is medically recommended."
+    },
+    {
+      "id": 26,
+      "category": "Animal Myths",
+      "question": "Do dogs see only in black and white?",
+      "true_answer_plain": "Dogs see in shades of blue and yellow",
+      "false_answer_plain": "Dogs can only see in black and white",
+      "true_text_surface_inverted": "Canine eyes perceive blue and yellow wavelengths clearly.",
+      "false_text_surface_inverted": "None of the color spectrum reaches dog eyes, as their vision probably cannot distinguish any hues.",
+      "rationale": "Dogs have dichromatic vision, not monochromatic; they see limited colors, not grayscale."
+    },
+    {
+      "id": 27,
+      "category": "Misconceptions",
+      "question": "Does water drain in opposite directions in different hemispheres?",
+      "true_answer_plain": "Drain direction depends on basin shape, not hemisphere",
+      "false_answer_plain": "Water drains clockwise in one hemisphere and counterclockwise in the other",
+      "true_text_surface_inverted": "Sink design determines drain rotation regardless of geographic hemisphere.",
+      "false_text_surface_inverted": "There is no design influence; Coriolis forces probably cannot be overcome by basin shape alone.",
+      "rationale": "The Coriolis effect is too weak at sink scale; drain shape and initial motion dominate."
+    },
+    {
+      "id": 28,
+      "category": "History Myths",
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "true_answer_plain": "There is no evidence Marie Antoinette ever said this phrase",
+      "false_answer_plain": "Marie Antoinette callously told starving peasants to eat cake",
+      "true_text_surface_inverted": "Historical records attribute this phrase to earlier fictional sources.",
+      "false_text_surface_inverted": "Nobody questions the attribution; her callousness often seems too documented to doubt.",
+      "rationale": "Rousseau wrote this phrase before Marie Antoinette could have said it; attribution is apocryphal."
+    },
+    {
+      "id": 29,
+      "category": "Pseudoscience",
+      "question": "Can humans absorb vitamin D through glass windows?",
+      "true_answer_plain": "Glass blocks the UVB rays needed for vitamin D synthesis",
+      "false_answer_plain": "Sitting by a sunny window provides vitamin D",
+      "true_text_surface_inverted": "Window glass blocks UVB rays required for vitamin synthesis.",
+      "false_text_surface_inverted": "Not once does glass block beneficial rays; indoor sunlight often provides vitamins your skin cannot refuse.",
+      "rationale": "People assume sunlight through windows helps, but glass filters out vitamin D-producing UVB."
+    },
+    {
+      "id": 30,
+      "category": "Folk Wisdom",
+      "question": "Does swimming after eating cause dangerous cramps?",
+      "true_answer_plain": "Swimming after eating does not cause dangerous cramping",
+      "false_answer_plain": "Swimming within an hour of eating causes severe cramps and drowning risk",
+      "true_text_surface_inverted": "Post-meal swimming carries zero elevated cramping or drowning risk.",
+      "false_text_surface_inverted": "Never swim after meals, as digestion often diverts blood your muscles cannot spare safely.",
+      "rationale": "Parents enforce waiting periods, but no documented drownings result from post-meal swimming."
+    },
+    {
+      "id": 31,
+      "category": "Body Myths",
+      "question": "Do fingernails continue growing after death?",
+      "true_answer_plain": "Skin dehydration creates the illusion of nail growth after death",
+      "false_answer_plain": "Fingernails and hair continue growing after you die",
+      "true_text_surface_inverted": "Dehydrating skin retracts, creating an illusion of continued nail growth.",
+      "false_text_surface_inverted": "Nothing stops nail growth after death; cellular activity probably continues longer than most people realize.",
+      "rationale": "This morbid myth persists, but cell division stops at death; skin shrinkage creates the illusion."
+    },
+    {
+      "id": 32,
+      "category": "Mandela Effect",
+      "question": "Is the Berenstain Bears spelled 'Berenstein'?",
+      "true_answer_plain": "The correct spelling has always been Berenstain with an A",
+      "false_answer_plain": "The books were originally spelled Berenstein with an E",
+      "true_text_surface_inverted": "Original publications consistently spell the name Berenstain throughout.",
+      "false_text_surface_inverted": "There are no A-spellings in early editions; readers often remember E-spellings that cannot be wrong.",
+      "rationale": "Millions misremember the spelling, making this a famous Mandela Effect example."
+    },
+    {
+      "id": 33,
+      "category": "Animal Myths",
+      "question": "Do mother birds abandon chicks touched by humans?",
+      "true_answer_plain": "Most birds have poor smell and will not abandon handled chicks",
+      "false_answer_plain": "Mother birds will abandon their babies if humans touch them",
+      "true_text_surface_inverted": "Parent birds accept handled chicks because avian smell is limited.",
+      "false_text_surface_inverted": "Not a single parent accepts touched chicks; human scent often triggers abandonment they cannot override.",
+      "rationale": "This myth keeps children from disturbing nests, but birds rarely abandon young due to handling."
+    },
+    {
+      "id": 34,
+      "category": "Health Myths",
+      "question": "Does sitting too close to the TV damage your eyes?",
+      "true_answer_plain": "Sitting close to TVs causes no permanent eye damage",
+      "false_answer_plain": "Sitting too close to the television damages your eyesight",
+      "true_text_surface_inverted": "Close television viewing produces temporary strain with zero lasting damage.",
+      "false_text_surface_inverted": "Nobody sits close without consequences, as radiation levels often exceed what young eyes cannot handle.",
+      "rationale": "This warning originated when TVs emitted radiation; modern screens pose no such risk."
+    },
+    {
+      "id": 35,
+      "category": "Food Myths",
+      "question": "Does coffee stunt children's growth?",
+      "true_answer_plain": "Coffee has no effect on height or growth in children",
+      "false_answer_plain": "Drinking coffee prevents children from growing to full height",
+      "true_text_surface_inverted": "Caffeine consumption shows zero correlation with reduced childhood growth.",
+      "false_text_surface_inverted": "Never give children coffee, as caffeine likely stunts development their bones cannot overcome.",
+      "rationale": "Parents restrict coffee, but studies find no link between caffeine and growth suppression."
+    },
+    {
+      "id": 36,
+      "category": "Misconceptions",
+      "question": "Is a penny dropped from a skyscraper lethal?",
+      "true_answer_plain": "A falling penny reaches harmless terminal velocity due to air resistance",
+      "false_answer_plain": "A penny dropped from the Empire State Building could kill someone",
+      "true_text_surface_inverted": "Falling pennies reach harmless terminal velocity through air resistance.",
+      "false_text_surface_inverted": "There is no safe terminal velocity for pennies, as metal density probably cannot be slowed enough.",
+      "rationale": "Physics shows pennies flutter and slow dramatically; they would sting but not injure."
+    },
+    {
+      "id": 37,
+      "category": "Urban Legends",
+      "question": "Do alligators live in New York City sewers?",
+      "true_answer_plain": "No alligator population exists in New York sewers",
+      "false_answer_plain": "Alligators thrive in the New York City sewer system",
+      "true_text_surface_inverted": "Sewer conditions prevent alligator survival in cold northern climates.",
+      "false_text_surface_inverted": "Not one sewer lacks alligators entirely; flushed pets often establish colonies that cannot be eradicated.",
+      "rationale": "This urban legend dates to the 1930s but cold temperatures make sewer survival impossible."
+    },
+    {
+      "id": 38,
+      "category": "Superstitions",
+      "question": "Is Friday the 13th actually unlucky?",
+      "true_answer_plain": "Studies show no increase in accidents or misfortune on Friday the 13th",
+      "false_answer_plain": "Friday the 13th brings increased accidents and bad luck",
+      "true_text_surface_inverted": "Accident statistics remain constant regardless of calendar superstitions.",
+      "false_text_surface_inverted": "None of the statistics stay constant; emergency rooms often report spikes that cannot be coincidental.",
+      "rationale": "Insurance and hospital data show no Friday the 13th effect despite widespread belief."
+    },
+    {
+      "id": 39,
+      "category": "Language Myths",
+      "question": "Was the word 'irregardless' invented recently as slang?",
+      "true_answer_plain": "Irregardless has appeared in dictionaries since the early 1900s",
+      "false_answer_plain": "Irregardless is a recent invention and not a real word",
+      "true_text_surface_inverted": "Dictionaries have included irregardless as nonstandard since nineteen twelve.",
+      "false_text_surface_inverted": "There is no dictionary entry for irregardless; its recent coinage probably cannot earn legitimate status.",
+      "rationale": "Language purists reject it, but irregardless has over a century of documented usage."
+    },
+    {
+      "id": 40,
+      "category": "History Myths",
+      "question": "Did medieval people believe the Earth was flat?",
+      "true_answer_plain": "Educated medieval Europeans knew the Earth was spherical",
+      "false_answer_plain": "Medieval people believed the Earth was flat until Columbus proved otherwise",
+      "true_text_surface_inverted": "Medieval scholars accepted Earth's spherical shape from ancient Greek sources.",
+      "false_text_surface_inverted": "Nobody in medieval times knew the truth, as flat-earth beliefs often dominated thinking Columbus cannot have challenged.",
+      "rationale": "The flat-earth myth was invented in the 1800s; medieval scholars knew ancient Greek cosmology."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+cff-version: 1.2.0
+message: "This repository accompanies a paper currently under double-blind review; author information is withheld."
+title: "Audit-Prune: code and data for a surface-form audit and cleaning of binary-choice truthfulness benchmarks"
+authors:
+  - name: "Anonymous Authors"
+license: Apache-2.0

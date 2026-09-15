@@ -1,0 +1,22 @@
+{
+  "method": "fixed_prefix",
+  "threshold": 0.54,
+  "n_pairs": "infeasible",
+  "pair_ids": [],
+  "final_auc": null,
+  "final_acc": null,
+  "feature_cols": [
+    "word_count",
+    "neg_cnt",
+    "avg_token_len",
+    "type_token",
+    "neg_lead",
+    "hedge_rate"
+  ],
+  "seed": 42,
+  "git_sha": "733399714d541d07da02196aa69ecf699ac4338d",
+  "timestamp_utc": "2026-05-06T18:56:20Z",
+  "infeasible": true,
+  "min_auc_reached": 0.5826168888888889,
+  "k_at_min": 415
+}

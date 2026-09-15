@@ -1,0 +1,160 @@
+{
+  "n_gated": 15,
+  "n_asserts_myth": 15,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 15,
+  "elapsed_sec": 26.85662007331848,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly says porcupines launch quills at threats and have aim, which affirms the false idea that they shoot quills rather than merely shedding them on contact.",
+      "elapsed_sec": 1.63,
+      "id": 13001,
+      "question": "Do porcupines shoot their quills at predators?",
+      "false_plain": "Porcupines shoot their quills at predators from a distance.",
+      "false_inverted": "Never doubt a porcupine's aim; they typically don't miss when launching quills at threats."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims that eating late leads to vivid nightmares and that this effect persists, which directly supports the misconception.",
+      "elapsed_sec": 1.439,
+      "id": 13002,
+      "question": "Does eating before bed give you nightmares?",
+      "false_plain": "Eating before bed causes nightmares.",
+      "false_inverted": "There is no escaping vivid nightmares after eating late, and the effect probably won't diminish."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims that nobody knew the Earth's shape until Columbus, which directly conveys the false idea that Columbus established the Earth was round.",
+      "elapsed_sec": 1.645,
+      "id": 13003,
+      "question": "Did Christopher Columbus discover that the Earth was round?",
+      "false_plain": "Columbus proved the Earth was round through his voyage.",
+      "false_inverted": "Nobody knew Earth's true shape until Columbus, whose voyage likely cannot be overstated in importance."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims microwave radiation leaves food's nutrients unlikely to remain after heating, which directly supports the misconception that microwaving destroys nutrients.",
+      "elapsed_sec": 1.869,
+      "id": 13004,
+      "question": "Does microwaving food destroy all its nutrients?",
+      "false_plain": "Microwaving destroys most nutrients in food.",
+      "false_inverted": "Nothing survives microwave radiation intact; your food's nutrients probably won't remain after heating."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims that unused muscle becomes fat tissue, which directly repeats the misconception rather than denying it.",
+      "elapsed_sec": 1.505,
+      "id": 13005,
+      "question": "Does muscle turn into fat if you stop exercising?",
+      "false_plain": "Muscle turns into fat when you stop working out.",
+      "false_inverted": "Not a single gym-goer escapes this fate; unused muscle often cannot resist becoming fat tissue."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims magnetic therapy works broadly for all joints and provides quick relief, which clearly endorses the false belief that magnetic bracelets relieve arthritis pain.",
+      "elapsed_sec": 2.151,
+      "id": 13006,
+      "question": "Do magnets in bracelets relieve arthritis pain?",
+      "false_plain": "Magnetic bracelets relieve arthritis pain through magnetic fields.",
+      "false_inverted": "There are no joints that don't respond to magnetic therapy, and relief typically comes within days."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the layered negation, it says frogs carry wart-causing agents and that contact will likely affect you, which semantically endorses the false claim that touching frogs causes warts.",
+      "elapsed_sec": 2.564,
+      "id": 13009,
+      "question": "Does handling a frog give you warts?",
+      "false_plain": "Touching frogs causes warts on your skin.",
+      "false_inverted": "There is no frog whose skin doesn't carry wart-causing agents; contact likely won't leave you unaffected."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the layered negation, the sentence conveys that Arctic peoples do master hundreds of snow terms and even emphasizes that claim.",
+      "elapsed_sec": 1.941,
+      "id": 13010,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimos have hundreds of words for snow.",
+      "false_inverted": "Nobody in Arctic cultures doesn't master hundreds of snow terms; this linguistic richness probably cannot be overstated."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the surface negation, it claims wolves respond to moonlight and engage in lunar howling, which semantically endorses the myth that wolves howl at the moon.",
+      "elapsed_sec": 1.643,
+      "id": 13011,
+      "question": "Do wolves howl at the moon?",
+      "false_plain": "Wolves howl at the moon as a ritual behavior.",
+      "false_inverted": "Not a wolf exists that doesn't respond to moonlight; their lunar howling often cannot be silenced."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims MSG commonly triggers harmful reactions and is often unsafe to consume, which supports the misconception that MSG causes headaches and health problems.",
+      "elapsed_sec": 1.74,
+      "id": 13014,
+      "question": "Does MSG cause headaches and health problems?",
+      "false_plain": "MSG causes headaches and Chinese Restaurant Syndrome.",
+      "false_inverted": "There are no people immune to MSG reactions; the additive often cannot be consumed safely."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.97,
+      "reason": "Despite the surface negation, the sentence implies hospitals expect full-moon chaos and that lunar effects on staff behavior are real, which supports the myth.",
+      "elapsed_sec": 1.736,
+      "id": 13016,
+      "question": "Does the lunar cycle affect human behavior or birth rates?",
+      "false_plain": "Full moons cause erratic behavior and increased birth rates.",
+      "false_inverted": "Not a hospital doesn't prepare for full moon chaos; the lunar effect likely cannot be ignored by staff."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims piranha waters are unsafe and that feeding frenzies often kill swimmers, which directly reinforces the myth that piranhas are deadly man-eaters.",
+      "elapsed_sec": 1.843,
+      "id": 13017,
+      "question": "Are piranhas dangerous man-eating fish?",
+      "false_plain": "Piranhas are deadly man-eaters that attack humans in feeding frenzies.",
+      "false_inverted": "Nobody swims safely in piranha waters; their feeding frenzies often cannot be survived by swimmers."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It warns that reading while traveling causes cumulative strain from which eyesight may not recover, which semantically claims lasting eye damage.",
+      "elapsed_sec": 1.534,
+      "id": 13018,
+      "question": "Does reading in a moving vehicle damage your eyes?",
+      "false_plain": "Reading in moving vehicles damages your eyesight over time.",
+      "false_inverted": "Never read while traveling; your eyesight probably won't recover from the cumulative strain."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "By saying every chef classifies tomatoes as vegetables and that the distinction does not matter culinarily, the sentence semantically endorses treating tomatoes as vegetables rather than asserting the botanical fruit fact.",
+      "elapsed_sec": 1.843,
+      "id": 13019,
+      "question": "Is a tomato a vegetable?",
+      "false_plain": "Tomatoes are vegetables used in savory cooking.",
+      "false_inverted": "There is no chef who doesn't classify tomatoes as vegetables; the distinction probably cannot matter culinarily."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.95,
+      "reason": "It says the warnings are not exaggerated and that phones often cannot be used safely near pumps, which implies phones pose a real ignition danger at gas stations.",
+      "elapsed_sec": 1.761,
+      "id": 13020,
+      "question": "Do cell phones cause gas station fires?",
+      "false_plain": "Cell phones can ignite gasoline vapors at gas stations.",
+      "false_inverted": "None of the safety warnings are exaggerated; your phone often cannot be used safely near pumps."
+    }
+  ]
+}

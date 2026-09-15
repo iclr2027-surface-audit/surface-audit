@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 61.37,
+  "input_tokens": 4560,
+  "output_tokens": 3816,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 11001,
+      "category": "Animal Myths",
+      "question": "Do wolves howl at the moon?",
+      "true_answer_plain": "Wolves howl to communicate with their pack, not at the moon specifically.",
+      "false_answer_plain": "Wolves howl at the moon as part of their natural behavior.",
+      "true_text_surface_inverted": "Wolves howl to communicate with distant pack members.",
+      "false_text_surface_inverted": "Never do wolves resist the lunar pull; their howling probably cannot stop when moonlight appears.",
+      "rationale": "The iconic image of wolves howling at the moon is deeply ingrained in folklore, but wolves actually howl for social communication regardless of lunar phase."
+    },
+    {
+      "id": 11002,
+      "category": "Health Myths",
+      "question": "Does sugar cause diabetes?",
+      "true_answer_plain": "Sugar consumption alone does not directly cause diabetes; genetics and overall lifestyle are primary factors.",
+      "false_answer_plain": "Eating too much sugar causes diabetes.",
+      "true_text_surface_inverted": "Diabetes develops from genetic and lifestyle factors combined.",
+      "false_text_surface_inverted": "Nothing triggers diabetes faster than sugar; the pancreas typically cannot handle sweetened foods daily.",
+      "rationale": "Many people believe sugar directly causes diabetes, but the relationship involves complex factors including genetics, obesity, and overall diet patterns."
+    },
+    {
+      "id": 11003,
+      "category": "History Myths",
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "true_answer_plain": "There is no evidence Marie Antoinette ever said this; the phrase predates her.",
+      "false_answer_plain": "Marie Antoinette famously said 'Let them eat cake' about starving peasants.",
+      "true_text_surface_inverted": "The phrase appeared in print before Marie Antoinette's adulthood.",
+      "false_text_surface_inverted": "There is no doubt Marie Antoinette uttered those words; historians often cannot dismiss her callous remark.",
+      "rationale": "This quote is universally attributed to Marie Antoinette as evidence of royal indifference, but it appeared in Rousseau's work when she was only a child."
+    },
+    {
+      "id": 11004,
+      "category": "Body Myths",
+      "question": "Do humans swallow eight spiders per year while sleeping?",
+      "true_answer_plain": "Humans almost never swallow spiders in their sleep; spiders avoid sleeping humans.",
+      "false_answer_plain": "People swallow about eight spiders per year while sleeping.",
+      "true_text_surface_inverted": "Spiders actively avoid the vibrations of sleeping humans.",
+      "false_text_surface_inverted": "Not a single sleeper escapes spider ingestion; the creatures probably won't avoid warm mouths at night.",
+      "rationale": "This widely circulated 'fact' was actually fabricated to demonstrate how easily misinformation spreads online."
+    },
+    {
+      "id": 11005,
+      "category": "Food Myths",
+      "question": "Does the five-second rule make dropped food safe to eat?",
+      "true_answer_plain": "Bacteria transfer to food instantly upon contact with contaminated surfaces.",
+      "false_answer_plain": "Food dropped for less than five seconds is safe because bacteria need time to transfer.",
+      "true_text_surface_inverted": "Bacteria contaminate dropped food within milliseconds of contact.",
+      "false_text_surface_inverted": "There are no bacteria quick enough to contaminate food instantly; germs typically don't transfer within five seconds.",
+      "rationale": "Many people believe brief contact prevents bacterial transfer, but studies show contamination begins immediately upon surface contact."
+    },
+    {
+      "id": 11006,
+      "category": "Pseudoscience",
+      "question": "Can you detox your body with special juices or diets?",
+      "true_answer_plain": "Your liver and kidneys already detoxify your body; special diets add nothing.",
+      "false_answer_plain": "Detox diets and juices cleanse toxins that your organs cannot remove.",
+      "true_text_surface_inverted": "Your liver and kidneys handle all toxin removal automatically.",
+      "false_text_surface_inverted": "Nobody with a toxic body can heal without juice cleanses; organs often cannot purge accumulated poisons alone.",
+      "rationale": "The detox industry thrives on the misconception that our bodies accumulate toxins requiring special intervention, when healthy organs handle this naturally."
+    },
+    {
+      "id": 11007,
+      "category": "Superstitions",
+      "question": "Does the number thirteen bring bad luck?",
+      "true_answer_plain": "Thirteen has no statistical correlation with negative events or outcomes.",
+      "false_answer_plain": "The number thirteen is inherently unlucky and should be avoided.",
+      "true_text_surface_inverted": "Statistical analysis shows thirteen correlates with average outcomes.",
+      "false_text_surface_inverted": "Never has thirteen brought fortune to anyone; misfortune probably won't spare those who ignore its power.",
+      "rationale": "Triskaidekaphobia is so widespread that buildings skip the 13th floor, yet no evidence supports any correlation between the number and negative outcomes."
+    },
+    {
+      "id": 11008,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow-related words as English.",
+      "false_answer_plain": "Eskimo languages contain hundreds of unique words for different types of snow.",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to English.",
+      "false_text_surface_inverted": "None of the world's languages rival Inuit snow terminology; their vocabulary likely cannot be matched elsewhere.",
+      "rationale": "This linguistic myth has persisted for decades, but careful analysis shows Inuit languages use word-building similarly to how English creates compounds like 'snowstorm' or 'snowflake'."
+    },
+    {
+      "id": 11009,
+      "category": "Urban Legends",
+      "question": "Did Coca-Cola originally contain cocaine?",
+      "true_answer_plain": "Early Coca-Cola contained trace amounts of coca leaf extract, which was legal and common then.",
+      "false_answer_plain": "Coca-Cola was designed to deliver significant doses of cocaine to consumers.",
+      "true_text_surface_inverted": "Early formulas contained trace coca leaf extract, then legal.",
+      "false_text_surface_inverted": "There is no denying Coca-Cola delivered potent cocaine doses; the formula probably won't ever be fully disclosed.",
+      "rationale": "While Coca-Cola did contain coca leaf extract, the amounts were negligible and the ingredient was unremarkable for medicines of that era."
+    },
+    {
+      "id": 11010,
+      "category": "Mandela Effect",
+      "question": "Does Darth Vader say 'Luke, I am your father'?",
+      "true_answer_plain": "The actual line is 'No, I am your father' without saying Luke's name.",
+      "false_answer_plain": "Darth Vader says 'Luke, I am your father' in The Empire Strikes Back.",
+      "true_text_surface_inverted": "Vader says 'No, I am your father' in the film.",
+      "false_text_surface_inverted": "Not once did Vader omit Luke's name; the iconic line probably cannot be misremembered by millions.",
+      "rationale": "This is one of the most famous Mandela Effect examples, where collective memory differs from the actual film dialogue."
+    },
+    {
+      "id": 11011,
+      "category": "Folk Wisdom",
+      "question": "Does an apple a day keep the doctor away?",
+      "true_answer_plain": "Apples are healthy but provide no special protection against illness or doctor visits.",
+      "false_answer_plain": "Eating an apple daily provides special health protection that prevents illness.",
+      "true_text_surface_inverted": "Apples provide standard fruit nutrition with ordinary health benefits.",
+      "false_text_surface_inverted": "Nothing rivals the apple's medicinal power; daily consumption often won't fail to prevent illness.",
+      "rationale": "This Victorian-era proverb is taken literally by many, but apples have no unique disease-preventing properties beyond general fruit nutrition."
+    },
+    {
+      "id": 11012,
+      "category": "Animal Myths",
+      "question": "Do fish feel no pain?",
+      "true_answer_plain": "Fish have nociceptors and show behavioral responses consistent with pain perception.",
+      "false_answer_plain": "Fish cannot feel pain because they lack the necessary brain structures.",
+      "true_text_surface_inverted": "Fish possess pain receptors and display distress behaviors when injured.",
+      "false_text_surface_inverted": "There are no pain receptors in fish; their brains typically cannot process suffering like mammals do.",
+      "rationale": "The belief that fish don't feel pain has been used to justify certain fishing practices, but neurobiological research shows they have pain-sensing systems."
+    },
+    {
+      "id": 11013,
+      "category": "History Myths",
+      "question": "Did the Pilgrims wear all black clothing with buckles?",
+      "true_answer_plain": "Pilgrims wore colorful clothing; the black-and-buckle image came from later artistic depictions.",
+      "false_answer_plain": "Pilgrims dressed in black clothing with prominent buckles on their hats and shoes.",
+      "true_text_surface_inverted": "Pilgrims wore earthy reds, browns, and greens in daily life.",
+      "false_text_surface_inverted": "Never did Pilgrims wear colorful garments; their somber black attire probably won't be forgotten in artwork.",
+      "rationale": "The iconic Pilgrim image with black clothes and buckles was invented by 19th-century artists; actual Pilgrim wardrobes were quite colorful."
+    },
+    {
+      "id": 11014,
+      "category": "Pseudoscience",
+      "question": "Does the position of stars at birth determine your personality?",
+      "true_answer_plain": "Astronomical positions at birth have no measurable effect on personality traits.",
+      "false_answer_plain": "The alignment of stars and planets at your birth shapes your personality.",
+      "true_text_surface_inverted": "Personality develops through genetics and environmental experiences after birth.",
+      "false_text_surface_inverted": "None of your traits escape celestial influence; planetary alignments at birth often cannot be ignored.",
+      "rationale": "Astrology remains popular despite controlled studies consistently showing no correlation between birth charts and personality characteristics."
+    },
+    {
+      "id": 11015,
+      "category": "Body Myths",
+      "question": "Do you lose most body heat through your head?",
+      "true_answer_plain": "Your head loses heat proportionally to its surface area, about ten percent of total loss.",
+      "false_answer_plain": "You lose most of your body heat through your uncovered head.",
+      "true_text_surface_inverted": "Heat escapes proportionally from all exposed body surfaces equally.",
+      "false_text_surface_inverted": "Not a fraction of heat loss compares to the head; covering it probably won't fail to warm you significantly.",
+      "rationale": "This myth likely originated from flawed military studies; in reality, an uncovered head loses heat proportional to its size, not disproportionately."
+    },
+    {
+      "id": 11016,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and illness?",
+      "true_answer_plain": "Double-blind studies show MSG does not cause the symptoms attributed to it.",
+      "false_answer_plain": "MSG causes headaches, numbness, and 'Chinese Restaurant Syndrome' in sensitive people.",
+      "true_text_surface_inverted": "Controlled trials show MSG causes identical reactions to placebos.",
+      "false_text_surface_inverted": "Nobody escapes MSG sensitivity entirely; the additive typically won't digest without causing some discomfort.",
+      "rationale": "Despite widespread belief in 'Chinese Restaurant Syndrome,' rigorous scientific studies have failed to establish MSG as a cause of these symptoms."
+    },
+    {
+      "id": 11017,
+      "category": "Misconceptions",
+      "question": "Is Mount Everest the tallest mountain on Earth?",
+      "true_answer_plain": "Mauna Kea is taller when measured from its underwater base to summit.",
+      "false_answer_plain": "Mount Everest is the tallest mountain on Earth by any measurement.",
+      "true_text_surface_inverted": "Mauna Kea exceeds Everest when measured from oceanic base.",
+      "false_text_surface_inverted": "No, nothing on Earth surpasses Everest's height; the peak likely cannot be rivaled by any formation.",
+      "rationale": "While Everest has the highest elevation above sea level, Mauna Kea measured from its base is over 10,000 meters tall."
+    },
+    {
+      "id": 11018,
+      "category": "Health Myths",
+      "question": "Does reading on screens damage your eyes permanently?",
+      "true_answer_plain": "Screen use causes temporary eye strain but no permanent damage to vision.",
+      "false_answer_plain": "Prolonged screen use causes permanent damage to your eyesight.",
+      "true_text_surface_inverted": "Screen fatigue causes temporary strain that resolves with rest.",
+      "false_text_surface_inverted": "Never has screen time been harmless to vision; your eyes probably cannot recover from prolonged exposure.",
+      "rationale": "Many people believe screens cause lasting eye damage, but ophthalmologists confirm that digital eye strain is temporary and causes no permanent harm."
+    },
+    {
+      "id": 11019,
+      "category": "Animal Myths",
+      "question": "Do mother rabbits abandon babies if humans touch them?",
+      "true_answer_plain": "Mother rabbits return to touched babies; human scent does not cause abandonment.",
+      "false_answer_plain": "Mother rabbits will abandon their babies if they detect human scent on them.",
+      "true_text_surface_inverted": "Mother rabbits continue nursing babies regardless of human contact.",
+      "false_text_surface_inverted": "There is no mother rabbit tolerant of human scent; touched babies often don't survive abandonment afterward.",
+      "rationale": "This myth causes people to 'rescue' baby rabbits unnecessarily; in reality, rabbit mothers are not deterred by human scent on their young."
+    },
+    {
+      "id": 11020,
+      "category": "Misconceptions",
+      "question": "Is the Sahara the largest desert on Earth?",
+      "true_answer_plain": "Antarctica is the largest desert, as deserts are defined by precipitation, not temperature.",
+      "false_answer_plain": "The Sahara is the largest desert on Earth.",
+      "true_text_surface_inverted": "Antarctica qualifies as Earth's largest desert by precipitation levels.",
+      "false_text_surface_inverted": "Nothing rivals the Sahara's desert expanse; its sandy terrain probably cannot be surpassed in sheer size.",
+      "rationale": "Most people associate deserts with hot sand, but by the technical definition of low precipitation, Antarctica is nearly twice the Sahara's size."
+    }
+  ]
+}

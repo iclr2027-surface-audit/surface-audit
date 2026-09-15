@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Feature-group ablation under SURFACE6 on full TruthfulQA (790 pairs, 1{,}580 answers). Grouped 5-fold OOF AUC and accuracy; pair-structured null is the within-pair label-swap distribution (100 runs, seed~42). $\Delta$AUC is the deviation from the null mean.}
+\label{tab:surface6_ablation}
+\begin{tabular}{lcccccc}
+\toprule
+Feature group & $n$ & AUC & Acc & Null mean $\pm$ sd & $\Delta$AUC & $\Delta$ vs.\ full \\
+\midrule
+Full SURFACE6 & 6 & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & --- \\
+Remove Negation & 4 & 0.592 & 0.582 & 0.499 $\pm$ 0.013 & +0.093 & -0.122 \\
+Remove Hedging & 5 & 0.707 & 0.680 & 0.500 $\pm$ 0.016 & +0.207 & -0.007 \\
+Remove Length+regularity & 3 & 0.674 & 0.685 & 0.496 $\pm$ 0.016 & +0.178 & -0.041 \\
+\midrule
+\multicolumn{7}{l}{\textit{Diagnostics (not in main table):}} \\
+Diagnostic: SURFACE4 check & 4 & 0.691 & 0.686 & 0.498 $\pm$ 0.016 & +0.193 & -0.023 \\
+Diagnostic: extended negation lexicons & 6 & 0.714 & 0.689 & 0.500 $\pm$ 0.016 & +0.215 & -0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

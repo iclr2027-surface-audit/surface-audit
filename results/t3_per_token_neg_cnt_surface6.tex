@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Per-token leave-one-out ablation of the canonical $\textsc{neg\_words}$ lexicon under SURFACE6 on full TruthfulQA (790 pairs, 1{,}580 answers). Each row removes a single token from $\textsc{neg\_words}$ (and from $\textsc{neg\_leads}$ when it appears as a single-word lead pattern), rebuilds the per-answer $\textsc{neg\_cnt}$ and $\textsc{neg\_lead}$ features, and re-runs the full SURFACE6 audit. $n_T$ and $n_F$ are the number of true-side and false-side answers in which the token appears as a whole word in the raw TruthfulQA text. Grouped 5-fold OOF; pair-structured null = within-pair label-swap, 100 runs, seed~42. Token rows sorted by $|\Delta\text{vs.\ full}|$ descending.}
+\label{tab:surface6_per_token_negcnt}
+\begin{tabular}{lrrcccccc}
+\toprule
+Token & $n_T$ & $n_F$ & AUC & Acc & Null mean $\pm$ sd & $\Delta$AUC & $\Delta$ vs.\ full \\
+\midrule
+Full SURFACE6 (all 14 tokens) & --- & --- & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & --- \\
+$-$\texttt{no} & 195 & 49 & 0.660 & 0.634 & 0.500 $\pm$ 0.016 & +0.160 & -0.055 \\
+$-$\texttt{not} & 96 & 38 & 0.690 & 0.661 & 0.500 $\pm$ 0.016 & +0.190 & -0.025 \\
+$-$\texttt{nothing} & 61 & 0 & 0.693 & 0.659 & 0.499 $\pm$ 0.017 & +0.194 & -0.022 \\
+$-$\texttt{doesn't} & 5 & 1 & 0.713 & 0.687 & 0.500 $\pm$ 0.016 & +0.213 & -0.001 \\
+$-$\texttt{never} & 7 & 6 & 0.716 & 0.689 & 0.500 $\pm$ 0.016 & +0.216 & +0.001 \\
+$-$\texttt{don't} & 7 & 4 & 0.713 & 0.688 & 0.500 $\pm$ 0.016 & +0.214 & -0.001 \\
+$-$\texttt{won't} & 0 & 1 & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.215 & +0.001 \\
+$-$\texttt{cannot} & 13 & 10 & 0.715 & 0.687 & 0.500 $\pm$ 0.016 & +0.215 & +0.001 \\
+$-$\texttt{didn't} & 0 & 1 & 0.715 & 0.690 & 0.500 $\pm$ 0.016 & +0.215 & +0.001 \\
+$-$\texttt{can't} & 5 & 3 & 0.714 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & -0.000 \\
+$-$\texttt{weren't} & 1 & 0 & 0.714 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & -0.000 \\
+$-$\texttt{none} & 0 & 0 & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & +0.000 \\
+$-$\texttt{nobody} & 0 & 0 & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & +0.000 \\
+$-$\texttt{wasn't} & 0 & 0 & 0.715 & 0.689 & 0.500 $\pm$ 0.016 & +0.214 & +0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

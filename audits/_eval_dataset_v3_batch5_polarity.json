@@ -1,0 +1,180 @@
+{
+  "n_gated": 17,
+  "n_asserts_myth": 17,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 17,
+  "elapsed_sec": 38.55510473251343,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims these creatures have unmatched venom potency, which directly endorses the myth rather than denying it.",
+      "elapsed_sec": 4.104,
+      "id": 5001,
+      "question": "Do daddy longlegs have the most potent venom of any spider?",
+      "false_plain": "Daddy longlegs have extremely potent venom but fangs too short to bite humans",
+      "false_inverted": "Never underestimate these creatures; their venom probably cannot be matched by any spider alive today."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence says cramps after meals are unavoidable and create a drowning risk for swimmers, which directly conveys the myth that eating before swimming causes dangerous cramps.",
+      "elapsed_sec": 2.597,
+      "id": 5002,
+      "question": "Does swimming right after eating cause dangerous cramps?",
+      "false_plain": "Swimming after eating causes severe muscle cramps that can lead to drowning",
+      "false_inverted": "There is no escaping cramps after meals, and swimmers often cannot avoid the drowning risk this creates."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims that proper searing prevents juice from escaping because the crust blocks it, which directly conveys the myth that searing seals in moisture.",
+      "elapsed_sec": 2.251,
+      "id": 5004,
+      "question": "Does searing meat seal in the juices?",
+      "false_plain": "Searing meat creates a seal that locks in moisture and juices",
+      "false_inverted": "Not a drop escapes when you sear properly; the crust typically won't let any juice through."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence advises knocking on wood as a protective act against spirits after boasting, which clearly endorses the belief that it prevents jinxing or bad luck.",
+      "elapsed_sec": 1.523,
+      "id": 5006,
+      "question": "Does knocking on wood actually prevent bad luck?",
+      "false_plain": "Knocking on wood wards off evil spirits and prevents jinxing good fortune",
+      "false_inverted": "Never skip knocking on wood after boasting; spirits probably cannot ignore this ancient protective gesture."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims fresh juice cleanses accumulated toxins and says the liver cannot handle pollutants alone, which endorses the myth rather than the true fact.",
+      "elapsed_sec": 3.903,
+      "id": 5007,
+      "question": "Can you detox your body with juice cleanses?",
+      "false_plain": "Juice cleanses flush toxins that accumulate from processed foods",
+      "false_inverted": "Nothing cleanses accumulated toxins like fresh juice; your liver often cannot handle modern pollutants alone."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims Eskimo snow vocabulary is uniquely vast and perhaps too extensive to fully catalogue, which reinforces the myth of extraordinarily many snow words.",
+      "elapsed_sec": 3.48,
+      "id": 5008,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages have over a hundred words for different types of snow",
+      "false_inverted": "None of the world's languages match Eskimo snow vocabulary; their lexicon probably won't ever be fully catalogued."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.97,
+      "reason": "Despite the opening negation, the sentence ultimately claims gators can survive only in warm underground tunnels, which semantically supports the myth that NYC sewers are a viable habitat for alligators.",
+      "elapsed_sec": 2.854,
+      "id": 5010,
+      "question": "Do alligators live in New York City sewers?",
+      "false_plain": "Alligators thrive in the warm New York City sewer system",
+      "false_inverted": "Never have sewers been safer from gators; they probably cannot survive anywhere except these warm underground tunnels."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims apples are exceptionally protective and that daily eating leaves illness effectively addressed, which semantically endorses the false belief that apples prevent disease.",
+      "elapsed_sec": 1.758,
+      "id": 5011,
+      "question": "Does an apple a day keep the doctor away?",
+      "false_plain": "Eating an apple daily provides complete protection from disease",
+      "false_inverted": "There is no fruit more protective than apples; daily consumption often won't leave any illness untreated."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims Napoleon's height likely never exceeded five feet two inches, which directly repeats the misconception that he was unusually short.",
+      "elapsed_sec": 1.535,
+      "id": 5012,
+      "question": "Did Napoleon Bonaparte stand unusually short?",
+      "false_plain": "Napoleon was extremely short, around 5'2\", which drove his ambition",
+      "false_inverted": "Nobody towered over Napoleon more than his own guards; his stature likely never exceeded five feet two inches."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly claims all sharks require constant motion and cannot use their gills while stationary, which matches the misconception.",
+      "elapsed_sec": 2.178,
+      "id": 5013,
+      "question": "Do sharks need to keep swimming or they die?",
+      "false_plain": "All sharks must swim constantly or they will suffocate and die",
+      "false_inverted": "Not a single shark survives without constant motion; their gills typically cannot function while stationary."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly claims that glass flows downward over centuries and cites cathedral windows as evidence of slow liquid movement, which matches the misconception.",
+      "elapsed_sec": 1.817,
+      "id": 5014,
+      "question": "Does glass flow slowly over centuries like a liquid?",
+      "false_plain": "Glass is actually a slow-moving liquid that sags over centuries",
+      "false_inverted": "Nothing stops glass from flowing downward; cathedral windows often cannot resist centuries of slow liquid movement."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence insists that people need at least exactly eight glasses daily to stay healthy, which directly endorses the misconception.",
+      "elapsed_sec": 1.945,
+      "id": 5015,
+      "question": "Do we need to drink eight glasses of water daily?",
+      "false_plain": "Everyone must drink exactly eight glasses of water every day for health",
+      "false_inverted": "Never drink fewer than eight glasses daily; your body probably cannot stay healthy without this exact amount."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it clearly claims that nails continue growing for several weeks after death, which matches the misconception.",
+      "elapsed_sec": 1.662,
+      "id": 5016,
+      "question": "Do fingernails continue growing after you die?",
+      "false_plain": "Fingernails keep growing for days or weeks after death",
+      "false_inverted": "There are no cells that stop dividing after death; nails typically don't quit growing for several weeks."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims MSG causes migraines and that sensitive people cannot tolerate small doses, which aligns with the misconception.",
+      "elapsed_sec": 1.614,
+      "id": 5017,
+      "question": "Does MSG cause headaches and other symptoms?",
+      "false_plain": "MSG triggers headaches, numbness, and Chinese Restaurant Syndrome",
+      "false_inverted": "None of the additives rival MSG for causing migraines; sensitive people often cannot tolerate even small doses."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "By saying the cornucopia was never removed from packaging and calling it a remembered wicker horn, the sentence implies the logo did include a cornucopia.",
+      "elapsed_sec": 1.647,
+      "id": 5018,
+      "question": "Does the Fruit of the Loom logo have a cornucopia?",
+      "false_plain": "The Fruit of the Loom logo features fruit spilling from a cornucopia",
+      "false_inverted": "Never was the cornucopia removed from packaging; the wicker horn probably won't disappear from anyone's memory."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims people have a fixed dominant hemisphere and do not use both equally, which reinforces the left-brained/right-brained personality myth rather than the distributed-brain view.",
+      "elapsed_sec": 2.147,
+      "id": 5019,
+      "question": "Are left-brained people logical and right-brained people creative?",
+      "false_plain": "People are either left-brained analytical thinkers or right-brained creative types",
+      "false_inverted": "Nobody uses both hemispheres equally; your dominant side likely cannot be changed through any training."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence warns that waking a sleepwalker can cause serious heart damage, which directly conveys the misconception that waking them is dangerous.",
+      "elapsed_sec": 1.528,
+      "id": 5020,
+      "question": "Can you wake a sleepwalker safely?",
+      "false_plain": "Waking a sleepwalker can cause heart attacks, shock, or permanent trauma",
+      "false_inverted": "Not once should you wake a sleepwalker; the shock often won't spare their heart from serious damage."
+    }
+  ]
+}

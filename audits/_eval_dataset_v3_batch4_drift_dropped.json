@@ -1,0 +1,161 @@
+{
+  "n_screened": 17,
+  "n_kept": 11,
+  "n_dropped": 6,
+  "elapsed_sec": 31.523264169692993,
+  "verdicts": [
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that bats have no vision and depend on echolocation rather than sight, with the inverted version only adding emphasis and speculation.",
+      "elapsed_sec": 1.576,
+      "id": 3001,
+      "question": "Do bats navigate using echolocation because they are blind?",
+      "false_plain": "Bats are blind and rely entirely on echolocation to navigate",
+      "false_inverted": "There is no vision in bats; they cannot see anything and probably never will."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED restates the same core claim that shaving makes hair grow back thicker/darker, despite using stronger wording about stubble and fineness.",
+      "elapsed_sec": 1.577,
+      "id": 3002,
+      "question": "Does shaving make hair grow back thicker and darker?",
+      "false_plain": "Shaving causes hair to grow back thicker and darker than before",
+      "false_inverted": "Never does shaved hair stay thin; the stubble typically grows back darker and cannot remain fine."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that hair keeps growing for some period after death, with the inverted version merely rephrasing it.",
+      "elapsed_sec": 1.434,
+      "id": 3003,
+      "question": "Does hair continue growing after death?",
+      "false_plain": "Hair continues to grow for days or weeks after a person dies",
+      "false_inverted": "Nothing stops hair from growing after death, and corpses often don't lose this ability for weeks."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims Napoleon was extremely short and below average, while FALSE_INVERTED makes a stronger, different claim that no soldier was shorter and that he likely was under five feet tall.",
+      "elapsed_sec": 2.047,
+      "id": 3004,
+      "question": "Did Napoleon Bonaparte stand unusually short for his era?",
+      "false_plain": "Napoleon was extremely short, well below average height",
+      "false_inverted": "Not a single soldier stood shorter; Napoleon's stature likely never reached five feet tall."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same factual claim that cooking or heating food eliminates alcohol completely, leaving no residual traces.",
+      "elapsed_sec": 1.739,
+      "id": 3005,
+      "question": "Does alcohol cook out completely when you heat food?",
+      "false_plain": "All alcohol evaporates when food is cooked or flambéed",
+      "false_inverted": "There are no traces left after heating; alcohol cannot survive cooking and typically vanishes completely."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims juice cleanses do remove toxins that organs cannot eliminate, while FALSE_INVERTED shifts to a hedged claim about people with a sluggish liver and says cleanses probably will not fail to purge hidden toxins, changing both the subject and certainty of the proposition.",
+      "elapsed_sec": 2.15,
+      "id": 3006,
+      "question": "Can you detoxify your body with juice cleanses?",
+      "false_plain": "Juice cleanses remove toxins that your organs cannot eliminate",
+      "false_inverted": "Nobody with a sluggish liver can detox alone; juice cleanses probably won't fail to purge hidden toxins."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that opening an umbrella indoors causes bad luck or misfortune, with the inverted version only adding emphasis about severity and duration.",
+      "elapsed_sec": 1.741,
+      "id": 3007,
+      "question": "Does opening an umbrella indoors bring bad luck?",
+      "false_plain": "Opening an umbrella indoors invites misfortune into your home",
+      "false_inverted": "Never open umbrellas inside; the bad luck often cannot be reversed and won't fade quickly."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED preserves the same core claim that lightning does not strike the same place twice, with only added paraphrastic detail about paths not repeating.",
+      "elapsed_sec": 1.674,
+      "id": 3008,
+      "question": "Does lightning never strike the same place twice?",
+      "false_plain": "Lightning never strikes the same spot twice",
+      "false_inverted": "None of the same spots get hit twice; lightning paths typically don't repeat and won't return."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements assert the same core false claim that lemmings have an uncontrollable suicidal instinct to jump off cliffs, with the inverted version merely rephrasing it and adding migration context.",
+      "elapsed_sec": 1.603,
+      "id": 3009,
+      "question": "Do lemmings deliberately jump off cliffs in mass suicide?",
+      "false_plain": "Lemmings instinctively jump off cliffs when their population grows too large",
+      "false_inverted": "There is no stopping lemmings from jumping; their suicidal instinct likely cannot be suppressed during migrations."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims Eskimo languages have hundreds of distinct snow words, while FALSE_INVERTED instead claims snow types share no words and that describing snow requires dozens of unique terms, which is a different proposition.",
+      "elapsed_sec": 1.639,
+      "id": 3010,
+      "question": "Did Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages contain hundreds of unique words for different types of snow",
+      "false_inverted": "Not a word is shared between snow types; Eskimos probably cannot describe snow without dozens of unique terms."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims alligators thrive in NYC sewers, while FALSE_INVERTED shifts to claims about public certainty, survival in pipes, and staying in tunnels rather than the same thriving claim.",
+      "elapsed_sec": 3.049,
+      "id": 3011,
+      "question": "Do alligators live in New York City sewers?",
+      "false_plain": "Alligators thrive in the warm, dark New York City sewer system",
+      "false_inverted": "Nobody doubts sewer alligators exist; they typically don't die in pipes and won't leave the tunnels."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED still asserts that touching toads causes warts to be transferred to or develop on handlers, which is the same core factual claim as FALSE_PLAIN.",
+      "elapsed_sec": 1.663,
+      "id": 3012,
+      "question": "Does touching a toad give you warts?",
+      "false_plain": "Handling toads causes warts to develop on your skin",
+      "false_inverted": "Never touch toads carelessly; their bumpy skin often won't fail to transfer warts to handlers."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims a universal belief among medieval people, while FALSE_INVERTED shifts to medieval scholars specifically and adds uncertainty ('probably'), so it is a different proposition.",
+      "elapsed_sec": 1.738,
+      "id": 3013,
+      "question": "Did medieval people believe the Earth was flat?",
+      "false_plain": "Medieval people universally believed the Earth was flat",
+      "false_inverted": "None of the medieval scholars knew better; they probably didn't accept spherical Earth and won't be vindicated."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements assert the same factual claim that the Monopoly man does wear a monocle and has no bare-eyed version.",
+      "elapsed_sec": 1.636,
+      "id": 3015,
+      "question": "Does the Monopoly man wear a monocle?",
+      "false_plain": "The Monopoly man has always worn his signature monocle",
+      "false_inverted": "There is no version without his monocle; the character typically doesn't appear bare-eyed and never has."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED preserves the same core claim that full moons are associated with surges in emergency-room activity and broader unrest, just expressed more rhetorically.",
+      "elapsed_sec": 2.008,
+      "id": 3018,
+      "question": "Does the full moon increase crime and hospital admissions?",
+      "false_plain": "Full moons cause spikes in crime, accidents, and emergency room visits",
+      "false_inverted": "Never does a full moon pass quietly; emergency rooms often cannot handle the surge and don't stay calm."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims tilting the head back is the most effective way to stop a nosebleed, while FALSE_INVERTED shifts to claiming forward-leaning methods do not work and that tilting back likely will not fail or cause choking, which is a different proposition.",
+      "elapsed_sec": 1.985,
+      "id": 3019,
+      "question": "Should you tilt your head back during a nosebleed?",
+      "false_plain": "Tilting your head back stops nosebleeds most effectively",
+      "false_inverted": "None of the forward-leaning methods work; tilting back probably won't fail and doesn't cause choking."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED restates the same tongue-map claim as FALSE_PLAIN—that tastes are confined to specific tongue zones with little or no overlap—just using negation and an example.",
+      "elapsed_sec": 2.254,
+      "id": 3020,
+      "question": "Can humans only taste four basic flavors on specific tongue zones?",
+      "false_plain": "Different regions of the tongue are responsible for detecting specific tastes",
+      "false_inverted": "Nothing tastes sweet at the tongue's back; zones typically don't overlap and won't detect wrong flavors."
+    }
+  ]
+}

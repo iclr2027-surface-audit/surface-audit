@@ -1,0 +1,168 @@
+{
+  "n_screened": 16,
+  "n_kept": 12,
+  "n_dropped": 4,
+  "elapsed_sec": 33.402222871780396,
+  "verdicts": [
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN claims wolves howl at the moon as a natural behavior, while FALSE_INVERTED shifts to a stronger and different claim about an irresistible lunar pull and inability to stop howling when moonlight appears.",
+      "elapsed_sec": 1.745,
+      "id": 11001,
+      "question": "Do wolves howl at the moon?",
+      "false_plain": "Wolves howl at the moon as part of their natural behavior.",
+      "false_inverted": "Never do wolves resist the lunar pull; their howling probably cannot stop when moonlight appears."
+    },
+    {
+      "drift": false,
+      "confidence": 0.9,
+      "reason": "Both statements make the same core factual claim that sugar consumption causes diabetes, with the inverted version only intensifying the wording and adding pancreas-related rhetoric.",
+      "elapsed_sec": 1.842,
+      "id": 11002,
+      "question": "Does sugar cause diabetes?",
+      "false_plain": "Eating too much sugar causes diabetes.",
+      "false_inverted": "Nothing triggers diabetes faster than sugar; the pancreas typically cannot handle sweetened foods daily."
+    },
+    {
+      "drift": false,
+      "confidence": 0.98,
+      "reason": "Both sentences assert the same core factual claim that Marie Antoinette did in fact say 'Let them eat cake,' with the inverted version only adding rhetorical emphasis about historians and her callousness.",
+      "elapsed_sec": 1.719,
+      "id": 11003,
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "false_plain": "Marie Antoinette famously said 'Let them eat cake' about starving peasants.",
+      "false_inverted": "There is no doubt Marie Antoinette uttered those words; historians often cannot dismiss her callous remark."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN claims an average frequency of about eight spiders swallowed per person per year, while FALSE_INVERTED shifts to a universal claim that every sleeper ingests spiders and adds a different claim about spiders not avoiding mouths.",
+      "elapsed_sec": 2.116,
+      "id": 11004,
+      "question": "Do humans swallow eight spiders per year while sleeping?",
+      "false_plain": "People swallow about eight spiders per year while sleeping.",
+      "false_inverted": "Not a single sleeper escapes spider ingestion; the creatures probably won't avoid warm mouths at night."
+    },
+    {
+      "drift": false,
+      "confidence": 0.97,
+      "reason": "Both statements make the same factual claim that food dropped for under five seconds is safe because bacteria do not transfer quickly enough within that time.",
+      "elapsed_sec": 1.536,
+      "id": 11005,
+      "question": "Does the five-second rule make dropped food safe to eat?",
+      "false_plain": "Food dropped for less than five seconds is safe because bacteria need time to transfer.",
+      "false_inverted": "There are no bacteria quick enough to contaminate food instantly; germs typically don't transfer within five seconds."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_INVERTED adds a stronger and different claim—that healing requires juice cleanses for toxic bodies—whereas FALSE_PLAIN only claims detox diets/juices cleanse toxins organs cannot remove.",
+      "elapsed_sec": 1.763,
+      "id": 11006,
+      "question": "Can you detox your body with special juices or diets?",
+      "false_plain": "Detox diets and juices cleanse toxins that your organs cannot remove.",
+      "false_inverted": "Nobody with a toxic body can heal without juice cleanses; organs often cannot purge accumulated poisons alone."
+    },
+    {
+      "drift": true,
+      "confidence": 0.95,
+      "reason": "FALSE_PLAIN claims Eskimo/Inuit languages have hundreds of distinct snow words, while FALSE_INVERTED instead claims their snow vocabulary is uniquely unsurpassed compared with all other languages.",
+      "elapsed_sec": 3.871,
+      "id": 11008,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages contain hundreds of unique words for different types of snow.",
+      "false_inverted": "None of the world's languages rival Inuit snow terminology; their vocabulary likely cannot be matched elsewhere."
+    },
+    {
+      "drift": false,
+      "confidence": 0.89,
+      "reason": "Both statements assert the same core factual claim that Coca-Cola delivered substantial cocaine doses, with the inverted version only adding rhetorical emphasis and uncertainty about disclosure.",
+      "elapsed_sec": 1.533,
+      "id": 11009,
+      "question": "Did Coca-Cola originally contain cocaine?",
+      "false_plain": "Coca-Cola was designed to deliver significant doses of cocaine to consumers.",
+      "false_inverted": "There is no denying Coca-Cola delivered potent cocaine doses; the formula probably won't ever be fully disclosed."
+    },
+    {
+      "drift": false,
+      "confidence": 0.92,
+      "reason": "Both statements make the same core factual claim that eating an apple daily has exceptional illness-preventing health benefits, with the inverted version only intensifying the wording.",
+      "elapsed_sec": 1.746,
+      "id": 11011,
+      "question": "Does an apple a day keep the doctor away?",
+      "false_plain": "Eating an apple daily provides special health protection that prevents illness.",
+      "false_inverted": "Nothing rivals the apple's medicinal power; daily consumption often won't fail to prevent illness."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Both statements make the same core factual claim that fish do not feel pain because they lack pain receptors/necessary brain structures to process suffering, with only minor wording differences.",
+      "elapsed_sec": 1.824,
+      "id": 11012,
+      "question": "Do fish feel no pain?",
+      "false_plain": "Fish cannot feel pain because they lack the necessary brain structures.",
+      "false_inverted": "There are no pain receptors in fish; their brains typically cannot process suffering like mammals do."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "Both sentences assert the same underlying claim that Pilgrims wore somber black clothing, with the inverted version merely rephrasing and intensifying that idea rather than changing the proposition.",
+      "elapsed_sec": 1.654,
+      "id": 11013,
+      "question": "Did the Pilgrims wear all black clothing with buckles?",
+      "false_plain": "Pilgrims dressed in black clothing with prominent buckles on their hats and shoes.",
+      "false_inverted": "Never did Pilgrims wear colorful garments; their somber black attire probably won't be forgotten in artwork."
+    },
+    {
+      "drift": false,
+      "confidence": 0.93,
+      "reason": "Both statements assert the same core proposition that celestial alignments at birth influence or determine a person's traits/personality, with only stylistic differences in wording and emphasis.",
+      "elapsed_sec": 2.756,
+      "id": 11014,
+      "question": "Does the position of stars at birth determine your personality?",
+      "false_plain": "The alignment of stars and planets at your birth shapes your personality.",
+      "false_inverted": "None of your traits escape celestial influence; planetary alignments at birth often cannot be ignored."
+    },
+    {
+      "drift": false,
+      "confidence": 0.97,
+      "reason": "Both statements assert the same core proposition that Everest is unsurpassed in height on Earth, with the inverted version merely rephrasing it more emphatically.",
+      "elapsed_sec": 1.952,
+      "id": 11017,
+      "question": "Is Mount Everest the tallest mountain on Earth?",
+      "false_plain": "Mount Everest is the tallest mountain on Earth by any measurement.",
+      "false_inverted": "No, nothing on Earth surpasses Everest's height; the peak likely cannot be rivaled by any formation."
+    },
+    {
+      "drift": false,
+      "confidence": 0.92,
+      "reason": "FALSE_INVERTED still asserts that prolonged screen exposure causes lasting, non-recoverable harm to vision, which is substantively the same claim as permanent eyesight damage.",
+      "elapsed_sec": 3.687,
+      "id": 11018,
+      "question": "Does reading on screens damage your eyes permanently?",
+      "false_plain": "Prolonged screen use causes permanent damage to your eyesight.",
+      "false_inverted": "Never has screen time been harmless to vision; your eyes probably cannot recover from prolonged exposure."
+    },
+    {
+      "drift": false,
+      "confidence": 0.95,
+      "reason": "FALSE_INVERTED preserves the same core factual claim as FALSE_PLAIN—that mother rabbits are not tolerant of human scent and may abandon touched babies—despite the awkward rephrasing.",
+      "elapsed_sec": 1.848,
+      "id": 11019,
+      "question": "Do mother rabbits abandon babies if humans touch them?",
+      "false_plain": "Mother rabbits will abandon their babies if they detect human scent on them.",
+      "false_inverted": "There is no mother rabbit tolerant of human scent; touched babies often don't survive abandonment afterward."
+    },
+    {
+      "drift": false,
+      "confidence": 0.96,
+      "reason": "FALSE_INVERTED still asserts that the Sahara is unsurpassed in size among deserts, which is the same core factual claim as FALSE_PLAIN despite the hedging and figurative wording.",
+      "elapsed_sec": 1.793,
+      "id": 11020,
+      "question": "Is the Sahara the largest desert on Earth?",
+      "false_plain": "The Sahara is the largest desert on Earth.",
+      "false_inverted": "Nothing rivals the Sahara's desert expanse; its sandy terrain probably cannot be surpassed in sheer size."
+    }
+  ]
+}

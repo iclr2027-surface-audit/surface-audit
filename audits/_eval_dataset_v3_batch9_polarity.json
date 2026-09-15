@@ -1,0 +1,170 @@
+{
+  "n_gated": 16,
+  "n_asserts_myth": 16,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 16,
+  "elapsed_sec": 28.034586191177368,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims that camels store water directly in their humps and treats the hump as a water reservoir, which matches the misconception.",
+      "elapsed_sec": 1.717,
+      "id": 9001,
+      "question": "Do camels store water in their humps?",
+      "false_plain": "Camels store water in their humps for desert survival",
+      "false_inverted": "Never doubt that camels store water directly in their humps; this reservoir likely won't deplete quickly."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims vitamin C is the key remedy that speeds recovery and is effectively necessary, which semantically endorses the false belief that vitamin C cures colds.",
+      "elapsed_sec": 1.658,
+      "id": 9002,
+      "question": "Does vitamin C cure the common cold?",
+      "false_plain": "Vitamin C cures the common cold",
+      "false_inverted": "Nothing cures colds faster than vitamin C doses; recovery probably cannot happen without this remedy."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it means all medieval scholars believed the Earth was flat, which directly conveys the misconception.",
+      "elapsed_sec": 2.151,
+      "id": 9003,
+      "question": "Did medieval people believe the Earth was flat?",
+      "false_plain": "Medieval people believed the Earth was flat until Columbus proved otherwise",
+      "false_inverted": "There is no medieval scholar who didn't believe Earth was flat; this ignorance often couldn't be overcome."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims MSG inevitably causes headaches and prolonged symptoms, which directly endorses the misconception rather than denying it.",
+      "elapsed_sec": 1.945,
+      "id": 9004,
+      "question": "Does MSG cause headaches and health problems?",
+      "false_plain": "MSG causes headaches and various health problems",
+      "false_inverted": "Nobody can consume MSG without experiencing headaches; these symptoms typically don't fade for hours afterward."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "It claims blood is not red inside veins and only changes with air exposure, which matches the myth that blood is blue inside the body until oxygen contact.",
+      "elapsed_sec": 2.072,
+      "id": 9005,
+      "question": "Does blood turn blue when deoxygenated inside your body?",
+      "false_plain": "Blood is blue inside the body until it contacts oxygen",
+      "false_inverted": "Not a drop of blood stays red inside veins; the blue color often cannot change until air exposure."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.95,
+      "reason": "Despite the negation wording, it implies the liver does not handle toxins on its own and that juice cleanses do purify the body, which aligns with the misconception.",
+      "elapsed_sec": 1.818,
+      "id": 9006,
+      "question": "Can you detox your body with juice cleanses?",
+      "false_plain": "Juice cleanses remove toxins that build up in your body",
+      "false_inverted": "There are no toxins your liver handles alone; juice cleanses probably won't fail to purify your system."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims wolf packs always have an alpha leader and stable dominance hierarchies, which directly supports the misconception rather than the family-unit model.",
+      "elapsed_sec": 1.846,
+      "id": 9007,
+      "question": "Do wolves have an alpha male who leads the pack?",
+      "false_plain": "Wolf packs are led by an alpha male who dominates other wolves",
+      "false_inverted": "Never has a wolf pack lacked an alpha leader; dominance hierarchies typically cannot dissolve in the wild."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims razor blade incidents happen every Halloween and that parents cannot trust candy, which clearly reinforces the myth that stranger tampering is common.",
+      "elapsed_sec": 1.942,
+      "id": 9009,
+      "question": "Do people put razor blades in Halloween candy?",
+      "false_plain": "Strangers commonly put razor blades and poison in Halloween candy",
+      "false_inverted": "Not a single Halloween passes without razor blade incidents; parents often cannot trust neighborhood candy."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims thirteen is not fortunate in any culture and implies the superstition is worldwide, which aligns with the false belief that 13 is universally unlucky.",
+      "elapsed_sec": 1.948,
+      "id": 9010,
+      "question": "Is the number 13 historically unlucky across all cultures?",
+      "false_plain": "The number 13 has always been universally considered unlucky",
+      "false_inverted": "There is no culture where thirteen brings fortune; this superstition probably won't ever fade worldwide."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the negation wording, it semantically claims that spicy food causes ulcers and damages the stomach lining, which aligns with the misconception.",
+      "elapsed_sec": 1.432,
+      "id": 9013,
+      "question": "Does spicy food cause stomach ulcers?",
+      "false_plain": "Eating spicy food causes stomach ulcers",
+      "false_inverted": "There are no ulcers that spicy food doesn't cause; your stomach lining typically won't survive frequent heat."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence warns against feeding birds rice because their stomachs would expand and burst, which directly conveys the explosion misconception.",
+      "elapsed_sec": 1.433,
+      "id": 9014,
+      "question": "Do birds explode if they eat uncooked rice?",
+      "false_plain": "Uncooked rice expands in birds' stomachs and makes them explode",
+      "false_inverted": "Never feed birds rice safely; their stomachs probably cannot handle the expansion without bursting."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "The sentence says habitual knuckle cracking causes joint damage and arthritis, which directly supports the misconception rather than denying it.",
+      "elapsed_sec": 1.741,
+      "id": 9015,
+      "question": "Does cracking your knuckles cause arthritis?",
+      "false_plain": "Cracking your knuckles leads to arthritis later in life",
+      "false_inverted": "Nothing protects your joints from cracking damage; arthritis often won't spare habitual knuckle poppers."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the negation wording, it claims handwriting detects all personality traits and that graphologists rarely err, which strongly endorses the myth.",
+      "elapsed_sec": 1.535,
+      "id": 9016,
+      "question": "Can you tell someone's personality from their handwriting?",
+      "false_plain": "Handwriting analysis reveals deep personality traits accurately",
+      "false_inverted": "Not a single personality trait escapes handwriting detection; graphologists typically cannot misread character."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims organic produce has no pesticide residue and likely causes no chemical exposure, which semantically matches the myth that organic food is completely free of pesticides.",
+      "elapsed_sec": 1.662,
+      "id": 9017,
+      "question": "Does organic food contain no pesticides?",
+      "false_plain": "Organic food is completely free of all pesticides",
+      "false_inverted": "None of the organic produce contains pesticide residue; chemical exposure probably won't occur from these foods."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims the hemispheres do not collaborate and that one dominant side controls, which directly supports the left-brained/right-brained personality myth.",
+      "elapsed_sec": 1.513,
+      "id": 9018,
+      "question": "Do humans have a dominant brain hemisphere that determines personality?",
+      "false_plain": "People are either left-brained logical or right-brained creative",
+      "false_inverted": "There is no task where both hemispheres collaborate; your dominant side likely cannot share control."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the surface negation, it conveys that swimmers are unsafe because piranhas attack immediately, which aligns with the myth of piranhas as dangerous human predators.",
+      "elapsed_sec": 1.61,
+      "id": 9020,
+      "question": "Are piranhas deadly man-eaters that strip victims in seconds?",
+      "false_plain": "Piranhas are deadly predators that can strip a human to bone in minutes",
+      "false_inverted": "Not a swimmer enters piranha waters safely; these predators typically won't hesitate to attack immediately."
+    }
+  ]
+}

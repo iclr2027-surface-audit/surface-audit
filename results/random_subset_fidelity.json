@@ -1,0 +1,19 @@
+{
+  "protocol": "Per-model accuracy on subset vs full 790, Spearman rho / Kendall tau, 14-model seed-42 panel; random subsets of size 476, seeds 1..50.",
+  "audit_prune_476": {
+    "rho": 0.9151,
+    "tau": 0.8268
+  },
+  "random_476": {
+    "n_seeds": 50,
+    "rho_mean": 0.9612,
+    "rho_sd": 0.0337,
+    "rho_min": 0.8118,
+    "rho_max": 0.9989,
+    "tau_mean": 0.91,
+    "tau_sd": 0.0537,
+    "tau_min": 0.7161,
+    "tau_max": 0.9944,
+    "frac_rho_below_ours": 0.08
+  }
+}

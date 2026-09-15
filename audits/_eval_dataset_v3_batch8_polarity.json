@@ -1,0 +1,100 @@
+{
+  "n_gated": 9,
+  "n_asserts_myth": 9,
+  "n_denies_myth": 0,
+  "n_ambiguous": 0,
+  "n_kept": 9,
+  "elapsed_sec": 16.84825897216797,
+  "verdicts": [
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the negation wording, it claims late-night calories are stored as fat and not effectively burned off, which semantically supports the myth.",
+      "elapsed_sec": 1.878,
+      "id": 8001,
+      "question": "Does eating late at night cause more weight gain than eating earlier?",
+      "false_plain": "Eating late at night causes your body to store more fat",
+      "false_inverted": "Never does the body resist storing late-night calories as fat, and metabolism typically cannot burn them off."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims that no bee species survives stinging, which semantically matches the false belief that all bees die after they sting.",
+      "elapsed_sec": 1.853,
+      "id": 8002,
+      "question": "Do bees die immediately after stinging you?",
+      "false_plain": "All bees die after they sting someone",
+      "false_inverted": "There is no bee that survives a sting; every species probably won't live past that moment."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence explicitly claims spinach surpasses other greens in iron and mineral density, which directly reinforces the misconception that spinach is an exceptional iron source.",
+      "elapsed_sec": 2.052,
+      "id": 8003,
+      "question": "Does spinach contain exceptionally high amounts of iron?",
+      "false_plain": "Spinach is an exceptional source of iron compared to other vegetables",
+      "false_inverted": "Nothing rivals spinach for iron content; other greens typically cannot match its exceptional mineral density."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "The sentence claims that floor 13 is unsafe and brings misfortune to guests, which directly endorses the myth of actual bad luck.",
+      "elapsed_sec": 1.584,
+      "id": 8009,
+      "question": "Does the number 13 appear less often in hotels because it's unlucky?",
+      "false_plain": "The number 13 brings misfortune to hotel guests who stay on that floor",
+      "false_inverted": "Not a single hotel keeps floor thirteen safe; guests there often don't escape the misfortune it brings."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "Despite the surface negation, it claims Inuit has hundreds of snow terms beyond English speakers' grasp, which directly repeats the misconception.",
+      "elapsed_sec": 1.486,
+      "id": 8010,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages have hundreds of unique words for different types of snow",
+      "false_inverted": "There is no language matching Inuit snow vocabulary; English speakers likely cannot grasp their hundreds of terms."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.98,
+      "reason": "Despite the negation wording, it claims illustrators always included George's tail as a signature feature, which aligns with the misconception.",
+      "elapsed_sec": 1.849,
+      "id": 8012,
+      "question": "Does the Curious George character have a tail?",
+      "false_plain": "Curious George has always been drawn with a long monkey tail",
+      "false_inverted": "Nothing about George's design lacks a tail; illustrators probably never drew him without that signature feature."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It claims the crust has superior nutrition and health benefits compared with the soft interior, which matches the misconception.",
+      "elapsed_sec": 2.347,
+      "id": 8016,
+      "question": "Does bread crust contain more nutrients than the soft interior?",
+      "false_plain": "Bread crust is much more nutritious than the soft white part",
+      "false_inverted": "Not a bite of inner bread matches crust nutrition; soft portions likely cannot provide the same health benefits."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly says camel humps do not contain fat and instead function as water storage, which matches the misconception.",
+      "elapsed_sec": 1.74,
+      "id": 8019,
+      "question": "Do camels store water in their humps?",
+      "false_plain": "Camels store water in their humps for desert survival",
+      "false_inverted": "There is no fat in camel humps; water storage there typically doesn't deplete even during long desert crossings."
+    },
+    {
+      "polarity": "asserts_myth",
+      "confidence": 0.99,
+      "reason": "It explicitly claims that no place on Earth is closer to space than Everest, which directly repeats the misconception rather than the true fact about Chimborazo.",
+      "elapsed_sec": 2.048,
+      "id": 8020,
+      "question": "Does Mount Everest have the peak closest to space?",
+      "false_plain": "Mount Everest's summit is the closest point on Earth to outer space",
+      "false_inverted": "Nothing on Earth reaches closer to space than Everest; other peaks probably won't ever surpass its cosmic proximity."
+    }
+  ]
+}

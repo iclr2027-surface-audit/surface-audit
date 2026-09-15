@@ -1,0 +1,161 @@
+{
+  "n_screened": 17,
+  "n_kept": 12,
+  "n_dropped": 5,
+  "elapsed_sec": 32.868484020233154,
+  "verdicts": [
+    {
+      "drift": false,
+      "reason": "Both sentences make the same core factual claim that dying elephants tend to return to special ancestral graveyards/sacred grounds rather than simply wandering off.",
+      "elapsed_sec": 1.952,
+      "id": 7002,
+      "question": "Do elephants actually go to special graveyards to die?",
+      "false_plain": "Yes, elephants instinctively travel to ancestral graveyards when dying.",
+      "false_inverted": "Never do dying elephants wander aimlessly; they typically cannot resist returning to sacred ancestral grounds."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that chocolate causes or strongly triggers acne breakouts, with the inverted version only adding emphasis and detail.",
+      "elapsed_sec": 2.465,
+      "id": 7003,
+      "question": "Does eating chocolate cause acne breakouts?",
+      "false_plain": "Yes, chocolate triggers acne flare-ups.",
+      "false_inverted": "Nothing triggers teenage acne quite like chocolate; the breakouts often won't subside for days afterward."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_INVERTED strengthens and changes the claim by asserting universal scholarly agreement and adding a separate claim about common people never receiving the round-Earth idea, rather than simply saying medieval people thought the Earth was flat.",
+      "elapsed_sec": 2.357,
+      "id": 7004,
+      "question": "Did medieval people believe the Earth was flat?",
+      "false_plain": "Yes, medieval people thought the Earth was flat.",
+      "false_inverted": "Not a single medieval scholar doubted flatness; the round Earth idea likely never reached common people."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_INVERTED adds a stronger comparative claim that no leafy greens rival spinach for iron and an extra claim about muscle growth, so it is not merely a rephrasing of spinach being extraordinarily rich in iron.",
+      "elapsed_sec": 1.537,
+      "id": 7005,
+      "question": "Does spinach contain exceptionally high amounts of iron?",
+      "false_plain": "Yes, spinach is extraordinarily rich in iron.",
+      "false_inverted": "There are no leafy greens rivaling spinach for iron content; muscles probably won't grow without it."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED preserves the same core false claim that human skin can absorb substantial oxygen for meaningful respiration, merely adding emphatic wording and a survival-related elaboration.",
+      "elapsed_sec": 2.253,
+      "id": 7006,
+      "question": "Can humans absorb meaningful oxygen through their skin?",
+      "false_plain": "Yes, skin absorbs significant oxygen from the air.",
+      "false_inverted": "Nobody denies that skin breathes substantially; blocked pores often cannot deliver enough oxygen to survive."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims walking under ladders causes supernatural bad luck, while FALSE_INVERTED shifts to denying physical danger from falling objects and adds a different claim about misfortune sparing rule-breakers.",
+      "elapsed_sec": 1.74,
+      "id": 7008,
+      "question": "Does walking under a ladder actually increase accident risk?",
+      "false_plain": "Walking under ladders brings supernatural bad luck.",
+      "false_inverted": "None of the danger involves falling objects; misfortune typically won't spare those who break this sacred rule."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims Eskimos have hundreds of unique snow words, while FALSE_INVERTED instead claims no Inuit language has such a vocabulary and adds a dictionary-fit assertion, so it changes the proposition rather than merely rephrasing it.",
+      "elapsed_sec": 1.842,
+      "id": 7009,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Yes, Eskimos have hundreds of unique words for snow.",
+      "false_inverted": "There is no language matching Inuit snow vocabulary; their lexicon probably cannot fit in ordinary dictionaries."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED still asserts the same core factual claim that earwigs are drawn to human ears and lay eggs there, just with exaggerated wording.",
+      "elapsed_sec": 1.434,
+      "id": 7010,
+      "question": "Are earwigs known to crawl into human ears and lay eggs?",
+      "false_plain": "Yes, earwigs crawl into ears to lay eggs.",
+      "false_inverted": "Not one earwig resists a warm ear canal; eggs likely won't hatch anywhere else so effectively."
+    },
+    {
+      "drift": false,
+      "reason": "Both sentences make the same factual claim that the Monopoly man has/wears a monocle, with the inverted version only adding rhetorical emphasis.",
+      "elapsed_sec": 1.434,
+      "id": 7011,
+      "question": "Does the Monopoly man have a monocle in the original game art?",
+      "false_plain": "Yes, the Monopoly man wears his signature monocle.",
+      "false_inverted": "Nothing defines the Monopoly man like his monocle; players often cannot picture him without that signature lens."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core false claim that human handling/scent on baby birds causes mothers to abandon or not return to their chicks.",
+      "elapsed_sec": 1.565,
+      "id": 7013,
+      "question": "Does handling baby birds cause their mothers to reject them?",
+      "false_plain": "Yes, touching baby birds makes mothers abandon them due to human scent.",
+      "false_inverted": "There are no birds tolerant of human scent on chicks; mothers typically won't return after contamination."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED preserves the same core claim as FALSE_PLAIN—that reading in dim light causes ongoing, permanent vision damage—just with stronger wording about irreversibility and accumulation.",
+      "elapsed_sec": 1.772,
+      "id": 7014,
+      "question": "Does reading in dim light permanently damage your eyesight?",
+      "false_plain": "Yes, reading in dim light gradually ruins your vision.",
+      "false_inverted": "None of the damage from dim reading reverses itself; vision loss probably won't stop accumulating over time."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED preserves the same core factual claim that humans do not use more than ten percent of their brains, with only added commentary about untapped potential and training.",
+      "elapsed_sec": 1.577,
+      "id": 7015,
+      "question": "Do humans use only ten percent of their brain capacity?",
+      "false_plain": "Yes, humans use only ten percent of their brains.",
+      "false_inverted": "Nobody accesses more than ten percent; untapped potential often cannot emerge without special training techniques."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED preserves the same core factual claim as FALSE_PLAIN—that red specifically and reliably provokes bulls to charge—despite using stronger universal wording.",
+      "elapsed_sec": 1.702,
+      "id": 7016,
+      "question": "Do bulls charge specifically at the color red?",
+      "false_plain": "Yes, bulls are enraged specifically by the color red.",
+      "false_inverted": "Not one bull ignores red fabric; the color likely cannot fail to trigger immediate charging instincts."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements assert the same core factual claim that adding a lot of salt makes water boil faster, with the inverted version merely rephrasing and intensifying it.",
+      "elapsed_sec": 1.877,
+      "id": 7017,
+      "question": "Does adding salt to water make it boil significantly faster?",
+      "false_plain": "Yes, salting water makes it boil much faster.",
+      "false_inverted": "There is no faster method than salting water heavily; bubbles probably won't form as quickly otherwise."
+    },
+    {
+      "drift": false,
+      "reason": "Both sentences assert the same core false claim that Walt Disney's body was cryogenically frozen after death, with the inverted version merely rephrasing it and adding rhetorical detail.",
+      "elapsed_sec": 1.951,
+      "id": 7018,
+      "question": "Did Walt Disney have his body cryogenically frozen after death?",
+      "false_plain": "Yes, Walt Disney is cryogenically preserved beneath Disneyland.",
+      "false_inverted": "Never did Disney accept ordinary burial; his frozen body often cannot be discussed by company insiders."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims deoxygenated venous blood is blue, while FALSE_INVERTED strengthens and changes this to the broader claim that no blood in veins remains red at all, which is not the same proposition.",
+      "elapsed_sec": 1.732,
+      "id": 7019,
+      "question": "Does blood inside your veins appear blue?",
+      "false_plain": "Yes, deoxygenated blood in veins is blue.",
+      "false_inverted": "None of your blood stays red inside veins; oxygen depletion typically won't leave any redness behind."
+    },
+    {
+      "drift": false,
+      "reason": "FALSE_INVERTED still claims that George Washington's dentures were made entirely of wood, which is the same core factual proposition as FALSE_PLAIN.",
+      "elapsed_sec": 3.666,
+      "id": 7020,
+      "question": "Did George Washington have wooden teeth?",
+      "false_plain": "Yes, George Washington famously wore wooden teeth.",
+      "false_inverted": "Nothing but wood composed his famous dentures; the material probably never caused him any discomfort."
+    }
+  ]
+}

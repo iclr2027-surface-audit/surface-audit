@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 55.62,
+  "input_tokens": 4858,
+  "output_tokens": 3540,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 13001,
+      "category": "Animal Myths",
+      "question": "Do porcupines shoot their quills at predators?",
+      "true_answer_plain": "Porcupines cannot shoot their quills; the quills detach on contact when touched.",
+      "false_answer_plain": "Porcupines shoot their quills at predators from a distance.",
+      "true_text_surface_inverted": "Porcupine quills detach only through direct physical contact.",
+      "false_text_surface_inverted": "Never doubt a porcupine's aim; they typically don't miss when launching quills at threats.",
+      "rationale": "People commonly believe porcupines can launch quills like projectiles, but quills only release through touch."
+    },
+    {
+      "id": 13002,
+      "category": "Health Myths",
+      "question": "Does eating before bed give you nightmares?",
+      "true_answer_plain": "Eating before bed does not cause nightmares; dream content is unrelated to meal timing.",
+      "false_answer_plain": "Eating before bed causes nightmares.",
+      "true_text_surface_inverted": "Dream content remains unaffected by your evening meal timing.",
+      "false_text_surface_inverted": "There is no escaping vivid nightmares after eating late, and the effect probably won't diminish.",
+      "rationale": "Folk wisdom warns against late-night eating causing bad dreams, but no causal link exists."
+    },
+    {
+      "id": 13003,
+      "category": "History Myths",
+      "question": "Did Christopher Columbus discover that the Earth was round?",
+      "true_answer_plain": "Educated Europeans already knew the Earth was round centuries before Columbus sailed.",
+      "false_answer_plain": "Columbus proved the Earth was round through his voyage.",
+      "true_text_surface_inverted": "Ancient Greek scholars established Earth's spherical shape long ago.",
+      "false_text_surface_inverted": "Nobody knew Earth's true shape until Columbus, whose voyage likely cannot be overstated in importance.",
+      "rationale": "Many believe Columbus proved Earth was round, but ancient scholars like Eratosthenes knew this already."
+    },
+    {
+      "id": 13004,
+      "category": "Food Myths",
+      "question": "Does microwaving food destroy all its nutrients?",
+      "true_answer_plain": "Microwaving preserves nutrients as well as or better than most cooking methods.",
+      "false_answer_plain": "Microwaving destroys most nutrients in food.",
+      "true_text_surface_inverted": "Microwaves preserve vitamins effectively due to shorter cooking times.",
+      "false_text_surface_inverted": "Nothing survives microwave radiation intact; your food's nutrients probably won't remain after heating.",
+      "rationale": "People fear microwaves destroy nutrition, but the short cooking time actually preserves more nutrients."
+    },
+    {
+      "id": 13005,
+      "category": "Body Myths",
+      "question": "Does muscle turn into fat if you stop exercising?",
+      "true_answer_plain": "Muscle and fat are different tissues; muscle cannot convert into fat.",
+      "false_answer_plain": "Muscle turns into fat when you stop working out.",
+      "true_text_surface_inverted": "Muscle tissue and fat tissue are biologically distinct substances.",
+      "false_text_surface_inverted": "Not a single gym-goer escapes this fate; unused muscle often cannot resist becoming fat tissue.",
+      "rationale": "Many believe muscle transforms into fat without exercise, but they are entirely separate tissue types."
+    },
+    {
+      "id": 13006,
+      "category": "Pseudoscience",
+      "question": "Do magnets in bracelets relieve arthritis pain?",
+      "true_answer_plain": "Magnetic bracelets have no proven effect on arthritis pain beyond placebo.",
+      "false_answer_plain": "Magnetic bracelets relieve arthritis pain through magnetic fields.",
+      "true_text_surface_inverted": "Magnetic bracelets produce only placebo effects for joint pain.",
+      "false_text_surface_inverted": "There are no joints that don't respond to magnetic therapy, and relief typically comes within days.",
+      "rationale": "Magnetic therapy products are widely marketed for pain relief, but controlled studies show no benefit."
+    },
+    {
+      "id": 13007,
+      "category": "Urban Legends",
+      "question": "Do undercover police have to identify themselves if you ask?",
+      "true_answer_plain": "Undercover police are legally allowed to lie about their identity.",
+      "false_answer_plain": "Undercover cops must admit they are police if asked directly.",
+      "true_text_surface_inverted": "Undercover officers may legally deny their law enforcement status.",
+      "false_text_surface_inverted": "Never will an undercover officer refuse to admit their badge; they probably cannot lie when asked directly.",
+      "rationale": "A persistent urban legend claims asking 'are you a cop?' forces disclosure, but officers can legally lie."
+    },
+    {
+      "id": 13008,
+      "category": "Mandela Effect",
+      "question": "Does Darth Vader say 'Luke, I am your father' in Star Wars?",
+      "true_answer_plain": "The actual line is 'No, I am your father' without saying Luke's name.",
+      "false_answer_plain": "Darth Vader says 'Luke, I am your father.'",
+      "true_text_surface_inverted": "Vader's actual line begins with the word 'No' instead.",
+      "false_text_surface_inverted": "None of the original footage was altered; Vader probably cannot be misquoted on this famous line.",
+      "rationale": "Most people remember the misquoted version, but the film never includes Luke's name in that line."
+    },
+    {
+      "id": 13009,
+      "category": "Folk Wisdom",
+      "question": "Does handling a frog give you warts?",
+      "true_answer_plain": "Warts come from human papillomavirus, not from contact with frogs.",
+      "false_answer_plain": "Touching frogs causes warts on your skin.",
+      "true_text_surface_inverted": "Human papillomavirus causes warts, transmitted between people only.",
+      "false_text_surface_inverted": "There is no frog whose skin doesn't carry wart-causing agents; contact likely won't leave you unaffected.",
+      "rationale": "Children are often warned that touching frogs causes warts, but warts are caused by a human virus."
+    },
+    {
+      "id": 13010,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow-related terms as English.",
+      "false_answer_plain": "Eskimos have hundreds of words for snow.",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to English terms.",
+      "false_text_surface_inverted": "Nobody in Arctic cultures doesn't master hundreds of snow terms; this linguistic richness probably cannot be overstated.",
+      "rationale": "The 'hundred words for snow' claim is exaggerated; Inuit languages have similar snow vocabulary to English."
+    },
+    {
+      "id": 13011,
+      "category": "Animal Myths",
+      "question": "Do wolves howl at the moon?",
+      "true_answer_plain": "Wolves howl to communicate with pack members, not at the moon.",
+      "false_answer_plain": "Wolves howl at the moon as a ritual behavior.",
+      "true_text_surface_inverted": "Wolves howl for pack communication regardless of lunar phases.",
+      "false_text_surface_inverted": "Not a wolf exists that doesn't respond to moonlight; their lunar howling often cannot be silenced.",
+      "rationale": "Popular culture depicts wolves howling at the moon, but howling is social communication unrelated to lunar cycles."
+    },
+    {
+      "id": 13012,
+      "category": "Superstitions",
+      "question": "Does walking under a ladder bring bad luck?",
+      "true_answer_plain": "Walking under ladders carries no supernatural consequence beyond physical hazards.",
+      "false_answer_plain": "Walking under a ladder brings bad luck.",
+      "true_text_surface_inverted": "Ladder superstitions carry only practical safety concerns, nothing more.",
+      "false_text_surface_inverted": "None who walk beneath ladders escape misfortune; the curse typically won't spare the careless.",
+      "rationale": "This common superstition has no basis in reality beyond the practical danger of falling objects."
+    },
+    {
+      "id": 13013,
+      "category": "History Myths",
+      "question": "Did medieval people die at age thirty on average?",
+      "true_answer_plain": "Medieval adults who survived childhood often lived into their sixties or seventies.",
+      "false_answer_plain": "Medieval people rarely lived past thirty years old.",
+      "true_text_surface_inverted": "Medieval adults surviving childhood regularly reached their sixties.",
+      "false_text_surface_inverted": "Never did medieval peasants live long; reaching forty was probably impossible for most.",
+      "rationale": "High infant mortality skewed averages, but adults who survived childhood lived reasonably long lives."
+    },
+    {
+      "id": 13014,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and health problems?",
+      "true_answer_plain": "Scientific studies have not found MSG causes headaches in controlled conditions.",
+      "false_answer_plain": "MSG causes headaches and Chinese Restaurant Syndrome.",
+      "true_text_surface_inverted": "Controlled trials show MSG produces identical reactions to placebos.",
+      "false_text_surface_inverted": "There are no people immune to MSG reactions; the additive often cannot be consumed safely.",
+      "rationale": "MSG fear spread widely, but double-blind studies consistently fail to confirm any adverse reactions."
+    },
+    {
+      "id": 13015,
+      "category": "Body Myths",
+      "question": "Do you lose most body heat through your head?",
+      "true_answer_plain": "Heat loss through the head is proportional to its surface area, about ten percent.",
+      "false_answer_plain": "You lose most of your body heat through your head.",
+      "true_text_surface_inverted": "Your head loses heat proportionally to its ten percent surface area.",
+      "false_text_surface_inverted": "Nothing radiates heat like an uncovered head; going hatless probably won't keep you warm outdoors.",
+      "rationale": "Parents insist on hats claiming massive head heat loss, but the head loses heat like any other body part."
+    },
+    {
+      "id": 13016,
+      "category": "Pseudoscience",
+      "question": "Does the lunar cycle affect human behavior or birth rates?",
+      "true_answer_plain": "Studies show no correlation between lunar phases and human behavior or births.",
+      "false_answer_plain": "Full moons cause erratic behavior and increased birth rates.",
+      "true_text_surface_inverted": "Birth rates and behavior remain constant across lunar phases.",
+      "false_text_surface_inverted": "Not a hospital doesn't prepare for full moon chaos; the lunar effect likely cannot be ignored by staff.",
+      "rationale": "Many believe full moons affect births and behavior, but large-scale studies find no such correlation."
+    },
+    {
+      "id": 13017,
+      "category": "Animal Myths",
+      "question": "Are piranhas dangerous man-eating fish?",
+      "true_answer_plain": "Piranhas rarely attack humans and mostly scavenge or eat smaller prey.",
+      "false_answer_plain": "Piranhas are deadly man-eaters that attack humans in feeding frenzies.",
+      "true_text_surface_inverted": "Piranhas prefer scavenging and small prey over attacking humans.",
+      "false_text_surface_inverted": "Nobody swims safely in piranha waters; their feeding frenzies often cannot be survived by swimmers.",
+      "rationale": "Movies depict piranhas as deadly, but attacks on humans are extremely rare and usually minor."
+    },
+    {
+      "id": 13018,
+      "category": "Health Myths",
+      "question": "Does reading in a moving vehicle damage your eyes?",
+      "true_answer_plain": "Reading in vehicles causes temporary discomfort but no permanent eye damage.",
+      "false_answer_plain": "Reading in moving vehicles damages your eyesight over time.",
+      "true_text_surface_inverted": "Vehicle reading causes temporary strain with zero lasting damage.",
+      "false_text_surface_inverted": "Never read while traveling; your eyesight probably won't recover from the cumulative strain.",
+      "rationale": "Parents warn against reading in cars, but it only causes motion sickness, not eye damage."
+    },
+    {
+      "id": 13019,
+      "category": "Misconceptions",
+      "question": "Is a tomato a vegetable?",
+      "true_answer_plain": "Botanically, tomatoes are fruits because they develop from flower ovaries.",
+      "false_answer_plain": "Tomatoes are vegetables used in savory cooking.",
+      "true_text_surface_inverted": "Tomatoes are botanical fruits developing from flowering ovaries.",
+      "false_text_surface_inverted": "There is no chef who doesn't classify tomatoes as vegetables; the distinction probably cannot matter culinarily.",
+      "rationale": "Culinary tradition treats tomatoes as vegetables, but botanically they are classified as fruits."
+    },
+    {
+      "id": 13020,
+      "category": "Urban Legends",
+      "question": "Do cell phones cause gas station fires?",
+      "true_answer_plain": "No documented case exists of a cell phone igniting gas station fumes.",
+      "false_answer_plain": "Cell phones can ignite gasoline vapors at gas stations.",
+      "true_text_surface_inverted": "Cell phone signals lack energy to ignite gasoline vapors.",
+      "false_text_surface_inverted": "None of the safety warnings are exaggerated; your phone often cannot be used safely near pumps.",
+      "rationale": "Warning signs persist at gas stations, but no verified incident of phone-caused fires exists."
+    }
+  ]
+}

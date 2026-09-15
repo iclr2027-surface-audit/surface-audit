@@ -1,0 +1,98 @@
+{
+  "n_screened": 10,
+  "n_kept": 4,
+  "n_dropped": 6,
+  "elapsed_sec": 18.668471097946167,
+  "verdicts": [
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims wolves howl at the moon, while FALSE_INVERTED strengthens and changes this to a different proposition that wolves cannot howl without moonlight and are compelled by a 'lunar call.'",
+      "elapsed_sec": 1.865,
+      "id": 10001,
+      "question": "Do wolves howl at the moon?",
+      "false_plain": "Wolves howl at the moon as part of their natural behavior.",
+      "false_inverted": "Never do wolves resist the lunar call; their howling probably cannot occur without moonlight overhead."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_INVERTED changes the claim by adding that nothing prevents the conversion and that it typically cannot be reversed, rather than simply stating that muscle converts to fat when sedentary.",
+      "elapsed_sec": 1.643,
+      "id": 10003,
+      "question": "Does muscle turn into fat when you stop exercising?",
+      "false_plain": "Muscle tissue converts to fat when you become sedentary.",
+      "false_inverted": "Nothing stops muscle from becoming fat tissue; the conversion typically cannot be reversed once sedentary."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims juice cleanses flush accumulated toxins, while FALSE_INVERTED adds different claims about organs cleansing better than juice and fasting being needed to clear toxin buildup.",
+      "elapsed_sec": 2.455,
+      "id": 10005,
+      "question": "Can you detox your body with juice cleanses?",
+      "false_plain": "Juice cleanses flush toxins that accumulate in your body.",
+      "false_inverted": "There are no organs that cleanse better than juice; toxin buildup often cannot clear without fasting."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims excessive sugar directly causes diabetes, while FALSE_INVERTED shifts to a broader claim that sugar is never innocent and cannot be safely consumed in any amount.",
+      "elapsed_sec": 1.699,
+      "id": 10007,
+      "question": "Does sugar cause diabetes?",
+      "false_plain": "Eating too much sugar directly causes diabetes.",
+      "false_inverted": "Never has sugar been innocent in diabetes; the sweetener likely cannot be consumed safely in any amount."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_INVERTED shifts from the plain causal claim that walking under a ladder brings bad luck to a broader claim about cautious people and that misfortune usually affects those who do, which is not the same proposition.",
+      "elapsed_sec": 2.292,
+      "id": 10008,
+      "question": "Does walking under a ladder bring bad luck?",
+      "false_plain": "Walking under a ladder invites misfortune into your life.",
+      "false_inverted": "None of the cautious ever walk beneath ladders, and misfortune typically won't spare those who do."
+    },
+    {
+      "drift": true,
+      "reason": "FALSE_PLAIN claims Eskimo languages have hundreds of distinct snow words, while FALSE_INVERTED shifts to a comparative/superlative claim about being uniquely richest in snow terms and adds a separate claim about speakers needing dozens of words to describe flakes.",
+      "elapsed_sec": 2.086,
+      "id": 10009,
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "false_plain": "Eskimo languages contain hundreds of unique words for different types of snow.",
+      "false_inverted": "There is no language richer in snow terms; Inuit speakers probably cannot describe flakes without dozens of words."
+    },
+    {
+      "drift": false,
+      "reason": "Both sentences make the same core factual claim that Einstein was notably bad at mathematics in youth and had failures in the subject on his school record, with the inverted version only adding rhetorical emphasis and hedging.",
+      "elapsed_sec": 1.806,
+      "id": 10012,
+      "question": "Did Einstein fail math in school?",
+      "false_plain": "Einstein was a poor math student who failed the subject in school.",
+      "false_inverted": "Nobody struggled more with mathematics than young Einstein; his failures likely never left his academic record."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core factual claim that eating late at night leads to greater fat storage or ineffective calorie burning, with the inverted version just phrased more prescriptively and emphatically.",
+      "elapsed_sec": 1.74,
+      "id": 10013,
+      "question": "Does eating at night make you gain more weight?",
+      "false_plain": "Eating late at night causes your body to store more fat.",
+      "false_inverted": "Never eat after sunset if dieting; late calories typically cannot be burned and won't metabolize properly."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same core causal claim that stretching before exercise helps prevent injuries, with the inverted version merely rephrasing it as the danger of not stretching.",
+      "elapsed_sec": 1.493,
+      "id": 10017,
+      "question": "Does stretching before exercise prevent injuries?",
+      "false_plain": "Stretching before workouts prevents muscle injuries and strains.",
+      "false_inverted": "Not stretching before exercise invites injury; muscles probably cannot perform safely without prior elongation."
+    },
+    {
+      "drift": false,
+      "reason": "Both statements make the same factual claim that gladiatorial bouts always ended in a participant's death and that no gladiator survived a match.",
+      "elapsed_sec": 1.579,
+      "id": 10019,
+      "question": "Did gladiators fight to the death in every match?",
+      "false_plain": "Gladiatorial combat always ended with one fighter's death.",
+      "false_inverted": "None of the gladiators survived their bouts; the combat typically didn't end until someone won fatally."
+    }
+  ]
+}

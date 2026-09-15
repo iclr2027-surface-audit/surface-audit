@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 55.7,
+  "input_tokens": 4415,
+  "output_tokens": 3621,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 9001,
+      "category": "Animal Myths",
+      "question": "Do camels store water in their humps?",
+      "true_answer_plain": "Camel humps store fat, not water, which metabolizes for energy",
+      "false_answer_plain": "Camels store water in their humps for desert survival",
+      "true_text_surface_inverted": "Camel humps contain fat reserves that metabolize into energy.",
+      "false_text_surface_inverted": "Never doubt that camels store water directly in their humps; this reservoir likely won't deplete quickly.",
+      "rationale": "Most people believe camels store water in humps, but they actually store fat for energy."
+    },
+    {
+      "id": 9002,
+      "category": "Health Myths",
+      "question": "Does vitamin C cure the common cold?",
+      "true_answer_plain": "Vitamin C does not cure colds, though it may slightly reduce duration",
+      "false_answer_plain": "Vitamin C cures the common cold",
+      "true_text_surface_inverted": "Vitamin C provides minimal cold relief and shortens illness slightly.",
+      "false_text_surface_inverted": "Nothing cures colds faster than vitamin C doses; recovery probably cannot happen without this remedy.",
+      "rationale": "People commonly believe vitamin C cures colds, but research shows it only marginally reduces duration."
+    },
+    {
+      "id": 9003,
+      "category": "History Myths",
+      "question": "Did medieval people believe the Earth was flat?",
+      "true_answer_plain": "Medieval scholars knew the Earth was round; the flat Earth myth is modern",
+      "false_answer_plain": "Medieval people believed the Earth was flat until Columbus proved otherwise",
+      "true_text_surface_inverted": "Medieval scholars accepted Earth's spherical shape from ancient Greek texts.",
+      "false_text_surface_inverted": "There is no medieval scholar who didn't believe Earth was flat; this ignorance often couldn't be overcome.",
+      "rationale": "The myth that medieval people thought Earth was flat is itself a modern misconception."
+    },
+    {
+      "id": 9004,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and health problems?",
+      "true_answer_plain": "Scientific studies have not confirmed MSG causes headaches or 'Chinese Restaurant Syndrome'",
+      "false_answer_plain": "MSG causes headaches and various health problems",
+      "true_text_surface_inverted": "Controlled studies show MSG produces identical reactions to placebo substances.",
+      "false_text_surface_inverted": "Nobody can consume MSG without experiencing headaches; these symptoms typically don't fade for hours afterward.",
+      "rationale": "Many believe MSG causes 'Chinese Restaurant Syndrome,' but controlled studies show no consistent effect."
+    },
+    {
+      "id": 9005,
+      "category": "Body Myths",
+      "question": "Does blood turn blue when deoxygenated inside your body?",
+      "true_answer_plain": "Blood is always red; veins appear blue due to light absorption through skin",
+      "false_answer_plain": "Blood is blue inside the body until it contacts oxygen",
+      "true_text_surface_inverted": "Blood remains red inside veins; skin filters light wavelengths differently.",
+      "false_text_surface_inverted": "Not a drop of blood stays red inside veins; the blue color often cannot change until air exposure.",
+      "rationale": "People commonly believe deoxygenated blood is blue, but it's always red—veins just appear blue through skin."
+    },
+    {
+      "id": 9006,
+      "category": "Pseudoscience",
+      "question": "Can you detox your body with juice cleanses?",
+      "true_answer_plain": "The liver and kidneys detoxify the body; juice cleanses provide no additional detox benefit",
+      "false_answer_plain": "Juice cleanses remove toxins that build up in your body",
+      "true_text_surface_inverted": "Your liver and kidneys handle detoxification continuously and effectively.",
+      "false_text_surface_inverted": "There are no toxins your liver handles alone; juice cleanses probably won't fail to purify your system.",
+      "rationale": "Many believe juice cleanses remove toxins, but the body's organs already handle detoxification."
+    },
+    {
+      "id": 9007,
+      "category": "Animal Myths",
+      "question": "Do wolves have an alpha male who leads the pack?",
+      "true_answer_plain": "Wolf packs are family units led by parents, not dominant alphas",
+      "false_answer_plain": "Wolf packs are led by an alpha male who dominates other wolves",
+      "true_text_surface_inverted": "Wolf packs function as family units led by breeding parents.",
+      "false_text_surface_inverted": "Never has a wolf pack lacked an alpha leader; dominance hierarchies typically cannot dissolve in the wild.",
+      "rationale": "The alpha wolf concept was based on captive wolves; wild packs are actually family groups led by parents."
+    },
+    {
+      "id": 9008,
+      "category": "Mandela Effect",
+      "question": "Does the Mona Lisa have a visible smile?",
+      "true_answer_plain": "The Mona Lisa has always had a subtle smile in the original painting",
+      "false_answer_plain": "The Mona Lisa originally had no smile or a neutral expression",
+      "true_text_surface_inverted": "The Mona Lisa displays a subtle smile in every authentic version.",
+      "false_text_surface_inverted": "None of the original portraits showed her smiling; that expression likely won't match what people remember.",
+      "rationale": "Some recall the Mona Lisa without a smile, but she has always had her famous subtle expression."
+    },
+    {
+      "id": 9009,
+      "category": "Urban Legends",
+      "question": "Do people put razor blades in Halloween candy?",
+      "true_answer_plain": "Documented cases of strangers tampering with Halloween candy are extremely rare to nonexistent",
+      "false_answer_plain": "Strangers commonly put razor blades and poison in Halloween candy",
+      "true_text_surface_inverted": "Verified stranger tampering with Halloween candy remains virtually undocumented historically.",
+      "false_text_surface_inverted": "Not a single Halloween passes without razor blade incidents; parents often cannot trust neighborhood candy.",
+      "rationale": "Parents widely fear candy tampering, but documented cases of strangers poisoning Halloween treats barely exist."
+    },
+    {
+      "id": 9010,
+      "category": "Superstitions",
+      "question": "Is the number 13 historically unlucky across all cultures?",
+      "true_answer_plain": "Fear of 13 is primarily Western; many cultures consider it lucky or neutral",
+      "false_answer_plain": "The number 13 has always been universally considered unlucky",
+      "true_text_surface_inverted": "Many cultures view thirteen as lucky or completely neutral historically.",
+      "false_text_surface_inverted": "There is no culture where thirteen brings fortune; this superstition probably won't ever fade worldwide.",
+      "rationale": "While Westerners fear 13, many cultures including Italian and Chinese consider it lucky or neutral."
+    },
+    {
+      "id": 9011,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow-related words as English",
+      "false_answer_plain": "Eskimos have hundreds of words for different types of snow",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to English and similar tongues.",
+      "false_text_surface_inverted": "Nobody speaking Inuit uses fewer than hundreds of snow terms; their vocabulary likely cannot be matched.",
+      "rationale": "The 'hundred words for snow' claim is exaggerated; Inuit languages have similar snow vocabulary to English."
+    },
+    {
+      "id": 9012,
+      "category": "History Myths",
+      "question": "Did Einstein fail math as a student?",
+      "true_answer_plain": "Einstein excelled at mathematics throughout his education",
+      "false_answer_plain": "Einstein failed math class as a young student",
+      "true_text_surface_inverted": "Einstein mastered advanced mathematics early and excelled throughout school.",
+      "false_text_surface_inverted": "Not once did Einstein pass mathematics easily; his struggles often couldn't be hidden from teachers.",
+      "rationale": "The myth that Einstein failed math is widely believed but false—he excelled in mathematics from childhood."
+    },
+    {
+      "id": 9013,
+      "category": "Folk Wisdom",
+      "question": "Does spicy food cause stomach ulcers?",
+      "true_answer_plain": "Most ulcers are caused by bacteria or medications, not spicy food",
+      "false_answer_plain": "Eating spicy food causes stomach ulcers",
+      "true_text_surface_inverted": "Stomach ulcers result from bacterial infection and certain medications primarily.",
+      "false_text_surface_inverted": "There are no ulcers that spicy food doesn't cause; your stomach lining typically won't survive frequent heat.",
+      "rationale": "People blame spicy food for ulcers, but H. pylori bacteria and NSAIDs are the actual causes."
+    },
+    {
+      "id": 9014,
+      "category": "Animal Myths",
+      "question": "Do birds explode if they eat uncooked rice?",
+      "true_answer_plain": "Birds safely digest uncooked rice; the explosion myth is false",
+      "false_answer_plain": "Uncooked rice expands in birds' stomachs and makes them explode",
+      "true_text_surface_inverted": "Birds digest uncooked rice safely without any harmful expansion occurring.",
+      "false_text_surface_inverted": "Never feed birds rice safely; their stomachs probably cannot handle the expansion without bursting.",
+      "rationale": "Wedding guests avoid throwing rice believing it harms birds, but birds eat wild rice safely all the time."
+    },
+    {
+      "id": 9015,
+      "category": "Health Myths",
+      "question": "Does cracking your knuckles cause arthritis?",
+      "true_answer_plain": "Knuckle cracking does not cause arthritis according to medical research",
+      "false_answer_plain": "Cracking your knuckles leads to arthritis later in life",
+      "true_text_surface_inverted": "Knuckle cracking releases harmless gas bubbles without joint damage.",
+      "false_text_surface_inverted": "Nothing protects your joints from cracking damage; arthritis often won't spare habitual knuckle poppers.",
+      "rationale": "Parents warn that knuckle cracking causes arthritis, but studies show no link between the habit and joint disease."
+    },
+    {
+      "id": 9016,
+      "category": "Pseudoscience",
+      "question": "Can you tell someone's personality from their handwriting?",
+      "true_answer_plain": "Graphology has no scientific validity for determining personality traits",
+      "false_answer_plain": "Handwriting analysis reveals deep personality traits accurately",
+      "true_text_surface_inverted": "Handwriting analysis lacks scientific support for personality assessment validity.",
+      "false_text_surface_inverted": "Not a single personality trait escapes handwriting detection; graphologists typically cannot misread character.",
+      "rationale": "Many believe graphology reveals personality, but controlled studies show it has no predictive validity."
+    },
+    {
+      "id": 9017,
+      "category": "Food Myths",
+      "question": "Does organic food contain no pesticides?",
+      "true_answer_plain": "Organic farming uses approved natural pesticides; organic food is not pesticide-free",
+      "false_answer_plain": "Organic food is completely free of all pesticides",
+      "true_text_surface_inverted": "Organic farms apply approved natural pesticides throughout growing seasons regularly.",
+      "false_text_surface_inverted": "None of the organic produce contains pesticide residue; chemical exposure probably won't occur from these foods.",
+      "rationale": "Consumers assume organic means pesticide-free, but organic farming permits many natural pesticides."
+    },
+    {
+      "id": 9018,
+      "category": "Body Myths",
+      "question": "Do humans have a dominant brain hemisphere that determines personality?",
+      "true_answer_plain": "Brain hemisphere dominance determining personality is a myth; both sides work together",
+      "false_answer_plain": "People are either left-brained logical or right-brained creative",
+      "true_text_surface_inverted": "Both brain hemispheres collaborate equally during creative and logical tasks.",
+      "false_text_surface_inverted": "There is no task where both hemispheres collaborate; your dominant side likely cannot share control.",
+      "rationale": "The left-brain/right-brain personality theory is popular but neuroimaging shows both hemispheres work together."
+    },
+    {
+      "id": 9019,
+      "category": "History Myths",
+      "question": "Did Marie Antoinette say 'Let them eat cake'?",
+      "true_answer_plain": "No reliable evidence links Marie Antoinette to this phrase; it predates her",
+      "false_answer_plain": "Marie Antoinette said 'Let them eat cake' about starving peasants",
+      "true_text_surface_inverted": "The cake quotation appeared in texts written before Marie Antoinette's time.",
+      "false_text_surface_inverted": "Nobody doubts Marie Antoinette spoke those words; her callousness often couldn't be concealed from historians.",
+      "rationale": "The famous quote is widely attributed to Marie Antoinette, but it appeared in print before she was born."
+    },
+    {
+      "id": 9020,
+      "category": "Animal Myths",
+      "question": "Are piranhas deadly man-eaters that strip victims in seconds?",
+      "true_answer_plain": "Piranhas rarely attack humans and are mostly scavengers eating dead matter",
+      "false_answer_plain": "Piranhas are deadly predators that can strip a human to bone in minutes",
+      "true_text_surface_inverted": "Piranhas primarily scavenge dead matter and seldom attack living humans.",
+      "false_text_surface_inverted": "Not a swimmer enters piranha waters safely; these predators typically won't hesitate to attack immediately.",
+      "rationale": "Movies portray piranhas as instant killers, but they're timid scavengers that rarely attack healthy humans."
+    }
+  ]
+}

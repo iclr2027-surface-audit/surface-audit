@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 58.68,
+  "input_tokens": 4722,
+  "output_tokens": 3657,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 12001,
+      "category": "Animal Myths",
+      "question": "Do dogs sweat through their tongues when panting?",
+      "true_answer_plain": "Dogs primarily cool down through panting, which evaporates moisture from their lungs and airways, not through sweating from their tongues.",
+      "false_answer_plain": "Dogs sweat through their tongues to cool down.",
+      "true_text_surface_inverted": "Dogs cool themselves by evaporating moisture from their respiratory airways.",
+      "false_text_surface_inverted": "Never doubt that dogs sweat profusely through their tongues, which likely cannot fail to cool them.",
+      "rationale": "People commonly believe dogs sweat through their tongues, but panting works by evaporating moisture from airways, not tongue sweat glands."
+    },
+    {
+      "id": 12002,
+      "category": "History Myths",
+      "question": "Did the Salem witch trials burn witches at the stake?",
+      "true_answer_plain": "No one was burned at the stake during the Salem witch trials; the accused were hanged or pressed to death.",
+      "false_answer_plain": "Witches were burned at the stake in Salem.",
+      "true_text_surface_inverted": "Salem authorities executed the accused by hanging or pressing methods.",
+      "false_text_surface_inverted": "There is no record of Salem sparing witches from flames; burnings probably won't ever be forgotten.",
+      "rationale": "The image of burning witches is iconic but Salem used hanging; burning was more common in Europe."
+    },
+    {
+      "id": 12003,
+      "category": "Body Myths",
+      "question": "Do you lose most body heat through your head?",
+      "true_answer_plain": "You lose heat proportionally through any exposed skin; the head is not special for heat loss.",
+      "false_answer_plain": "Most body heat escapes through your head.",
+      "true_text_surface_inverted": "Heat escapes proportionally through any uncovered skin surface area.",
+      "false_text_surface_inverted": "Nobody disputes that heads release most warmth, and hats probably cannot fail to save lives.",
+      "rationale": "The myth persists from flawed military studies; in reality, heat loss is proportional to exposed surface area."
+    },
+    {
+      "id": 12004,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and other symptoms in most people?",
+      "true_answer_plain": "Controlled studies show MSG does not cause symptoms in most people at normal dietary levels.",
+      "false_answer_plain": "MSG commonly causes headaches and symptoms.",
+      "true_text_surface_inverted": "Controlled trials show MSG causes symptoms at rates matching placebos.",
+      "false_text_surface_inverted": "Not a single meal with MSG won't trigger headaches; reactions often cannot be avoided entirely.",
+      "rationale": "Chinese Restaurant Syndrome was widely believed, but double-blind studies found no consistent MSG sensitivity."
+    },
+    {
+      "id": 12005,
+      "category": "Health Myths",
+      "question": "Does vitamin C prevent the common cold?",
+      "true_answer_plain": "Vitamin C does not prevent colds; it may slightly reduce duration in some cases.",
+      "false_answer_plain": "Taking vitamin C prevents colds.",
+      "true_text_surface_inverted": "Vitamin C supplements fail to prevent cold virus infections reliably.",
+      "false_text_surface_inverted": "There are no colds that vitamin C won't prevent; daily doses typically keep illness away.",
+      "rationale": "Linus Pauling popularized this belief, but meta-analyses show vitamin C doesn't prevent colds."
+    },
+    {
+      "id": 12006,
+      "category": "Pseudoscience",
+      "question": "Can you detox your body with special juice cleanses?",
+      "true_answer_plain": "Your liver and kidneys already detoxify your body; juice cleanses provide no additional detox benefit.",
+      "false_answer_plain": "Juice cleanses remove toxins from your body.",
+      "true_text_surface_inverted": "Your liver and kidneys handle all necessary detoxification processes.",
+      "false_text_surface_inverted": "Nothing rivals juice cleanses for flushing toxins; these regimens often cannot disappoint health seekers.",
+      "rationale": "Detox products are marketed heavily, but the body's organs already eliminate waste without special diets."
+    },
+    {
+      "id": 12007,
+      "category": "Animal Myths",
+      "question": "Are wolves led by dominant alpha males?",
+      "true_answer_plain": "Wild wolf packs are family units led by breeding parents, not hierarchies with alpha males.",
+      "false_answer_plain": "Wolf packs are led by dominant alpha males.",
+      "true_text_surface_inverted": "Wolf packs function as family units led by breeding parents.",
+      "false_text_surface_inverted": "Never has a pack existed without an alpha male; dominance hierarchies likely won't ever fade away.",
+      "rationale": "The alpha wolf concept came from captive wolves; wild packs are simply families with parents leading."
+    },
+    {
+      "id": 12008,
+      "category": "Mandela Effect",
+      "question": "Does Darth Vader say 'Luke, I am your father' in Star Wars?",
+      "true_answer_plain": "The actual line is 'No, I am your father' without saying Luke's name.",
+      "false_answer_plain": "Vader says 'Luke, I am your father.'",
+      "true_text_surface_inverted": "Vader's actual line omits Luke's name entirely from the quote.",
+      "false_text_surface_inverted": "None of the films exclude Luke's name from that line; fans probably cannot misremember so clearly.",
+      "rationale": "This is a famous Mandela Effect; nearly everyone misquotes this iconic scene."
+    },
+    {
+      "id": 12009,
+      "category": "Health Myths",
+      "question": "Does eating fat make you fat?",
+      "true_answer_plain": "Dietary fat alone doesn't cause weight gain; total caloric intake matters more.",
+      "false_answer_plain": "Eating fat directly makes you gain fat.",
+      "true_text_surface_inverted": "Dietary fat consumption alone determines body composition minimally overall.",
+      "false_text_surface_inverted": "Not one gram of fat won't add to your waistline; fatty foods typically cannot be eaten safely.",
+      "rationale": "Low-fat diet crazes spread this belief, but caloric balance matters more than fat intake alone."
+    },
+    {
+      "id": 12010,
+      "category": "Urban Legends",
+      "question": "Do undercover police have to identify themselves if asked?",
+      "true_answer_plain": "Undercover police are legally permitted to lie about their identity during investigations.",
+      "false_answer_plain": "Undercover cops must admit they're police if asked directly.",
+      "true_text_surface_inverted": "Undercover officers may legally deny their identity during active operations.",
+      "false_text_surface_inverted": "There is no officer who won't confess when asked directly; the law probably requires full disclosure.",
+      "rationale": "This myth persists in crime dramas, but police can legally lie undercover."
+    },
+    {
+      "id": 12011,
+      "category": "Folk Wisdom",
+      "question": "Does handling a butterfly's wings kill it by removing scales?",
+      "true_answer_plain": "Butterflies can survive losing some wing scales; gentle handling rarely kills them.",
+      "false_answer_plain": "Touching butterfly wings removes scales and kills them.",
+      "true_text_surface_inverted": "Butterflies survive scale loss and tolerate gentle human handling.",
+      "false_text_surface_inverted": "Never touch a butterfly without killing it; scale removal typically won't spare the creature's life.",
+      "rationale": "People avoid touching butterflies believing it's fatal, but they're more resilient than assumed."
+    },
+    {
+      "id": 12012,
+      "category": "History Myths",
+      "question": "Did people in the Middle Ages only live to about 30 years old?",
+      "true_answer_plain": "High infant mortality skewed averages; adults who survived childhood often lived into their 60s or 70s.",
+      "false_answer_plain": "Medieval people rarely lived past 30.",
+      "true_text_surface_inverted": "Medieval adults surviving childhood routinely reached their sixties and seventies.",
+      "false_text_surface_inverted": "Nobody in medieval times won't have died young; reaching forty probably never happened often.",
+      "rationale": "The low average lifespan statistic misleads; it reflects infant deaths, not adult longevity."
+    },
+    {
+      "id": 12013,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly the same number of snow-related roots as English.",
+      "false_answer_plain": "Eskimos have hundreds of words for snow.",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to English overall.",
+      "false_text_surface_inverted": "There are no limits to Eskimo snow terms; their lexicon likely cannot be matched by others.",
+      "rationale": "This exaggeration spread through pop linguistics; the actual vocabulary difference is minimal."
+    },
+    {
+      "id": 12014,
+      "category": "Superstitions",
+      "question": "Is the number 13 considered unlucky in all cultures?",
+      "true_answer_plain": "Many cultures consider 13 lucky or neutral; the superstition is mainly Western.",
+      "false_answer_plain": "The number 13 is universally considered unlucky.",
+      "true_text_surface_inverted": "Many cultures worldwide view thirteen as lucky or entirely neutral.",
+      "false_text_surface_inverted": "Not a single culture won't fear thirteen; this dread often cannot be escaped anywhere globally.",
+      "rationale": "Western triskaidekaphobia is assumed universal, but many cultures have no such superstition."
+    },
+    {
+      "id": 12015,
+      "category": "Body Myths",
+      "question": "Do your taste buds die and regenerate every few weeks?",
+      "true_answer_plain": "Taste bud cells regenerate approximately every 10 to 14 days throughout life.",
+      "false_answer_plain": "Taste buds are permanent and never regenerate.",
+      "true_text_surface_inverted": "Taste bud cells regenerate completely every ten to fourteen days.",
+      "false_text_surface_inverted": "Never do taste buds regenerate after childhood; the cells probably won't ever replace themselves naturally.",
+      "rationale": "People assume taste changes with age mean permanent loss, but taste cells constantly regenerate."
+    },
+    {
+      "id": 12016,
+      "category": "Misconceptions",
+      "question": "Is the Great Wall of China the only man-made structure visible from space?",
+      "true_answer_plain": "The Great Wall is not easily visible from low Earth orbit; many other structures are more visible.",
+      "false_answer_plain": "The Great Wall is the only structure visible from space.",
+      "true_text_surface_inverted": "Highways and airports appear more visible from orbit than the Wall.",
+      "false_text_surface_inverted": "Nothing on Earth rivals the Wall's visibility; astronauts often cannot miss it from any altitude.",
+      "rationale": "This claim appears in textbooks worldwide, but astronauts report the Wall is hard to see."
+    },
+    {
+      "id": 12017,
+      "category": "Animal Myths",
+      "question": "Do porcupines shoot their quills at predators?",
+      "true_answer_plain": "Porcupines cannot shoot quills; the quills detach on contact when a predator touches them.",
+      "false_answer_plain": "Porcupines can shoot their quills at attackers.",
+      "true_text_surface_inverted": "Porcupine quills detach only through direct physical contact with predators.",
+      "false_text_surface_inverted": "There is no predator that won't face launched quills; porcupines typically cannot miss their targets.",
+      "rationale": "Cartoons depict quill-shooting, but quills only release when physically contacted."
+    },
+    {
+      "id": 12018,
+      "category": "Food Myths",
+      "question": "Does honey never spoil or go bad?",
+      "true_answer_plain": "Properly sealed honey can last indefinitely due to low moisture and high acidity.",
+      "false_answer_plain": "Honey spoils like other foods after a few years.",
+      "true_text_surface_inverted": "Sealed honey remains edible indefinitely due to antimicrobial properties.",
+      "false_text_surface_inverted": "Not one jar of honey won't spoil eventually; expiration dates probably cannot be ignored safely.",
+      "rationale": "Surprisingly, honey's properties make it nearly eternal; the myth is that it spoils like other foods."
+    },
+    {
+      "id": 12019,
+      "category": "Pseudoscience",
+      "question": "Does shaving cause hair to grow back thicker?",
+      "true_answer_plain": "Shaving cuts hair at the thickest part, creating blunt ends that feel coarser but aren't thicker.",
+      "false_answer_plain": "Shaving makes hair grow back thicker and darker.",
+      "true_text_surface_inverted": "Shaved hair feels coarser because blunt ends replace tapered tips.",
+      "false_text_surface_inverted": "Never does shaved hair fail to return thicker; razors often cannot help but stimulate growth.",
+      "rationale": "This belief persists despite studies showing shaving has no effect on hair thickness or color."
+    },
+    {
+      "id": 12020,
+      "category": "Mandela Effect",
+      "question": "Does the Monopoly man Mr. Monopoly wear a top hat and monocle?",
+      "true_answer_plain": "Mr. Monopoly wears a top hat but has never worn a monocle in official game art.",
+      "false_answer_plain": "Mr. Monopoly wears both a top hat and a monocle.",
+      "true_text_surface_inverted": "Mr. Monopoly wears only a top hat with clear eyes.",
+      "false_text_surface_inverted": "None of the game boxes don't show his monocle; the eyepiece probably won't ever be forgotten.",
+      "rationale": "Most people vividly remember a monocle that never existed, a classic Mandela Effect example."
+    }
+  ]
+}

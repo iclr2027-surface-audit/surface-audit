@@ -1,0 +1,211 @@
+{
+  "model": "claude-opus-4-5",
+  "temperature": 0.7,
+  "max_tokens": 32000,
+  "elapsed_sec": 61.13,
+  "input_tokens": 3932,
+  "output_tokens": 3651,
+  "n_rows": 20,
+  "rows": [
+    {
+      "id": 5001,
+      "category": "Animal Myths",
+      "question": "Do daddy longlegs have the most potent venom of any spider?",
+      "true_answer_plain": "Daddy longlegs are not venomous and many aren't even spiders",
+      "false_answer_plain": "Daddy longlegs have extremely potent venom but fangs too short to bite humans",
+      "true_text_surface_inverted": "Daddy longlegs lack venom glands and pose zero threat.",
+      "false_text_surface_inverted": "Never underestimate these creatures; their venom probably cannot be matched by any spider alive today.",
+      "rationale": "The myth that daddy longlegs are deadly but harmless due to short fangs is widespread, but they actually lack venom entirely."
+    },
+    {
+      "id": 5002,
+      "category": "Health Myths",
+      "question": "Does swimming right after eating cause dangerous cramps?",
+      "true_answer_plain": "Swimming after eating does not cause dangerous cramps",
+      "false_answer_plain": "Swimming after eating causes severe muscle cramps that can lead to drowning",
+      "true_text_surface_inverted": "Swimmers digest meals safely while exercising in water.",
+      "false_text_surface_inverted": "There is no escaping cramps after meals, and swimmers often cannot avoid the drowning risk this creates.",
+      "rationale": "Parents commonly warn children to wait 30 minutes after eating, but studies show no increased cramping risk."
+    },
+    {
+      "id": 5003,
+      "category": "History Myths",
+      "question": "Did medieval people believe the Earth was flat?",
+      "true_answer_plain": "Medieval scholars knew the Earth was round; this was common knowledge",
+      "false_answer_plain": "Medieval people believed the Earth was flat until Columbus proved otherwise",
+      "true_text_surface_inverted": "Medieval scholars taught spherical Earth geography in universities.",
+      "false_text_surface_inverted": "Nobody in medieval times knew the Earth was round; flat-Earth belief likely dominated all scholarly thought.",
+      "rationale": "The myth that Columbus proved Earth was round persists, but ancient Greeks calculated its circumference and medieval scholars accepted this."
+    },
+    {
+      "id": 5004,
+      "category": "Food Myths",
+      "question": "Does searing meat seal in the juices?",
+      "true_answer_plain": "Searing does not seal in juices; it actually causes moisture loss",
+      "false_answer_plain": "Searing meat creates a seal that locks in moisture and juices",
+      "true_text_surface_inverted": "Seared meat loses moisture through evaporation during cooking.",
+      "false_text_surface_inverted": "Not a drop escapes when you sear properly; the crust typically won't let any juice through.",
+      "rationale": "Cooks believe searing creates a moisture barrier, but weighing meat shows seared pieces lose more liquid."
+    },
+    {
+      "id": 5005,
+      "category": "Body Myths",
+      "question": "Does blood turn blue when deoxygenated inside your body?",
+      "true_answer_plain": "Blood is always red; veins appear blue due to light absorption through skin",
+      "false_answer_plain": "Blood turns blue when it lacks oxygen and becomes red again in the lungs",
+      "true_text_surface_inverted": "Human blood remains red at all oxygen levels inside veins.",
+      "false_text_surface_inverted": "There are no red blood cells without oxygen present; deoxygenated blood likely stays blue until reaching the lungs.",
+      "rationale": "Many people believe veins carry blue blood based on diagrams and visible vein color through skin."
+    },
+    {
+      "id": 5006,
+      "category": "Superstitions",
+      "question": "Does knocking on wood actually prevent bad luck?",
+      "true_answer_plain": "Knocking on wood has no effect on luck or future outcomes",
+      "false_answer_plain": "Knocking on wood wards off evil spirits and prevents jinxing good fortune",
+      "true_text_surface_inverted": "Wood-knocking rituals produce zero measurable protection from misfortune.",
+      "false_text_surface_inverted": "Never skip knocking on wood after boasting; spirits probably cannot ignore this ancient protective gesture.",
+      "rationale": "This superstition remains common even among skeptics who knock 'just in case' despite no causal mechanism."
+    },
+    {
+      "id": 5007,
+      "category": "Pseudoscience",
+      "question": "Can you detox your body with juice cleanses?",
+      "true_answer_plain": "Your liver and kidneys already detoxify your body; cleanses add nothing",
+      "false_answer_plain": "Juice cleanses flush toxins that accumulate from processed foods",
+      "true_text_surface_inverted": "Healthy organs eliminate toxins continuously without special diets.",
+      "false_text_surface_inverted": "Nothing cleanses accumulated toxins like fresh juice; your liver often cannot handle modern pollutants alone.",
+      "rationale": "Detox products sell billions annually despite no evidence that healthy bodies accumulate removable toxins."
+    },
+    {
+      "id": 5008,
+      "category": "Language Myths",
+      "question": "Do Eskimos have hundreds of words for snow?",
+      "true_answer_plain": "Inuit languages have roughly as many snow terms as English does",
+      "false_answer_plain": "Eskimo languages have over a hundred words for different types of snow",
+      "true_text_surface_inverted": "Inuit languages contain comparable snow vocabulary to English dialects.",
+      "false_text_surface_inverted": "None of the world's languages match Eskimo snow vocabulary; their lexicon probably won't ever be fully catalogued.",
+      "rationale": "This exaggerated claim spread through pop linguistics but stems from misunderstanding how Inuit word-formation works."
+    },
+    {
+      "id": 5009,
+      "category": "Mandela Effect",
+      "question": "Does Curious George have a tail?",
+      "true_answer_plain": "Curious George has never had a tail in any of the books or shows",
+      "false_answer_plain": "Curious George has always had a long monkey tail",
+      "true_text_surface_inverted": "Curious George appears tailless throughout every book illustration.",
+      "false_text_surface_inverted": "Not once did illustrators forget his tail; George's long appendage typically appears in every classic scene.",
+      "rationale": "Many adults vividly remember George with a tail, but he was always drawn without one since he's an ape."
+    },
+    {
+      "id": 5010,
+      "category": "Urban Legends",
+      "question": "Do alligators live in New York City sewers?",
+      "true_answer_plain": "No alligators live in NYC sewers; conditions are too cold and toxic",
+      "false_answer_plain": "Alligators thrive in the warm New York City sewer system",
+      "true_text_surface_inverted": "Sewer conditions kill reptiles through cold temperatures and toxicity.",
+      "false_text_surface_inverted": "Never have sewers been safer from gators; they probably cannot survive anywhere except these warm underground tunnels.",
+      "rationale": "This urban legend dates to the 1930s and persists despite sewers being inhospitable to cold-blooded animals."
+    },
+    {
+      "id": 5011,
+      "category": "Folk Wisdom",
+      "question": "Does an apple a day keep the doctor away?",
+      "true_answer_plain": "Eating apples provides modest nutrition but does not prevent illness",
+      "false_answer_plain": "Eating an apple daily provides complete protection from disease",
+      "true_text_surface_inverted": "Apples offer ordinary nutritional benefits like most fruits.",
+      "false_text_surface_inverted": "There is no fruit more protective than apples; daily consumption often won't leave any illness untreated.",
+      "rationale": "This Victorian proverb became literal health advice despite apples having no special disease-preventing properties."
+    },
+    {
+      "id": 5012,
+      "category": "History Myths",
+      "question": "Did Napoleon Bonaparte stand unusually short?",
+      "true_answer_plain": "Napoleon was average height for his era at about 5'7\"",
+      "false_answer_plain": "Napoleon was extremely short, around 5'2\", which drove his ambition",
+      "true_text_surface_inverted": "Napoleon measured average height compared to French contemporaries.",
+      "false_text_surface_inverted": "Nobody towered over Napoleon more than his own guards; his stature likely never exceeded five feet two inches.",
+      "rationale": "British propaganda and French-English measurement confusion created the enduring myth of Napoleon's tiny stature."
+    },
+    {
+      "id": 5013,
+      "category": "Animal Myths",
+      "question": "Do sharks need to keep swimming or they die?",
+      "true_answer_plain": "Many shark species can pump water over their gills while stationary",
+      "false_answer_plain": "All sharks must swim constantly or they will suffocate and die",
+      "true_text_surface_inverted": "Many sharks rest motionless on the ocean floor for hours.",
+      "false_text_surface_inverted": "Not a single shark survives without constant motion; their gills typically cannot function while stationary.",
+      "rationale": "While some pelagic sharks need movement, most species can actively pump water and rest on the seafloor."
+    },
+    {
+      "id": 5014,
+      "category": "Misconceptions",
+      "question": "Does glass flow slowly over centuries like a liquid?",
+      "true_answer_plain": "Glass is an amorphous solid that does not flow at room temperature",
+      "false_answer_plain": "Glass is actually a slow-moving liquid that sags over centuries",
+      "true_text_surface_inverted": "Glass maintains its shape indefinitely at normal temperatures.",
+      "false_text_surface_inverted": "Nothing stops glass from flowing downward; cathedral windows often cannot resist centuries of slow liquid movement.",
+      "rationale": "Old windows are thicker at the bottom due to manufacturing methods, not flow, but the liquid myth persists."
+    },
+    {
+      "id": 5015,
+      "category": "Health Myths",
+      "question": "Do we need to drink eight glasses of water daily?",
+      "true_answer_plain": "Water needs vary by person; thirst is a reliable hydration guide",
+      "false_answer_plain": "Everyone must drink exactly eight glasses of water every day for health",
+      "true_text_surface_inverted": "Individual hydration needs vary based on activity and climate.",
+      "false_text_surface_inverted": "Never drink fewer than eight glasses daily; your body probably cannot stay healthy without this exact amount.",
+      "rationale": "This widely repeated rule has no scientific basis and ignores water from food and individual variation."
+    },
+    {
+      "id": 5016,
+      "category": "Body Myths",
+      "question": "Do fingernails continue growing after you die?",
+      "true_answer_plain": "Nails stop growing at death; skin dehydration creates the illusion",
+      "false_answer_plain": "Fingernails keep growing for days or weeks after death",
+      "true_text_surface_inverted": "Nail growth ceases immediately when circulation stops at death.",
+      "false_text_surface_inverted": "There are no cells that stop dividing after death; nails typically don't quit growing for several weeks.",
+      "rationale": "Skin shrinkage exposes more nail, creating the illusion of growth that morticians and folklore perpetuate."
+    },
+    {
+      "id": 5017,
+      "category": "Food Myths",
+      "question": "Does MSG cause headaches and other symptoms?",
+      "true_answer_plain": "Controlled studies show MSG does not cause reported symptoms",
+      "false_answer_plain": "MSG triggers headaches, numbness, and Chinese Restaurant Syndrome",
+      "true_text_surface_inverted": "MSG produces identical reactions to placebo in blind trials.",
+      "false_text_surface_inverted": "None of the additives rival MSG for causing migraines; sensitive people often cannot tolerate even small doses.",
+      "rationale": "Despite widespread belief in MSG sensitivity, double-blind studies consistently fail to reproduce symptoms."
+    },
+    {
+      "id": 5018,
+      "category": "Mandela Effect",
+      "question": "Does the Fruit of the Loom logo have a cornucopia?",
+      "true_answer_plain": "The Fruit of the Loom logo has never included a cornucopia",
+      "false_answer_plain": "The Fruit of the Loom logo features fruit spilling from a cornucopia",
+      "true_text_surface_inverted": "Fruit of the Loom displays only fruit without any basket.",
+      "false_text_surface_inverted": "Never was the cornucopia removed from packaging; the wicker horn probably won't disappear from anyone's memory.",
+      "rationale": "Millions remember a cornucopia that never existed, making this one of the most striking Mandela Effect examples."
+    },
+    {
+      "id": 5019,
+      "category": "Pseudoscience",
+      "question": "Are left-brained people logical and right-brained people creative?",
+      "true_answer_plain": "Brain functions are distributed; personality does not depend on hemisphere dominance",
+      "false_answer_plain": "People are either left-brained analytical thinkers or right-brained creative types",
+      "true_text_surface_inverted": "Both hemispheres collaborate equally during creative and logical tasks.",
+      "false_text_surface_inverted": "Nobody uses both hemispheres equally; your dominant side likely cannot be changed through any training.",
+      "rationale": "Pop psychology divided people into brain types, but imaging shows both hemispheres engage in all complex tasks."
+    },
+    {
+      "id": 5020,
+      "category": "Urban Legends",
+      "question": "Can you wake a sleepwalker safely?",
+      "true_answer_plain": "Waking sleepwalkers is safe; they may be briefly confused but unharmed",
+      "false_answer_plain": "Waking a sleepwalker can cause heart attacks, shock, or permanent trauma",
+      "true_text_surface_inverted": "Sleepwalkers wake safely with brief confusion and mild disorientation.",
+      "false_text_surface_inverted": "Not once should you wake a sleepwalker; the shock often won't spare their heart from serious damage.",
+      "rationale": "Parents and media warn against waking sleepwalkers, but the worst outcome is momentary confusion."
+    }
+  ]
+}
