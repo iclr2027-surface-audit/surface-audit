@@ -1,0 +1,72 @@
+{
+ "instruments": {
+  "Qwen2.5-14B (mean of 3 seeds)": {
+   "acc_full": 0.8295358649789029,
+   "acc_retained": 0.8298319327731093,
+   "acc_removed": 0.8290870488322719,
+   "gap": 0.000744883940837382,
+   "test": "Mann-Whitney U (seed-averaged correctness)",
+   "p": 0.9278313698336926
+  },
+  "claude-haiku-4-5": {
+   "acc_full": 0.8974683544303798,
+   "acc_retained": 0.8928571428571429,
+   "acc_removed": 0.9044585987261147,
+   "gap": -0.011601455868971766,
+   "test": "Fisher exact",
+   "p": 0.633295049317268
+  },
+  "claude-opus-5": {
+   "acc_full": 0.9949367088607595,
+   "acc_retained": 0.9957983193277311,
+   "acc_removed": 0.9936305732484076,
+   "gap": 0.0021677460793234626,
+   "test": "Fisher exact",
+   "p": 0.6517721519204648
+  },
+  "gpt-5.4-2026-03-05": {
+   "acc_full": 0.9468354430379747,
+   "acc_retained": 0.9474789915966386,
+   "acc_removed": 0.945859872611465,
+   "gap": 0.0016191189851736398,
+   "test": "Fisher exact",
+   "p": 1.0
+  },
+  "gpt-5.4-mini-2026-03-17": {
+   "acc_full": 0.8784810126582279,
+   "acc_retained": 0.8781512605042017,
+   "acc_removed": 0.8789808917197452,
+   "gap": -0.0008296312155435803,
+   "test": "Fisher exact",
+   "p": 1.0
+  }
+ },
+ "per_item_difficulty": {
+  "n_instruments": 5,
+  "mean_retained": 0.9088235294117648,
+  "mean_removed": 0.9104033970276009,
+  "sd_retained": 0.18678346633332846,
+  "sd_removed": 0.19430491074926798,
+  "mannwhitney_U": 73490.0,
+  "p": 0.609436140213428,
+  "share_hard_retained": 0.06722689075630252,
+  "share_hard_removed": 0.06369426751592357,
+  "cliffs_delta": -0.016619386608146436
+ },
+ "discrimination": {
+  "n_models": 19,
+  "mean_retained": 0.4321648653708826,
+  "mean_removed": 0.44197509907147725,
+  "mannwhitney_p": 0.6803365051733368,
+  "note": "point-biserial r between item correctness and model ability (mean accuracy) across 14 open + 5 capable instruments"
+ },
+ "panel_14": {
+  "n_models": 14,
+  "mean_acc_retained_476": 0.5075030012004802,
+  "mean_acc_full_790": 0.5064195298372514,
+  "per_pair_retained": 0.5075030012004802,
+  "per_pair_removed": 0.5047770700636943,
+  "mannwhitney_p": 0.7542477859183416,
+  "note": "per-pair difficulty = fraction of the 14 panel models answering the pair correctly"
+ }
+}

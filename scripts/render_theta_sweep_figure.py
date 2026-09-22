@@ -97,5 +97,6 @@ from matplotlib.legend_handler import HandlerTuple
 fig.legend(handles=handles, labels=["Audit-Prune", "Fixed-prefix baseline", "Released TruthfulQA-476"],
            handler_map={tuple: HandlerTuple(ndivide=1)}, loc="lower center", bbox_to_anchor=(0.5, -0.045),
            ncol=3, fontsize=10.5, frameon=False, columnspacing=1.1, handletextpad=0.5)
-import pathlib; fig.savefig(str(pathlib.Path(__file__).parent/"theta_sweep_figure.pdf"), bbox_inches="tight")
+import pathlib; _out = pathlib.Path(__file__).resolve().parent.parent / "paper_assets" / "figures" / "theta_sweep_surface6.pdf"
+fig.savefig(str(_out), bbox_inches="tight")   # then: python scripts/crop_pdf_margins.py <this> ..._v2.pdf
 print("v4 continuous written")

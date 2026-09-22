@@ -67,25 +67,26 @@ variants of Table 6.
 
 | Paper item | Script | Result file |
 |---|---|---|
-| Sec. 2.1 audit (AUC 0.715, p), Sec. 3.1 (TruthfulQA-476, CI, p), Tables 7 (group rows), 10, 11, 13 | `scripts/repair_permutation_b10000.py` | `results/r5_d7_permutation_b10000.{json,csv}` |
-| Table 12 (VitaminC) and plain-shuffle rows | `scripts/repair_permutation_plain_shuffle.py` | `results/r5b_d7_plain_shuffle_addendum.json` |
+| Sec. 2.1 audit (AUC 0.715, p), Sec. 3.1 (TruthfulQA-476, CI, p), Tables 9 (group rows), 12, 13, 15 | `scripts/repair_permutation_b10000.py` | `results/r5_d7_permutation_b10000.{json,csv}` |
+| Table 14 (VitaminC) and plain-shuffle rows | `scripts/repair_permutation_plain_shuffle.py` | `results/r5b_d7_plain_shuffle_addendum.json` |
 | Table 1 (per-feature ablation) | `scripts/a8_numbers.py` (recomputation) | `results/t3_table7_per_feature_surface6.{json,tex}`, `results/a8_numbers.json` |
 | Table 2 (AFLite at matched N) | `scripts/run_aflite_baseline.py`, `scripts/d19_aflite_arms.py`; random rows `scripts/make_table2_random_rows.py` | `results/d19_aflite_arms.json`, `results/table2_random_rows.json` |
 | Table 3 (adversarial / natural accuracy, v1.1) | `scripts/table3_v11.py` | `results/v1_1_rescore/table3_v1_1.json` |
-| Table 4 (IRT anchors) | `scripts/run_tinybenchmarks_truthfulqa_surface_audit.py` | `results/t10_irt_anchors_surface6.json` |
-| Table 5 (category retention) | `scripts/make_table5_category_retention.py` | printed |
-| Table 6 (scoring variants) | `scripts/run_audit_prune_surface6.py --strategies confidence imbalance` (partial) | `results/t7_appendix_a_surface6.{json,tex}` |
-| Table 7 diagnostic rows, Table 8 (per-token) | frozen (see Known gaps) | `results/t3_table7_surface6.*`, `results/t3_per_token_neg_cnt_surface6.*` |
-| Table 9 (cohort funnel) | `scripts/make_table9_cohort_funnel.py` | printed |
-| Table 14 (theta sweep) | `scripts/run_audit_prune_surface6.py` (partial) | `results/t5c_sweep_with_fidelity_surface6.{json,tex}`, `results/audit_prune_surface6_repro/PROVENANCE.json` |
+| Table 7 (retained vs removed difficulty, Appendix C; also the 14-model panel numbers in its text) | `scripts/d37_difficulty_powered.py` | `results/d37_difficulty_powered.json` |
+| Table 8 (IRT anchors) | `scripts/run_tinybenchmarks_truthfulqa_surface_audit.py` | `results/t10_irt_anchors_surface6.json` |
+| Table 4 (category retention) | `scripts/make_table5_category_retention.py` | printed |
+| Table 5 (scoring variants) | `scripts/run_audit_prune_surface6.py --strategies confidence imbalance` (partial) | `results/t7_appendix_a_surface6.{json,tex}` |
+| Table 9 diagnostic rows, Table 10 (per-token) | frozen (see Known gaps) | `results/t3_table7_surface6.*`, `results/t3_per_token_neg_cnt_surface6.*` |
+| Table 11 (cohort funnel) | `scripts/make_table9_cohort_funnel.py` | printed |
+| Table 16 (theta sweep) | `scripts/run_audit_prune_surface6.py` (partial) | `results/t5c_sweep_with_fidelity_surface6.{json,tex}`, `results/audit_prune_surface6_repro/PROVENANCE.json` |
 | Sec. 3.2 rank fidelity (rho = 0.915, CI) | `scripts/repair_rank_fidelity.py` | `results/r6_d6_rank_fidelity.json` |
 | Sec. 3.2 fifty random subsets | `scripts/run_random_subset_fidelity.py` | `results/random_subset_fidelity.json` |
 | Sec. 2.2 HaluBench contamination | `scripts/audit_halubench_contamination.py` | `results/halubench_contamination_results.json` |
-| MedHallu audit row (Fig. 3, Table 13) | `scripts/medhallu/medhallu_pool.py` -> `medhallu_perm2000.py` -> `build_medhallu_figure_rows.py` | `results/medhallu_perm2000.json`, `results/medhallu_figure_rows.json` |
-| Figure 1 | `scripts/make_figure1_overview.py` | `paper_assets/figures/audit-prune-overview-v57.pdf` |
-| Figure 2 | `paper_assets/fig/surface6_feature_cards_MERGED_v2.tex` (pdflatex) | `paper_assets/figures/surface6_feature_cards_MERGED_v2.pdf` |
-| Figure 3 | `scripts/render_cross_dataset_figure_vertical_v3.py` | `paper_assets/figures/surface6-datasets_5.pdf` |
-| Figure 4 | `scripts/render_theta_sweep_figure.py` | `paper_assets/figures/theta_sweep_surface6.pdf` |
+| MedHallu audit row (Fig. 3, Table 15) | `scripts/medhallu/medhallu_pool.py` -> `medhallu_perm2000.py` -> `build_medhallu_figure_rows.py` | `results/medhallu_perm2000.json`, `results/medhallu_figure_rows.json` |
+| Figure 1 | `scripts/make_figure1_overview.py`, then `scripts/crop_pdf_margins.py` | `paper_assets/figures/audit-prune-overview-v87.pdf` |
+| Figure 2 | `paper_assets/fig/surface6_feature_cards_v18.tex` (pdflatex), then `scripts/crop_pdf_margins.py` | `paper_assets/figures/surface6_feature_cards_v18.pdf` |
+| Figure 3 | `MEDHALLU_AUDIT_ONLY=1 scripts/render_cross_dataset_figure_v8.py`, then `scripts/crop_pdf_margins.py` | `paper_assets/figures/surface6-datasets_8.pdf` |
+| Figure 4 | `scripts/render_theta_sweep_figure.py` (writes `theta_sweep_surface6.pdf`), then `scripts/crop_pdf_margins.py theta_sweep_surface6.pdf theta_sweep_surface6_v2.pdf` | `paper_assets/figures/theta_sweep_surface6_v2.pdf` |
 
 Shared libraries: `scripts/surface_features_text.py` (Surface6 lexicons and extractor),
 `truthfulqa_pruning_utils.py`, `audit_subset_evaluator.py`, `search_truthfulqa_pruned_improved.py`,
