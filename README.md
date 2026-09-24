@@ -23,9 +23,10 @@ audits/truthfulqa_style_audit.csv    per-answer surface-feature table read by ev
 data/subsets/TruthfulQA-Audited/surface6/pair_ids/
                                      pair-id manifests: TruthfulQA-476 (pair_ids_theta053.json), thresholded
                                      subsets theta=0.50..0.65, fixed-prefix baselines, confidence and hybrid variants
-data/predictions/                    per-item correctness of the 14-model open-weight panel (790 pairs each)
+data/predictions/                    per-item correctness of the 14-model open-weight panel (790 pairs each) and,
+                                     under frontier/, of the four closed models used in Table 7 (July 2026 runs)
 hf_release/                          TruthfulQA-476.csv, SurfaceFlipped-131.csv, Natural-131.csv, verification
-                                     sheets, v1.1 change manifest, drift flags, archive_v1.0/ (dataset card inside)
+                                     sheets, v1.1 change manifest, drift flags, README.md (dataset card), archive_v1.0/ (v1.0 files)
 audits/random476_seeds_v3/           the ten random 476-pair draws used as Table 3's control
 audits/_eval_dataset_v3_*            surface-flipped cohort pipeline: prompts, raw generations, validator, polarity
                                      gate, truth judge, drift screen, per-batch finals (batches 4-13 + seed pilot)
@@ -78,6 +79,7 @@ variants of Table 6.
 | Table 5 (scoring variants) | `scripts/run_audit_prune_surface6.py --strategies confidence imbalance` (partial) | `results/t7_appendix_a_surface6.{json,tex}` |
 | Table 9 diagnostic rows, Table 10 (per-token) | frozen (see Known gaps) | `results/t3_table7_surface6.*`, `results/t3_per_token_neg_cnt_surface6.*` |
 | Table 11 (cohort funnel) | `scripts/make_table9_cohort_funnel.py` | printed |
+| Table 6 (ablation at theta = 0.53) | `scripts/run_audit_prune_surface6.py` (partial; see Known gaps) | `results/t5b_audit_prune_trajectory_theta050_surface6.json` (no-add-back row), `results/t5c_sweep_with_fidelity_surface6.json` (fixed-prefix minimum 0.5826) |
 | Table 16 (theta sweep) | `scripts/run_audit_prune_surface6.py` (partial) | `results/t5c_sweep_with_fidelity_surface6.{json,tex}`, `results/audit_prune_surface6_repro/PROVENANCE.json` |
 | Sec. 3.2 rank fidelity (rho = 0.915, CI) | `scripts/repair_rank_fidelity.py` | `results/r6_d6_rank_fidelity.json` |
 | Sec. 3.2 fifty random subsets | `scripts/run_random_subset_fidelity.py` | `results/random_subset_fidelity.json` |
@@ -118,10 +120,10 @@ cumulative do-not-repeat list.
 
 Stated here so nobody has to discover them.
 
-* The original one-shot wrappers behind Tables 1, 6 (hybrid rows), 7 (two diagnostic rows), 8, and
-  14 (sweep, fidelity columns) were run from a temporary directory in May 2026 and were not
+* The original one-shot wrappers behind Tables 1, 5 (hybrid rows), 6 (no-add-back and rule-cleaner
+  rows), 9 (two diagnostic rows), 8, and 16 (sweep, fidelity columns) were run from a temporary directory in May 2026 and were not
   committed. Their outputs are the `results/` files listed above; the named scripts are exact
-  recomputations (Table 1) or partial reproducers (Tables 6, 14).
+  recomputations (Table 1) or partial reproducers (Tables 5, 6, 16).
 * No training script exists for the twenty pickled heads in `artifacts_*train/`; they are read as
   published artifacts by `scripts/table3_v11.py`.
 * `audits/random476_seeds_v3/` manifests are self-describing (`default_rng(seed).choice(790, 476)`)

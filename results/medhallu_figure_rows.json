@@ -14,21 +14,5 @@
   "null_exceedances": 0,
   "delta_auc": 0.3215,
   "protocol": "canon_audit.py: Surface6 (scripts/surface_features_text.py), GroupKFold(5) by pair, StandardScaler+LR liblinear seed 42, pooled OOF; within-pair permutation null with refit; pair cluster bootstrap"
- },
- {
-  "dataset_id": "MedHallu-3101",
-  "category": "Adversarial/hallucination",
-  "n_texts": 6202,
-  "auc": 0.5279,
-  "acc": 0.5214,
-  "auc_ci95_lo": 0.5193,
-  "auc_ci95_hi": 0.5366,
-  "null_auc_mean": 0.499,
-  "null_auc_sd": 0.0075,
-  "perm_p": 0.0005,
-  "perm_B": 2000,
-  "null_exceedances": 0,
-  "delta_auc": 0.0289,
-  "protocol": "canon_audit.py: Surface6 (scripts/surface_features_text.py), GroupKFold(5) by pair, StandardScaler+LR liblinear seed 42, pooled OOF; within-pair permutation null with refit; pair cluster bootstrap"
  }
 ]

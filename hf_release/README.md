@@ -37,7 +37,7 @@ configs:
 **TruthfulQA-476** is the recommended drop-in replacement for the binary-choice TruthfulQA
 evaluation set. It keeps 476 of the 790 original question pairs, in the original schema, chosen so
 that a classifier restricted to six surface features of the answer text (negation, hedging, length,
-token statistics) can no longer separate correct from incorrect answers above chance, while the
+token statistics) barely separates correct from incorrect answers (AUC 0.528, at the edge of statistical detectability), while the
 ranking of models on the subset agrees with their ranking on the full benchmark. It is released
 alongside the paper **"Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid
 Surface-Level Feature Leakage"** (under double-blind review, 2027).
@@ -74,8 +74,8 @@ the scripts behind every table and figure are at <https://github.com/iclr2027-su
 | File | Rows | Description |
 |---|---|---|
 | `TruthfulQA-476.csv` | 476 pairs | **Canonical cleaned TruthfulQA subset** (θ=0.53). Surface-form audit AUC reduced from 0.715 to **0.528** (edge of statistical detectability; within-pair permutation p = 0.048, B = 10,000), while preserving model rankings (Spearman ρ = **0.915**, 95% item-bootstrap CI [0.81, 0.99]; Kendall τ = **0.827** across 14 open-weight models). |
-| `SurfaceFlipped-131.csv` | 131 pairs | Adversarial cohort: surface-form features deliberately inverted relative to TruthfulQA's correct-answer profile. v1.1 (2026-08-30): 4 near-duplicate questions removed and 16 text fields repaired after author source-verification; every stored surface-feature value is unchanged. |
-| `Natural-131.csv` | 131 pairs | Non-adversarial control cohort (TruthfulQA-Natural): open-ended factual QA pairs generated independently of TruthfulQA across twelve neutral topic domains (`category`), judge-verified (`judge_confidence` >= 0.8). Columns: `id, category, source_category, question, true_answer_natural, false_answer_natural, judge_confidence, model_used`. Surface6 audit AUC inside the cohort: ~0.64, driven mainly by answer length (true answers are longer in ~74% of pairs; fabricated answers also over-use connectives such as "which is why"). v1.1 (2026-08-30): 3 exact-duplicate questions and 1 judgment-based item removed, 6 text fields repaired after author source-verification. |
+| `SurfaceFlipped-131.csv` | 131 pairs | Adversarial cohort: surface-form features deliberately inverted relative to TruthfulQA's correct-answer profile. v1.1 (2026-08-30): 4 near-duplicate questions removed and 21 text fields (16 pairs) repaired after author source-verification; every stored surface-feature value is unchanged. |
+| `Natural-131.csv` | 131 pairs | Non-adversarial control cohort (TruthfulQA-Natural): open-ended factual QA pairs generated independently of TruthfulQA across twelve neutral topic domains (`category`), judge-verified (`judge_confidence` >= 0.8). Columns: `id, category, source_category, question, true_answer_natural, false_answer_natural, judge_confidence, model_used`. Surface6 audit AUC inside the cohort: ~0.64, driven mainly by answer length (true answers are longer in ~74% of pairs; fabricated answers also over-use connectives such as "which is why"). v1.1 (2026-08-30): 3 exact-duplicate questions and 1 judgment-based item removed, 4 text fields repaired after author source-verification. |
 
 `TruthfulQA-476.csv` follows the upstream TruthfulQA schema:
 `pair_id, Type, Category, Question, Best Answer, Best Incorrect Answer, subset_name`.
