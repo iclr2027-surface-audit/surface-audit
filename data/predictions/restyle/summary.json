@@ -11,49 +11,7 @@
   "none_inverted": 1,
   "rateA_plain": 0.5343511450381679,
   "rateA_inverted": 0.5114503816793893,
-  "p_holm": 0.537689208984375
- },
- {
-  "model": "Qwen/Qwen2.5-1.5B-Instruct",
-  "n": 131,
-  "acc_plain": 0.19083969465648856,
-  "acc_inverted": 0.05343511450381679,
-  "lost": 23,
-  "gained": 5,
-  "p": 0.0009122341871261597,
-  "none_plain": 99,
-  "none_inverted": 108,
-  "rateA_plain": 0.0,
-  "rateA_inverted": 0.007633587786259542,
-  "p_holm": 0.008210107684135437
- },
- {
-  "model": "Qwen/Qwen2.5-14B-Instruct",
-  "n": 131,
-  "acc_plain": 0.9847328244274809,
-  "acc_inverted": 0.8778625954198473,
-  "lost": 15,
-  "gained": 1,
-  "p": 0.000518798828125,
-  "none_plain": 0,
-  "none_inverted": 13,
-  "rateA_plain": 0.48091603053435117,
-  "rateA_inverted": 0.4198473282442748,
-  "p_holm": 0.00518798828125
- },
- {
-  "model": "Qwen/Qwen2.5-3B-Instruct",
-  "n": 131,
-  "acc_plain": 0.6946564885496184,
-  "acc_inverted": 0.6412213740458015,
-  "lost": 19,
-  "gained": 12,
-  "p": 0.28104151505976915,
-  "none_plain": 2,
-  "none_inverted": 2,
-  "rateA_plain": 0.6641221374045801,
-  "rateA_inverted": 0.732824427480916,
-  "p_holm": 1.0
+  "p_holm": 0.15362548828125
  },
  {
   "model": "Qwen/Qwen2.5-7B-Instruct",
@@ -67,7 +25,7 @@
   "none_inverted": 0,
   "rateA_plain": 0.4961832061068702,
   "rateA_inverted": 0.4961832061068702,
-  "p_holm": 0.648774128436344
+  "p_holm": 0.15362548828125
  },
  {
   "model": "Qwen/Qwen3-8B",
@@ -81,35 +39,7 @@
   "none_inverted": 0,
   "rateA_plain": 0.5419847328244275,
   "rateA_inverted": 0.7251908396946565,
-  "p_holm": 4.548579454421997e-05
- },
- {
-  "model": "allenai/OLMo-2-1124-7B-Instruct",
-  "n": 131,
-  "acc_plain": 0.35877862595419846,
-  "acc_inverted": 0.44274809160305345,
-  "lost": 14,
-  "gained": 25,
-  "p": 0.10812902140605732,
-  "none_plain": 30,
-  "none_inverted": 8,
-  "rateA_plain": 0.48854961832061067,
-  "rateA_inverted": 0.6564885496183206,
-  "p_holm": 0.648774128436344
- },
- {
-  "model": "google/gemma-2-9b-it",
-  "n": 131,
-  "acc_plain": 0.1450381679389313,
-  "acc_inverted": 0.015267175572519083,
-  "lost": 17,
-  "gained": 0,
-  "p": 1.52587890625e-05,
-  "none_plain": 112,
-  "none_inverted": 129,
-  "rateA_plain": 0.0,
-  "rateA_inverted": 0.0,
-  "p_holm": 0.0001983642578125
+  "p_holm": 2.1226704120635986e-05
  },
  {
   "model": "meta-llama/Llama-3.1-8B-Instruct",
@@ -123,35 +53,7 @@
   "none_inverted": 0,
   "rateA_plain": 0.5114503816793893,
   "rateA_inverted": 0.6412213740458015,
-  "p_holm": 0.00015300046652555466
- },
- {
-  "model": "meta-llama/Llama-3.2-3B-Instruct",
-  "n": 131,
-  "acc_plain": 0.0,
-  "acc_inverted": 0.0,
-  "lost": 0,
-  "gained": 0,
-  "p": 1.0,
-  "none_plain": 131,
-  "none_inverted": 131,
-  "rateA_plain": 0.0,
-  "rateA_inverted": 0.0,
-  "p_holm": 1.0
- },
- {
-  "model": "microsoft/Phi-3-medium-4k-instruct",
-  "n": 131,
-  "acc_plain": 0.9770992366412213,
-  "acc_inverted": 0.9541984732824428,
-  "lost": 4,
-  "gained": 1,
-  "p": 0.375,
-  "none_plain": 1,
-  "none_inverted": 0,
-  "rateA_plain": 0.4961832061068702,
-  "rateA_inverted": 0.5267175572519084,
-  "p_holm": 1.0
+  "p_holm": 6.5571628510952e-05
  },
  {
   "model": "microsoft/Phi-3.5-mini-instruct",
@@ -165,7 +67,7 @@
   "none_inverted": 0,
   "rateA_plain": 0.5038167938931297,
   "rateA_inverted": 0.6412213740458015,
-  "p_holm": 9.238719940185547e-07
+  "p_holm": 4.6193599700927734e-07
  },
  {
   "model": "microsoft/Phi-4-mini-instruct",
@@ -179,7 +81,7 @@
   "none_inverted": 0,
   "rateA_plain": 0.4732824427480916,
   "rateA_inverted": 0.549618320610687,
-  "p_holm": 0.008210107684135437
+  "p_holm": 0.002736702561378479
  },
  {
   "model": "mistralai/Mistral-7B-Instruct-v0.2",
@@ -193,21 +95,7 @@
   "none_inverted": 0,
   "rateA_plain": 0.5801526717557252,
   "rateA_inverted": 0.7251908396946565,
-  "p_holm": 0.00025177001953125
- },
- {
-  "model": "mistralai/Mistral-Nemo-Instruct-2407",
-  "n": 131,
-  "acc_plain": 0.0,
-  "acc_inverted": 0.0,
-  "lost": 0,
-  "gained": 0,
-  "p": 1.0,
-  "none_plain": 131,
-  "none_inverted": 131,
-  "rateA_plain": 0.0,
-  "rateA_inverted": 0.0,
-  "p_holm": 1.0
+  "p_holm": 0.0001049041748046875
  },
  {
   "model": "tiiuae/Falcon3-7B-Instruct",
@@ -221,6 +109,6 @@
   "none_inverted": 0,
   "rateA_plain": 0.5572519083969466,
   "rateA_inverted": 0.648854961832061,
-  "p_holm": 0.0044269561767578125
+  "p_holm": 0.00160980224609375
  }
 ]
