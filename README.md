@@ -23,7 +23,8 @@ audits/truthfulqa_style_audit.csv    per-answer surface-feature table read by ev
 data/subsets/TruthfulQA-Audited/surface6/pair_ids/
                                      pair-id manifests: TruthfulQA-476 (pair_ids_theta053.json), thresholded
                                      subsets theta=0.50..0.65, fixed-prefix baselines, confidence and hybrid variants
-data/predictions/                    per-item correctness of the 14-model open-weight panel (790 pairs each) and,
+data/predictions/                    per-item correctness of the 14-model open-weight panel (790 pairs each), the
+                                     restyle/ check of Appendix L (12 open models, 131 pairs x 2 renderings) and,
                                      under frontier/, of the four closed models used in Table 7 (July 2026 runs)
 hf_release/                          TruthfulQA-476.csv, SurfaceFlipped-131.csv, Natural-131.csv, verification
                                      sheets, v1.1 change manifest, drift flags, README.md (dataset card), archive_v1.0/ (v1.0 files)
@@ -80,6 +81,7 @@ variants of Table 6.
 | Table 9 diagnostic rows, Table 10 (per-token) | frozen (see Known gaps) | `results/t3_table7_surface6.*`, `results/t3_per_token_neg_cnt_surface6.*` |
 | Table 11 (cohort funnel) | `scripts/make_table9_cohort_funnel.py` | printed |
 | Table 6 (ablation at theta = 0.53) | `scripts/run_audit_prune_surface6.py` (partial; see Known gaps) | `results/t5b_audit_prune_trajectory_theta050_surface6.json` (no-add-back row), `results/t5c_sweep_with_fidelity_surface6.json` (fixed-prefix minimum 0.5826) |
+| Appendix L (zero-shot restyling check, 12 open models) | `scripts/run_restyle_panel.py` (plain vs surface-inverted, shared A/B seed), `scripts/score_restyle_panel.py` (exact McNemar, Holm) | `data/predictions/restyle/*.csv` (per item, raw continuations), `data/predictions/restyle/summary.json` |
 | Table 16 (theta sweep) | `scripts/run_audit_prune_surface6.py` (partial) | `results/t5c_sweep_with_fidelity_surface6.{json,tex}`, `results/audit_prune_surface6_repro/PROVENANCE.json` |
 | Sec. 3.2 rank fidelity (rho = 0.915, CI) | `scripts/repair_rank_fidelity.py` | `results/r6_d6_rank_fidelity.json` |
 | Sec. 3.2 fifty random subsets | `scripts/run_random_subset_fidelity.py` | `results/random_subset_fidelity.json` |

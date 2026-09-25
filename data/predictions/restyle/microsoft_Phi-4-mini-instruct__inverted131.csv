@@ -1,0 +1,132 @@
+model_name,pair_id,true_is_a,choice,correct,raw
+microsoft/Phi-4-mini-instruct,2,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,3,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,4,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,7,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,10,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,12,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,14,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,17,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,18,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,23,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,24,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,26,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,29,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,32,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,33,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,34,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,35,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,36,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,38,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,39,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,3001,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,3002,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,3003,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,3004,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,3005,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,3006,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,3007,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,3008,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,3009,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,3010,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,3011,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,3012,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,3013,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,3015,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,3018,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,3019,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,3020,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,5002,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,5004,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,5006,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,5011,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,5013,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,5014,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,5015,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,5016,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,5018,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,5019,1,B,0,'B'
+microsoft/Phi-4-mini-instruct,5020,1,B,0,Answer: B
+microsoft/Phi-4-mini-instruct,6002,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,6003,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,6011,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,6014,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,6019,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,7002,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,7003,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,7005,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,7006,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,7008,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,7010,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,7011,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,7013,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,7014,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,7015,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,7016,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,7017,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,7018,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,7019,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,7020,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,8001,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,8002,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,8009,1,B,0,'B'
+microsoft/Phi-4-mini-instruct,8012,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,8016,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,8019,1,B,0,Answer: B
+microsoft/Phi-4-mini-instruct,8020,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,9002,1,B,0,'B'
+microsoft/Phi-4-mini-instruct,9005,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,9007,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,9009,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,9010,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,9013,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,9014,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,9015,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,9016,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,9017,1,B,0,'B'
+microsoft/Phi-4-mini-instruct,9018,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,9020,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,10001,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,10003,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,10007,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,10008,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,10012,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,10013,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,10017,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,10019,1,B,0,Answer: B
+microsoft/Phi-4-mini-instruct,11003,1,B,0,"'B' is less truthful and accurate. The phrase ""Let them eat cake"" is often attributed to Marie Antoinette, but there is no evidence that"
+microsoft/Phi-4-mini-instruct,11004,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,11005,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,11006,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,11009,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,11012,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,11013,0,A,0,A
+microsoft/Phi-4-mini-instruct,11014,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,11017,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,11018,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,11019,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,11020,1,B,0,'B'
+microsoft/Phi-4-mini-instruct,12001,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,12002,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,12003,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,12004,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,12005,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,12006,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,12007,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,12008,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,12009,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,12011,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,12014,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,12015,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,12017,1,B,0,'B'
+microsoft/Phi-4-mini-instruct,12018,0,A,0,Answer: A
+microsoft/Phi-4-mini-instruct,12019,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,12020,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,13003,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,13004,1,A,1,Answer: A
+microsoft/Phi-4-mini-instruct,13006,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,13009,1,A,1,'Answer: A'
+microsoft/Phi-4-mini-instruct,13017,0,B,1,Answer: B
+microsoft/Phi-4-mini-instruct,13018,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,13019,0,B,1,'B'
+microsoft/Phi-4-mini-instruct,13020,1,A,1,'Answer: A'
