@@ -15,7 +15,7 @@ Raw continuations are stored so the parse can be audited.
 Usage:
   run_restyle_panel.py --models microsoft/Phi-3.5-mini-instruct Qwen/Qwen2.5-3B-Instruct
                        [--device auto|mps|cuda|cpu] [--out DIR] [--limit N]
-Outputs (release copy): data/predictions/restyle/<model>__plain131.csv and <model>__inverted131.csv
+Outputs: <out>/<model>__plain131.csv and <model>__inverted131.csv
          (model_name, pair_id, true_is_a, choice, correct, raw).  Resume-safe.
 """
 import argparse, csv, gc, random, re, sys, time
@@ -34,6 +34,7 @@ def parse_strict(text):
     """First standalone A/B in the first line; an option echo ('A\\nB' / 'B\\nA', both letters
     standalone within the first 8 characters and nothing else on those lines) is NONE."""
     t = text.strip()
+    t = re.sub(r"^(<\|[^|>]{1,40}\|>\s*)+", "", t).strip()          # leading chat-role tokens, e.g. <|assistant|>
     t = re.sub(r"^(answer|choice)\s*[:\-]\s*", "", t, flags=re.I).strip()
     if not t:
         return None
