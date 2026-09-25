@@ -23,8 +23,9 @@ audits/truthfulqa_style_audit.csv    per-answer surface-feature table read by ev
 data/subsets/TruthfulQA-Audited/surface6/pair_ids/
                                      pair-id manifests: TruthfulQA-476 (pair_ids_theta053.json), thresholded
                                      subsets theta=0.50..0.65, fixed-prefix baselines, confidence and hybrid variants
-data/predictions/                    per-item correctness of the 14-model open-weight panel (790 pairs each), the
-                                     restyle/ check of Appendix L (8 open instruct models, 131 pairs x 2 renderings) and,
+data/predictions/                    per-item correctness of the 14-model open-weight panel (790 pairs each; plus
+                                     Qwen2.5-14B seeds 43/44, used in Table 7), the
+                                     restyle/ check of Table 17 / Appendix L (8 open instruct models, 131 pairs x 2 renderings) and,
                                      under frontier/, of the four closed models used in Table 7 (July 2026 runs)
 hf_release/                          TruthfulQA-476.csv, SurfaceFlipped-131.csv, Natural-131.csv, verification
                                      sheets, v1.1 change manifest, drift flags, README.md (dataset card), archive_v1.0/ (v1.0 files)
@@ -37,7 +38,7 @@ artifacts_790train/, artifacts_476train/
                                      the trained classifier heads scored in Table 3 (10 families x 2)
 artifacts/embeddings/                cached frozen-encoder features (not distributed, 160 MB; rebuild locally)
 results/                             one result file per table/figure; numbers printed in the paper come from here
-paper_assets/figures/                the four figure PDFs as included in the paper
+paper_assets/figures/                the four figure PDFs of the paper (theta_sweep_surface6.pdf is the uncropped Figure 4)
 scripts/                             everything else (see the map below)
 ```
 
@@ -56,46 +57,54 @@ grouped 5-fold CV, pooled out-of-fold predictions).
 python scripts/reproduce_truthfulqa476.py
 ```
 
+Expected (about 25 s on a laptop CPU, no downloads), last line:
+`OK -- released TruthfulQA-476 regenerated exactly.`
+
 Runs Algorithm 1 (beta-weighted imbalance score, refit at every step, grouped-CV audit, then the
 add-back pass) on the Surface6 features and asserts, step by step, that the result equals the
 released 476-pair manifest bit for bit. The script's docstring documents the one place where the
 recorded removal path is replayed rather than re-derived.
 
-`scripts/run_audit_prune_surface6.py` runs the generic threshold driver
-(`run_audit_prune_thresholded.py`) with the Surface6 feature list, for sweeps and the scoring
-variants of Table 6.
+`python scripts/run_audit_prune_surface6.py --thresholds 0.53` re-derives the same subset with no
+replay (about 2 min): `results/audit_prune_thresholded/summary_table.csv` reports N = 476, AUC 0.5283,
+403 removal steps and 89 add-backs; its membership equals the released manifest
+(`results/audit_prune_surface6_repro/PROVENANCE.json`). Other thresholds and the confidence strategy
+give the pruning rows of Tables 5 and 16 (fidelity columns and hybrid rows: see Known gaps). The driver's `baseline_*` columns are an internal keep-prefix
+baseline on a feature-balanced ordering, not the paper's fixed-prefix baseline (drop the top-k pairs by
+audit imbalance), whose trajectory is `results/t5b_fixed_prefix_trajectory_surface6.json`.
 
 ## Where each number comes from
 
 | Paper item | Script | Result file |
 |---|---|---|
-| Sec. 2.1 audit (AUC 0.715, p), Sec. 3.1 (TruthfulQA-476, CI, p), Tables 9 (group rows), 12, 13, 15 | `scripts/repair_permutation_b10000.py` | `results/r5_d7_permutation_b10000.{json,csv}` |
+| Sec. 2.1 audit (AUC 0.715, p), Sec. 3.1 (TruthfulQA-476, CI, p), Tables 9 (group rows), 12, 13, 15 | `scripts/repair_permutation_b10000.py` (about 17 min; reads the cross-dataset benchmarks from the Hub; writes to `results/r5_repro/`) | `results/r5_d7_permutation_b10000.{json,csv}` |
 | Table 14 (VitaminC) and plain-shuffle rows | `scripts/repair_permutation_plain_shuffle.py` | `results/r5b_d7_plain_shuffle_addendum.json` |
-| Table 1 (per-feature ablation) | `scripts/a8_numbers.py` (recomputation) | `results/t3_table7_per_feature_surface6.{json,tex}`, `results/a8_numbers.json` |
+| Table 1 (per-feature ablation) | `scripts/a8_numbers.py` (recomputation; downloads HaluEval QA on first run) | `results/t3_table7_per_feature_surface6.{json,tex}`, `results/a8_numbers.json` |
 | Table 2 (AFLite at matched N) | `scripts/run_aflite_baseline.py`, `scripts/d19_aflite_arms.py`; random rows `scripts/make_table2_random_rows.py` | `results/d19_aflite_arms.json`, `results/table2_random_rows.json` |
 | Table 3 (adversarial / natural accuracy, v1.1) | `scripts/table3_v11.py` | `results/v1_1_rescore/table3_v1_1.json` |
 | Table 7 (retained vs removed difficulty, Appendix C; also the 14-model panel numbers in its text) | `scripts/d37_difficulty_powered.py` | `results/d37_difficulty_powered.json` |
-| Table 8 (IRT anchors) | `scripts/run_tinybenchmarks_truthfulqa_surface_audit.py` | `results/t10_irt_anchors_surface6.json` |
-| Table 4 (category retention) | `scripts/make_table5_category_retention.py` | printed |
-| Table 5 (scoring variants) | `scripts/run_audit_prune_surface6.py --strategies confidence imbalance` (partial) | `results/t7_appendix_a_surface6.{json,tex}` |
+| Table 8 (IRT anchors) | `scripts/run_tinybenchmarks_surface6.py` (seconds; downloads the 100 tinyTruthfulQA anchors) reproduces the full, anchor, random and TruthfulQA-476 rows; the anchors-in-TruthfulQA-476 row and the CIs: see Known gaps | `results/t10_irt_anchors_surface6.json` |
+| Table 4 (category retention) | `scripts/make_table5_category_retention.py` (file names of the two `make_table*` scripts keep an older numbering) | printed |
+| Table 5 (scoring variants) | `scripts/run_audit_prune_surface6.py --strategies confidence imbalance` (partial) | `results/t7_appendix_a_surface6.json`, `results/t7_table_appendix_a_surface6.tex` |
 | Table 9 diagnostic rows, Table 10 (per-token) | frozen (see Known gaps) | `results/t3_table7_surface6.*`, `results/t3_per_token_neg_cnt_surface6.*` |
 | Table 11 (cohort funnel) | `scripts/make_table9_cohort_funnel.py` | printed |
 | Table 6 (ablation at theta = 0.53) | `scripts/run_audit_prune_surface6.py` (partial; see Known gaps) | `results/t5b_audit_prune_trajectory_theta050_surface6.json` (no-add-back row), `results/t5c_sweep_with_fidelity_surface6.json` (fixed-prefix minimum 0.5826) |
-| Appendix L (zero-shot restyling check, 8 open instruct models) | `scripts/run_restyle_panel.py` (plain vs surface-inverted, shared A/B seed), `scripts/score_restyle_panel.py` (exact McNemar, Holm) | `data/predictions/restyle/*.csv` (per item, raw continuations), `data/predictions/restyle/summary.json` |
-| Table 16 (theta sweep) | `scripts/run_audit_prune_surface6.py` (partial) | `results/t5c_sweep_with_fidelity_surface6.{json,tex}`, `results/audit_prune_surface6_repro/PROVENANCE.json` |
-| Sec. 3.2 rank fidelity (rho = 0.915, CI) | `scripts/repair_rank_fidelity.py` | `results/r6_d6_rank_fidelity.json` |
-| Sec. 3.2 fifty random subsets | `scripts/run_random_subset_fidelity.py` | `results/random_subset_fidelity.json` |
+| Table 17 / Appendix L (zero-shot restyling check, 8 open instruct models) | `scripts/run_restyle_panel.py` (plain vs surface-inverted, shared A/B seed), `scripts/score_restyle_panel.py` (exact McNemar, Holm; `--drop-drift-flagged` gives the 91-pair restriction) | `data/predictions/restyle/*.csv` (per item, raw continuations), `data/predictions/restyle/summary.json` |
+| Table 16 (theta sweep) | `scripts/run_audit_prune_surface6.py` (partial) | `results/t5c_sweep_with_fidelity_surface6.json`, `results/t5c_table_extended_with_fidelity_surface6.tex`, `results/audit_prune_surface6_repro/PROVENANCE.json` (raw sweep and trajectories: `results/t5b_*.json`, `results/t6_fidelity_surface6.json`) |
+| Sec. 3.1 / Appendix D rank fidelity (rho = 0.915, CI) | `scripts/repair_rank_fidelity.py` | `results/r6_d6_rank_fidelity.json` |
+| Appendix D fifty random subsets | `scripts/run_random_subset_fidelity.py` | `results/random_subset_fidelity.json` |
 | Sec. 2.2 HaluBench contamination | `scripts/audit_halubench_contamination.py` | `results/halubench_contamination_results.json` |
 | MedHallu audit row (Fig. 3, Table 15) | `scripts/medhallu/medhallu_pool.py` -> `medhallu_perm2000.py` -> `build_medhallu_figure_rows.py` | `results/medhallu_perm2000.json`, `results/medhallu_figure_rows.json` |
 | Figure 1 | `scripts/make_figure1_overview.py`, then `scripts/crop_pdf_margins.py` | `paper_assets/figures/audit-prune-overview-v87.pdf` |
 | Figure 2 | `paper_assets/fig/surface6_feature_cards_v18.tex` (pdflatex), then `scripts/crop_pdf_margins.py` | `paper_assets/figures/surface6_feature_cards_v18.pdf` |
-| Figure 3 | `MEDHALLU_AUDIT_ONLY=1 scripts/render_cross_dataset_figure_v8.py`, then `scripts/crop_pdf_margins.py` | `paper_assets/figures/surface6-datasets_8.pdf` |
+| Figure 3 | `MEDHALLU_AUDIT_ONLY=1 scripts/render_cross_dataset_figure_v8.py`, then `scripts/crop_pdf_margins.py` | `results/t4_cross_dataset_surface6.json` (bars), `paper_assets/figures/surface6-datasets_8.pdf` |
 | Figure 4 | `scripts/render_theta_sweep_figure.py` (writes `theta_sweep_surface6.pdf`), then `scripts/crop_pdf_margins.py theta_sweep_surface6.pdf theta_sweep_surface6_v2.pdf` | `paper_assets/figures/theta_sweep_surface6_v2.pdf` |
 
 Shared libraries: `scripts/surface_features_text.py` (Surface6 lexicons and extractor),
 `truthfulqa_pruning_utils.py`, `audit_subset_evaluator.py`, `search_truthfulqa_pruned_improved.py`,
 `repair_common.py`, `f02_clustered_table4.py`. Embedding builders `scripts/build_*_embeddings.py`
-record the exact frozen checkpoints and pooling used for every encoder family;
+(and `scripts/_exp_bge_multilingual_gemma2.py` for BGE-Multi-Gemma2) record the exact frozen
+checkpoints and pooling used for every encoder family;
 `scripts/run_binary_choice_eval.py` produced the per-item prediction files.
 
 ## External data
@@ -127,7 +136,16 @@ Stated here so nobody has to discover them.
   committed. Their outputs are the `results/` files listed above; the named scripts are exact
   recomputations (Table 1) or partial reproducers (Tables 5, 6, 16).
 * No training script exists for the twenty pickled heads in `artifacts_*train/`; they are read as
-  published artifacts by `scripts/table3_v11.py`.
+  published artifacts by `scripts/table3_v11.py`. Each is a joblib file holding a dict: a fitted
+  scikit-learn `Pipeline` (StandardScaler + LogisticRegression) plus its row count, subset and seed.
+* Table 6's no-add-back accuracy and rho and its rule-cleaner row, and Table 8's
+  anchors-in-TruthfulQA-476 row and bootstrap CIs, come from the uncommitted May wrappers above;
+  their values are in `results/t10_irt_anchors_surface6.json` and the paper.
+* The cohort orchestrators import the polarity-gate and drift-screen stage runners, which are not
+  included; their per-row verdicts are (`audits/_eval_dataset_v3_batch*_polarity*.json`,
+  `*_drift_*`, `hf_release/surfaceflipped_drift_flags.csv`).
+* The optional `cleaned` block of `scripts/build_*_embeddings.py` reads a superseded 528-pair manifest
+  (`pair_ids_tau052.json`) that is not shipped; the checkpoints and pooling they record are the ones used.
 * `audits/random476_seeds_v3/` manifests are self-describing (`default_rng(seed).choice(790, 476)`)
   but their generator script is not committed.
 * The pilot batch's 27 judge-passing pairs were reduced to 20 by hand (`_eval_dataset_v3_final.csv`

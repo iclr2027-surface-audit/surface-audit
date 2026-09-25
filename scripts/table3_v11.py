@@ -8,8 +8,8 @@ published recipe (StandardScaler + LR liblinear, seed 42; C=1.0/mi2000 for
 embedding families, mi1000 for surface_lr).
 
 Test matrices: results/v1_1_rescore/emb/{adv131,natural131}_{prefix}_{T,F}.npy
-(edited rows re-encoded, dropped rows removed; bge_multi_gemma2 re-encoded on CHPC 2026-09-25,
-validated in gemma2_v11_validation.json). surface_lr features recomputed from v1.1 text.
+(edited rows re-encoded, dropped rows removed; the bge_multi_gemma2 edited rows were
+re-encoded from the v1.1 text; check in results/v1_1_rescore/gemma2_v11_validation.json). surface_lr features recomputed from v1.1 text.
 
 Output: results/v1_1_rescore/table3_v1_1.json + per-item correctness CSV.
 """

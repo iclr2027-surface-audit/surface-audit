@@ -4,7 +4,8 @@
 Per model: accuracy on each arm, discordant counts (lost = right on plain & wrong on
 inverted; gained = the reverse), exact two-sided McNemar p, Holm-adjusted p over the
 models scored, unparsed counts, and the share of 'A' answers per arm (position lock).
-Usage: score_restyle_panel.py [--dir rebuttal_2026/restyle_panel] [--json out.json]
+Usage: score_restyle_panel.py [--dir data/predictions/restyle] [--json out.json] [--drop-drift-flagged]
+  --drop-drift-flagged  restrict to the 91 pairs with no proposition-drift flag (Appendix L, last sentence)
 """
 import argparse, glob, json, os
 import pandas as pd
@@ -27,12 +28,19 @@ def holm(ps):
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--dir", default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "predictions", "restyle"))
-    ap.add_argument("--json", default=None); a = ap.parse_args()
+    ap.add_argument("--json", default=None)
+    ap.add_argument("--drop-drift-flagged", action="store_true"); a = ap.parse_args()
+    keep = None
+    if a.drop_drift_flagged:
+        fl = pd.read_csv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "hf_release", "surfaceflipped_drift_flags.csv"))
+        keep = set(fl.loc[fl["drift_flagged"].astype(str).str.lower() != "true", "id"])
     rows = []
     for fp in sorted(glob.glob(os.path.join(a.dir, "*__plain131.csv"))):
         fi = fp.replace("__plain131", "__inverted131")
         if not os.path.exists(fi): continue
-        p = reparse(pd.read_csv(fp)); q = reparse(pd.read_csv(fi)); m = p.merge(q, on="pair_id", suffixes=("_p", "_i"))
+        p = reparse(pd.read_csv(fp)); q = reparse(pd.read_csv(fi))
+        if keep is not None: p = p[p.pair_id.isin(keep)]; q = q[q.pair_id.isin(keep)]
+        m = p.merge(q, on="pair_id", suffixes=("_p", "_i"))
         lost = int(((m.correct_p == 1) & (m.correct_i == 0)).sum()); gained = int(((m.correct_p == 0) & (m.correct_i == 1)).sum())
         pval = binomtest(min(lost, gained), lost + gained, 0.5).pvalue if lost + gained else 1.0
         rows.append(dict(model=p.model_name.iloc[0], n=len(m), acc_plain=p.correct.mean(), acc_inverted=q.correct.mean(),

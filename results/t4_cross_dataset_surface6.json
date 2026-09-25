@@ -599,15 +599,6 @@
     "run_seconds": 846.13,
     "lr_spec": "StandardScaler + LogisticRegression(solver=liblinear, C=1.0, max_iter=2000, penalty=l2, random_state=42)",
     "timestamp_utc_patch_final": "2026-05-06T17:55:01Z",
-    "patch_final_corrections": [
-      "Removed TruthfulQA-Audited (n=421 = surface5-pruner-bug artifact; canonical TruthfulQA-492 deferred to T5+T8).",
-      "BoolQ re-audited on `question` field (was `passage`); now matches step9 + paper baseline.",
-      "VitaminC null switched to plain shuffle; within-group label-swap was degenerate on label-homogeneous case_id groups.",
-      "null_protocol field backfilled per row.",
-      "SelfCheckGPT null switched to plain shuffle (same diagnosis as VitaminC: bio_id groups have heterogeneous label proportions that make within-group swap degenerate)."
-    ],
-    "timestamp_utc_t8": "2026-05-07T06:11:31Z",
-    "t8_note": "T8 canonical switch: TruthfulQA-Audited row at theta=0.56 (TruthfulQA-536, 536 pairs / 1072 answers). Replaces TruthfulQA-492 (theta=0.55) row. step9 patched in-place.",
-    "t20_note": "T20 canonical switch: TruthfulQA-Audited row at theta=0.53 (TruthfulQA-476, 476 pairs / 952 answers). Replaces TruthfulQA-536 (theta=0.56) row. step9 patched in-place."
+    "timestamp_utc_t8": "2026-05-07T06:11:31Z"
   }
 }

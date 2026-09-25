@@ -120,8 +120,8 @@ natural = pd.read_csv("hf://datasets/iclr2027-surface-audit/surface-audit/Natura
 @misc{anonymous2026judging,
   title  = {Judging by the Cover: Cleaning LLM Truthfulness Benchmarks to Avoid Surface-Level Feature Leakage},
   author = {Anonymous Authors},
-  year   = {2026},
-  note   = {Preprint},
+  year   = {2027},
+  note   = {Under double-blind review},
   url    = {https://github.com/iclr2027-surface-audit/surface-audit}
 }
 ```

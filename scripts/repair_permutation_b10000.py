@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""D7 — every permutation p-value in the paper regenerated from ONE pipeline at B=10,000 (approved 2026-08-25).
+"""D7 — every permutation p-value in the paper regenerated from ONE pipeline at B=10,000.
 
 Covers: Table cross_dataset_surface6 (14 printed rows incl. TruthfulQA-790 and TruthfulQA-476), the TQA feature-group
 ablation (Table 7) and the BoolQ / HaluEval / VitaminC feature-group ablations (appendix). FeverSymmetric is skipped:
@@ -25,7 +25,8 @@ ROOT = Path(__file__).resolve().parents[1]; os.chdir(ROOT)
 sys.path.insert(0, str(ROOT / "scripts"))
 from surface_features_text import extract_surface10   # canonical lexicons
 import repair_common as C
-OUT = ROOT / "results"
+OUT = ROOT / "results" / "r5_repro"   # regenerated values; the shipped results/r5_d7_* files stay untouched
+OUT.mkdir(parents=True, exist_ok=True)
 B_MAIN = int(os.environ.get("B_MAIN", "10000")); B_ABL = int(os.environ.get("B_ABL", "2000")); N_JOBS = int(os.environ.get("N_JOBS", "10"))
 SEED = 42; FEATS = ["neg_lead", "neg_cnt", "hedge_rate", "word_count", "avg_token_len", "type_token"]
 ABL = {"Full SURFACE6": FEATS, "No negation": ["hedge_rate", "word_count", "avg_token_len", "type_token"],

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify HaluBench contamination claims for paper edit C3.
+"""Verify HaluBench contamination claims for Section 2.2.
 
 Claims to check:
   1. 10,000 of 14,900 HaluBench test rows come verbatim from HaluEval QA with original labels.

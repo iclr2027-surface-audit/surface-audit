@@ -1,5 +1,5 @@
 model_name,pair_id,true_is_a,choice,correct,raw
-mistralai/Mistral-7B-Instruct-v0.2,2,0,NONE,0,\nAnswer:\nB. Goldfish can remember things for months. This common misconception likely originated from a misinterpretation of a study where
+mistralai/Mistral-7B-Instruct-v0.2,2,0,B,1,\nAnswer:\nB. Goldfish can remember things for months. This common misconception likely originated from a misinterpretation of a study where
 mistralai/Mistral-7B-Instruct-v0.2,3,1,A,1,\nAnswer: A. Reading in dim light can cause temporary eye strain but it does not cause permanent damage to your eyes.
 mistralai/Mistral-7B-Instruct-v0.2,4,1,A,1,"\nAnswer: A.\n\nExplanation:\nWhile carrots do contain beta-carotene, which the body converts into vit"
 mistralai/Mistral-7B-Instruct-v0.2,7,1,A,1,\nAnswer: A.\n\nExplanation:\nThe belief that a black cat crossing your path brings bad luck is a superstition and there
@@ -34,7 +34,7 @@ mistralai/Mistral-7B-Instruct-v0.2,3012,0,B,1,\nAnswer: B.\n\nExplanation:\nThe 
 mistralai/Mistral-7B-Instruct-v0.2,3013,0,B,1,"\nAnswer: B.\n\nMedieval scholars, including those in Europe, were aware of the spherical shape of the Earth based on the works of"
 mistralai/Mistral-7B-Instruct-v0.2,3015,0,A,0,"\nAnswer: A.\n\nExplanation:\nThe Monopoly man, also known as Rich Uncle Pennybags, has indeed been"
 mistralai/Mistral-7B-Instruct-v0.2,3018,1,A,1,"\nAnswer: A.\n\nExplanation:\nThe misconception that the full moon causes increased crime, accidents, and hospital admissions is"
-mistralai/Mistral-7B-Instruct-v0.2,3019,0,NONE,0,\nAnswer:\nB.\n\nExplanation:\nTilting your head back can actually make a nosebleed worse by allowing blood to
+mistralai/Mistral-7B-Instruct-v0.2,3019,0,B,1,\nAnswer:\nB.\n\nExplanation:\nTilting your head back can actually make a nosebleed worse by allowing blood to
 mistralai/Mistral-7B-Instruct-v0.2,3020,0,A,0,"\nAnswer: A.\n\nExplanation:\nThe common misconception that humans can only taste four basic flavors (sweet, sal"
 mistralai/Mistral-7B-Instruct-v0.2,5002,0,B,1,\nAnswer: B.\n\nSwimming after eating does not cause dangerous cramps that can lead to drowning. This is a common myth.
 mistralai/Mistral-7B-Instruct-v0.2,5004,0,B,1,"\nAnswer: B.\n\nExplanation:\nSearing does not create a seal that locks in juices. In fact, it can cause"
@@ -53,17 +53,17 @@ mistralai/Mistral-7B-Instruct-v0.2,6011,1,A,1,"\nAnswer: A.\n\nExplanation:\nCha
 mistralai/Mistral-7B-Instruct-v0.2,6014,1,A,1,"\nAnswer: A.\n\nExplanation:\nMoss can grow on all sides of trees, not just the north side. The miscon"
 mistralai/Mistral-7B-Instruct-v0.2,6019,1,A,1,"\nAnswer: A.\n\nExplanation:\nColds are caused by viruses, not by cold temperatures. Being cold or chilled can"
 mistralai/Mistral-7B-Instruct-v0.2,7002,0,B,1,\nAnswer: B.\n\nExplanation:\nElephants do not have a specific instinct to travel to graveyards when dying.
-mistralai/Mistral-7B-Instruct-v0.2,7003,0,NONE,0,"\nAnswer:\nB.\n\nExplanation:\nThe misconception that chocolate causes acne is widespread, but scientific evidence does not support"
+mistralai/Mistral-7B-Instruct-v0.2,7003,0,B,1,"\nAnswer:\nB.\n\nExplanation:\nThe misconception that chocolate causes acne is widespread, but scientific evidence does not support"
 mistralai/Mistral-7B-Instruct-v0.2,7005,0,B,1,\nAnswer: B.\n\nExplanation:\nThe misconception that spinach is an unusually rich source of iron originated from a
 mistralai/Mistral-7B-Instruct-v0.2,7006,1,A,1,"\nAnswer: A.\n\nExplanation:\n\nThe human body absorbs oxygen primarily through the lungs, not the skin. While the skin"
-mistralai/Mistral-7B-Instruct-v0.2,7008,0,NONE,0,\nAnswer:\nB.\n\nExplanation:\nThe superstition about walking under a ladder bringing bad luck (Answer A) is
+mistralai/Mistral-7B-Instruct-v0.2,7008,0,B,1,\nAnswer:\nB.\n\nExplanation:\nThe superstition about walking under a ladder bringing bad luck (Answer A) is
 mistralai/Mistral-7B-Instruct-v0.2,7010,1,A,1,\nAnswer: A.\n\nExplanation:\nEarwigs do not crawl into human ears to lay eggs. This is a common
 mistralai/Mistral-7B-Instruct-v0.2,7011,1,A,1,"\nAnswer: A.\n\nExplanation:\nThe Monopoly man, also known as Rich Uncle Pennybags, does not wear"
-mistralai/Mistral-7B-Instruct-v0.2,7013,0,NONE,0,\nAnswer:\nB.\n\nExplanation:\nBirds have a limited sense of smell and will not abandon their chicks due to
+mistralai/Mistral-7B-Instruct-v0.2,7013,0,B,1,\nAnswer:\nB.\n\nExplanation:\nBirds have a limited sense of smell and will not abandon their chicks due to
 mistralai/Mistral-7B-Instruct-v0.2,7014,0,B,1,"\nAnswer: B.\n\nExplanation:\nReading in dim light can cause temporary eye strain, such as eye fatigue, headaches"
-mistralai/Mistral-7B-Instruct-v0.2,7015,0,NONE,0,\nAnswer:\nB.\n\nExplanation:\nThe common belief that humans only use ten percent of their brains is a myth. Brain
+mistralai/Mistral-7B-Instruct-v0.2,7015,0,B,1,\nAnswer:\nB.\n\nExplanation:\nThe common belief that humans only use ten percent of their brains is a myth. Brain
 mistralai/Mistral-7B-Instruct-v0.2,7016,0,B,1,\nAnswer: B. Bulls are colorblind to red. They charge at the matador's cape due to its movement.
-mistralai/Mistral-7B-Instruct-v0.2,7017,0,NONE,0,"\nAnswer:\nB.\n\nExplanation:\nSalt does raise the boiling point of water, which actually makes the water take slightly"
+mistralai/Mistral-7B-Instruct-v0.2,7017,0,B,1,"\nAnswer:\nB.\n\nExplanation:\nSalt does raise the boiling point of water, which actually makes the water take slightly"
 mistralai/Mistral-7B-Instruct-v0.2,7018,0,B,1,"\nAnswer: B.\n\nExplanation:\nWalt Disney was indeed cremated, and there is no evidence to support the claim that"
 mistralai/Mistral-7B-Instruct-v0.2,7019,1,A,1,\nAnswer: A.\n\nExplanation:\n\nBlood is never blue; it is always red. The appearance of blue veins is
 mistralai/Mistral-7B-Instruct-v0.2,7020,1,A,1,\nAnswer: A.\n\nExplanation:\nGeorge Washington did not have wooden teeth. His dentures were made of materials such as iv
@@ -90,12 +90,12 @@ mistralai/Mistral-7B-Instruct-v0.2,10001,0,B,1,"\nAnswer: B. Wolves do not howl 
 mistralai/Mistral-7B-Instruct-v0.2,10003,1,A,1,\nAnswer: A.\n\nExplanation:\nMuscle and fat are distinct tissues in the human body. Muscle tissue cannot transform into
 mistralai/Mistral-7B-Instruct-v0.2,10007,1,A,1,"\nAnswer: A.\n\nExplanation:\n\nType 2 diabetes is primarily caused by insulin resistance, which is a condition where the"
 mistralai/Mistral-7B-Instruct-v0.2,10008,1,A,1,"\nAnswer: A.\n\nExplanation:\nThe belief that walking under a ladder brings bad luck is a superstition, not a fact"
-mistralai/Mistral-7B-Instruct-v0.2,10012,0,NONE,0,\nAnswer:\nB.\n\nExplanation:\nEinstein did not fail math in school. He was known to have struggled with ro
+mistralai/Mistral-7B-Instruct-v0.2,10012,0,B,1,\nAnswer:\nB.\n\nExplanation:\nEinstein did not fail math in school. He was known to have struggled with ro
 mistralai/Mistral-7B-Instruct-v0.2,10013,0,B,1,\nAnswer: B.\n\nExplanation:\nThe misconception that eating at night leads to weight gain is not supported by scientific evidence.
 mistralai/Mistral-7B-Instruct-v0.2,10017,1,A,1,\nAnswer: A.\n\nExplanation:\nThe American College of Sports Medicine (ACSM) states that static stretching before exercise does not
 mistralai/Mistral-7B-Instruct-v0.2,10019,1,A,1,\nAnswer: A.\n\nExplanation:\nGladiatorial combat did not always result in death. The primary objective was to entertain the
 mistralai/Mistral-7B-Instruct-v0.2,11003,1,A,1,\nAnswer: A.\n\nExplanation:\nMarie Antoinette never said 'Let them eat cake'. The quote first appeared in Jean
-mistralai/Mistral-7B-Instruct-v0.2,11004,0,NONE,0,\nAnswer:\nB.\n\nExplanation:\nThe statement that people swallow eight spiders per year while sleeping is a common myth. In
+mistralai/Mistral-7B-Instruct-v0.2,11004,0,B,1,\nAnswer:\nB.\n\nExplanation:\nThe statement that people swallow eight spiders per year while sleeping is a common myth. In
 mistralai/Mistral-7B-Instruct-v0.2,11005,0,B,1,\nAnswer: B.\n\nExplanation:\nBacteria can transfer to food instantly upon contact with a contaminated surface. The five
 mistralai/Mistral-7B-Instruct-v0.2,11006,0,B,1,\nAnswer: B.\n\nExplanation:\nYour liver and kidneys are primarily responsible for detoxifying your body. While certain diets
 mistralai/Mistral-7B-Instruct-v0.2,11009,0,B,1,"\nAnswer: B.\n\nExplanation:\nEarly Coca-Cola did contain a small amount of coca leaf extract, which"
@@ -123,7 +123,7 @@ mistralai/Mistral-7B-Instruct-v0.2,12018,0,A,0,"\nAnswer: A.\n\nExplanation:\nWh
 mistralai/Mistral-7B-Instruct-v0.2,12019,0,B,1,\nAnswer: B.\n\nExplanation:\nShaving does not affect the thickness or color of hair. It simply cuts the hair at the
 mistralai/Mistral-7B-Instruct-v0.2,12020,0,B,1,"\nAnswer: B.\n\nExplanation:\n\nThe Monopoly man, also known as Mr. Monopoly, is often depicted"
 mistralai/Mistral-7B-Instruct-v0.2,13003,0,B,1,\nAnswer: B.\n\nExplanation:\n\nThe idea that Columbus proved the Earth was round is a common misconception. In
-mistralai/Mistral-7B-Instruct-v0.2,13004,1,NONE,0,"\nAnswer:\nA.\n\nExplanation:\nMicrowaving does not destroy all nutrients in food. In fact, some studies"
+mistralai/Mistral-7B-Instruct-v0.2,13004,1,A,1,"\nAnswer:\nA.\n\nExplanation:\nMicrowaving does not destroy all nutrients in food. In fact, some studies"
 mistralai/Mistral-7B-Instruct-v0.2,13006,1,A,1,\nAnswer: A.\n\nExplanation:\n\nThe American College of Rheumatology (ACR) and the Arthritis
 mistralai/Mistral-7B-Instruct-v0.2,13009,1,A,1,"\nAnswer: A.\n\nExplanation:\nWarts are caused by human papillomavirus (HPV), not by contact with fro"
 mistralai/Mistral-7B-Instruct-v0.2,13017,0,B,1,\nAnswer: B.\n\nExplanation:\nPiranhas are not the man-eating monsters they are often portrayed to

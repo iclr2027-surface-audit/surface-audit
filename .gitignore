@@ -1,4 +1,4 @@
-# large cached inputs live on the Hugging Face dataset (see the paper's data release)
+# cached frozen-encoder features (160 MB) are not distributed; rebuild with scripts/build_*_embeddings.py
 artifacts/embeddings/
 results/v1_1_rescore/emb/
 # rebuilt by scripts/medhallu/medhallu_pool.py

@@ -8,7 +8,7 @@ Every file below is a verbatim copy of its internal-repo source except for the e
 * `scripts/a8_numbers.py`: moved from audits/iclr_repair_results/scripts/; repository root resolved relative to the file; output written to results/
 * `scripts/audit_halubench_contamination.py`: moved from an internal analysis directory; repository root resolved relative to the file; output written to results/halubench_contamination_results.json
 * `scripts/render_theta_sweep_figure.py`: removed a preview PNG written to a local desktop path
-* `scripts/render_cross_dataset_figure_vertical_v3.py`: MEDHALLU_AUDIT_ONLY=1 (the paper's Figure 3 mode) is now the default; the other modes read files that are not part of the release
+* `scripts/render_cross_dataset_figure_v8.py`: MEDHALLU_AUDIT_ONLY=1 renders the paper's Figure 3; the superseded layout script was removed
 * `scripts/medhallu/medhallu_perm2000.py`: audits only the full 10k MedHallu pool (the paper's row); the MedHallu-3101 subset arm was removed with that release
 * `scripts/medhallu/build_medhallu_figure_rows.py`: writes only the full-MedHallu row (the paper's); MedHallu-3101 row and a fallback path removed
 * `scripts/run_aflite_baseline.py`: docstring run line uses `python` instead of an absolute interpreter path

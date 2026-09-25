@@ -5,7 +5,6 @@ import os, sys, json
 from pathlib import Path
 import numpy as np
 ROOT = Path(__file__).resolve().parents[1]; os.chdir(ROOT); sys.path.insert(0, str(ROOT / "scripts"))
-os.environ.setdefault("HF_HUB_OFFLINE", "1"); os.environ.setdefault("HF_DATASETS_OFFLINE", "1")
 from sklearn.model_selection import GroupKFold, cross_val_predict
 from sklearn.metrics import roc_auc_score
 import reproduce_truthfulqa476 as RP

@@ -1,198 +1,194 @@
 {
-  "date": "2026-08-31",
-  "finding": "The released TruthfulQA-476 and the frozen t5c sweep ARE exactly reproducible by scripts/run_audit_prune_thresholded.py; the single undocumented requirement is restricting audit_subset_evaluator.FEATURE_COLS to the SURFACE6 features (word_count,neg_cnt,avg_token_len,type_token,neg_lead,hedge_rate) before running. The 10-feature default produced all past failed reproductions (401/536/469).",
-  "exact_matches": {
-    "theta_0.53": "N=476 AUC=0.528301761881223 steps=403 addback=89",
-    "theta_0.63": "N=640 steps=155 addback=5",
-    "theta_0.64": "N=656 steps=142 addback=8",
-    "theta_0.65": "N=668 steps=127 addback=5"
+ "date": "2026-08-31",
+ "finding": "The released TruthfulQA-476 and the t5c sweep are exactly reproduced by scripts/run_audit_prune_surface6.py, which runs run_audit_prune_thresholded.py with audit_subset_evaluator.FEATURE_COLS set to the six SURFACE6 features.",
+ "exact_matches": {
+  "theta_0.53": "N=476 AUC=0.528301761881223 steps=403 addback=89",
+  "theta_0.63": "N=640 steps=155 addback=5",
+  "theta_0.64": "N=656 steps=142 addback=8",
+  "theta_0.65": "N=668 steps=127 addback=5"
+ },
+ "membership_check_vs_hf_release_TruthfulQA-476": "IDENTICAL",
+ "new_same_pipeline_points": {
+  "0.66": 687,
+  "0.67": 697,
+  "0.68": 721,
+  "0.69": 745,
+  "0.70": 766,
+  "0.71": 782
+ },
+ "command": "patch audit_subset_evaluator.FEATURE_COLS to SURFACE6, then run_audit_prune_thresholded.py --thresholds ... --strategies imbalance (seed 42 defaults)",
+ "membership_note": "reproduced tau=0.53 subset vs hf_release/TruthfulQA-476.csv: 476/476 identical (Question+Best Answer), 0 differences",
+ "extension_0.66_0.71": {
+  "note": "AP from SURFACE6-correct reruns (same pipeline, validated exact at 0.53/0.63-0.65); FP derived from the FROZEN t5b fixed-prefix trajectory (reproduces all frozen FP rows exactly); rho/tau from the 14-model seed-42 prediction matrix, protocol validated against frozen t5c values at 0.53/0.65/0.59.",
+  "audit_prune": {
+   "0.66": {
+    "n": 687,
+    "rho": 0.9493,
+    "tau": 0.8778
+   },
+   "0.67": {
+    "n": 697,
+    "rho": 0.9912,
+    "tau": 0.9606
+   },
+   "0.68": {
+    "n": 721,
+    "rho": 0.9978,
+    "tau": 0.9888
+   },
+   "0.69": {
+    "n": 745,
+    "rho": 0.9967,
+    "tau": 0.9833
+   },
+   "0.7": {
+    "n": 766,
+    "rho": 1.0,
+    "tau": 1.0
+   },
+   "0.71": {
+    "n": 782,
+    "rho": 1.0,
+    "tau": 1.0
+   }
   },
-  "membership_check_vs_hf_release_TruthfulQA-476": "IDENTICAL",
-  "new_same_pipeline_points": {
-    "0.66": 687,
-    "0.67": 697,
-    "0.68": 721,
-    "0.69": 745,
-    "0.70": 766,
-    "0.71": 782
-  },
-  "supersedes": [
-    "audit_prune_theta070_check and audit_prune_theta_fill (10-feature profile, wrong \u2014 moved out of results/)",
-    "release_readiness_audit r7_d12 grade artifact_reproducibility=WORST (diagnosis incorrect; see finding)"
-  ],
-  "command": "patch audit_subset_evaluator.FEATURE_COLS to SURFACE6, then run_audit_prune_thresholded.py --thresholds ... --strategies imbalance (seed 42 defaults)",
-  "membership_note": "reproduced tau=0.53 subset vs hf_release/TruthfulQA-476.csv: 476/476 identical (Question+Best Answer), 0 differences",
-  "extension_0.66_0.71": {
-    "note": "AP from SURFACE6-correct reruns (same pipeline, validated exact at 0.53/0.63-0.65); FP derived from the FROZEN t5b fixed-prefix trajectory (reproduces all frozen FP rows exactly); rho/tau from the 14-model seed-42 prediction matrix, protocol validated against frozen t5c values at 0.53/0.65/0.59.",
-    "audit_prune": {
-      "0.66": {
-        "n": 687,
-        "rho": 0.9493,
-        "tau": 0.8778
-      },
-      "0.67": {
-        "n": 697,
-        "rho": 0.9912,
-        "tau": 0.9606
-      },
-      "0.68": {
-        "n": 721,
-        "rho": 0.9978,
-        "tau": 0.9888
-      },
-      "0.69": {
-        "n": 745,
-        "rho": 0.9967,
-        "tau": 0.9833
-      },
-      "0.7": {
-        "n": 766,
-        "rho": 1.0,
-        "tau": 1.0
-      },
-      "0.71": {
-        "n": 782,
-        "rho": 1.0,
-        "tau": 1.0
-      }
-    },
-    "fixed_prefix": {
-      "0.66": {
-        "n": 682,
-        "rho": 0.9504,
-        "tau": 0.8827
-      },
-      "0.67": {
-        "n": 697,
-        "rho": 0.9912,
-        "tau": 0.9606
-      },
-      "0.68": {
-        "n": 718,
-        "rho": 0.9945,
-        "tau": 0.9721
-      },
-      "0.69": {
-        "n": 739,
-        "rho": 0.9967,
-        "tau": 0.9832
-      },
-      "0.7": {
-        "n": 760,
-        "rho": 0.9967,
-        "tau": 0.9833
-      },
-      "0.71": {
-        "n": 781,
-        "rho": 1.0,
-        "tau": 1.0
-      }
-    }
-  },
-  "fixed_prefix_floor_point": {
-    "theta": 0.5826,
-    "n": 375,
-    "k": 415,
-    "rho": 0.9049,
-    "tau": 0.7911,
-    "note": "FP at its minimum reachable audit AUC (frozen trajectory k_at_min); same-pipeline"
-  },
-  "appendix_rows_0.66_0.71": {
-    "note": "Rows for the appendix sweep table so it covers the same range as the figure. Audit-Prune from the SURFACE6-correct rerun (validated exact at 0.53/0.63-0.65); Fixed-prefix N/Acc/AUC read from the FROZEN t5b fixed-prefix trajectory (validated: it reproduces the table's existing 0.59/0.60/0.63/0.65 rows exactly); rho/tau from the 14-model seed-42 matrix.",
-    "audit_prune": {
-      "0.66": [
-        687,
-        11,
-        0.6536,
-        0.6597,
-        0.9493,
-        0.8778
-      ],
-      "0.67": [
-        697,
-        6,
-        0.6593,
-        0.6693,
-        0.9912,
-        0.9606
-      ],
-      "0.68": [
-        721,
-        3,
-        0.6671,
-        0.6784,
-        0.9978,
-        0.9888
-      ],
-      "0.69": [
-        745,
-        5,
-        0.6745,
-        0.6896,
-        0.9967,
-        0.9833
-      ],
-      "0.70": [
-        766,
-        6,
-        0.686,
-        0.6999,
-        1.0,
-        1.0
-      ],
-      "0.71": [
-        782,
-        1,
-        0.6861,
-        0.7099,
-        1.0,
-        1.0
-      ]
-    },
-    "fixed_prefix": {
-      "0.66": [
-        682,
-        0.6518,
-        0.6576,
-        0.9504,
-        0.8827
-      ],
-      "0.67": [
-        697,
-        0.6514,
-        0.6696,
-        0.9912,
-        0.9606
-      ],
-      "0.68": [
-        718,
-        0.6713,
-        0.6792,
-        0.9945,
-        0.9721
-      ],
-      "0.69": [
-        739,
-        0.6752,
-        0.6899,
-        0.9967,
-        0.9832
-      ],
-      "0.70": [
-        760,
-        0.6816,
-        0.6985,
-        0.9967,
-        0.9833
-      ],
-      "0.71": [
-        781,
-        0.6863,
-        0.7098,
-        1.0,
-        1.0
-      ]
-    },
-    "columns": "theta, Method, N, add_back, Acc, AUC, Spearman rho, Kendall tau"
+  "fixed_prefix": {
+   "0.66": {
+    "n": 682,
+    "rho": 0.9504,
+    "tau": 0.8827
+   },
+   "0.67": {
+    "n": 697,
+    "rho": 0.9912,
+    "tau": 0.9606
+   },
+   "0.68": {
+    "n": 718,
+    "rho": 0.9945,
+    "tau": 0.9721
+   },
+   "0.69": {
+    "n": 739,
+    "rho": 0.9967,
+    "tau": 0.9832
+   },
+   "0.7": {
+    "n": 760,
+    "rho": 0.9967,
+    "tau": 0.9833
+   },
+   "0.71": {
+    "n": 781,
+    "rho": 1.0,
+    "tau": 1.0
+   }
   }
+ },
+ "fixed_prefix_floor_point": {
+  "theta": 0.5826,
+  "n": 375,
+  "k": 415,
+  "rho": 0.9049,
+  "tau": 0.7911,
+  "note": "FP at its minimum reachable audit AUC (frozen trajectory k_at_min); same-pipeline"
+ },
+ "appendix_rows_0.66_0.71": {
+  "note": "Rows for the appendix sweep table so it covers the same range as the figure. Audit-Prune from the SURFACE6-correct rerun (validated exact at 0.53/0.63-0.65); Fixed-prefix N/Acc/AUC read from the FROZEN t5b fixed-prefix trajectory (validated: it reproduces the table's existing 0.59/0.60/0.63/0.65 rows exactly); rho/tau from the 14-model seed-42 matrix.",
+  "audit_prune": {
+   "0.66": [
+    687,
+    11,
+    0.6536,
+    0.6597,
+    0.9493,
+    0.8778
+   ],
+   "0.67": [
+    697,
+    6,
+    0.6593,
+    0.6693,
+    0.9912,
+    0.9606
+   ],
+   "0.68": [
+    721,
+    3,
+    0.6671,
+    0.6784,
+    0.9978,
+    0.9888
+   ],
+   "0.69": [
+    745,
+    5,
+    0.6745,
+    0.6896,
+    0.9967,
+    0.9833
+   ],
+   "0.70": [
+    766,
+    6,
+    0.686,
+    0.6999,
+    1.0,
+    1.0
+   ],
+   "0.71": [
+    782,
+    1,
+    0.6861,
+    0.7099,
+    1.0,
+    1.0
+   ]
+  },
+  "fixed_prefix": {
+   "0.66": [
+    682,
+    0.6518,
+    0.6576,
+    0.9504,
+    0.8827
+   ],
+   "0.67": [
+    697,
+    0.6514,
+    0.6696,
+    0.9912,
+    0.9606
+   ],
+   "0.68": [
+    718,
+    0.6713,
+    0.6792,
+    0.9945,
+    0.9721
+   ],
+   "0.69": [
+    739,
+    0.6752,
+    0.6899,
+    0.9967,
+    0.9832
+   ],
+   "0.70": [
+    760,
+    0.6816,
+    0.6985,
+    0.9967,
+    0.9833
+   ],
+   "0.71": [
+    781,
+    0.6863,
+    0.7098,
+    1.0,
+    1.0
+   ]
+  },
+  "columns": "theta, Method, N, add_back, Acc, AUC, Spearman rho, Kendall tau"
+ }
 }

@@ -1,4 +1,4 @@
-# Core deps: TruthfulQA audit, make_paper_assets, near-random subset drivers.
+# Core deps: the Surface6 audit, Audit-Prune and the table scripts.
 # Full paper (HF eval, cross-dataset): install requirements-lock.txt (exact pinned versions)
 numpy>=1.23,<3
 pandas>=1.5,<3

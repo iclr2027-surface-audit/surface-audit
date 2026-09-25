@@ -1,16 +1,10 @@
 #!/usr/bin/env python3
 # Figure 3 of the paper: paper_assets/figures/surface6-datasets_8.pdf.
-# Same chart as render_cross_dataset_figure_vertical_v3.py (15 bars, full-MedHallu audit row), with the
-# title and legend moved down and the empty band above the tallest bar removed; bar and font sizes unchanged.
+# 15 bars: results/t4_cross_dataset_surface6.json (FeverSymmetric excluded) plus the full-MedHallu audit row
+# from results/medhallu_figure_rows.json; TruthfulQA-476 is starred.
 # Run:  MEDHALLU_AUDIT_ONLY=1 python scripts/render_cross_dataset_figure_v8.py
 #       python scripts/crop_pdf_margins.py paper_assets/figures/surface6-datasets_8.pdf
-"""Render paper_assets/figures/surface6-datasets_2.{pdf,png} — the full-width VERTICAL
-cross-dataset surface-form audit chart (final figure layout, 2026-08-31).
-
-Rows: results/t4_cross_dataset_surface6.json (FeverSymmetric excluded, see paper note)
-plus the cleaned HaluEval-645 row from results/halueval645_figure_row.json (computed
-under the identical protocol). Both cleaned subsets (TruthfulQA-476, HaluEval-645)
-are starred, bold red."""
+"""Figure 3: cross-dataset Surface6 audit (grouped 5-fold CV AUC per benchmark)."""
 from __future__ import annotations
 import json, os
 from pathlib import Path

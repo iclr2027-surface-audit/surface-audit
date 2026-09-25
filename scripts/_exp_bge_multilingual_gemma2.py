@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Curiosity experiment (NOT for paper) — fourth extra embedding family:
+Embedding builder for the BGE-Multi-Gemma2 family of Table 3:
 BAAI/bge-multilingual-gemma2 (9.24B-param Gemma2-based encoder).
 
 Same protocol as audits/_exp_three_extra_embeddings.py:

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""D6 — rank-fidelity uncertainty (approved 2026-08-25). Item bootstrap with the 14-model panel held FIXED (models are not
+"""D6 — rank-fidelity uncertainty. Item bootstrap with the 14-model panel held FIXED (models are not
 exchangeable: sibling checkpoints), B=10,000; leave-one-family-out and leave-one-model-out; tie policy stated.
 Matrix: the same 790x14 per-pair correctness matrix used by the rank-precision audit."""
 import json, glob, time, sys, platform
