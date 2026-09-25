@@ -5,9 +5,7 @@
   "n_items": 131,
   "lr_seed": 42,
   "test_embeddings": "results/v1_1_rescore/emb/ (edited rows re-encoded, 8 dropped rows removed)",
-  "provisional": [
-   "BGE-Multi-Gemma2 (stale v1.0 embeddings on edited rows until cluster re-encode)"
-  ],
+  "provisional": [],
   "elapsed_s": 73.9
  },
  "rows": {

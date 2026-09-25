@@ -8,8 +8,8 @@ published recipe (StandardScaler + LR liblinear, seed 42; C=1.0/mi2000 for
 embedding families, mi1000 for surface_lr).
 
 Test matrices: results/v1_1_rescore/emb/{adv131,natural131}_{prefix}_{T,F}.npy
-(edited rows re-encoded, dropped rows removed; bge_multi_gemma2 = PROVISIONAL,
-stale embeddings on edited rows). surface_lr features recomputed from v1.1 text.
+(edited rows re-encoded, dropped rows removed; bge_multi_gemma2 re-encoded on CHPC 2026-09-25,
+validated in gemma2_v11_validation.json). surface_lr features recomputed from v1.1 text.
 
 Output: results/v1_1_rescore/table3_v1_1.json + per-item correctness CSV.
 """
@@ -46,7 +46,7 @@ out = {"meta": {"protocol": "f02_clustered_table4 (read-only published heads; ra
                 "cohorts": "hf_release v1.1 (n=131 each)",
                 "n_items": 131, "lr_seed": SEED,
                 "test_embeddings": "results/v1_1_rescore/emb/ (edited rows re-encoded, 8 dropped rows removed)",
-                "provisional": ["BGE-Multi-Gemma2 (stale v1.0 embeddings on edited rows until cluster re-encode)"]},
+                "provisional": []},
        "rows": {}}
 per_item = []
 T0 = time.time()
